@@ -36,6 +36,6 @@ We start small, validating the idea and increasing the investment as we go, to e
 
 So, how do you want to improve public service?
 
-----{.TxBreak .TxBreak__accent-warm .TxBreak__wide}
+----{.TxBreak .TxBreak__accent-warm .TxBreak__wide .border-0}
 
 ## What's new with us
