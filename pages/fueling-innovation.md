@@ -47,7 +47,7 @@ Many government technology projects fail to deliver value. Sometimes it’s beca
     We demand that our projects demonstrate feasibility and opportunity for
     impact at every stage of the process. If they don't, we wind them down.
 
-[DIVE INTO OUR PROCESS](/process/){.usa-button .usa-button--primary .usa-button--primary-outline}
+[DIVE INTO OUR PROCESS](../process/){.usa-button .usa-button--primary .usa-button--primary-outline}
 
 ----
 
@@ -58,14 +58,14 @@ At 10x, we recognize that not all ideas will evolve into successful products tha
 
 - [Benefits applicants can more easily assess their eligibility](https://portfolios.18f.gov/projects/eligibility-apis/)
 - [USA.gov can better respond to the public’s needs for information](https://github.com/18F/10x-MeL)
-- [The government has the clearest-ever picture of the federal web experience](/projects/site-scanner/)
+- [The government has the clearest-ever picture of the federal web experience](../projects/site-scanner/)
 - [Privacy offices can focus more effort on protecting the public’s information](https://all-sorns.app.cloud.gov/)
 - [Data practitioners can make smarter use of data in government](https://18f.gsa.gov/2019/03/05/the-us-data-federation/)
 - [Government can more effectively plan and oversee custom technology projects](https://derisking-guide.18f.gov/)
 - [Users have a more consistent experience with forms on government web pages](https://designsystem.digital.gov/components/form-controls/)
 - [AI practitioners can ensure more equitable application of AI tools](https://github.com/MLBiasgov/MLBias/blob/main/README.md)
 
-[EXPLORE OTHER PROJECTS](/projects/){.usa-button .usa-button--primary .usa-button--primary-outline}
+[EXPLORE OTHER PROJECTS](../projects/){.usa-button .usa-button--primary .usa-button--primary-outline}
 
 ----
 

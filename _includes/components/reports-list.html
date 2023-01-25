@@ -5,13 +5,13 @@
   <div class="ReportList grid-row grid-gap">
   {%- for report in collections.reports -%}
    {%- if report.data.pdf -%}
-     {%- assign reportLink = report.data.reportUrl -%}
+     {%- assign reportLink = report.data.reportUrl | url -%}
     {%- else -%}
-      {%- assign reportLink = report.url -%}
+      {%- assign reportLink = report.url | url -%}
     {%- endif -%}
   
     <div class="grid-col-12 desktop:grid-col-6">
-      <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink | url }}">
+      <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink }}">
         <div class="usa-card usa-card--no-media ReportCard template-{{ report.data.template }}">
           <div class="usa-card__container">
             <div class="usa-card__body">

@@ -56,7 +56,7 @@ If you’d like help putting together an idea or have questions about what we’
 ----{.TxBreak .TxBreak__accent-cool .TxBreak__wide}
 
 ## What happens to my idea after I hit “Submit”?
-Timing is everything. We evaluate submissions at least once a year. We’ll let you know we received your idea right away, but we might not evaluate it for a while. But you’ll definitely hear either way when the time comes. To find out what happens after that, learn more about [how we select and fund ideas](/making-each-dollar-count/). 
+Timing is everything. We evaluate submissions at least once a year. We’ll let you know we received your idea right away, but we might not evaluate it for a while. But you’ll definitely hear either way when the time comes. To find out what happens after that, learn more about [how we select and fund ideas](../making-each-dollar-count/). 
 
 ### What did you get yourself into?
 While the ideas come from federal employees across the government, those folks aren’t ultimately involved in the selection process. We intentionally leave them out to get a clear, unbiased assessment of the project’s potential success and need.  But we do look to the idea submitter (hopefully, that’s you!) as a domain expert to suggest resources and research for us to consider. They’re an integral part of the Phase 1 kickoff and can attend phase close-out meetings to keep tabs on how (or if) the project is progressing.
