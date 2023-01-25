@@ -1,0 +1,151 @@
+{% assign navPages = collections.all | eleventyNavigation %}
+
+<header class="usa-header">
+  <section aria-label="Official government website" class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner__header">
+        <div class="usa-banner__inner">
+          <div class="grid-col-auto"><img alt="U.S. flag"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAG1BMVEUdM7EeNLIeM7HgQCDaPh/bPh/bPx/////bPyBEby41AAAAUElEQVQI123MNw4CABDEwD3jC/9/MQ1BQrgeOSkIqYe2o2FZtthXgQLgbHVMZdlsfUQFQnHtjP1+8BUhBDKOqtmfot6ojqPzR7TjdU+f6vkED+IDPhTBcMAAAAAASUVORK5CYII="
+              class="usa-banner__header-flag"></div>
+          <div class="grid-col-fill tablet:grid-col-auto">
+            <p class="usa-banner__header-text">An official website of the United States government</p>
+          </div>
+          <button class="usa-accordion__button usa-banner__button" aria-expanded="false"
+            aria-controls="gov-banner"><span class="usa-banner__button-text">Here’s how you know</span></button>
+        </div>
+      </header>
+      <div id="gov-banner">
+        <div class="usa-banner__content usa-accordion__content">
+          <div class="grid-row grid-gap-lg">
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img
+                class="usa-banner__icon usa-media-block__img"
+                src="/assets/theme/images/uswds/icon-dot-gov.svg"
+                role="img"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>Official websites use .gov</strong><br />A
+                  <strong>.gov</strong> website belongs to an official government
+                  organization in the United States.
+                </p>
+              </div>
+            </div>
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img
+                class="usa-banner__icon usa-media-block__img"
+                src="/assets/theme/images/uswds/icon-https.svg"
+                role="img"
+                alt=""
+                aria-hidden="true"
+              />
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>Secure .gov websites use HTTPS</strong><br />A
+                  <strong>lock</strong> (
+                  <span class="icon-lock"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="52"
+                      height="64"
+                      viewBox="0 0 52 64"
+                      class="usa-banner__lock-image"
+                      role="img"
+                      aria-labelledby="banner-lock-description-default"
+                      focusable="false"
+                    >
+                      <title id="banner-lock-title-default">Lock</title>
+                      <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                      <path
+                        fill="#000000"
+                        fill-rule="evenodd"
+                        d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"
+                      />
+                    </svg> </span
+                  >) or <strong>https://</strong> means you’ve safely connected to
+                  the .gov website. Share sensitive information only on official,
+                  secure websites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col">
+        <div class="grid-row align-content-center">
+          <div class="grid-col-1 usa-header__logo"><a href="/">
+              <div class="usa-logo" id="basic-logo"><img alt="10x Logo" src="/assets/theme/images/logo.svg"></div>
+            </a></div>
+          <div class="grid-col-11 usa-header__nav"><button class="usa-menu-btn usa-nav-open" id="usa-nav-open" type="button"><span
+                class="usa-sr-only">Menu</span></button>
+            <nav aria-label="Primary navigation" class="usa-nav" role="navigation">
+              <div class="usa-nav__inner"><button class="usa-nav-close usa-nav__close" id="usa-nav-close" type="button"><span
+                    class="usa-sr-only">Close</span></button>
+                <ul class="usa-accordion usa-nav__primary">
+                  {%- for entry in navPages %}
+                    {% assign isCurrent = false %}
+                    {% assign hasChildren = false %}
+                    {%- if entry.url == page.url -%}
+                      {% assign isCurrent = true %}
+                    {%- endif -%}
+                    {%- if entry.children.length > 0 -%}
+                      {% assign hasChildren = true %}
+                    {%- endif -%}
+                  <li class="usa-nav__primary-item">
+                    {%- if hasChildren -%}
+                      <button id="usa-nav-item-{{ forloop.index0 }}" aria-expanded="false" class="usa-nav__link usa-accordion__button" aria-controls="extended-nav-section-usa-nav-item-{{ forloop.index0 }}">
+                    {%- else -%}
+                        <a class="usa-nav__link {% if isCurrent %}usa-current{% endif %}" href="{{ entry.url | url }}"{% if isCurrent %} data-current="current item"{% endif %}>
+                    {%- endif -%}
+                    <span class="usa-nav__link-prefix">Our</span>
+                    <span class="usa-nav__link-text" style="text-transform: uppercase">{{ entry.title }}</span>
+                    {%- if hasChildren -%}
+                      </button>
+                      <ul id="extended-nav-section-usa-nav-item-{{ forloop.index0 }}" class="usa-accordion__content usa-nav__submenu" hidden>
+                        {%- for child in entry.children %}
+                        <li class="usa-nav__submenu-item">
+                          <a href="{{ child.url }}">
+                            <span class="usa-nav__link-text">{{ child.title }}</span>
+                          </a>
+                        </li>
+                        {% endfor -%}
+                      </ul>
+                    {%- else -%}
+                    </a>
+                    {%- endif -%}
+                  </li>
+                {%- endfor %}
+
+                </ul>
+              </div>
+              <div class="usa-nav__footer">
+                <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search usa-search--small" id="search_form" method="get" role="search">
+                  <input name="utf8" type="hidden" value="✓" />
+                  <input name="affiliate" type="hidden" id="affiliate" value="10x" />
+                  <label class="usa-sr-only text-base-lightest" for="query">Search</label>
+                  <input name="query" type="search" id="query" autocomplete="off" class="usa-input" />
+                  <button class="usa-button usa-button--primary-lighter" type="submit" aria-label="search">
+                    <svg aria-labelledby="svg-inline--fa-title-search" class="svg-inline--fa fa-search fa-w-16" data-icon="search" data-prefix="fas" role="img" width="16" height="16" viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg">
+                      <title id="svg-inline--fa-title-search">search</title>
+                      <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" fill="currentColor"></path>
+                    </svg>
+                  </button>
+                </form>
+                <a href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" class="usa-button usa-button--primary-lighter" rel="noopener noreferrer" target="_blank">
+                SUBMIT AN IDEA
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

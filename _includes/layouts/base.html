@@ -1,0 +1,24 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}" {% endif %} lang="en">
+
+{% include "components/head.html" %}
+<script src="/assets/theme/uswds/js/uswds-init.min.js"></script>
+
+<body>
+	<a href="#main-content" class="usa-skipnav">Skip to main content</a>
+	<div class="usa-app {% if theme %}usa-app__theme-{{ theme }}{% endif %}">
+
+			{% include "components/header.html" %}
+
+			<main id="main-content" role="main">
+				{{ layoutContent }}
+			</main>
+
+
+
+			{% include "components/footer.html" %}
+	</div>
+	<script src="/assets/theme/uswds/js/uswds.min.js"></script>
+</body>
+
+</html>

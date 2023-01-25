@@ -1,0 +1,9 @@
+---
+layout: layouts/page.html
+section: blog
+permalink: /news-updates/index.html
+---
+{{ layoutContent }}
+
+{% assign postslist = collections.posts %}
+{% include "components/postslist.html" %}

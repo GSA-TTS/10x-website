@@ -1,0 +1,89 @@
+---
+layout: layouts/base.html
+section: home
+---
+<div class="TxContent Tx__homepage">
+  <div class="usa-app__bg">
+    <div class="Tx__homepage-content">
+      <div class="Home__hero">
+        <div class="grid-container">
+          <div class="GhostWriter">
+            <h1 class="usa-sr-only">10x Homepage</h1>
+            <div class="GhostWriter__content">
+              What if your idea could change how the government&nbsp;
+              <div class="Typewriter" id="typewriter-wrapper">
+                <span class="GhostWriter__text">uses technology?</span>
+                <span class="GhostWriter GhostWriter__cursor">|</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-12 desktop:grid-col-8">
+          {{ layoutContent }}
+        </div>
+        <div class="grid-col-12 desktop:grid-col-4">
+          <div class="usa-card usa-card--no-media Home__callout">
+            <div class="usa-card__container">
+              <div class="usa-card__body">
+                <p>
+                  <strong>10x is evaluating 2022 submissions. You can submit <em>your</em> idea at any time.</strong>
+                </p>
+                <a class="usa-button usa-button--primary" href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" target="_blank" rel="noopener noreferrer">SUBMIT AN IDEA</a>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- move this to a card component -->
+    <div class="grid-container">
+      <div class="TxCards">
+        <div class="grid-row">
+          {% for card in cards %}
+          {% assign isExternal = card.link contains "http" %}
+          <div class="grid-col-12 desktop:grid-col-6">
+            <div class="usa-card usa-card--no-media">
+              <div class="usa-card__container">
+                <div class="usa-card__body">
+                  <span class="us-text-h5">{{ card.subtitle }}</span>
+                  <a href="{{ card.link }}" {% if isExternal %} target="_blank" rel="noopener noreferrer" {% endif
+                    %}>{{ card.title }}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+  var wrapper = document.getElementById('typewriter-wrapper');
+
+  var typewriter = new Typewriter(wrapper, {
+    loop: false,
+    delay: 50,
+    wrapperClassName: "GhostWriter__text",
+    cursorClassName: "GhostWriter GhostWriter__cursor",
+  });
+
+  typewriter
+    {%- for item in ghostwriter_endings -%}
+    .pauseFor(2000)
+    .typeString("{{ item }}")
+    .pauseFor(2000)
+      {%- unless forloop.index == ghostwriter_endings.size -%}
+        .deleteAll()
+      {%- endunless -%}
+    {%- endfor -%}
+    .start();
+</script>

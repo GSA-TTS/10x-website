@@ -1,0 +1,39 @@
+---
+layout: layouts/base.html
+section: reports
+---
+<div class="TxContent">
+<div class="usa-app__bg">
+  <div class="grid-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
+    <div class="grid-row grid-gap-1 report-content">
+      <div class="grid-col-12 desktop:grid-col-8">
+        <h1 class="TxReport__title">{{ title }}</h1>
+        <div class="TxReport__intro">
+          {{- intro | markdownify -}}
+        </div>
+      </div>
+    </div>
+    <div class="grid-row grid-gap-4">
+      <div class="grid-col-12 desktop:grid-col-3">
+        <div id="nav-sticky" class="nav-sticky">
+          <h2 class="TxReport__nav-header">{{ navHeader }}</h2>
+          <div class="TxLinks">
+            <ul>
+            {%- for item in nav -%}
+              <li class="TxLinks__item"><a href="{{ item-link }}">{{ item.text }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="grid-col-12 desktop:grid-col-9 TxReport__content">
+        <b>TBD - will come back to report template, add rest of content/styles</b> 
+        {{- welcome | markdownify -}}
+        {{- impact | markdownify -}}
+        {{- future | markdownify -}}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+

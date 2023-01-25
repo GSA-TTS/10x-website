@@ -1,0 +1,25 @@
+{% if footer %}
+{% assign this_footer = footers | where: 'slug', footer | first %}
+{% if this_footer == nil %}
+{% assign this_footer = footers[0] %}
+{% endif %}
+{% else %}
+{% assign this_footer = footers[0] %}
+{% endif %}
+<div>
+  <div class="grid-container u-margin-x-2">
+    <div class="grid-row flex-align-center">
+      <div class="grid-col-12 tablet:grid-col-9 usa-footer__preFooter">
+        <h3>{{ this_footer.title }}</h3>
+        <p>
+          {{ this_footer.body | markdownify }}
+        </p>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-3 text-right padding-top-4 desktop:padding-top-0">
+        <a class="usa-button usa-button--primary-lighter" href="{{ this_footer.button_link }}">
+          {{ this_footer.button_text }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
