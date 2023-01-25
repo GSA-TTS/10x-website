@@ -40,17 +40,17 @@
 
   &__primary-lighter {
     &:before {
-      background-image: url("/theme/images/short-lilac-brush-stroke.png");
+      background-image: url("theme/images/short-lilac-brush-stroke.png");
     }
   }
   &__secondary {
     &:before {
-      background-image: url("/theme/images/short-ocean-brush-stroke.png");
+      background-image: url("theme/images/short-ocean-brush-stroke.png");
     }
   }
   &__accent-warm {
     &:before {
-      background-image: url("/theme/images/short-tiger-brush-stroke.png");
+      background-image: url("theme/images/short-tiger-brush-stroke.png");
     }
   }
   &__accent-cool {
@@ -60,17 +60,17 @@
       }
     }
     &:before {
-      background-image: url("/theme/images/short-sky-brush-stroke.png");
+      background-image: url("theme/images/short-sky-brush-stroke.png");
     }
   }
   &__base-lighter {
     &:before {
-      background-image: url("/theme/images/short-ocean-brush-stroke.png");
+      background-image: url("theme/images/short-ocean-brush-stroke.png");
     }
   }
   &__accent-green {
     &:before {
-      background-image: url("/theme/images/report-green-separator.png");
+      background-image: url("theme/images/report-green-separator.png");
     }
   }
 }

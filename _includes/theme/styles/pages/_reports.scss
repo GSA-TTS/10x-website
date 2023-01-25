@@ -51,7 +51,7 @@ $c-report-header: #006680;
       }
       .TxBreak__accent-green {
         &:before {
-          background-image: url("/theme/images/report-gradient-separator.png");
+          background-image: url("theme/images/report-gradient-separator.png");
           height: 74px;
         }
       }
@@ -79,7 +79,7 @@ $c-report-header: #006680;
     }
   }
   &__nav-header {
-    background-image: url("/theme/images/report-lilac-brush-stroke.png");
+    background-image: url("theme/images/report-lilac-brush-stroke.png");
     background-position-x: -4px;
     background-repeat: no-repeat;
     @include u-color("white");
@@ -130,7 +130,7 @@ $c-report-header: #006680;
       &Half {
         @include u-font("serif", 6);
         align-items: flex-start;
-        background-image: url("/theme/images/callout-lilac-half-lg.png");
+        background-image: url("theme/images/callout-lilac-half-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -164,7 +164,7 @@ $c-report-header: #006680;
         @include u-color("white");
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("/theme/images/callout-green-full-lg.png");
+        background-image: url("theme/images/callout-green-full-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -192,7 +192,7 @@ $c-report-header: #006680;
       &FullDark {
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("/theme/images/callout-lilac-full-lg.png");
+        background-image: url("theme/images/callout-lilac-full-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -225,7 +225,7 @@ $c-report-header: #006680;
       &Project {
         @include u-font("serif", 7);
         align-items: flex-start;
-        background-image: url("/theme/images/report-green-brush-stroke.png");
+        background-image: url("theme/images/report-green-brush-stroke.png");
         background-position-x: -1.4rem;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -329,7 +329,7 @@ $c-report-header: #006680;
       }
       .usa-card:nth-child(1) {
         .usa-card__container {
-          background-image: url("/theme/images/portfolio-paint-stroke-#{$t}.png");
+          background-image: url("theme/images/portfolio-paint-stroke-#{$t}.png");
         }
       }
       .usa-card:nth-child(2) {
@@ -346,7 +346,7 @@ $c-report-header: #006680;
             height: 100px;
             transform: rotate(180deg);
             background-size: contain;
-            background-image: url("/theme/images/portfolio-paint-stroke-#{$t}.png");
+            background-image: url("theme/images/portfolio-paint-stroke-#{$t}.png");
 
             background-repeat: no-repeat;
           }
@@ -358,7 +358,7 @@ $c-report-header: #006680;
           background-position-x: 100.05%;
           background-position-y: 100px;
           background-size: 10%;
-          background-image: url("/theme/images/portfolio-paint-stroke-#{$t}-v.png");
+          background-image: url("theme/images/portfolio-paint-stroke-#{$t}-v.png");
           background-repeat: no-repeat;
         }
       }
@@ -467,7 +467,7 @@ $c-report-header: #006680;
       }
       &.active {
         background-position-y: 0.3rem;
-        background-image: url("/theme/images/report-nav-active-bar.png");
+        background-image: url("theme/images/report-nav-active-bar.png");
         background-repeat: no-repeat;
         font-weight: bold;
       }
@@ -505,7 +505,7 @@ $c-report-header: #006680;
 }
 
 .the10xTeam {
-  background-image: url("/theme/images/the-10x-team.png");
+  background-image: url("theme/images/the-10x-team.png");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -534,7 +534,7 @@ $c-report-header: #006680;
 }
 
 .projectDemo {
-  background-image: url("/theme/images/ableist-ui-demo-800px-opt.gif");
+  background-image: url("theme/images/ableist-ui-demo-800px-opt.gif");
   background-position-y: top;
   background-repeat: no-repeat;
   display: none;
@@ -566,7 +566,7 @@ $c-report-header: #006680;
 
 .pdf-icon:after {
   @include u-margin-left(1);
-  background-image: url("/theme/images/impact-report_pdf-icon.png");
+  background-image: url("theme/images/impact-report_pdf-icon.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;

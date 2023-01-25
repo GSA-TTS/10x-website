@@ -159,31 +159,31 @@
 
   &.bg--sky {
     .TxRingCards__ring {
-      background-image: url("/theme/images/phase-circle-sky.png");
+      background-image: url("theme/images/phase-circle-sky.png");
       @include u-color("accent-cool");
     }
   }
   &.bg--lilac {
     .TxRingCards__ring {
-      background-image: url("/theme/images/phase-circle-lilac.png");
+      background-image: url("theme/images/phase-circle-lilac.png");
       @include u-color("primary-light");
     }
   }
   &.bg--ocean {
     .TxRingCards__ring {
-      background-image: url("/theme/images/phase-circle-ocean.png");
+      background-image: url("theme/images/phase-circle-ocean.png");
       @include u-color("base-lighter");
     }
   }
   &.bg--tiger {
     .TxRingCards__ring {
-      background-image: url("/theme/images/phase-circle-tiger.png");
+      background-image: url("theme/images/phase-circle-tiger.png");
       @include u-color("accent-warm");
     }
   }
   &.bg--smoke {
     .TxRingCards__ring {
-      background-image: url("/theme/images/phase-circle-smoke.png");
+      background-image: url("theme/images/phase-circle-smoke.png");
       @include u-color("base-light");
     }
   }

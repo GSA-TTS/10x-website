@@ -182,35 +182,35 @@
         &.bg--1 {
           .TxCallout__card-header,
           blockquote {
-            background-image: url("/theme/images/phase-circle-sky.png");
+            background-image: url("theme/images/phase-circle-sky.png");
             @include u-color("accent-cool");
           }
         }
         &.bg--2 {
           .TxCallout__card-header,
           blockquote {
-            background-image: url("/theme/images/phase-circle-lilac.png");
+            background-image: url("theme/images/phase-circle-lilac.png");
             @include u-color("primary-light");
           }
         }
         &.bg--3 {
           .TxCallout__card-header,
           blockquote {
-            background-image: url("/theme/images/phase-circle-ocean.png");
+            background-image: url("theme/images/phase-circle-ocean.png");
             @include u-color("base-lighter");
           }
         }
         &.bg--4 {
           .TxCallout__card-header,
           blockquote {
-            background-image: url("/theme/images/phase-circle-tiger.png");
+            background-image: url("theme/images/phase-circle-tiger.png");
             @include u-color("accent-warm");
           }
         }
         &.bg--5 {
           .TxCallout__card-header,
           blockquote {
-            background-image: url("/theme/images/phase-circle-smoke.png");
+            background-image: url("theme/images/phase-circle-smoke.png");
             @include u-color("base-light");
           }
         }
