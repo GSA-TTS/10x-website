@@ -9,6 +9,7 @@
     "build:sass": "sass  --no-source-map --style=compressed _includes/theme/styles:_site/assets --update",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
+    "federalist": "npm run build",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "devDependencies": {
