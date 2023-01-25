@@ -2,6 +2,7 @@
 layout: layouts/base.html
 section: reports
 ---
+{%- if permalink -%}
 <div class="TxContent">
 <div class="usa-app__bg">
   <div class="grid-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
@@ -37,3 +38,4 @@ section: reports
 </div>
 </div>
 
+{%- endif -%}
