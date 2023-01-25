@@ -21,7 +21,7 @@
             <div class="usa-banner__guidance tablet:grid-col-6">
               <img
                 class="usa-banner__icon usa-media-block__img"
-                src="/assets/theme/images/uswds/icon-dot-gov.svg"
+                src="{{ '/assets/theme/images/uswds/icon-dot-gov.svg' | url }}"
                 role="img"
                 alt=""
                 aria-hidden="true"
@@ -37,7 +37,7 @@
             <div class="usa-banner__guidance tablet:grid-col-6">
               <img
                 class="usa-banner__icon usa-media-block__img"
-                src="/assets/theme/images/uswds/icon-https.svg"
+                src="{{ '/assets/theme/images/uswds/icon-https.svg' | url }}"
                 role="img"
                 alt=""
                 aria-hidden="true"
@@ -80,8 +80,8 @@
     <div class="grid-row">
       <div class="grid-col">
         <div class="grid-row align-content-center">
-          <div class="grid-col-1 usa-header__logo"><a href="/">
-              <div class="usa-logo" id="basic-logo"><img alt="10x Logo" src="/assets/theme/images/logo.svg"></div>
+          <div class="grid-col-1 usa-header__logo"><a href="{{ '/' | url }}">
+              <div class="usa-logo" id="basic-logo"><img alt="10x Logo" src="{{ '/assets/theme/images/logo.svg' | url }}"></div>
             </a></div>
           <div class="grid-col-11 usa-header__nav"><button class="usa-menu-btn usa-nav-open" id="usa-nav-open" type="button"><span
                 class="usa-sr-only">Menu</span></button>
