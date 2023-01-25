@@ -111,7 +111,7 @@
                       <ul id="extended-nav-section-usa-nav-item-{{ forloop.index0 }}" class="usa-accordion__content usa-nav__submenu" hidden>
                         {%- for child in entry.children %}
                         <li class="usa-nav__submenu-item">
-                          <a href="{{ child.url }}">
+                          <a href="{{ child.url | url }}">
                             <span class="usa-nav__link-text">{{ child.title }}</span>
                           </a>
                         </li>

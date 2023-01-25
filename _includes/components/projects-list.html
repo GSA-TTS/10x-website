@@ -3,7 +3,7 @@
 <div class="grid-container">
   <section class="ProjectList">
     {%- for project in collections.projects -%}
-      <a class="ProjectCard__link" href="{{ project.url }}">
+      <a class="ProjectCard__link" href="{{ project.url | url }}">
         <div class="usa-card usa-card--no-media ProjectCard template-{{ project.data.template }}">
           <div class="usa-card__container">
             <div class="usa-card__body">

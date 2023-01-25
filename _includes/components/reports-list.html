@@ -11,7 +11,7 @@
     {%- endif -%}
   
     <div class="grid-col-12 desktop:grid-col-6">
-      <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink }}">
+      <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink | url }}">
         <div class="usa-card usa-card--no-media ReportCard template-{{ report.data.template }}">
           <div class="usa-card__container">
             <div class="usa-card__body">

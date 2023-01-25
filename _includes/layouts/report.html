@@ -21,7 +21,7 @@ section: reports
           <div class="TxLinks">
             <ul>
             {%- for item in nav -%}
-              <li class="TxLinks__item"><a href="{{ item-link }}">{{ item.text }}</a></li>
+              <li class="TxLinks__item"><a href="{{ item-link | url }}">{{ item.text }}</a></li>
               {%- endfor -%}
             </ul>
           </div>

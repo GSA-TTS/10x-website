@@ -52,7 +52,7 @@ section: home
               <div class="usa-card__container">
                 <div class="usa-card__body">
                   <span class="us-text-h5">{{ card.subtitle }}</span>
-                  <a href="{{ card.link }}" {% if isExternal %} target="_blank" rel="noopener noreferrer" {% endif
+                  <a href="{{ card.link | url }}" {% if isExternal %} target="_blank" rel="noopener noreferrer" {% endif
                     %}>{{ card.title }}</a>
                 </div>
               </div>
