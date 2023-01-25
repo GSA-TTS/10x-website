@@ -1,0 +1,18 @@
+- slug: "10x-in-the-wild"
+  title: 10x projects in the wild
+  button_text: VIEW PROJECTS
+  button_link: "/projects/"
+  body: |-
+    [Code.gov](https://code.gov), [Login.gov](https://login.gov/), [Pra.digital.gov](https://pra.digital.gov), [Federalist](https://federalist.18f.gov), and the [U.S. Web Design System](https://designsystem.digital.gov) all started as ideas submitted to and funded by 10x!
+- slug: "every-solution-starts-as-an-idea"
+  title:  Every solution starts as an idea
+  button_text: LET US HELP
+  button_link: "/our-challenge-to-you/"
+  body: |-
+    Got a problem that tech can help solve but unsure where to start? We can help you craft it into a compelling idea submission — check out our guidance on making a great idea, and if you still need help, just ask!
+- slug: we-started-as-an-idea-too
+  title: We started as an idea, too!
+  button_text: DISCOVER OUR STORY
+  button_link: "/fueling-innovation/"
+  body: |-
+    10x emerged from a one-time event into an ever-evolving approach to lean funding and smart decision-making —  we apply the same sharp analysis that we use on our projects to our own process. 

@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/report.html",
+  "permalink": "/reports/{{ page.fileSlug }}/index.html",
+  "theme": 9,
+  "tags": []
+}
