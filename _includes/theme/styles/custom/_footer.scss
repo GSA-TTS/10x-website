@@ -30,7 +30,7 @@
         background-size: cover;
         background-position-x: center;
         background-position-y: top;
-        background-image: url("/assets/theme/images/footer-brush-stroke.svg");
+        background-image: url("/theme/images/footer-brush-stroke.svg");
         background-repeat: no-repeat;
         @include at-media("tablet") {
           top: -50px;
