@@ -3,6 +3,8 @@ title: Fueling innovation
 # title: Fueling Innovation -  10x's Investment Approach, Media,  Awards | 10x.GSA.gov
 description: 10x is different. We source our ideas differently, we fund differently, we support differently. Find out how we're creating civic tech solutions that     make a difference.
 slug: fueling-innovation
+redirect_from: /about-10x/
+
 eleventyNavigation:
   key: Fueling innovation
   parent: Story

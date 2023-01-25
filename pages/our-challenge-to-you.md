@@ -1,6 +1,7 @@
 ---
 title: Our challenge to you
 slug: our-challenge-to-you
+redirect_from: /send-us-an-idea/
 theme: 4
 description: How you pitch your great idea makes a big difference. Learn how to create a great pitch for 10x's good-for-government, good-for-people tech solutions.
 permalink: /our-challenge-to-you/

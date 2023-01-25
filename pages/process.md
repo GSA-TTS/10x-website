@@ -2,6 +2,7 @@
 title: Our process
 layout: layouts/page.html
 permalink: /process/index.html
+redirect_from: /the-10x-process/
 eleventyNavigation:
   key: Process
   order: 2

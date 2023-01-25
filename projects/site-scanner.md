@@ -36,6 +36,7 @@ phaseData:
   summary: Phase 4 is still in progress
 projectType: Innovation
 projectUrl: ""
+redirect_from: /projects/spotlight/
 summary:
   - text: Managing federal websites and their many regulatory requirements is challenging
   - text: There is little visibility into compliance and best practices to improve the experience
