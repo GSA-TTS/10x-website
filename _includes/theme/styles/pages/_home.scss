@@ -60,7 +60,7 @@ $bgImgDir: "theme/images";
           left: 0;
           right: 0;
           z-index: 0;
-          @include fullWidthBg("/home-hero-bg-stroke.png");
+          @include fullWidthBg("home-hero-bg-stroke.png");
           background-position-y: bottom;
           background-size: cover;
 
@@ -82,7 +82,7 @@ $bgImgDir: "theme/images";
           right: -100px;
           width: 400px;
           height: 400px;
-          @include fullWidthBg("/home-x.png");
+          @include fullWidthBg("home-x.png");
           z-index: 1;
           @include at-media("desktop") {
             top: -50px;
