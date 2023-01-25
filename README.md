@@ -45,6 +45,9 @@ For now, the places where we iterate over links provided in YAML lists are autom
 ```yaml
 - button_text: "click here"
   button_link: "/projects"
+
+reportUrl: "/assets/report.pdf"
+
 ```
 Note that you do not use the `../` when defining permalinks for pages in YAML either.
 
