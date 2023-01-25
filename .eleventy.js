@@ -104,6 +104,11 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAttrs)
   );
 
+  // for federalist builds to work
+  let baseurl = "/";
+  if (process.env.BASEURL) {
+    baseurl = process.env.BASEURL;
+  }
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
@@ -111,7 +116,7 @@ module.exports = function(eleventyConfig) {
     // Leading or trailing slashes are all normalized away, so don’t worry about it.
     // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
     // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: "/",
+    pathPrefix: baseurl,
 
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "liquid",
