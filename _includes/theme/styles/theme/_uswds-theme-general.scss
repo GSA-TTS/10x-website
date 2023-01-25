@@ -25,7 +25,8 @@ Relative image file path
 ----------------------------------------
 */
 
-// use the _site/ build path:
+// note that we are not using any uswds-provided images in this theme.
+// see .eleventy.js for how this might be used
 $theme-image-path: "theme/uswds/img";
 
 /*
