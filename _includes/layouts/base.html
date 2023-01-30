@@ -2,7 +2,6 @@
 <html {% if section %} data-current="{{ section }}" {% endif %} lang="en">
 
 {% include "components/head.html" %}
-<script src="{{ '/assets/theme/uswds/js/uswds-init.min.js' | url }}"></script>
 
 <body>
 	<!-- Google Tag Manager (noscript) -->
@@ -18,11 +17,10 @@
 				{{ layoutContent }}
 			</main>
 
-
-
 			{% include "components/footer.html" %}
 	</div>
+	
 	<script src="{{ '/assets/theme/uswds/js/uswds.min.js' | url }}"></script>
-</body>
 
+</body>
 </html>

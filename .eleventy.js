@@ -1,5 +1,4 @@
 const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -7,7 +6,7 @@ const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 
-  // add yaml support
+  // add yaml support for _data files
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
@@ -22,7 +21,8 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("posts/*.md").sort(function(a, b) {
       return b.date - a.date; // sort by date, newest first
     });
-  });  // add impact reports to a named collection
+  });  
+  // add impact reports to a named collection
   eleventyConfig.addCollection("reports", collection => {
     return collection.getFilteredByGlob("reports/*.md").sort(function(a, b) {
       return b.data.year - a.data.year; // sort by year, descending
@@ -50,12 +50,7 @@ module.exports = function(eleventyConfig) {
     return markdownItRenderer.render(str);
   });
 
-  // Minify CSS
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-
-  // Minify JS
+  // Minify inline (not imported) JS
   eleventyConfig.addFilter("jsmin", function(code) {
     let minified = UglifyJS.minify(code);
     if (minified.error) {
