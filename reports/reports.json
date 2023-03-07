@@ -1,6 +1,8 @@
 {
   "layout": "layouts/report.html",
   "permalink": "/reports/{{ page.fileSlug }}/index.html",
-  "theme": 9,
-  "tags": []
+  "theme": "report",
+  "tags": [],
+  "footer": "we-started-as-an-idea-too"
+
 }

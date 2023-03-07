@@ -22,12 +22,20 @@ module.exports = function(eleventyConfig) {
       return b.date - a.date; // sort by date, newest first
     });
   });  
-  // add impact reports to a named collection
+  // add report interior pages ("sections") to a collection for later pagination & display
+  eleventyConfig.addCollection("reportSections", collection => {
+    return collection.getFilteredByGlob("reports/**/*.md").filter(function(item) {
+      // all sections have permalinks turned off
+      return item.data.permalink === false;
+    })
+  });
+  // add top-level pdf and web reports to a named collection
   eleventyConfig.addCollection("reports", collection => {
     return collection.getFilteredByGlob("reports/*.md").sort(function(a, b) {
       return b.data.year - a.data.year; // sort by year, descending
     });
   });
+
   // add projects to a named collection
   eleventyConfig.addCollection("projects", collection => {
     return collection.getFilteredByGlob("projects/*.md").sort(function(a, b) {

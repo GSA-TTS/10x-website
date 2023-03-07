@@ -201,31 +201,6 @@ h5,
       );
     }
   }
-
-  &__theme-9 {
-    .TxContent {
-      @include u-padding-top(0);
-      background: #ffffff;
-      .usa-app__bg {
-        @include u-padding-top(8);
-        background-image: url("theme/images/report-1-bg-mobile.png");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: 0;
-        background-size: contain;
-        @include at-media('tablet') {
-          background-image: url("theme/images/report-1-bg-tablet.png");
-          background-position-y: 0;
-          background-size: contain;
-        }
-        @include at-media('desktop') {
-          background-image: url("theme/images/report-1-bg.png");
-          background-position-y: -120px;
-          background-size: 100% auto;
-        }
-      }
-    }
-  }
 }
 
 .grid-container {

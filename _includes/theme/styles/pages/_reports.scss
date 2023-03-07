@@ -1,6 +1,10 @@
 $card-shadow: 0px 16px 24px rgba(0, 0, 0, 0.15);
 $c-report-header: #006680;
 
+.usa-app__theme-report {
+  background-color: #ffffff;
+}
+
 .TxReport,
 .Tx__reports {
   section {
@@ -492,15 +496,27 @@ $c-report-header: #006680;
   z-index: 2;
 }
 
-.report-content {
+.report-header {
+  @include u-padding-top(8);
+  @include u-padding-bottom(15);
+  background-color: #ffffff;
+  background-image: url("theme/images/report-1-bg-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0;
+  background-size: cover;
+
   @include at-media("desktop") {
-    margin-bottom: 7rem;
+    background-image: url("theme/images/report-1-bg.png");
+    background-position-y: -120px;
+    background-size: cover;
   }
   @include at-media("tablet") {
-    margin-bottom: 11rem;
+    background-image: url("theme/images/report-1-bg-tablet.png");
+    background-position-y: 0;
+    background-size: cover;
   }
   @include at-media("mobile") {
-    margin-bottom: 7rem;
   }
 }
 
