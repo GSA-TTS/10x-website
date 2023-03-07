@@ -1,5 +1,6 @@
 ---
 eleventyNavigation:
+  parent: root
   key: Story
   order: 0
 permalink: false

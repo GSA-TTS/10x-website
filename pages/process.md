@@ -4,6 +4,7 @@ layout: layouts/page.html
 permalink: /process/index.html
 redirect_from: /the-10x-process/
 eleventyNavigation:
+  parent: root
   key: Process
   order: 2
 theme: 8

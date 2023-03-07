@@ -7,6 +7,7 @@ theme: 2
 layout: layouts/projects.html
 footer: we-started-as-an-idea-too
 eleventyNavigation:
+  parent: root
   key: Projects
   order: 3
 ---

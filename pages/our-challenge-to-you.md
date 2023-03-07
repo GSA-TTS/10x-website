@@ -7,6 +7,7 @@ description: How you pitch your great idea makes a big difference. Learn how to 
 permalink: /our-challenge-to-you/
 footer: "10x-in-the-wild"
 eleventyNavigation:
+  parent: root
   key: Challenge to You
   order: 4
 ---
