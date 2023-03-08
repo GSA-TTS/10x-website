@@ -8,23 +8,43 @@ nav_id: "fy21-by-the-numbers"
 
 class: white
 
-# WIP 
-byTheNumbersHeading: Project Journey
-byTheNumbersStats:
-- data: '47'
-  label: projects kicked off
-- data: '46'
-  label: project endings / closeouts
-- data: 100%
-  label: of ideas that successfully exited in after Phase Three/Four
-- data: '44'
-  label: reports written
-- data: X
-  label: agencies / organizations collaborated with
-- data: X
-  label: people interviewed
-- data: XX
-  label: of projects align to administrative priorities
+chartTitle: 10x Investment Snapshot 
+chartDescription: "Chart of projects kicked off, closed out, and ideas received, by fiscal year from 2017 to 2021"
+
+chartData:
+- name: FY17
+  projects_kicked_off: 20
+  projects_closed_out: 17
+  ideas_received: 36
+- name: FY18
+  projects_kicked_off: 28
+  projects_closed_out: 23
+  ideas_received: 146
+- name: FY19
+  projects_kicked_off: 53
+  projects_closed_out: 51
+  ideas_received: 220
+- name: FY20
+  projects_kicked_off: 91
+  projects_closed_out: 88
+  ideas_received: 365
+- name: FY21
+  projects_kicked_off: 47
+  projects_closed_out: 46
+  ideas_received: 250
+
+chartLegend:
+  projects_kicked_off:
+    color: "#C2C2F5"
+    label: "Projects Kicked Off" 
+  projects_closed_out:
+    color: "#45D9D9"
+    label: "Projects Closed Out" 
+  ideas_received:
+    color: "#383577"
+    label: "Ideas Received" 
+
+chartYMax: 400
 
 # cards
 reasonsForRejection:
@@ -69,9 +89,8 @@ reasonsForRejection:
 - **47** projects kicked off - average between FY17 - FY20 = 48
 - **46** project endings/closeouts - average between FY17 - FY20 = 45
 
-### 10x Investment Snapshot 
-CHART GOES HERE
-<div></div>
+
+{% include "components/report-bar-chart.html" %}
 
 This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY21, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted before.
 
