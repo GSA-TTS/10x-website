@@ -38,7 +38,7 @@ section: reports
           <div class="TxLinks">
             <ul>
             {% for section in reportSections %} 
-              <li class="TxLinks__item"><a href="#{{- section.data.nav_id -}}">{{ section.data.nav_label }}</a></li>
+              <li class="TxLinks__item"><a href="#section-{{- section.data.nav_id -}}">{{ section.data.nav_label }}</a></li>
               {%- endfor -%}
             </ul>
           </div>
@@ -46,7 +46,7 @@ section: reports
       </div>
       <div class="grid-col-12 desktop:grid-col-9 TxReport__content">
         {% for section in reportSections %} 
-          <section class="{{- section.data.class -}}" id="{{- section.data.nav_id -}}">
+          <section class="{{- section.data.class -}}" id="section-{{- section.data.nav_id -}}">
             {{- break -}}
             {{ section.templateContent }}
             {{- back_to_top -}}
