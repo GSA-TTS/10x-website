@@ -5,7 +5,7 @@ layout: layouts/base.html
 <h1>Tagged “{{ tag }}”</h1>
 
 {% assign postslist = collections[tag] %}
-{% include "components/postslist.html" %}
+{% include "components/posts-list.html" %}
 
 <nav>
   <a href="{{ '/news-updates/' | url }}">← Blog index</a>
