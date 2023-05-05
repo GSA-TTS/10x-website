@@ -7,8 +7,8 @@ theme: 1
 
 cards: 
   - subtitle: "News"
-    title: "10x wants your ideas! Submit now through November 30, 2022"
-    link: "/posts/2023-idea-submission/"
+    title: "10x announces new projects chosen for FY23 Phase 1 funding"
+    link: "/posts/2023-selected-projects/"
   - subtitle: "News"
     title: "Learn about our impact in FY2021"
     link: "/reports/fy21-impact-report/"
