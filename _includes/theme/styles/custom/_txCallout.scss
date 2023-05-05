@@ -89,6 +89,8 @@
 
         margin-left: -1rem;
         padding-left: 3rem;
+        background-image: url("theme/images/phases-bg.png");
+        @include fullWidthBg("phases-bg.png");
 
       }
       &:before,
@@ -107,6 +109,7 @@
         height: 200px;
         top: 0;
         left: 0;
+        background-image: url("theme/images/phases-mobile-bg-top.png");
         @include fullWidthBg("phases-mobile-bg-top.png");
         background-size: cover;
         background-position-x: center;
@@ -117,6 +120,7 @@
         height: 150px;
         bottom: -75px;
         left: 0;
+        background-image: url("theme/images/phases-mobile-bg-bottom.png");
         @include fullWidthBg("phases-mobile-bg-bottom.png");
       }
 

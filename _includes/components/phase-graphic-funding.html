@@ -1,0 +1,18 @@
+<div class="TxCallout TxCallout__ringer force-full-width-on-desktop">
+  <div class="grid-row TxCallout__items">
+  	{%- for phase in funding_model_graphic -%}
+    <div class="grid-col-12 desktop:grid-col bg--{{- forloop.index -}}">
+      <div class="display-flex margin-right-2">
+        <div class="TxCallout__content">
+          <div class="TxCallout__card-header">
+            <span class="us-text-h5">{{ phase.subtitle }}</span>
+            <span class="us-text-h3">{{ phase.title }}</span>
+            <span class="us-text-h3">{{ phase.suffix }}</span>
+          </div>
+          <p>{{ phase.body }}</p>
+        </div>
+      </div>
+    </div>
+  	{%- endfor -%}
+  </div>
+</div>

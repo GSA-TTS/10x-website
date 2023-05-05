@@ -49,6 +49,9 @@ And we’re not giving money to agencies directly — our funding isn’t a gran
 ## Key questions for funding
 Our funding model can be broken down into four simple questions.
 
+{% include "components/phase-graphic-funding.html" %}
+
+
 ----{.TxBreak .TxBreak__accent-warm .TxBreak__wide}
 
 ## A record-setting start to fiscal year 2022
