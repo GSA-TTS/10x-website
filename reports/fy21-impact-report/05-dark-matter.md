@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 permalink: false
 report_parent: fy21
 

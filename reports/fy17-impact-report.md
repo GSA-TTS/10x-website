@@ -11,6 +11,7 @@ excerpt: "FY17 brings us our first-ever impact report as a burgeoning investment
   _Cloud Marketplace_."
 template: "2"
 pdf: true
+eleventyExcludeFromCollections: true
 permalink: false
 
 ---

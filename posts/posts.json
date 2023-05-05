@@ -1,6 +1,8 @@
 {
   "layout": "layouts/post.html",
-  "permalink": "/posts/{{ page.fileSlug }}/index.html",
+  "permalink": "/posts/{{ page.fileSlug }}/",
   "author": "Anonymous",
-  "theme": 9
+  "theme": 9,
+  "date": "Last Modified"
+
 }

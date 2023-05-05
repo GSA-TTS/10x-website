@@ -12,5 +12,6 @@ subtitle: 10x FY19 Impact Report
 template: "4"
 reportUrl: "/assets/10x_FY19_Year_in_Review_Report.pdf"
 year: 2019
+eleventyExcludeFromCollections: true
 permalink: false
 ---

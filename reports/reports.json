@@ -3,6 +3,7 @@
   "permalink": "/reports/{{ page.fileSlug }}/index.html",
   "theme": "report",
   "tags": [],
-  "footer": "we-started-as-an-idea-too"
+  "footer": "we-started-as-an-idea-too",
+  "date": "Last Modified"
 
 }

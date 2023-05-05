@@ -10,6 +10,7 @@ excerpt: "In our FY20 impact report, we delve into our journey from shipping pro
   to produce as a program that isn’t product-shaped."
 template: "6"
 pdf: true
+eleventyExcludeFromCollections: true
 permalink: false
 
 ---
