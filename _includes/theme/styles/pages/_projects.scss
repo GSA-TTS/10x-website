@@ -14,12 +14,14 @@ $card-shadow: 0px 16px 24px rgba(0, 0, 0, 0.15);
   }
   &__title {
     @include u-margin-top(2);
+    width: 100%;
   }
   &__subtitle {
     @include u-margin-top(2);
   }
   &__intro {
     @include u-font("serif", 10);
+    @include u-padding-right(4);
   }
   &__summary {
     @include u-color("white");

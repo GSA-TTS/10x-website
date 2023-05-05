@@ -44,8 +44,13 @@ future: |-
 
   While not in the scope of immediate next steps, our vision is clear that once the prototype is more refined and we get more committed partnerships from agencies, we want to eventually bring in fast-changing eligibility criteria automatically into the BEARS app (Eligibility API’s Initiative, anyone?) and eventually bring in the application processes into the app as well. Imagine!
 links:
-  - link: https://benefits-tool-beta.usa.gov/
-    text: Beta version
+  - link: https://benefits-tool.usa.gov/retirement/
+    text: Retirement
+  - link: https://benefits-tool.usa.gov/disability/
+    text: Disability
+  - link: https://benefits-tool.usa.gov/death-of-a-loved-one/
+    text: Death of a loved onen
+
 phaseData:
   phase: "4"
   status: "1"
