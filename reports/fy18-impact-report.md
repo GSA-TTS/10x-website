@@ -12,7 +12,6 @@ excerpt: For our FY18 impact report, we dive into some of the challenges we face
   _Improving Compliance with the Paperwork Reduction Act (PRA)_.
 template: "3"
 pdf: true
-eleventyExcludeFromCollections: true
 permalink: false
 
 ---
