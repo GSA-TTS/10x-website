@@ -112,15 +112,17 @@ $bgImgDir: "theme/images";
           margin-bottom: -1rem;
         }
         .usa-card__body {
-          @include u-padding-top(10);
+          @include u-padding-top(7);
           @include u-padding-right(10);
           @include u-margin-right(10);
 
           @include at-media("desktop") {
             margin-right: 0;
           }
-          strong {
-            @include u-font("heading", "md");
+          p { 
+            @include u-font-family("serif");
+            line-height: 1.4em;
+            margin-bottom:.7em;
           }
           .usa-button {
             width: auto;

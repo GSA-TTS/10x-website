@@ -19,6 +19,11 @@ cards:
     title: "View 10x Lightning Talks from successful idea submitters"
     link: "https://digital.gov/event/2020/06/30/10x-project-lightning-talks-2020/"
 
+submit_idea_cta: |-
+  Got an idea to submit? 10x accepts ideas on a rolling basis and federal employees can submit them right here.
+
+  We don’t yet know when we’ll be evaluating new ideas for funding, but we’ll update you when we know.
+
 ghostwriter_endings:
   -  "delivers services?"
   -  "processes data?"
