@@ -100,7 +100,7 @@ $bgImgDir: "theme/images";
         }
       }
       .usa-card__container {
-        @include u-padding-top(6);
+        @include u-padding-top(2);
         @include u-padding-bottom(2);
         border: none;
         background-size: 100% 100%;
@@ -122,7 +122,11 @@ $bgImgDir: "theme/images";
           p { 
             @include u-font-family("serif");
             line-height: 1.4em;
-            margin-bottom:.7em;
+            margin-bottom:.25em;
+            margin-top: 1.2em;
+            i, em {
+              font-size: 90%;
+            }
           }
           .usa-button {
             width: auto;
