@@ -49,7 +49,7 @@ links:
   - link: https://benefits-tool.usa.gov/disability/
     text: Disability
   - link: https://benefits-tool.usa.gov/death-of-a-loved-one/
-    text: Death of a loved onen
+    text: Death of a loved one
 
 phaseData:
   phase: "4"
