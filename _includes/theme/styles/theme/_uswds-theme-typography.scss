@@ -152,33 +152,33 @@ names to something more descriptive.
 */
 
 $theme-typeface-tokens: (
-  lato: (
-    display-name: "Lato",
+  poppins: (
+    display-name: "Poppins",
     cap-height: 362px,
     stack: $theme-font-sans-custom-stack,
     src: (
-      dir: "Lato",
+      dir: "Poppins",
       roman: (
-        100: "lato-thin",
-        200: "lato-thin",
-        300: "lato-light",
-        400: "lato-regular",
-        500: "lato-regular",
-        600: "lato-regular",
-        700: "lato-bold",
-        800: "lato-bold",
-        900: "lato-black",
+        100: "Poppins-Thin",
+        200: "Poppins-ExtraLight",
+        300: "Poppins-Light",
+        400: "Poppins-Regular",
+        500: "Poppins-Medium",
+        600: "Poppins-SemiBold",
+        700: "Poppins-Bold",
+        800: "Poppins-ExtraBold",
+        900: "Poppins-Black",
       ),
       italic: (
-        100: "lato-thinitalic",
-        200: "lato-thinitalic",
-        300: "lato-lightitalic",
-        400: "lato-italic",
-        500: "lato-italic",
-        600: "lato-italic",
-        700: "lato-bolditalic",
-        800: "lato-bolditalic",
-        900: "lato-blackitalic",
+        100: "Poppins-ThinItalic",
+        200: "Poppins-ExtraLightItalic",
+        300: "Poppins-LightItalic",
+        400: "Poppins-RegularItalic",
+        500: "Poppins-MediumItalic",
+        600: "Poppins-SemiBoldItalic",
+        700: "Poppins-BoldItalic",
+        800: "Poppins-ExtraBoldItalic",
+        900: "Poppins-BlackItalic",
       ),
     ),
   ),
@@ -249,7 +249,7 @@ $theme-font-type-lang: false;
 $theme-font-type-mono: false;
 
 // sans-serif
-$theme-font-type-sans: "lato";
+$theme-font-type-sans: "poppins";
 
 // serif
 $theme-font-type-serif: "faustina";
