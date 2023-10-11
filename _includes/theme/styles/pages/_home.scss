@@ -120,7 +120,7 @@ $bgImgDir: "theme/images";
             margin-right: 0;
           }
           p { 
-            @include u-font-family("serif");
+            @include u-font-family("sans");
             line-height: 1.4em;
             margin-bottom:.25em;
             margin-top: 1.2em;

@@ -24,7 +24,7 @@
   .usa-nav__link {
     @include u-color("white");
     @include u-margin-bottom(2);
-    @include u-font("serif", "lg");
+    @include u-font("sans", "lg");
 
     &:hover {
       .usa-nav__link-text {
@@ -47,7 +47,7 @@
     button,
     a {
       padding: 0;
-      @include u-font-family("serif");
+      @include u-font-family("sans");
       @include u-color("white");
       &:hover {
         cursor: pointer;
@@ -119,7 +119,7 @@
       width: 100%;
       height: 2rem;
       @include u-padding-y(1);
-      @include u-font("serif", 4);
+      @include u-font("sans", 4);
       line-height: 1.1;
       border-left: none;
       box-shadow: none;
@@ -156,7 +156,7 @@
       .usa-button {
         width: auto;
 
-        @include u-font("serif", 3);
+        @include u-font("sans", 3);
       }
     }
     .usa-nav__primary {
@@ -172,7 +172,7 @@
         margin: 0;
         padding: 1rem;
         @include u-color("white");
-        @include u-font("serif", 3);
+        @include u-font("sans", 3);
         height: 100%;
         &:hover,
         &[aria-expanded="true"] {
@@ -249,14 +249,14 @@
     .usa-nav__footer {
       .usa-button {
         width: auto;
-        @include u-font("serif", 7);
+        @include u-font("sans", 7);
         line-height: .8;
       }
     }
     .usa-nav__primary {
       .usa-nav__link {
         padding: 1.25rem;
-        @include u-font("serif", 7);
+        @include u-font("sans", 7);
       }
     }
   }

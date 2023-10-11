@@ -1,6 +1,6 @@
 .usa-button {
   border-radius: 100px;
-  @include u-font-family("serif");
+  @include u-font-family("sans");
   line-height: 0.9;
 
   &--primary-lighter {
