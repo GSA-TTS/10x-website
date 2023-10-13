@@ -1,30 +1,47 @@
 {
   "name": "10x-website",
-  "version": "0.2.1",
+  "version": "2.0.1",
   "scripts": {
-    "watch:eleventy": "eleventy --serve",
-    "watch:sass": "sass --watch _includes/theme/styles:_site/assets --update",
-    "sass": "sass --watch _includes/theme/styles:_site/assets --verbose",
-    "build:eleventy": "eleventy",
-    "build:sass": "sass  --no-source-map --style=compressed _includes/theme/styles:_site/assets --update",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*",
+    "build": "npm run assets:build && npx @11ty/eleventy",
+    "assets:autoprefix": "postcss _site/assets/styles/*.css -r --use autoprefixer",
+    "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
+    "assets:clean": "rimraf _site/assets",
+    "assets:refresh": "npm run assets:clean && npm run assets:build",
+    "assets:watch": "chokidar 'js/**' 'styles/**' -c 'npm run assets:refresh' --polling",
+    "clean": "rimraf _site",
+    "dev": "npm run clean && npm-run-all -p dev:assets dev:serve",
+    "dev:clean": "npm run clean && npm run dev",
+    "dev:assets": "npm run assets:refresh && npm run assets:watch",
+    "dev:debug": "DEBUG=* npx @11ty/eleventy --serve --watch",
+    "dev:serve": "npx @11ty/eleventy --serve --watch",
     "federalist": "npm run build",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-img": "^1.1.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "autoprefixer": "^10.4.2",
+    "chokidar-cli": "^3.0.0",
+    "eleventy-plugin-svg-sprite": "^2.4.2",
+    "esbuild": "^0.19.3",
+    "esbuild-sass-plugin": "^2.15.0",
+    "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
     "luxon": "^3.1.1",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.6",
-    "markdown-it-attrs": "^4.1.6"
+    "markdown-it-attrs": "^4.1.6",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.8",
+    "postcss-cli": "^9.1.0",
+    "rimraf": "^3.0.2",
+    "uglify-js": "^3.17.4"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "html-minifier": "^4.0.0",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.50.1",
-    "uglify-js": "^3.17.4"
+    "@uswds/uswds": "^3.6.0"
   }
 }

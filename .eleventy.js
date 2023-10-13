@@ -1,7 +1,12 @@
 const { DateTime } = require("luxon");
+const fs = require('fs');
+
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const svgSprite = require("eleventy-plugin-svg-sprite");
+const { imageShortcode, imageWithClassShortcode } = require('./config');
+
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
@@ -83,10 +88,63 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy({ "public": "/" });
-  eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/theme/fonts" });
-  eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/theme/images" });
-  // eleventyConfig.addPassthroughCopy({"_includes/theme/uswds-2.10.1-dist/img": "assets/theme/uswds/img"});
-  eleventyConfig.addPassthroughCopy({ "_includes/theme/uswds-2.10.1-dist/js": "assets/theme/uswds/js" });
+  // eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/theme/fonts" });
+  eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/images" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/img": "assets/uswds/img" });
+
+
+  // eleventyConfig.addPassthroughCopy({ "_includes/theme/uswds-2.10.1-dist/js": "assets/theme/uswds/js" });
+
+
+  // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@uswds/uswds/dist/js/uswds-init.js":
+      "assets/uswds/js/uswds-init.js",
+  });
+
+
+  // SVG Sprite Plugin for USWDS USWDS icons
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./node_modules/@uswds/uswds/dist/img/uswds-icons",
+    svgSpriteShortcode: "uswds_icons_sprite",
+    svgShortcode: "uswds_icons",
+  });
+
+  // SVG Sprite Plugin for USWDS USA icons
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./node_modules/@uswds/uswds/dist/img/usa-icons",
+    svgSpriteShortcode: "usa_icons_sprite",
+    svgShortcode: "usa_icons",
+  });
+
+
+  // Set image shortcodes
+  eleventyConfig.addLiquidShortcode('image', imageShortcode);
+  eleventyConfig.addLiquidShortcode('image_with_class', imageWithClassShortcode);
+  eleventyConfig.addLiquidShortcode("uswds_icon", function (name) {
+    return `
+    <svg class="usa-icon" aria-hidden="true" role="img">
+      <use xlink:href="#svg-${name}"></use>
+    </svg>`;
+  });
+
+  // Override Browsersync defaults (used only with --serve)
+  eleventyConfig.setBrowserSyncConfig({
+    callbacks: {
+      ready: function (err, browserSync) {
+        const content_404 = fs.readFileSync('_site/404/index.html');
+
+        browserSync.addMiddleware('*', (req, res) => {
+          // Provides the 404 content without redirect.
+          res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
+          res.write(content_404);
+          res.end();
+        });
+      },
+    },
+    ui: false,
+    ghostMode: false,
+  });
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

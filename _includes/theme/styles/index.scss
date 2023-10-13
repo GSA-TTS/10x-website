@@ -1,31 +1,13 @@
-@import "theme/_styles.scss";
-// @import "../uswds-2.10.1-dist/scss/uswds.scss"
+@use 'uswds-core' as * with (
+  $theme-show-notifications: false,
+  $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
+  $theme-font-type-sans: 'public-sans',
+  $theme-hero-image: '../images/10x-lg-transparent.png',
+  $output-these-utilities: "margin, font"
+);
 
+@forward 'uswds';
 
-// TODO: find places for these to go
+@forward "theme.scss";
 
-.usa-prose {
-  & > {
-    h1, h2, h3, h4, h5, h6 {
-      font-weight: normal;
-      @include u-maxw("tablet-lg");
-    }
-    .TxLede p,
-    ol li, 
-    ul li,
-    p {
-      @include u-maxw("tablet-lg");
-    }
-
-  }
-  li h3 {
-    @include u-margin-top(2);
-    @include u-margin-bottom(1);
-  }
-  hr {
-    @extend .TxBreak;
-    @extend .TxBreak__wide;
-    @extend .TxBreak__accent-warm; // set a default
-    border: none;
-  }
-}

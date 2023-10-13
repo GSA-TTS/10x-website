@@ -25,7 +25,9 @@
   <link href="{{ '/favicon/favicon-16x16.png' | url }}" rel="icon" sizes="16x16" type="image/png">
   <link href="{{ '/favicon/favicon.ico' | url }}" rel="shortcut icon">
 
-  <link rel="stylesheet" href="{{'/assets/index.css' | url }}" />
+
+  <link rel="preload" as="style" href="{{ assetPaths['index.css'] }}" />
+  <link rel="stylesheet" href="{{ assetPaths['index.css'] }}" type="text/css" />
   {% capture js %}
   {% include "theme/js/inline.js" %}
   {% endcapture %}
@@ -44,6 +46,10 @@
   <script src="//search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   <link href="http://search.usa.gov" rel="preconnect">
 
-  <script src="{{ '/assets/theme/uswds/js/uswds-init.min.js' | url }}"></script>
+  <script src="{{ '/assets/uswds/js/uswds-init.js' | url }}"></script>
+
+  <!-- <script src="{{ '/assets/theme/uswds/js/uswds-init.min.js' | url }}"></script> -->
+  <script async="" src="{{ assetPaths['app.js'] }} "></script>
+
 
 </head>

@@ -23,4 +23,4 @@ We’ve met inspiring people fighting the good innovation fight and making thing
 
 Sincerely,
 
-![The 10x Team](../../assets/theme/images/the-10x-team.png){.width-tablet}
+![The 10x Team](/assets/images/fy21-report/the-10x-team.png){.width-tablet}
