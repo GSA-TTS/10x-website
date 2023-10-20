@@ -1,9 +1,117 @@
-@use 'uswds-core' as * with (
+@use 'uswds-core' with (
   $theme-show-notifications: false,
-  $theme-font-path: '../fonts',
-  $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
-  $theme-font-type-sans: 'poppins',
+  $theme-font-path: '/',
+  $theme-image-path: '@uswds/uswds/img',
   $theme-hero-image: '../images/10x-lg-transparent.png',
   $theme-grid-container-max-width: "desktop-lg",
-  $output-these-utilities: "margin, font"
+  $output-these-utilities: "margin, font",
+
+  $theme-typeface-tokens: (
+    "poppins": (
+      "display-name": "Poppins", 
+      "cap-height": 364px,         
+      "stack": "Helvetica, Arial, sans-serif", 
+    ),
+    // USWDS supplied merriweather
+    "merriweather": (
+      "display-name": "Merriweather Web",
+      "cap-height": 371px,
+      "stack": "Georgia, Times, serif",
+    ),
+    // USWDS supplied roboto mono
+    "roboto-mono": (
+      "display-name": "Roboto Mono Web",
+      "cap-height": 380px,
+      "stack": "Monaco, Menlo, Courier, mono",
+    ),
+  ),
+
+  $theme-font-type-sans: 'poppins',
+  $theme-font-sans-custom-src: (
+    dir: "_includes/theme/fonts/poppins", 
+    roman: (
+      100: "Poppins-Thin",
+      200: "Poppins-ExtraLight",
+      300: "Poppins-Light",
+      400: "Poppins-Regular",
+      500: "Poppins-Medium",
+      600: "Poppins-SemiBold",
+      700: "Poppins-Bold",
+      800: "Poppins-ExtraBold",
+      900: "Poppins-Black",
+    ),
+    italic: (
+      100: "Poppins-ThinItalic",
+      200: "Poppins-ExtraLightItalic",
+      300: "Poppins-LightItalic",
+      400: "Poppins-RegularItalic",
+      500: "Poppins-MediumItalic",
+      600: "Poppins-SemiBoldItalic",
+      700: "Poppins-BoldItalic",
+      800: "Poppins-ExtraBoldItalic",
+      900: "Poppins-BlackItalic",
+    ),
+  ),
+
+  $theme-font-type-serif: 'merriweather',
+  $theme-font-serif-custom-src: (
+    dir: "@uswds/uswds/fonts/merriweather",
+    roman: (
+      100: false,
+      200: false,
+      300: "Latin-Merriweather-Light",
+      400: "Latin-Merriweather-Regular",
+      500: false,
+      600: false,
+      700: "Latin-Merriweather-Bold",
+      800: false,
+      900: "Latin-Merriweather-Black",
+    ),
+    italic: (
+      100: false,
+      200: false,
+      300: "Latin-Merriweather-LightItalic",
+      400: "Latin-Merriweather-Italic",
+      500: false,
+      600: false,
+      700: "Latin-Merriweather-BoldItalic",
+      800: false,
+      900: "Latin-Merriweather-BlackItalic",
+    ),
+  ),
+
+  $theme-font-type-mono: 'roboto-mono',
+  $theme-font-mono-custom-src: (
+    dir: "@uswds/uswds/fonts/roboto-mono",
+    roman: (
+      100: "roboto-mono-v5-latin-100",
+      200: false,
+      300: "roboto-mono-v5-latin-300",
+      400: "roboto-mono-v5-latin-regular",
+      500: "roboto-mono-v5-latin-500",
+      600: false,
+      700: "roboto-mono-v5-latin-700",
+      800: false,
+      900: false,
+    ),
+    italic: (
+      100: "roboto-mono-v5-latin-100italic",
+      200: false,
+      300: "roboto-mono-v5-latin-300italic",
+      400: "roboto-mono-v5-latin-italic",
+      500: "roboto-mono-v5-latin-500italic",
+      600: false,
+      700: "roboto-mono-v5-latin-700italic",
+      800: false,
+      900: false,
+    ),
+  ),
+
+
+
+
+  $theme-font-role-heading:  'sans',
+  $theme-font-role-body:     'sans',
+  $theme-font-role-code:     'mono',
+
 );
