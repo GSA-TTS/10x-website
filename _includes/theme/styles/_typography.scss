@@ -1,11 +1,3 @@
- $theme-typeface-tokens: (
-   "poppins": (
-     "display-name": "Poppins", 
-     "cap-height": 364px,         
-     "stack": "Helvetica, Arial, sans-serif", 
-   ),
- );
-
  $theme-font-sans-custom-src: (
    dir: "poppins", // the name of your font family directory
     roman: (
@@ -30,4 +22,12 @@
         800: "Poppins-ExtraBoldItalic",
         900: "Poppins-BlackItalic",
       ),
+ );
+
+  $theme-typeface-tokens: (
+   "poppins": (
+     "display-name": "Poppins", 
+     "cap-height": 364px,         
+     "stack": "Helvetica, Arial, sans-serif", 
+   ),
  );

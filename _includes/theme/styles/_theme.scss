@@ -1,8 +1,8 @@
 @use 'uswds-core' as * with (
   $theme-show-notifications: false,
-  $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
+  $theme-font-path: '../fonts',
   $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
-  // $theme-font-type-sans: 'poppins',
+  $theme-font-type-sans: 'poppins',
   $theme-hero-image: '../images/10x-lg-transparent.png',
   $theme-grid-container-max-width: "desktop-lg",
   $output-these-utilities: "margin, font"
