@@ -5,7 +5,7 @@
   <div class="ReportList grid-row grid-gap">
   {%- for report in collections.reports -%}
    {%- if report.data.pdf -%}
-     {%- assign reportLink = report.data.reportUrl | url -%}
+     {%- assign reportLink = report.data.reportUrl -%}
     {%- else -%}
       {%- assign reportLink = report.url | url -%}
     {%- endif -%}

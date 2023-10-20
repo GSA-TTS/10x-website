@@ -90,6 +90,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public": "/" });
   // eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/theme/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/images" });
+  eleventyConfig.addPassthroughCopy({ "reports/pdfs": "reports" });
   eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/img": "assets/uswds/img" });
 
 
