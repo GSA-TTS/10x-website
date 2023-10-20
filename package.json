@@ -8,6 +8,7 @@
     "assets:clean": "rimraf _site/assets",
     "assets:refresh": "npm run assets:clean && npm run assets:build",
     "assets:watch": "chokidar 'js/**' 'styles/**' -c 'npm run assets:refresh' --polling",
+    "watch:sass": "sass --watch _includes/theme/styles:_site/css",
     "clean": "rimraf _site",
     "dev": "npm run clean && npm-run-all -p dev:assets dev:serve",
     "dev:clean": "npm run clean && npm run dev",
@@ -39,6 +40,7 @@
     "postcss": "^8.4.8",
     "postcss-cli": "^9.1.0",
     "rimraf": "^3.0.2",
+    "sass": "^1.69.4",
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
