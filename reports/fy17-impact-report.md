@@ -1,6 +1,6 @@
 ---
 slug: impact
-reportUrl: "/assets/10x_FY17_Year_in_Review_Report.pdf"
+reportUrl: "/reports/10x_FY17_Year_in_Review_Report.pdf"
 title: 10x FY17 Impact Report
 subtitle: 10x FY17 Impact Report
 year: 2017
