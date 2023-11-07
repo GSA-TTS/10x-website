@@ -1,0 +1,19 @@
+@use "uswds-core" as *;
+
+.banner-bg {
+    color: white; 
+    padding: units(5);
+    padding-top: units(1); 
+    background: linear-gradient(287deg, #7DE5F3 3%, #360AE9 47.89%, #40015E 80.85%, #140021 98.34%);
+}
+
+.usa-hero {
+    background: white; 
+    background-image: none; 
+    padding: units(5);
+    color: color("violet-90"); 
+    margin-top: units(5);
+    h1 {
+        font-size: size('body', 12);
+    }
+}

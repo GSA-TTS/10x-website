@@ -79,13 +79,13 @@
   <div class="grid-container">
     <div class="grid-row">
       <div class="grid-col">
-        <div class="grid-row align-content-center">
+        <div class="grid-row flex-align-center">
           <div class="grid-col-1 usa-header__logo"><a href="{{ '/' | url }}">
               <div class="usa-logo" id="basic-logo"><img alt="10x Logo" src="{{ '/assets/images/logo.svg' | url }}"></div>
             </a></div>
-          <div class="grid-col-11 usa-header__nav"><button class="usa-menu-btn usa-nav-open" id="usa-nav-open" type="button"><span
+          <div class="grid-col-11 usa-header__nav flex-1 flex-align-center"><button class="usa-menu-btn usa-nav-open" id="usa-nav-open" type="button"><span
                 class="usa-sr-only">Menu</span></button>
-            <nav aria-label="Primary navigation" class="usa-nav" role="navigation">
+            <nav aria-label="Primary navigation" class="usa-nav flex-justify" role="navigation">
               <div class="usa-nav__inner"><button class="usa-nav-close usa-nav__close" id="usa-nav-close" type="button"><span
                     class="usa-sr-only">Close</span></button>
                 <ul class="usa-accordion usa-nav__primary">
@@ -105,7 +105,6 @@
                         <a class="usa-nav__link {% if isCurrent %}usa-current{% endif %}" href="{{ entry.url | url }}"{% if isCurrent %} data-current="current item"{% endif %}>
                     {%- endif -%}
                     <span class="usa-nav__link-text">
-                      Our
                       {{ entry.title }}
                     </span>
                     {%- if hasChildren -%}
@@ -127,8 +126,12 @@
 
                 </ul>
               </div>
-              <div class="usa-nav__footer">
-                <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search usa-search--small" id="search_form" method="get" role="search">
+              <div class="usa-nav__footer flex-align-center">
+                <a href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" class="usa-button width-card-lg"
+                  rel="noopener noreferrer" target="_blank">
+                  Submit an idea
+                </a>
+                <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search" id="search_form" method="get" role="search">
                   <input name="utf8" type="hidden" value="✓" />
                   <input name="affiliate" type="hidden" id="affiliate" value="10x" />
                   <label class="usa-sr-only text-base-lightest" for="query">Search</label>
@@ -140,9 +143,6 @@
                     </svg>
                   </button>
                 </form>
-                <a href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP" class="usa-button usa-button--primary-lighter" rel="noopener noreferrer" target="_blank">
-                SUBMIT AN IDEA
-                </a>
               </div>
             </nav>
           </div>
