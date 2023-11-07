@@ -4,7 +4,8 @@
   $theme-image-path: '@uswds/uswds/img',
   $theme-hero-image: '../images/10x-lg-transparent.png',
   $theme-grid-container-max-width: "desktop-lg",
-  $output-these-utilities: "margin, font",
+  $theme-banner-max-width: "desktop-lg",
+  $output-these-utilities: default,
 
   $theme-typeface-tokens: (
     "poppins": (
@@ -106,9 +107,6 @@
       900: false,
     ),
   ),
-
-
-
 
   $theme-font-role-heading:  'sans',
   $theme-font-role-body:     'sans',

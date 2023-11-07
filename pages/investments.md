@@ -1,12 +1,11 @@
 ---
 title: Our process
 layout: layouts/page.html
-permalink: /process/index.html
-redirect_from: /the-10x-process/
+permalink: /investments/index.html
 eleventyNavigation:
   parent: root
-  key: Process
-  order: 2
+  key: Investments
+  order: 0
 theme: 8
 cards: 
   - subtitle: "Media"
