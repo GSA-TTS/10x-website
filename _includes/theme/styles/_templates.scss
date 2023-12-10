@@ -1,10 +1,85 @@
 @use "uswds-core" as *;
 
+body {
+    color: color("violet-90");
+    font-size: 1.25rem;
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, p {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.313rem;
+    font-weight: 500;
+    line-height: 1.46em;
+    color:color('indigo-warm-70v');
+}
+
+p, .usa-identifier__required-links-list li {
+    line-height: 1.6;
+}
+
+.usa-link {
+    color:color('indigo-warm-60v');
+}
+
+.usa-identifier__container {
+    max-width: 75rem;
+}
+
+.usa-identifier {
+    background: #160449;
+}
+
+.usa-identifier__required-links-list li {
+    font-weight: 500;
+}
+
+.usa-identifier__container, 
+.usa-identifier__identity-domain, 
+.usa-identifier__required-link, 
+.usa-identifier__required-link.usa-link {
+    color: white;
+}
+
+.usa-identifier__section--usagov {
+    background-color: color("violet-90");
+}
+
 .banner-bg {
     color: white; 
-    padding: units(5);
-    padding-top: units(1); 
-    background: linear-gradient(287deg, #7DE5F3 3%, #360AE9 47.89%, #40015E 80.85%, #140021 98.34%);
+    position: relative;
+
+    .banner-bg-gradient {   
+        min-height: 38vh; /* Adjust the value to ensure at least 38% coverage */
+        background: linear-gradient(287deg, #008F8F 0%, #360AE9 20%, #40015E 90%, #140021 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 1rem 2rem;
+
+        @include at-media("desktop") {
+            background-size: 100% 77%;
+        }
+
+        @include at-media("desktop-lg") {
+            background-size: 100% 80%;
+        }
+    }
+
+    .grid-container {
+        position: relative;
+        z-index: 5;
+    }
+}
+
+.usa-section {
+    padding: 3rem 2rem;
+
+    @include at-media("desktop") {
+        padding: 3rem 2rem;
+    }   
 }
 
 .usa-hero {
@@ -12,8 +87,423 @@
     background-image: none; 
     padding: units(5);
     color: color("violet-90"); 
-    margin-top: units(5);
+
     h1 {
-        font-size: size('body', 12);
+        font-size: 1.6rem;
+        line-height: 1.1667em;
+        font-weight: 700;
+        margin: 0.4em 0;
+
+        @include at-media("tablet") {
+            font-size: 2.25rem;
+        }
+      
+        @include at-media("desktop") {
+            font-size: 3rem;
+        }
+
+        @include at-media("desktop-lg") {
+            font-size: 3.75rem;
+        }    
     }
+
+    h2 {   
+        font-size: 1.2rem;    
+        line-height: 1.5em;
+        font-weight: 400;
+        margin: 1em 0;
+        color: color("violet-90"); 
+
+        @include at-media("tablet") {
+            font-size: 1.6rem;
+        }
+      
+        @include at-media("desktop") {
+            font-size: 2rem;
+        }
+    }
+
+    button {
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .date-wrapper {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+.usa-card__container {
+    border-width: 1px;
+    border-color: #520FCA;
+    border-radius: 0;
+}
+
+.homepage-wrapper {
+    background: #160449;
+
+    .header-section {
+        background: url('../images/purple-US.svg') top 2rem center no-repeat;
+
+        @include at-media("desktop") {
+            background: url('../images/purple-US.svg') top right no-repeat;
+        }
+
+        h2 {
+            font-size: 2.3rem;
+            font-weight: 700;
+            line-height: 1.1667em;      
+            text-align: center;
+            color: color('cyan-30v');
+
+            @include at-media("desktop") {
+                font-size: 3.25rem;
+                width: 90%;
+                text-align: left;
+            }
+    
+            @include at-media("desktop-lg") {
+                font-size: 3.75rem;
+            }   
+        }
+
+        .grid-gap-6 {
+            h3 {
+                font-size: 1.6rem;
+                line-height: 1.35em;
+                font-weight: 500;
+
+                @include at-media("desktop") {
+                    ffont-size: 1.938rem;
+                }
+            }
+        }
+
+        .usa-hero__heading + * {     
+            @include at-media("desktop") {
+                margin-top: 3em;
+            }
+        }
+    }
+
+    .usa-section {
+        .usa-card {
+            h2 {
+                font-weight: 500;
+                line-height: 1.2em;
+                text-transform: uppercase;
+                color:color('indigo-warm-60v');              
+            }
+        }       
+    }
+
+    .section1 {
+        background: white;
+
+        .grid-row:first-child {
+            flex-direction: row-reverse;
+        }
+
+        h2, h3 {
+            font-weight: 500;
+        }
+
+
+        h2 {
+            font-size: 1.6rem;
+            line-height: 1.46em;
+
+            @include at-media("tablet") {
+                font-size: 2rem;              
+            }  
+
+            @include at-media("desktop") {
+                font-size: 2.313rem;              
+            }           
+        }   
+
+        h3 {
+            font-size: 1.5rem;
+            line-height: 1.35em;
+            color:color('indigo-warm-60v');
+            
+            @include at-media("desktop") {
+                font-size: 1.938rem;             
+            } 
+        }
+
+        p{
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.58em; 
+            
+            @include at-media("desktop") {
+                font-size: 1.625rem;       
+            } 
+        }
+
+        .usa-card {
+            h2 {
+                font-size: 0.938rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 1.3em;  
+                
+                @include at-media("desktop") {
+                    font-size: 1.688rem;           
+                } 
+            }
+
+            .usa-card__header{
+                padding: 2rem 2rem 0 2rem;
+
+                @include at-media("desktop") {
+                    padding: 3.125rem 3.75rem 0 3.75rem;             
+                } 
+            }
+
+            .usa-card__body {
+                padding: 2rem 2rem 0 2rem;
+
+                @include at-media("desktop") {
+                    padding: 1.125rem 3.5rem 0 3.5rem;             
+                } 
+            }
+
+            .usa-card__footer {
+                padding: 2rem;
+                margin: 0;
+
+                @include at-media("desktop") {
+                    padding: 2.5rem 3.5rem;             
+                } 
+            }
+        }
+
+        .usa-identifier__required-links-item {
+            font-size: 1.188rem;
+            line-height: 1.737em;
+        }
+
+        .usa-media-block__img {
+            @include at-media("tablet") {
+                margin: 1rem auto;
+                display: block;
+                max-width: 400px;
+            }   
+        }
+    }
+
+    .section2 {
+        background: url('../images/section2-purple-bg.png') top left repeat-x;
+    
+       h2 {
+        font-size: 2rem;
+        line-height: 1.167em;
+        font-weight: 700;
+        color: white;
+        margin: 0 0 2.5rem;
+
+        @include at-media("tablet") {
+            font-size: 2.5rem;
+        }  
+
+        @include at-media("desktop") {
+            font-size: 3.75rem;
+        }   
+       }
+       
+        &.usa-section {
+            padding-top: 3.5rem;
+            padding-bottom: 3.5rem;
+        }
+
+        .usa-button {
+            font-size: 1.375rem;
+            line-height: 1em;
+        }
+    }
+
+    .section3 {
+        background: white;
+
+        h2 {
+            font-size: 1.6rem;
+            line-height: 1.46em;
+
+            @include at-media("tablet") {
+                font-size: 2rem;              
+            }  
+
+            @include at-media("desktop") {
+                font-size: 2.313rem;              
+            }           
+        }       
+
+        .usa-card {
+            h2 {
+                font-size: 1.125rem;
+            }
+
+            h3 {
+                font-size: 1.7rem;
+                line-height: 1.35em;
+                font-weight: 500;
+
+                @include at-media("desktop") {
+                    font-size: 1.938rem;
+                }   
+            }
+
+            p {
+                font-size: 1.125rem;
+                line-height: 1.6em;               
+            }
+
+            .usa-card__header{
+                padding: 2rem 2rem 0 2rem;
+
+                @include at-media("desktop") {
+                    padding: 3.125rem 3.75rem 0 3.75rem;             
+                } 
+            }
+
+            .usa-card__body {
+                padding: 2rem 2rem 0 2rem;
+
+                @include at-media("desktop") {
+                    padding: 1.125rem 3.5rem 0 3.5rem;             
+                } 
+            }
+
+            .usa-card__footer {
+                padding: 2rem;
+                margin: 0;
+
+                @include at-media("desktop") {
+                    padding: 2.5rem 3.5rem;             
+                } 
+            }
+        }        
+    }
+
+    .section4 {
+        background-color: color('cyan-20v'); 
+        text-align: center;
+
+        &.usa-section {
+            padding: 4rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 1.1667em;
+            font-weight: 700;
+            margin: 0 0 3rem;
+            color: color("violet-90");
+
+            @include at-media("tablet") {
+                font-size: 2.5rem;
+            }  
+
+            @include at-media("desktop") {
+                font-size: 3.75rem;
+            }   
+        }
+
+        span {
+            color: color("indigo-warm-60v");
+        }
+
+        .usa-button {
+            background: color("indigo-warm-60v");
+            color: white;
+            font-size: 1.375rem;
+            line-height: 1em;
+            padding: 1rem 1.875rem;
+        }
+
+        form {
+            margin: 0 auto;
+        }
+    }
+
+    .section5 {
+        color: white;
+        
+        h2 {
+            font-size: 1.6rem;
+            line-height: 1.46em;
+            color: color('cyan-20v'); 
+
+            @include at-media("tablet") {
+                font-size: 2rem;              
+            }  
+
+            @include at-media("desktop") {
+                font-size: 2.313rem;              
+            }           
+        }    
+
+        h3 {
+            font-size: 1.625rem;
+            line-height: 1.577em;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 1rem;
+
+            .usa-link {
+                color: white;
+            }
+        }
+
+        ul {
+           padding-left: 25px;
+          
+            @include at-media("tablet") {
+                columns: 1;
+                -webkit-columns: 1;
+                -moz-columns: 1;    
+            }
+          
+            @include at-media("desktop") {
+                columns: 2;
+                -webkit-columns: 2;
+                -moz-columns: 2;    
+            }
+          }
+    }
+}
+
+.linear-gradient {
+    background: linear-gradient(102.06deg, rgba(0, 143, 143, 0.8) 10.05%, rgba(33, 33, 207, 0.8) 35.69%, rgba(58, 51, 123, 0.8) 61.32%, rgba(171, 79, 228, 0.8) 86.96%),
+linear-gradient(0deg, #6F32DD, #6F32DD);
+}
+
+.section-prefooter.usa-section {
+    padding: 7px 0 0 0;
+}
+
+.prefooter-wrapper {
+    background: color("indigo-warm-60v");
+    
+    h3, .usa-link {
+        color: white;
+    }
+
+    h3, li {
+        font-size: 1rem;
+        line-height: 1.173em;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+
 }
