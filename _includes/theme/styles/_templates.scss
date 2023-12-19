@@ -2,8 +2,8 @@
 
 body {
     color: color("violet-90");
-    font-size: 1.25rem;
-    line-height: 1.6em;
+    font-size: size('body', 8);
+    line-height: lh('body', 5);
 }
 
 h1, h2, h3, h4, h5, p {
@@ -11,28 +11,24 @@ h1, h2, h3, h4, h5, p {
 }
 
 h2 {
-    font-size: 2.313rem;
-    font-weight: 500;
-    line-height: 1.46em;
+    font-size: size('body', 13);
+    line-height: lh('heading', 4);
     color:color('indigo-warm-70v');
 }
 
 p, .usa-identifier__required-links-list li {
-    line-height: 1.6;
+    line-height: lh('body', 5);
 }
 
 .usa-link {
     color:color('indigo-warm-60v');
 }
 
-.usa-identifier__container {
-    max-width: 75rem;
-}
-
 .usa-identifier {
     background: #160449;
 }
 
+h2,
 .usa-identifier__required-links-list li {
     font-weight: 500;
 }
@@ -57,7 +53,6 @@ p, .usa-identifier__required-links-list li {
         background: linear-gradient(287deg, #008F8F 0%, #360AE9 20%, #40015E 90%, #140021 100%);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 1rem 2rem;
 
         @include at-media("desktop") {
             background-size: 100% 77%;
@@ -75,11 +70,11 @@ p, .usa-identifier__required-links-list li {
 }
 
 .usa-section {
-    padding: 3rem 2rem;
+    padding: units(4);
 
     @include at-media("desktop") {
-        padding: 3rem 2rem;
-    }   
+        padding: units(6) units(4);     
+    }
 }
 
 .usa-hero {
@@ -89,54 +84,55 @@ p, .usa-identifier__required-links-list li {
     color: color("violet-90"); 
 
     h1 {
-        font-size: 1.6rem;
-        line-height: 1.1667em;
+        font-size: size('body', 10);
+        line-height: lh('heading', 2);
         font-weight: 700;
         margin: 0.4em 0;
 
         @include at-media("tablet") {
-            font-size: 2.25rem;
+            font-size: size('body', 13);
         }
       
         @include at-media("desktop") {
-            font-size: 3rem;
+            font-size: size('body', 15);
         }
 
         @include at-media("desktop-lg") {
-            font-size: 3.75rem;
+            font-size: size('body', 16);
         }    
     }
 
     h2 {   
-        font-size: 1.2rem;    
-        line-height: 1.5em;
+        font-size: size('body', 8);    
+        line-height: lh('heading', 4);
         font-weight: 400;
         margin: 1em 0;
         color: color("violet-90"); 
 
         @include at-media("tablet") {
-            font-size: 1.6rem;
+            font-size: size('body', 10);
         }
       
         @include at-media("desktop") {
-            font-size: 2rem;
+            font-size: size('body', 12);
         }
     }
 
     button {
-        font-size: 1em;
+        font-size: size('body', 5);
         font-weight: 600;
     }
 
     .date-wrapper {
-        font-size: 18px;
+        font-size: size('body', 7);
         text-transform: uppercase;
+        color: color('indigo-warm-60v');
     }
 }
 
 .usa-card__container {
-    border-width: 1px;
-    border-color: #520FCA;
+    border-width: units(1px);
+    border-color: color("violet-90");
     border-radius: 0;
 }
 
@@ -144,38 +140,38 @@ p, .usa-identifier__required-links-list li {
     background: #160449;
 
     .header-section {
-        background: url('../images/purple-US.svg') top 2rem center no-repeat;
+        background: url('../images/purple-US.svg') top units(4) center no-repeat;
 
         @include at-media("desktop") {
             background: url('../images/purple-US.svg') top right no-repeat;
         }
 
         h2 {
-            font-size: 2.3rem;
+            font-size: size('body', 13);
             font-weight: 700;
-            line-height: 1.1667em;      
+            line-height: lh('heading', 2);     
             text-align: center;
             color: color('cyan-30v');
 
             @include at-media("desktop") {
-                font-size: 3.25rem;
+                font-size: size('body', 15);
                 width: 90%;
                 text-align: left;
             }
     
             @include at-media("desktop-lg") {
-                font-size: 3.75rem;
+                font-size: size('body', 16);
             }   
         }
 
         .grid-gap-6 {
             h3 {
-                font-size: 1.6rem;
-                line-height: 1.35em;
+                font-size: size('body', 10);
+                line-height: lh('heading', 3);
                 font-weight: 500;
 
                 @include at-media("desktop") {
-                    ffont-size: 1.938rem;
+                    font-size: size('body', 12);
                 }
             }
         }
@@ -191,7 +187,7 @@ p, .usa-identifier__required-links-list li {
         .usa-card {
             h2 {
                 font-weight: 500;
-                line-height: 1.2em;
+                line-height: lh('heading', 2);
                 text-transform: uppercase;
                 color:color('indigo-warm-60v');              
             }
@@ -211,89 +207,88 @@ p, .usa-identifier__required-links-list li {
 
 
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.46em;
+            font-size: size('body', 10);
+            line-height: lh('heading', 4);
 
             @include at-media("tablet") {
-                font-size: 2rem;              
+                font-size: size('body', 12);              
             }  
 
             @include at-media("desktop") {
-                font-size: 2.313rem;              
+                font-size: size('body', 13);              
             }           
         }   
 
         h3 {
-            font-size: 1.5rem;
-            line-height: 1.35em;
+            font-size: size('body', 10);
+            line-height: lh('heading', 3);
             color:color('indigo-warm-60v');
             
             @include at-media("desktop") {
-                font-size: 1.938rem;             
+                font-size: size('body', 12);             
             } 
         }
 
         p{
-            font-size: 1.25rem;
+            font-size: size('body', 8);
             font-weight: 400;
-            line-height: 1.58em; 
+            line-height: lh('body', 5);
             
             @include at-media("desktop") {
-                font-size: 1.625rem;       
+                font-size: size('body', 11);       
             } 
         }
 
         .usa-card {
             h2 {
-                font-size: 0.938rem;
+                font-size: size('body', 4);
             }
 
             p {
-                font-size: 1.5rem;
+                font-size: size('body', 10);
                 font-weight: 600;
-                line-height: 1.3em;  
+                line-height: lh('body', 3);  
                 
                 @include at-media("desktop") {
-                    font-size: 1.688rem;           
+                    font-size: size('body', 11);           
                 } 
             }
 
             .usa-card__header{
-                padding: 2rem 2rem 0 2rem;
+                padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: 3.125rem 3.75rem 0 3.75rem;             
+                    padding: units(6) units(7) 0 units(7);             
                 } 
             }
 
             .usa-card__body {
-                padding: 2rem 2rem 0 2rem;
+                padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: 1.125rem 3.5rem 0 3.5rem;             
+                    padding: units(2.5) units(7) 0 units(7);             
                 } 
             }
 
             .usa-card__footer {
-                padding: 2rem;
+                padding: units(4);
                 margin: 0;
 
                 @include at-media("desktop") {
-                    padding: 2.5rem 3.5rem;             
+                    padding: units(5) units(7);             
                 } 
             }
         }
 
         .usa-identifier__required-links-item {
-            font-size: 1.188rem;
-            line-height: 1.737em;
+            font-size: size('body', 8); 
+            line-height: lh('body', 6);
         }
 
         .usa-media-block__img {
             @include at-media("tablet") {
-                margin: 1rem auto;
+                margin: units(2) auto;
                 display: block;
-                max-width: 400px;
             }   
         }
     }
@@ -302,29 +297,29 @@ p, .usa-identifier__required-links-list li {
         background: url('../images/section2-purple-bg.png') top left repeat-x;
     
        h2 {
-        font-size: 2rem;
-        line-height: 1.167em;
+        font-size: size('body', 12); 
+        line-height: lh('heading', 2);
         font-weight: 700;
         color: white;
-        margin: 0 0 2.5rem;
+        margin: 0 0 units(5);
 
         @include at-media("tablet") {
-            font-size: 2.5rem;
+            font-size: size('body', 14); 
         }  
 
         @include at-media("desktop") {
-            font-size: 3.75rem;
+            font-size: size('body', 16); 
         }   
        }
        
         &.usa-section {
-            padding-top: 3.5rem;
-            padding-bottom: 3.5rem;
+            padding-top: units(7);
+            padding-bottom: units(7);
         }
 
         .usa-button {
-            font-size: 1.375rem;
-            line-height: 1em;
+            font-size: size('body', 9); 
+            line-height: lh('body', 1);
         }
     }
 
@@ -332,60 +327,60 @@ p, .usa-identifier__required-links-list li {
         background: white;
 
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.46em;
+            font-size: size('body', 11);
+            line-height: lh('heading', 4);
 
             @include at-media("tablet") {
-                font-size: 2rem;              
+                font-size: size('body', 12);              
             }  
 
             @include at-media("desktop") {
-                font-size: 2.313rem;              
-            }           
+                font-size: size('body', 13);               
+            }
         }       
 
         .usa-card {
             h2 {
-                font-size: 1.125rem;
+                font-size: size('body', 7);
             }
 
             h3 {
-                font-size: 1.7rem;
-                line-height: 1.35em;
+                font-size: size('body', 11);
+                line-height: lh('heading', 3);
                 font-weight: 500;
 
                 @include at-media("desktop") {
-                    font-size: 1.938rem;
+                    font-size: size('body', 12);
                 }   
             }
 
             p {
-                font-size: 1.125rem;
-                line-height: 1.6em;               
+                font-size: size('body', 7);
+                line-height: lh('body', 5);               
             }
 
             .usa-card__header{
-                padding: 2rem 2rem 0 2rem;
+                padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: 3.125rem 3.75rem 0 3.75rem;             
+                    padding: units(6) units(7) 0 units(7);             
                 } 
             }
 
             .usa-card__body {
-                padding: 2rem 2rem 0 2rem;
+                padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: 1.125rem 3.5rem 0 3.5rem;             
+                    padding: units(2.5) units(7) 0 units(7);             
                 } 
             }
 
             .usa-card__footer {
-                padding: 2rem;
+                padding: units(4);
                 margin: 0;
 
                 @include at-media("desktop") {
-                    padding: 2.5rem 3.5rem;             
+                    padding: units(5) units(7);             
                 } 
             }
         }        
@@ -396,22 +391,26 @@ p, .usa-identifier__required-links-list li {
         text-align: center;
 
         &.usa-section {
-            padding: 4rem;
+            padding: units(4);
+
+            @include at-media("desktop") {
+                padding: units(8);             
+            }
         }
 
         h2 {
-            font-size: 2rem;
-            line-height: 1.1667em;
+            font-size: size('body', 12);
+            line-height: lh('heading', 2);
             font-weight: 700;
-            margin: 0 0 3rem;
+            margin: 0 0 units(6);
             color: color("violet-90");
 
             @include at-media("tablet") {
-                font-size: 2.5rem;
+                font-size: size('body', 14);
             }  
 
             @include at-media("desktop") {
-                font-size: 3.75rem;
+                font-size: size('body', 16);
             }   
         }
 
@@ -422,9 +421,9 @@ p, .usa-identifier__required-links-list li {
         .usa-button {
             background: color("indigo-warm-60v");
             color: white;
-            font-size: 1.375rem;
-            line-height: 1em;
-            padding: 1rem 1.875rem;
+            font-size: size('body', 9);
+            line-height: lh('body', 1);
+            padding: units(2) units(4);
         }
 
         form {
@@ -436,27 +435,35 @@ p, .usa-identifier__required-links-list li {
         color: white;
         
         h2 {
-            font-size: 1.6rem;
-            line-height: 1.46em;
+            font-size: size('body', 11);
+            line-height: lh('heading', 4);
             color: color('cyan-20v'); 
 
             @include at-media("tablet") {
-                font-size: 2rem;              
+                font-size: size('body', 12);              
             }  
 
             @include at-media("desktop") {
-                font-size: 2.313rem;              
+                font-size: size('body', 13);              
             }           
         }    
 
         h3 {
-            font-size: 1.625rem;
-            line-height: 1.577em;
+            font-size: size('body', 9);
+            line-height: lh('heading', 5);
             font-weight: 500;
+
+            @include at-media("tablet") {
+                font-size: size('body', 10);              
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 11);              
+            }  
         }
 
         p {
-            font-size: 1rem;
+            font-size: size('body', 5);
 
             .usa-link {
                 color: white;
@@ -464,7 +471,7 @@ p, .usa-identifier__required-links-list li {
         }
 
         ul {
-           padding-left: 25px;
+           padding-left: units(3);
           
             @include at-media("tablet") {
                 columns: 1;
@@ -487,7 +494,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 }
 
 .section-prefooter.usa-section {
-    padding: 7px 0 0 0;
+    padding: units(1) 0 0 0;
 }
 
 .prefooter-wrapper {
@@ -498,12 +505,8 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
 
     h3, li {
-        font-size: 1rem;
-        line-height: 1.173em;
-        margin-bottom: 20px;
+        font-size: size('body', 5);
+        line-height: lh('heading', 6);
+        margin-bottom: units(2.5);
     }
-}
-
-@media (min-width: 1024px) {
-
 }
