@@ -1,0 +1,33 @@
+<div class="grid-col-12 desktop:grid-col-8">
+	<section class="PostList TxCards TxShadowedCard grid-row grid-gap-4">
+		{% for post in postslist %}
+			<div class="grid-col-12">
+				<div class="usa-card usa-card--no-media PostCard desktop:margin-x-neg-2">
+					<div class="usa-card__container">
+						<div class="usa-card__body">
+							<time class="us-text-h5 display-block" datetime="{{ post.date | machineDate }}">{{ post.date | readableDate }}</time>
+							<a class="margin-top-2 PostCard__link" href="{{ post.url | url }}">
+								<h2 class="us-text-h3">{{ post.data.title }}</h2>
+							</a>
+							{% if post.data.excerpt %}
+								<p class="font-sans-sm line-height-sans-4">
+									{{ post.data.excerpt }}
+								</p>
+							{% endif %}
+							{% if post.data.tags %}
+								<p>
+									{% for tag in post.data.tags %}
+									{%- if tag != "post" -%}
+									{% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+									<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+									{%- endif -%}
+									{% endfor %}
+								</p>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</section>
+</div>

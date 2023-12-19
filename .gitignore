@@ -30,3 +30,4 @@ public/sitemap.xml
 
 src/app/json
 _site
+.DS_Store

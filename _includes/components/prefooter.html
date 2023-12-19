@@ -1,0 +1,21 @@
+<section class="section-prefooter linear-gradient usa-section">
+  <div class="prefooter-wrapper padding-y-4">
+    <div class="grid-container">
+      <div class="grid-row">
+        {% for footer_section in footers %}
+        <div class="column desktop:grid-col-3 tablet:grid-col-3 mobile:grid-col-12 margin-bottom-205">
+          <h3 class="site-preview-heading margin-0">{{ footer_section.title }}</h3>
+          <ul class="usa-list usa-list--unstyled">
+            {% for link in footer_section.links %}
+              {% assign isExternal = link.link_url contains "http" %}  
+                <li>
+                  <a class="usa-link" href="{{ link.link_url | url }}">{{ link.link_text }}</a>
+                </li>    
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

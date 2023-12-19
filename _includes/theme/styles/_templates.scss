@@ -1,0 +1,512 @@
+@use "uswds-core" as *;
+
+body {
+    color: color("violet-90");
+    font-size: size('body', 8);
+    line-height: lh('body', 5);
+}
+
+h1, h2, h3, h4, h5, p {
+    width: 100%;
+}
+
+h2 {
+    font-size: size('body', 13);
+    line-height: lh('heading', 4);
+    color:color('indigo-warm-70v');
+}
+
+p, .usa-identifier__required-links-list li {
+    line-height: lh('body', 5);
+}
+
+.usa-link {
+    color:color('indigo-warm-60v');
+}
+
+.usa-identifier {
+    background: #160449;
+}
+
+h2,
+.usa-identifier__required-links-list li {
+    font-weight: 500;
+}
+
+.usa-identifier__container, 
+.usa-identifier__identity-domain, 
+.usa-identifier__required-link, 
+.usa-identifier__required-link.usa-link {
+    color: white;
+}
+
+.usa-identifier__section--usagov {
+    background-color: color("violet-90");
+}
+
+.banner-bg {
+    color: white; 
+    position: relative;
+
+    .banner-bg-gradient {   
+        min-height: 38vh; /* Adjust the value to ensure at least 38% coverage */
+        background: linear-gradient(287deg, #008F8F 0%, #360AE9 20%, #40015E 90%, #140021 100%);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        @include at-media("desktop") {
+            background-size: 100% 77%;
+        }
+
+        @include at-media("desktop-lg") {
+            background-size: 100% 80%;
+        }
+    }
+
+    .grid-container {
+        position: relative;
+        z-index: 5;
+    }
+}
+
+.usa-section {
+    padding: units(4);
+
+    @include at-media("desktop") {
+        padding: units(6) units(4);     
+    }
+}
+
+.usa-hero {
+    background: white; 
+    background-image: none; 
+    padding: units(5);
+    color: color("violet-90"); 
+
+    h1 {
+        font-size: size('body', 10);
+        line-height: lh('heading', 2);
+        font-weight: 700;
+        margin: 0.4em 0;
+
+        @include at-media("tablet") {
+            font-size: size('body', 13);
+        }
+      
+        @include at-media("desktop") {
+            font-size: size('body', 15);
+        }
+
+        @include at-media("desktop-lg") {
+            font-size: size('body', 16);
+        }    
+    }
+
+    h2 {   
+        font-size: size('body', 8);    
+        line-height: lh('heading', 4);
+        font-weight: 400;
+        margin: 1em 0;
+        color: color("violet-90"); 
+
+        @include at-media("tablet") {
+            font-size: size('body', 10);
+        }
+      
+        @include at-media("desktop") {
+            font-size: size('body', 12);
+        }
+    }
+
+    button {
+        font-size: size('body', 5);
+        font-weight: 600;
+    }
+
+    .date-wrapper {
+        font-size: size('body', 7);
+        text-transform: uppercase;
+        color: color('indigo-warm-60v');
+    }
+}
+
+.usa-card__container {
+    border-width: units(1px);
+    border-color: color("violet-90");
+    border-radius: 0;
+}
+
+.homepage-wrapper {
+    background: #160449;
+
+    .header-section {
+        background: url('../images/purple-US.svg') top units(4) center no-repeat;
+
+        @include at-media("desktop") {
+            background: url('../images/purple-US.svg') top right no-repeat;
+        }
+
+        h2 {
+            font-size: size('body', 13);
+            font-weight: 700;
+            line-height: lh('heading', 2);     
+            text-align: center;
+            color: color('cyan-30v');
+
+            @include at-media("desktop") {
+                font-size: size('body', 15);
+                width: 90%;
+                text-align: left;
+            }
+    
+            @include at-media("desktop-lg") {
+                font-size: size('body', 16);
+            }   
+        }
+
+        .grid-gap-6 {
+            h3 {
+                font-size: size('body', 10);
+                line-height: lh('heading', 3);
+                font-weight: 500;
+
+                @include at-media("desktop") {
+                    font-size: size('body', 12);
+                }
+            }
+        }
+
+        .usa-hero__heading + * {     
+            @include at-media("desktop") {
+                margin-top: 3em;
+            }
+        }
+    }
+
+    .usa-section {
+        .usa-card {
+            h2 {
+                font-weight: 500;
+                line-height: lh('heading', 2);
+                text-transform: uppercase;
+                color:color('indigo-warm-60v');              
+            }
+        }       
+    }
+
+    .section1 {
+        background: white;
+
+        .grid-row:first-child {
+            flex-direction: row-reverse;
+        }
+
+        h2, h3 {
+            font-weight: 500;
+        }
+
+
+        h2 {
+            font-size: size('body', 10);
+            line-height: lh('heading', 4);
+
+            @include at-media("tablet") {
+                font-size: size('body', 12);              
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 13);              
+            }           
+        }   
+
+        h3 {
+            font-size: size('body', 10);
+            line-height: lh('heading', 3);
+            color:color('indigo-warm-60v');
+            
+            @include at-media("desktop") {
+                font-size: size('body', 12);             
+            } 
+        }
+
+        p{
+            font-size: size('body', 8);
+            font-weight: 400;
+            line-height: lh('body', 5);
+            
+            @include at-media("desktop") {
+                font-size: size('body', 11);       
+            } 
+        }
+
+        .usa-card {
+            h2 {
+                font-size: size('body', 4);
+            }
+
+            p {
+                font-size: size('body', 10);
+                font-weight: 600;
+                line-height: lh('body', 3);  
+                
+                @include at-media("desktop") {
+                    font-size: size('body', 11);           
+                } 
+            }
+
+            .usa-card__header{
+                padding: units(4) units(4) 0 units(4);
+
+                @include at-media("desktop") {
+                    padding: units(6) units(7) 0 units(7);             
+                } 
+            }
+
+            .usa-card__body {
+                padding: units(4) units(4) 0 units(4);
+
+                @include at-media("desktop") {
+                    padding: units(2.5) units(7) 0 units(7);             
+                } 
+            }
+
+            .usa-card__footer {
+                padding: units(4);
+                margin: 0;
+
+                @include at-media("desktop") {
+                    padding: units(5) units(7);             
+                } 
+            }
+        }
+
+        .usa-identifier__required-links-item {
+            font-size: size('body', 8); 
+            line-height: lh('body', 6);
+        }
+
+        .usa-media-block__img {
+            @include at-media("tablet") {
+                margin: units(2) auto;
+                display: block;
+            }   
+        }
+    }
+
+    .section2 {
+        background: url('../images/section2-purple-bg.png') top left repeat-x;
+    
+       h2 {
+        font-size: size('body', 12); 
+        line-height: lh('heading', 2);
+        font-weight: 700;
+        color: white;
+        margin: 0 0 units(5);
+
+        @include at-media("tablet") {
+            font-size: size('body', 14); 
+        }  
+
+        @include at-media("desktop") {
+            font-size: size('body', 16); 
+        }   
+       }
+       
+        &.usa-section {
+            padding-top: units(7);
+            padding-bottom: units(7);
+        }
+
+        .usa-button {
+            font-size: size('body', 9); 
+            line-height: lh('body', 1);
+        }
+    }
+
+    .section3 {
+        background: white;
+
+        h2 {
+            font-size: size('body', 11);
+            line-height: lh('heading', 4);
+
+            @include at-media("tablet") {
+                font-size: size('body', 12);              
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 13);               
+            }
+        }       
+
+        .usa-card {
+            h2 {
+                font-size: size('body', 7);
+            }
+
+            h3 {
+                font-size: size('body', 11);
+                line-height: lh('heading', 3);
+                font-weight: 500;
+
+                @include at-media("desktop") {
+                    font-size: size('body', 12);
+                }   
+            }
+
+            p {
+                font-size: size('body', 7);
+                line-height: lh('body', 5);               
+            }
+
+            .usa-card__header{
+                padding: units(4) units(4) 0 units(4);
+
+                @include at-media("desktop") {
+                    padding: units(6) units(7) 0 units(7);             
+                } 
+            }
+
+            .usa-card__body {
+                padding: units(4) units(4) 0 units(4);
+
+                @include at-media("desktop") {
+                    padding: units(2.5) units(7) 0 units(7);             
+                } 
+            }
+
+            .usa-card__footer {
+                padding: units(4);
+                margin: 0;
+
+                @include at-media("desktop") {
+                    padding: units(5) units(7);             
+                } 
+            }
+        }        
+    }
+
+    .section4 {
+        background-color: color('cyan-20v'); 
+        text-align: center;
+
+        &.usa-section {
+            padding: units(4);
+
+            @include at-media("desktop") {
+                padding: units(8);             
+            }
+        }
+
+        h2 {
+            font-size: size('body', 12);
+            line-height: lh('heading', 2);
+            font-weight: 700;
+            margin: 0 0 units(6);
+            color: color("violet-90");
+
+            @include at-media("tablet") {
+                font-size: size('body', 14);
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 16);
+            }   
+        }
+
+        span {
+            color: color("indigo-warm-60v");
+        }
+
+        .usa-button {
+            background: color("indigo-warm-60v");
+            color: white;
+            font-size: size('body', 9);
+            line-height: lh('body', 1);
+            padding: units(2) units(4);
+        }
+
+        form {
+            margin: 0 auto;
+        }
+    }
+
+    .section5 {
+        color: white;
+        
+        h2 {
+            font-size: size('body', 11);
+            line-height: lh('heading', 4);
+            color: color('cyan-20v'); 
+
+            @include at-media("tablet") {
+                font-size: size('body', 12);              
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 13);              
+            }           
+        }    
+
+        h3 {
+            font-size: size('body', 9);
+            line-height: lh('heading', 5);
+            font-weight: 500;
+
+            @include at-media("tablet") {
+                font-size: size('body', 10);              
+            }  
+
+            @include at-media("desktop") {
+                font-size: size('body', 11);              
+            }  
+        }
+
+        p {
+            font-size: size('body', 5);
+
+            .usa-link {
+                color: white;
+            }
+        }
+
+        ul {
+           padding-left: units(3);
+          
+            @include at-media("tablet") {
+                columns: 1;
+                -webkit-columns: 1;
+                -moz-columns: 1;    
+            }
+          
+            @include at-media("desktop") {
+                columns: 2;
+                -webkit-columns: 2;
+                -moz-columns: 2;    
+            }
+          }
+    }
+}
+
+.linear-gradient {
+    background: linear-gradient(102.06deg, rgba(0, 143, 143, 0.8) 10.05%, rgba(33, 33, 207, 0.8) 35.69%, rgba(58, 51, 123, 0.8) 61.32%, rgba(171, 79, 228, 0.8) 86.96%),
+linear-gradient(0deg, #6F32DD, #6F32DD);
+}
+
+.section-prefooter.usa-section {
+    padding: units(1) 0 0 0;
+}
+
+.prefooter-wrapper {
+    background: color("indigo-warm-60v");
+    
+    h3, .usa-link {
+        color: white;
+    }
+
+    h3, li {
+        font-size: size('body', 5);
+        line-height: lh('heading', 6);
+        margin-bottom: units(2.5);
+    }
+}

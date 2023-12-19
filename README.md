@@ -1,19 +1,6 @@
 # 10x Website
 
-## Content management
-This site uses [Netlify CMS](https://www.netlifycms.org/) for managing content edits. You can access the content management editor by going to the site's domain, followed by "/admin". It's best to make significant changes on the Demo version of the site, which is at <https://demo.10x.gsa.gov>. Although the admin site is available in production, it is unwise to make changes to the live site.
-
-### To edit the content on the site, log into the content manager at <https://demo.10x.gsa.gov/admin> using your GitHub credentials.
-
-For detailed information about how to use the content manager, check out the content authoring guide at <https://docs.google.com/document/d/10VRGLNhSkWqjQdHAe10RXKaI9qdL79CLW3I4-WlPz7E/view>
-
-To save your changes and see them on the demo site, click the "Publish" button at the top right of the editor. Each publish will start a new build in Federalist and should take up to 5 minutes to deploy. You will not receive a notification when it succeeds, but you can monitor build status [here](https://federalistapp.18f.gov/sites/399/builds).
-
-### When you're satisfied with how the demo site looks and want to push your changes live, you should open a [Pull Request from the demo branch to Main](https://github.com/GSA/10x/compare/main...demo).
-
-If possible, invite someone to review your changes. 
-
-### When you're ready, approve and merge the request, but do not delete the "demo" branch. 
+WIP - porting site from React to 11ty
 
 ---
 
@@ -24,22 +11,63 @@ This site can be run locally using NodeJS. Using the command line, install the s
 
 ``` npm i```
 
-Then add a .env file with the BASEURL variable equal to your localhost or the production domain (feel free to use .env.local and .env.production if you like):
-
-```
-BASEURL=https://10x.gsa.gov
-PUBLIC_URL=$BASEURL
-```
-
-
 To serve the site locally:
 
 ```npm run start```
 
+After serving the site locally, to build all css assets, open a new terminal tab, then run the following:
+
+```npm run assets:build```
+
+To watch for css changes:
+
+```npm run assets:watch```
+
 To build for production:
 
-```npm run federalist```
+```npm run build```
 
-### Technical information
+## Federalist/Cloud Pages notes
 
-This site is a small custom React app. Many of its [components](./src/components) are based on the [USWDS](https://designsystem.digital.gov/). The [data and contents](./cms) of the site are in JSON files, which is best authored and edited through the Netlify CMS admin; however, you can edit the JSON locally and re-start the `start` task to test changes to the data model or content.
+Because these sites build in a directory, not the root level of a domain, we have to do a few extra thing to make sure the links and assets work.
+
+### HTML / liquid / layouts / components
+
+In templates and layouts, make sure to use the liquid `| url` filter, which will automatically prefix the `baseurl` environment variable during production builds:
+
+```html
+<a href="{{ item.link | url }}">
+  <img src="{{ '/assets/theme/images/gsa-logo.svg' | url }}"/>
+</a>
+```
+
+### Markdown and YAML
+In markdown, make sure to not link to a root-relative page, but rather use relative links:
+
+```md
+View our [projects](../projects)
+```
+
+
+For now, the places where we iterate over links provided in YAML lists are automatically prepended with the baseurl by the templates that use them. So this is ok:
+```yaml
+- button_text: "click here"
+  button_link: "/projects"
+
+reportUrl: "/assets/report.pdf"
+
+```
+Note that you do not use the `../` when defining permalinks for pages in YAML either.
+
+### Styles and assets
+
+In CSS/Sass, use relative asset paths in path variables and `url()` for images and fonts:
+
+```scss
+
+$theme-font-path: "theme/fonts"
+
+.bg {
+  background-image: url("theme/images/10x-logo.png");
+}
+```

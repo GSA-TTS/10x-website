@@ -1,0 +1,31 @@
+---
+layout: layouts/base.html
+section: post
+---
+
+<div class="TxContent">
+  <div class="grid-container">
+    <article class="usa-prose">
+      <h1>{{ title }}</h1>
+
+      <time class="margin-bottom-0 margin-top-4 display-block font-sans-md" datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></a>
+      <hr class="TxBreak__base-lighter" />
+
+      {{ layoutContent }}
+    </article>
+    {% if tags %}
+      <p>
+        {% for tag in tags %}
+        {%- if tag != "post" -%}
+        {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+        {% endfor %}
+      </p>
+    {% endif %}
+    <nav class="margin-top-3">
+      <a href="{{ '/news-updates/' | url }}">← Back to all news and updates</a>
+    </nav>
+  </div>
+</div>
+
