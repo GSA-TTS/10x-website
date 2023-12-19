@@ -1,18 +1,30 @@
-- slug: "10x-in-the-wild"
-  title: 10x projects in the wild
-  button_text: VIEW PROJECTS
-  button_link: "/projects/"
-  body: |-
-    [Code.gov](https://code.gov), [Login.gov](https://login.gov/), [Pra.digital.gov](https://pra.digital.gov), [Federalist](https://federalist.18f.gov), and the [U.S. Web Design System](https://designsystem.digital.gov) all started as ideas submitted to and funded by 10x!
-- slug: "every-solution-starts-as-an-idea"
-  title:  Every solution starts as an idea
-  button_text: LET US HELP
-  button_link: "/our-challenge-to-you/"
-  body: |-
-    Got a problem that tech can help solve but unsure where to start? We can help you craft it into a compelling idea submission — check out our guidance on making a great idea, and if you still need help, just ask!
-- slug: we-started-as-an-idea-too
-  title: We started as an idea, too!
-  button_text: DISCOVER OUR STORY
-  button_link: "/fueling-innovation/"
-  body: |-
-    10x emerged from a one-time event into an ever-evolving approach to lean funding and smart decision-making —  we apply the same sharp analysis that we use on our projects to our own process. 
+- slug: documentation
+  title: Documentation
+  links:
+    - link_text: "Secondary link1"
+      link_url: "/link/to/page"
+    - link_text: "Secondary link2"
+      link_url: "/link/to/page"
+    - link_text: "Secondary link3"
+      link_url: "/link/to/page"
+- slug: "features"
+  title: "Features"
+  links:
+    - link_text: "Secondary link1"
+      link_url: "/link/to/page"
+    - link_text: "Secondary link2"
+      link_url: "/link/to/page"
+- slug: "getting-started"
+  title: "Getting started"
+  links:
+  - link_text: "Secondary link1"
+    link_url: "/link/to/page"
+  - link_text: "Secondary link2"
+    link_url: "/link/to/page"
+  - link_text: "Secondary link that's longer"
+    link_url: "/link/to/page"
+- slug: "about-us"
+  title: "About us"
+  links:
+  - link_text: ""
+    link_url: ""

@@ -15,6 +15,14 @@ To serve the site locally:
 
 ```npm run start```
 
+After serving the site locally, to build all css assets, open a new terminal tab, then run the following:
+
+```npm run assets:build```
+
+To watch for css changes:
+
+```npm run assets:watch```
+
 To build for production:
 
 ```npm run build```

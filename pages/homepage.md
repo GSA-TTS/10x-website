@@ -1,23 +1,97 @@
 ---
 layout: layouts/home.html
 title: Home
+description: Additional description that can be left blank.
 date: Last Modified
 permalink: /
 theme: 1
 
-cards: 
-  - subtitle: "News"
-    title: "10x announces new projects chosen for FY23 Phase 1 funding"
-    link: "/posts/2023-selected-projects/"
-  - subtitle: "News"
-    title: "Learn about our impact in FY2021"
-    link: "/reports/fy21-impact-report/"
-  - subtitle: "News"
-    title: "10x announces new projects chosen for FY22 Phase 1 funding"
-    link: "/posts/2022-selected-projects/"
-  - subtitle: "Inside look"
-    title: "View 10x Lightning Talks from successful idea submitters"
-    link: "https://digital.gov/event/2020/06/30/10x-project-lightning-talks-2020/"
+hero_card:
+  date: "November 30, 2023"
+  title: "New projects chosen for FY23"
+  subtitle: "10x selected a new set of high-impact ideas for its next round of Phase 1 funding."
+  button_text: "Read more"
+  button_link: "https://www.google.com/"
+
+header_columns:
+  title: 10x is the federal government’s very own venture studio.
+  lists:
+    - title: "Big ideas"
+      text: "All of our projects come from public servants who submit ideas to see if they can move the needle forward to solve a real problem."
+    - title: "Small investments"
+      text: "We use an incremental funding approach to minimize the amount of funding we put behind unfeasible projects, so we can focus investments on the most promising ideas."
+    - title: "Scalable innovation"
+      text: "We demand that our projects demonstrate feasibility and opportunity for impact at every stage of the process. If they don't, we wind them down."
+
+section_1_static_content:
+  title: "We’re re-imagining government technology services through your ideas."
+  text: "As a public servant, you're uniquely positioned to imagine better ways to serve the public. If you’ve ever thought, 'There's got to be a better way to do that,' we want your ideas."
+  button_text: "How to pitch your idea"
+  button_link: "/link/to/page"
+  subtitle: "Meet our top investment portfolios."
+  link_text: "See all of our investment portfolios"
+  link_url: "/projects/"
+
+section_1_cards:
+  - subtitle: "Benefits Eligibility AND DELIVERY"
+    title: "Could it be easier for eligible people to find and receive public benefits?"
+    button_text: "Read more"
+    button_link: "/link/to/page"
+  - subtitle: "Access to data and information"
+    title: "How do we make government data more reliable and accurate?"
+    button_text: "Read more"
+    button_link: "/link/to/page"
+  - subtitle: "Science, medicine, and climate"
+    title: "How can the federal government lead the way in science and technology research?"
+    button_text: "Read more"
+    button_link: "/link/to/page"
+  - subtitle: "Efficient public service"
+    title: "What tools do federal employees need to be efficient and effective at their work?"
+    button_text: "Read more"
+    button_link: "/link/to/page"
+
+section_2_static_content:
+  title: "206 investments and counting."
+  button_text: "Discover the 10x impact"
+  button_link: "/reports/"
+
+section_3_content:
+  title: "Take a look at some of our best investments so far."
+  cards:
+  - subtitle: "Benefits Eligibility & Delivery"
+    title: "BEARS, the benefit eligibility estimator"
+    text: Information on government benefits and services is typical ly agency-centered, rather than human-centered. This investment demonstrates how to build a benefit eligibility estimator that’s easy to understand when facing life’s toughest challenges.
+    button_text: "See BEARS in action"
+    button_link: "/projects/benefits-eligibility-resource/"
+  - subtitle: "Optimizing Digital Experiences"
+    title: "The U.S. Web Design System"
+    text: In 2015, the team that later became 10x partnered with 18F and the U.S. Digital Service to release the alpha version of the U.S. Federal Web Design Standards. Following additional investment, the standards became a modular suite of components for all federal websites and were renamed the U.S. Web Design System.
+    button_text: "Check out the USWDS"
+    button_link: "/link/to/page"
+
+section_4_static_content:
+  title: "Turning <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
+  button_text: "Ready to share yours?"
+  button_link: "https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP"
+
+section_5_static_content:
+  title: "We’re in good company."
+  text: "10x is proud to share the agencies and offices we’ve partnered with recently."
+
+section_5_bullet_list:
+- Department of Justice
+- Institute of Museum and Library Sciences
+- Federal Emergency Management Agency
+- Department of Homeland Security
+- Department of Commerce
+- Whitehouse Office of Management and Budget
+- Department of Health and Human Services
+- Small Business Administration
+- National Archives and Records Administration
+- Department of the Treasury
+
+return_to_top: |-
+  Return to top.
 
 submit_idea_cta_before: |-
   Got an idea to submit? 10x accepts ideas on a rolling basis and federal employees can submit them right here.
@@ -25,24 +99,11 @@ submit_idea_cta_before: |-
 submit_idea_cta_after: |-
   _\*We don’t yet know when we’ll be evaluating our next batch of ideas for funding. We’ll update you once we know._
 
-
 ghostwriter_endings:
   -  "delivers services?"
   -  "processes data?"
   -  "ensures equality?"
   -  "engages with the public?"
   -  "uses technology?"
+
 ---
-
-## Turning good-for-government ideas into good-for-people solutions
-At 10x, we crowdsource ideas from federal employees and turn them into real products that improve the public’s experience with the federal government.
-
-We believe that the most creative, game-changing ideas come from those who work most closely to the problem — civil servants like you. We invite any federal employee to submit an idea for how to use technology to improve public service.
-
-We start small, validating the idea and increasing the investment as we go, to ensure we’re funding the ideas that deliver the most impact. At least once a year, we evaluate submissions and choose the most promising ones for a deeper dive into their potential impact, feasibility, and scope. We’re talking things like eliminating bias in artificial intelligence, helping people to more quickly identify which benefits they are eligible for, and making it easier to share data across agencies.
-
-So, how do you want to improve public service?
-
-----{.TxBreak .TxBreak__accent-warm .TxBreak__wide .border-0}
-
-## What's new with us

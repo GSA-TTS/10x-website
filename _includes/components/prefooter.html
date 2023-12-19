@@ -1,25 +1,21 @@
-{% if footer %}
-{% assign this_footer = footers | where: 'slug', footer | first %}
-{% if this_footer == nil %}
-{% assign this_footer = footers[0] %}
-{% endif %}
-{% else %}
-{% assign this_footer = footers[0] %}
-{% endif %}
-<div>
-  <div class="grid-container u-margin-x-2">
-    <div class="grid-row flex-align-center">
-      <div class="grid-col-12 tablet:grid-col-9 usa-footer__preFooter">
-        <h3>{{ this_footer.title }}</h3>
-        <p>
-          {{ this_footer.body | markdownify }}
-        </p>
-      </div>
-      <div class="grid-col-12 tablet:grid-col-3 text-right padding-top-4 desktop:padding-top-0">
-        <a class="usa-button usa-button--primary-lighter" href="{{ this_footer.button_link | url }}">
-          {{ this_footer.button_text }}
-        </a>
+<section class="section-prefooter linear-gradient usa-section">
+  <div class="prefooter-wrapper padding-y-4">
+    <div class="grid-container">
+      <div class="grid-row">
+        {% for footer_section in footers %}
+        <div class="column desktop:grid-col-3 tablet:grid-col-3 mobile:grid-col-12 margin-bottom-205">
+          <h3 class="site-preview-heading margin-0">{{ footer_section.title }}</h3>
+          <ul class="usa-list usa-list--unstyled">
+            {% for link in footer_section.links %}
+              {% assign isExternal = link.link_url contains "http" %}  
+                <li>
+                  <a class="usa-link" href="{{ link.link_url | url }}">{{ link.link_text }}</a>
+                </li>    
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
       </div>
     </div>
   </div>
-</div>
+</section>
