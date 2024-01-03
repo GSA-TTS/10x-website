@@ -1,0 +1,23 @@
+<nav aria-label="Side navigation">
+  <ul class="usa-sidenav__sublist">
+    {%- for project in collections.projects -%}
+    <li>
+      <a href="{{ project.url | url }}" class="usa-sidenav__item {% if project.url == page.url %}usa-current{% endif %}">
+        {{ project.data.title }}
+      </a>
+      {%- if project.url == page.url -%}
+      <!-- In-page navigation for the current page -->
+      <ul class="usa-sidenav__sublist">
+        {%- for heading in section.templateContent | getHeadings -%}
+        <li>
+          <a href="#{{ heading.id }}">
+            {{ heading.text }}
+          </a>
+        </li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>

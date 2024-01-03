@@ -40,6 +40,11 @@ h2,
     color: white;
 }
 
+.usa-identifier__container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .usa-identifier__section--usagov {
     background-color: color("violet-90");
 }
@@ -50,17 +55,7 @@ h2,
 
     .banner-bg-gradient {   
         min-height: 38vh; /* Adjust the value to ensure at least 38% coverage */
-        background: linear-gradient(287deg, #008F8F 0%, #360AE9 20%, #40015E 90%, #140021 100%);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-
-        @include at-media("desktop") {
-            background-size: 100% 77%;
-        }
-
-        @include at-media("desktop-lg") {
-            background-size: 100% 80%;
-        }
+        background: url('../images/homepage-gradient-bg.png') top center repeat-x;
     }
 
     .grid-container {
@@ -68,6 +63,8 @@ h2,
         z-index: 5;
     }
 }
+
+
 
 .usa-section {
     padding: units(4);
@@ -138,6 +135,12 @@ h2,
 
 .homepage-wrapper {
     background: #160449;
+
+    .banner-bg { 
+        .banner-bg-gradient {   
+            background-size: 275% 80%;
+        } 
+    }
 
     .header-section {
         background: url('../images/purple-US.svg') top units(4) center no-repeat;
@@ -508,5 +511,153 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         font-size: size('body', 5);
         line-height: lh('heading', 6);
         margin-bottom: units(2.5);
+    }
+}
+
+.projects-wrapper {
+    color: white;
+
+    .banner-bg { 
+        .banner-bg-gradient {   
+            background-size: 275% 275%;
+        } 
+    }
+
+    h4 {
+        font-size: size('body', 7);
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-bottom: units(1.5);
+        color: color('cyan-10v');
+        background: url('../images/header-bottom-border.png') bottom left no-repeat; 
+    }
+
+    .header-section {
+        padding-top: 0;
+
+        h1 {
+            font-size: size('body', 13);
+            font-weight: 700;
+            line-height: lh('heading', 2);
+
+            @include at-media("mobile-lg") {
+                font-size: size('body', 14);
+                margin-top: units(6);
+            }  
+
+            @include at-media("tablet") {
+                font-size: size('body', 15);
+                margin-top: units(8);
+            }  
+
+            @include at-media("tablet-lg") {
+                font-size: size('body', 16);
+                margin-top: units(10);
+            }  
+        }
+
+        h2 {
+            font-size: size('body', 10);
+            font-weight: 400;
+
+            @include at-media("tablet-lg") {
+                font-size: size('body', 12);
+            }  
+        }
+
+        h1, h2 {
+            color: white;
+        }
+    }
+
+    .usa-card--flag {
+        h2 {
+            font-size: size('body', 7);
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: size('body', 8);
+            font-weight: 400;
+            line-height: lh('heading', 3);;
+
+            .usa-link {
+                color: black;
+            }
+            
+            @include at-media("tablet-lg") {
+                font-size: size('body', 12);
+            }  
+        }
+
+        .usa-link {
+            text-decoration: none;
+        }
+
+        .usa-card__header, 
+        .usa-card__body, 
+        .usa-card__footer {
+            @include at-media("tablet") {
+                /* Exact width of project logo:  310px */
+                margin-left: 19.375rem;            
+            }        
+        }
+
+        .usa-card__header {
+            padding-top: units(7);
+            padding-left: units(7);
+            padding-right: units(7);
+        }
+
+        .usa-card__header {
+            padding-top: units(7);
+        }
+
+        .usa-card__header,
+        .usa-card__body {
+            padding-left: units(7);
+            padding-right: units(7);
+        }
+
+        .usa-card__body {
+            padding-bottom: units(7);
+        }
+
+        .usa-card__media {
+            @include at-media("tablet") {
+                /* Exact width of project logo: 310px */
+                width: 19.375rem;          
+            }   
+        }
+
+        .usa-card__img {
+            border-radius: 0;
+        }
+    }
+
+    .usa-card--flag:nth-of-type(even) {
+        .usa-card__header, 
+        .usa-card__body, 
+        .usa-card__footer {
+            @include at-media("tablet") {
+                /* Exact width of project logo:  310px */
+                margin-right: 19.375rem; 
+                margin-left: 0;          
+            }        
+        }
+
+        .usa-card__media {
+            @include at-media("tablet") {
+                /* Exact width of project logo: 310px */
+                left: auto;
+                right: units(-2px);          
+            }   
+        }
+    }
+        
+    .usa-card__container {
+        /* Exact height of project logo: 330px */
+        min-height: 330px;
     }
 }

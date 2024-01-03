@@ -33,6 +33,15 @@
                 &:last-child {
                     border-bottom: 1px solid color('gray-cool-1');
                 }
+
+                .usa-nav__link {
+                    &.usa-current {
+                        text-decoration: underline;
+                        text-decoration-thickness: units(2px);
+                        text-underline-offset: units(2px);
+                        color: white;
+                    }
+                }
             }
             .usa-current::after {
                 background-color: color('cyan-20v');
@@ -76,7 +85,10 @@
                 font-weight: 400; 
                 font-size: size('body', 8);
                 &:hover {
-                    border-bottom: 2px solid color('gray-cool-1');
+                    text-decoration: underline;
+                    text-decoration-thickness: units(2px);
+                    text-underline-offset: units(2px);
+                    color: white;
                 }
             }
 

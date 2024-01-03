@@ -6,6 +6,7 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
+const { JSDOM } = require('jsdom');
 
 const yaml = require("js-yaml");
 
@@ -145,6 +146,21 @@ module.exports = function (eleventyConfig) {
     },
     ui: false,
     ghostMode: false,
+  });
+
+  //Filter that Extracts Headings
+  eleventyConfig.addNunjucksFilter("getHeadings", (content) => {
+    let headings = [];
+    const dom = new JSDOM(content);
+    const document = dom.window.document;
+    const headingElements = [...document.querySelectorAll('h2, h3, h4, h5')]; // Adjust this selector based on your needs
+  
+    headingElements.forEach(heading => {
+      const id = heading.id || heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+      headings.push({ id: id, text: heading.textContent });
+    });
+  
+    return headings;
   });
 
   /* Markdown Plugins */
