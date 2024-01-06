@@ -661,3 +661,20 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         min-height: 330px;
     }
 }
+
+.usa-sidenav {
+    .usa-sidenav__sublist {
+        ol {
+            list-style: none;
+            padding-left: 30px;
+
+            a {
+                padding-left: 0;
+            }
+
+            ol {
+                padding-left: 40px;
+            }
+        }
+    }
+}
