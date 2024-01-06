@@ -52,7 +52,7 @@ section_1_cards:
 
 section_2_static_content:
   title: "206 investments and counting."
-  button_text: "Discover the 10x impact"
+  button_text: "Discover our investment portfolios"
   button_link: "/reports/"
 
 section_3_content:

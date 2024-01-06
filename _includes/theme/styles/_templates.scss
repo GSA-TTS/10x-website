@@ -68,16 +68,12 @@ h2,
 
 .usa-section {
     padding: units(4);
-
-    @include at-media("desktop") {
-        padding: units(6) units(4);     
-    }
 }
 
 .usa-hero {
     background: white; 
     background-image: none; 
-    padding: units(5);
+    padding: units(3);
     color: color("violet-90"); 
 
     h1 {
@@ -89,13 +85,9 @@ h2,
         @include at-media("tablet") {
             font-size: size('body', 13);
         }
-      
-        @include at-media("desktop") {
-            font-size: size('body', 15);
-        }
 
         @include at-media("desktop-lg") {
-            font-size: size('body', 16);
+            font-size: size('body', 14);
         }    
     }
 
@@ -107,11 +99,11 @@ h2,
         color: color("violet-90"); 
 
         @include at-media("tablet") {
-            font-size: size('body', 10);
+            font-size: size('body', 9);
         }
       
         @include at-media("desktop") {
-            font-size: size('body', 12);
+            font-size: size('body', 10);
         }
     }
 
@@ -157,14 +149,10 @@ h2,
             color: color('cyan-30v');
 
             @include at-media("desktop") {
-                font-size: size('body', 15);
-                width: 90%;
+                font-size: size('body', 14);
+                width: 80%;
                 text-align: left;
             }
-    
-            @include at-media("desktop-lg") {
-                font-size: size('body', 16);
-            }   
         }
 
         .grid-gap-6 {
@@ -172,10 +160,6 @@ h2,
                 font-size: size('body', 10);
                 line-height: lh('heading', 3);
                 font-weight: 500;
-
-                @include at-media("desktop") {
-                    font-size: size('body', 12);
-                }
             }
         }
 
@@ -213,12 +197,8 @@ h2,
             font-size: size('body', 10);
             line-height: lh('heading', 4);
 
-            @include at-media("tablet") {
-                font-size: size('body', 12);              
-            }  
-
             @include at-media("desktop") {
-                font-size: size('body', 13);              
+                font-size: size('body', 11);              
             }           
         }   
 
@@ -238,7 +218,7 @@ h2,
             line-height: lh('body', 5);
             
             @include at-media("desktop") {
-                font-size: size('body', 11);       
+                font-size: size('body', 9);       
             } 
         }
 
@@ -307,11 +287,11 @@ h2,
         margin: 0 0 units(5);
 
         @include at-media("tablet") {
-            font-size: size('body', 14); 
+            font-size: size('body', 13); 
         }  
 
         @include at-media("desktop") {
-            font-size: size('body', 16); 
+            font-size: size('body', 14); 
         }   
        }
        
@@ -333,12 +313,8 @@ h2,
             font-size: size('body', 11);
             line-height: lh('heading', 4);
 
-            @include at-media("tablet") {
-                font-size: size('body', 12);              
-            }  
-
             @include at-media("desktop") {
-                font-size: size('body', 13);               
+                font-size: size('body', 12);               
             }
         }       
 
@@ -351,10 +327,6 @@ h2,
                 font-size: size('body', 11);
                 line-height: lh('heading', 3);
                 font-weight: 500;
-
-                @include at-media("desktop") {
-                    font-size: size('body', 12);
-                }   
             }
 
             p {
@@ -366,7 +338,7 @@ h2,
                 padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: units(6) units(7) 0 units(7);             
+                    padding: units(5) units(5) 0 units(5);             
                 } 
             }
 
@@ -374,7 +346,7 @@ h2,
                 padding: units(4) units(4) 0 units(4);
 
                 @include at-media("desktop") {
-                    padding: units(2.5) units(7) 0 units(7);             
+                    padding: units(2.5) units(5) 0 units(5);             
                 } 
             }
 
@@ -383,7 +355,7 @@ h2,
                 margin: 0;
 
                 @include at-media("desktop") {
-                    padding: units(5) units(7);             
+                    padding: units(5);             
                 } 
             }
         }        
@@ -409,11 +381,11 @@ h2,
             color: color("violet-90");
 
             @include at-media("tablet") {
-                font-size: size('body', 14);
+                font-size: size('body', 13);
             }  
 
             @include at-media("desktop") {
-                font-size: size('body', 16);
+                font-size: size('body', 14);
             }   
         }
 
@@ -440,29 +412,13 @@ h2,
         h2 {
             font-size: size('body', 11);
             line-height: lh('heading', 4);
-            color: color('cyan-20v'); 
-
-            @include at-media("tablet") {
-                font-size: size('body', 12);              
-            }  
-
-            @include at-media("desktop") {
-                font-size: size('body', 13);              
-            }           
+            color: color('cyan-20v');         
         }    
 
         h3 {
             font-size: size('body', 9);
             line-height: lh('heading', 5);
             font-weight: 500;
-
-            @include at-media("tablet") {
-                font-size: size('body', 10);              
-            }  
-
-            @include at-media("desktop") {
-                font-size: size('body', 11);              
-            }  
         }
 
         p {
@@ -475,6 +431,7 @@ h2,
 
         ul {
            padding-left: units(3);
+           width: 100%;
           
             @include at-media("tablet") {
                 columns: 1;
@@ -486,6 +443,10 @@ h2,
                 columns: 2;
                 -webkit-columns: 2;
                 -moz-columns: 2;    
+            }
+
+            li {
+                font-size: size('body', 7);
             }
           }
     }
@@ -540,29 +501,15 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             font-weight: 700;
             line-height: lh('heading', 2);
 
-            @include at-media("mobile-lg") {
-                font-size: size('body', 14);
-                margin-top: units(6);
-            }  
-
-            @include at-media("tablet") {
-                font-size: size('body', 15);
-                margin-top: units(8);
-            }  
-
             @include at-media("tablet-lg") {
-                font-size: size('body', 16);
-                margin-top: units(10);
+                font-size: size('body', 14);
+                margin-top: units(8);
             }  
         }
 
         h2 {
             font-size: size('body', 10);
-            font-weight: 400;
-
-            @include at-media("tablet-lg") {
-                font-size: size('body', 12);
-            }  
+            font-weight: 400; 
         }
 
         h1, h2 {
@@ -587,7 +534,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             }
             
             @include at-media("tablet-lg") {
-                font-size: size('body', 12);
+                font-size: size('body', 10);
             }  
         }
 
@@ -600,39 +547,40 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__footer {
             @include at-media("tablet") {
                 /* Exact width of project logo:  310px */
-                margin-left: 19.375rem;            
+                margin-left: 15rem;            
             }        
         }
 
         .usa-card__header {
-            padding-top: units(7);
-            padding-left: units(7);
-            padding-right: units(7);
+            padding-top: units(5);
+            padding-left: units(5);
+            padding-right: units(5);
         }
 
         .usa-card__header {
-            padding-top: units(7);
+            padding-top: units(5);
         }
 
         .usa-card__header,
         .usa-card__body {
-            padding-left: units(7);
-            padding-right: units(7);
+            padding-left: units(5);
+            padding-right: units(5);
         }
 
         .usa-card__body {
-            padding-bottom: units(7);
+            padding-bottom: units(5);
         }
 
         .usa-card__media {
             @include at-media("tablet") {
                 /* Exact width of project logo: 310px */
-                width: 19.375rem;          
+                width: 15rem;          
             }   
         }
 
         .usa-card__img {
             border-radius: 0;
+            width: 100%;
         }
     }
 
@@ -642,7 +590,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__footer {
             @include at-media("tablet") {
                 /* Exact width of project logo:  310px */
-                margin-right: 19.375rem; 
+                margin-right: 15rem; 
                 margin-left: 0;          
             }        
         }
@@ -658,7 +606,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         
     .usa-card__container {
         /* Exact height of project logo: 330px */
-        min-height: 330px;
+        min-height: auto
+    }
+
+    .return-to-top {
+        font-size: size('body', 5);
+        margin: 0 units(1) units(2.5);
     }
 }
 

@@ -10,8 +10,8 @@ theme: 8
 
 hero_banner:
   category: "Investment Portfolios"
-  title: "We ask the big questions."
-  subtitle: "These targeted areas of the government tech ecosystem are unique, apt, and ripe for 10x investigation. While we pursue ideas on all topics, we’ve found patterns in innovation since we started in 2015."
+  title: "We tackle the hardest problems"
+  subtitle: "10x targets the timeliest and hardest problems to solve. While we pursue ideas on all topics, we’ve found patterns in innovation since we started in 2015."
 
 return-to-top_text: "Return to top"
 
