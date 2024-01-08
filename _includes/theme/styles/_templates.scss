@@ -103,7 +103,7 @@ h2,
         }
       
         @include at-media("desktop") {
-            font-size: size('body', 10);
+            font-size: size('body', 11);
         }
     }
 
@@ -291,7 +291,7 @@ h2,
         }  
 
         @include at-media("desktop") {
-            font-size: size('body', 14); 
+            font-size: size('body', 15); 
         }   
        }
        
