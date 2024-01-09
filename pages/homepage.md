@@ -6,7 +6,10 @@ date: Last Modified
 permalink: /
 theme: 1
 
-hero_card:
+hero_banner:
+  title: "10x is the federal government’s very own venture studio."
+
+news_card:
   date: "November 30, 2023"
   title: "New projects chosen for FY23"
   subtitle: "10x selected a new set of high-impact ideas for its next round of Phase 1 funding."
@@ -14,7 +17,7 @@ hero_card:
   button_link: "https://www.google.com/"
 
 header_columns:
-  title: 10x is the federal government’s very own venture studio.
+  title: We're different by design
   lists:
     - title: "Big ideas"
       text: "All of our projects come from public servants who submit ideas to see if they can move the needle forward to solve a real problem."
@@ -70,7 +73,7 @@ section_3_content:
     button_link: "/link/to/page"
 
 section_4_static_content:
-  title: "Turning <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
+  title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
   button_text: "Ready to share yours?"
   button_link: "https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP"
 

@@ -54,7 +54,6 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
-        min-height: 38vh; /* Adjust the value to ensure at least 38% coverage */
         background: url('../images/homepage-gradient-bg.png') top center repeat-x;
     }
 
@@ -64,8 +63,6 @@ h2,
     }
 }
 
-
-
 .usa-section {
     padding: units(4);
 }
@@ -74,9 +71,12 @@ h2,
     background: white; 
     background-image: none; 
     padding: units(3);
-    color: color("violet-90"); 
 
-    h1 {
+    h2, h3 {
+        color: color("violet-90");
+    }
+
+    h2 {
         font-size: size('body', 10);
         line-height: lh('heading', 2);
         font-weight: 700;
@@ -91,12 +91,12 @@ h2,
         }    
     }
 
-    h2 {   
+    h3 {   
         font-size: size('body', 8);    
         line-height: lh('heading', 4);
         font-weight: 400;
         margin: 1em 0;
-        color: color("violet-90"); 
+         
 
         @include at-media("tablet") {
             font-size: size('body', 9);
@@ -128,17 +128,40 @@ h2,
 .homepage-wrapper {
     background: #160449;
 
-    .banner-bg { 
-        .banner-bg-gradient {   
-            background-size: 275% 80%;
-        } 
+    .banner-bg {
+        h1 {
+            font-size: size('body', 10);
+            line-height: lh('heading', 2);
+            font-weight: 700;
+            margin: 0.4em 0;
+    
+            @include at-media("tablet") {
+                font-size: size('body', 14);
+            }
+    
+            @include at-media("desktop-lg") {
+                font-size: size('body', 15);
+            }               
+        }
     }
 
     .header-section {
-        background: url('../images/purple-US.svg') top units(4) center no-repeat;
 
-        @include at-media("desktop") {
-            background: url('../images/purple-US.svg') top right no-repeat;
+        &:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            background: url('../images/tts-inclusive-grid-map.svg') units(4) center no-repeat;
+            
+            @include at-media("desktop") {
+                background: url('../images/tts-inclusive-grid-map.svg') top right no-repeat;
+                background-size: 40%;
+            }
         }
 
         h2 {
@@ -382,11 +405,7 @@ h2,
 
             @include at-media("tablet") {
                 font-size: size('body', 13);
-            }  
-
-            @include at-media("desktop") {
-                font-size: size('body', 14);
-            }   
+            } 
         }
 
         span {
