@@ -131,7 +131,7 @@ h2,
 
         h1 {
             font-size: size('body', 12);
-            line-height: lh('heading', 2);
+            line-height: lh('heading', 3);
             font-weight: 700;
             margin: 0.4em 0;
     
@@ -145,18 +145,24 @@ h2,
         }
 
         .banner-bg-gradient {
-            .usa-section {
-                padding: 0;
+            background-size: 275% 60%;
+        }
 
-                @include at-media("desktop-lg") {
-                    padding: units(4);
-                }  
-            }
+        .hero-section {
+            padding: units(5);
+        }
+
+        .news-section {
+            padding: 0;
         }
     }
 
     .header-section {
-        padding: units(6);
+        padding: units(8);
+
+        @include at-media("desktop-lg") {
+            padding: units(8) units(5);
+        }
 
         &:before {
             content: ' ';

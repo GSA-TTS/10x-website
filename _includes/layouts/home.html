@@ -5,21 +5,21 @@ section: home
 <div class="homepage-wrapper">
   <div class="usa-home banner-bg">
     <div class="banner-bg-gradient padding-y-2 padding-x-4">
-      <section class="grid-container usa-section" aria-label="Introduction">
+      <section class="grid-container hero-section usa-section padding-y-8" aria-label="Introduction">
         <h1>{{ hero_banner.title }}</h1>
       </section>
+      <section class="news-section usa-section padding-0" aria-label="Introduction">
+        <div class="usa-hero margin-top-3 grid-container">
+          <p class="date-wrapper">{{ news_card.date }}</p>
+          <h2>{{ news_card.title }}</h2>
+          <h3>{{ news_card.subtitle }}</h3>
+          <form action="{{ news_card.button_link | url }}" rel="noopener noreferrer">
+            <button class="usa-button">{{ news_card.button_text }}</button>
+          </form>
+        </div>
+      </section>
     </div>
-    <section class="news-section usa-section padding-y-5" aria-label="Introduction">
-      <div class="usa-hero margin-top-3 grid-container">
-        <p class="date-wrapper">{{ news_card.date }}</p>
-        <h2>{{ news_card.title }}</h2>
-        <h3>{{ news_card.subtitle }}</h3>
-        <form action="{{ news_card.button_link | url }}" rel="noopener noreferrer">
-          <button class="usa-button">{{ news_card.button_text }}</button>
-        </form>
-      </div>
-    </section>
-    <section class="grid-container header-section usa-section">
+    <section class="grid-container header-section padding-y-5 usa-section">
       <div class="grid-row">
         <div class="grid-row grid-gap-6">
           <h2 class="usa-hero__heading">
