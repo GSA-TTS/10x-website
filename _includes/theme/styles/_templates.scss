@@ -109,7 +109,6 @@ h2,
 
     button {
         font-size: size('body', 5);
-        font-weight: 600;
     }
 
     .date-wrapper {
@@ -129,8 +128,9 @@ h2,
     background: #160449;
 
     .banner-bg {
+
         h1 {
-            font-size: size('body', 10);
+            font-size: size('body', 12);
             line-height: lh('heading', 2);
             font-weight: 700;
             margin: 0.4em 0;
@@ -143,9 +143,20 @@ h2,
                 font-size: size('body', 15);
             }               
         }
+
+        .banner-bg-gradient {
+            .usa-section {
+                padding: 0;
+
+                @include at-media("desktop-lg") {
+                    padding: units(4);
+                }  
+            }
+        }
     }
 
     .header-section {
+        padding: units(6);
 
         &:before {
             content: ' ';
@@ -156,12 +167,17 @@ h2,
             width: 100%;
             height: 100%;
             opacity: 0.5;
-            background: url('../images/tts-inclusive-grid-map.svg') units(4) center no-repeat;
+            background: url('../images/tts-inclusive-grid-map.svg') center units(4) no-repeat;
+            background-size: 60%;
             
             @include at-media("desktop") {
-                background: url('../images/tts-inclusive-grid-map.svg') top right no-repeat;
+                background: url('../images/tts-inclusive-grid-map.svg') right units(1) no-repeat;
                 background-size: 40%;
             }
+        }
+
+        .grid-row {
+            z-index: 6;
         }
 
         h2 {
@@ -188,7 +204,7 @@ h2,
 
         .usa-hero__heading + * {     
             @include at-media("desktop") {
-                margin-top: 3em;
+                margin-top: units(4);
             }
         }
     }
@@ -397,14 +413,14 @@ h2,
         }
 
         h2 {
-            font-size: size('body', 12);
+            font-size: size('body', 10);
             line-height: lh('heading', 2);
             font-weight: 700;
             margin: 0 0 units(6);
             color: color("violet-90");
 
             @include at-media("tablet") {
-                font-size: size('body', 13);
+                font-size: size('body', 12);
             } 
         }
 
@@ -418,6 +434,47 @@ h2,
             font-size: size('body', 9);
             line-height: lh('body', 1);
             padding: units(2) units(4);
+
+            &:visited {
+                color: color("indigo-warm-70v"); 
+            }
+        
+            &::before,
+            &::after {
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-color: color('indigo-warm-20v');
+              border-style: solid;
+              transition: all 0.35s;
+              content: "";
+              z-index: 1;
+            }
+            &::before {
+              width: 0;
+              height: 100%;
+              border-width: 1px 0 1px 0;
+            }
+            &::after {
+              width: 100%;
+              height: 0;
+              border-width: 0 1px 0 1px;
+            }
+            &:hover {
+              border-color: color('indigo-warm-20v');
+              background-color: color('indigo-warm-70v');
+              transition: background-color .6s ease;
+        
+              &::before {
+                width: 100%;
+                border-width: 1px 0 1px 0;
+              }
+        
+              &::after {
+                height: 100%;
+                border-width: 0 1px 0 1px;
+              }
+            }
         }
 
         form {

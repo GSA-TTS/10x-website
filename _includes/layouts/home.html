@@ -8,7 +8,7 @@ section: home
       <section class="grid-container usa-section" aria-label="Introduction">
         <h1>{{ hero_banner.title }}</h1>
       </section>
-    </div> 
+    </div>
     <section class="news-section usa-section padding-y-5" aria-label="Introduction">
       <div class="usa-hero margin-top-3 grid-container">
         <p class="date-wrapper">{{ news_card.date }}</p>
@@ -16,23 +16,23 @@ section: home
         <h3>{{ news_card.subtitle }}</h3>
         <form action="{{ news_card.button_link | url }}" rel="noopener noreferrer">
           <button class="usa-button">{{ news_card.button_text }}</button>
-       </form>    
-      </div>   
+        </form>
+      </div>
     </section>
     <section class="grid-container header-section usa-section">
       <div class="grid-row">
-        <h2 class="usa-hero__heading">
-          {{ header_columns.title }}
-        </h2>
-        <div class="grid-row grid-gap-6">     
-            {% for column in header_columns.lists %}
-            <div class="desktop:grid-col-4 tablet:grid-col-12">
-              <h3>
-                {{column.title }}
-              </h3>
-              <p>{{column.text }}</p>
-            </div>
-            {% endfor %}
+        <div class="grid-row grid-gap-6">
+          <h2 class="usa-hero__heading">
+            {{ header_columns.title }}
+          </h2>
+          {% for column in header_columns.lists %}
+          <div class="desktop:grid-col-4 tablet:grid-col-12 margin-top-5">
+            <h3>
+              {{column.title }}
+            </h3>
+            <p>{{column.text }}</p>
+          </div>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -41,13 +41,8 @@ section: home
     <div class="grid-container">
       <div class="grid-row grid-gap-5">
         <div class="desktop:grid-col-4 tablet:grid-col-12 margin-top-4">
-          <img
-          class="usa-media-block__img"
-          src="{{ '/assets/images/technology-services.svg' | url }}"
-          role="img"
-          alt="Technology Services"
-          aria-hidden="true"
-          />       
+          <img class="usa-media-block__img" src="{{ '/assets/images/technology-services.svg' | url }}" role="img"
+            alt="Technology Services" aria-hidden="true" />
         </div>
         <div class="desktop:grid-col-8 tablet:grid-col-12">
           <h2>{{ section_1_static_content.title }}</h2>
@@ -74,8 +69,8 @@ section: home
       <div class="grid-row grid-gap">
         <h2 class="margin-top-1 margin-bottom-5">{{ section_3_content.title }}</h2>
         <ul class="usa-card-group grid-row grid-gap-2">
-        {% for card in section_3_content.cards %}
-        {% assign isExternal = card.button_link contains "http" %}  
+          {% for card in section_3_content.cards %}
+          {% assign isExternal = card.button_link contains "http" %}
           <li class="usa-card grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4">
             <div class="usa-card__container">
               <div class="usa-card__header">
@@ -89,10 +84,10 @@ section: home
                 <a href="{{ card.button_link | url }}" class="usa-button">{{ card.button_text }}</a>
               </div>
             </div>
-          </li>    
+          </li>
           {% endfor %}
         </ul>
-      </div> 
+      </div>
     </div>
   </section>
   <section class="section4 usa-section">
@@ -105,7 +100,7 @@ section: home
       </div>
     </div>
   </section>
-  
+
   <!-- <div class="TxContent Tx__homepage">
     <div class="usa-app__bg">
       <div class="Tx__homepage-content">
@@ -139,7 +134,7 @@ section: home
   //typewriter
   //  {%- for item in ghostwriter_endings -%}
   //  .pauseFor(2000)
-   // .typeString("{{ item }}")
+  // .typeString("{{ item }}")
   //  .pauseFor(2000)
   //    {%- unless forloop.index == ghostwriter_endings.size -%}
   //      .deleteAll()

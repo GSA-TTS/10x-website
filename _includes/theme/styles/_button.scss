@@ -6,12 +6,47 @@
     border-radius: 0; 
     font-weight: 500; 
     padding: units(2);
+    position: relative;
 
-    &:hover {
-        background-color: color('cyan-30v');
-        color: color("violet-warm-90"); 
-    }
     &:visited {
         color: color("violet-warm-90"); 
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-color: color('cyan-50v');
+      border-style: solid;
+      transition: all 0.35s;
+      content: "";
+      z-index: 1;
+    }
+    &::before {
+      width: 0;
+      height: 100%;
+      border-width: 1px 0 1px 0;
+    }
+    &::after {
+      width: 100%;
+      height: 0;
+      border-width: 0 1px 0 1px;
+    }
+    &:hover {
+      border-color: color('cyan-50v');
+      color: black;
+      background-color: color('cyan-10v');
+      transition: background-color .6s ease;
+
+      &::before {
+        width: 100%;
+        border-width: 1px 0 1px 0;
+      }
+
+      &::after {
+        height: 100%;
+        border-width: 0 1px 0 1px;
+      }
     }
 }
