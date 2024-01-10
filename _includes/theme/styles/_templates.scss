@@ -136,10 +136,6 @@ h2,
             margin: 0.4em 0;
     
             @include at-media("tablet") {
-                font-size: size('body', 14);
-            }
-    
-            @include at-media("desktop-lg") {
                 font-size: size('body', 15);
             }               
         }
