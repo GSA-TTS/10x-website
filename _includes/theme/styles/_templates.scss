@@ -362,15 +362,11 @@ h2,
         .usa-card {
             .usa-card__container {
                 &:hover {
-                    .usa-card__header {
-                        span {
-                            border-bottom: 2px solid color('indigo-warm-60v');
-                        }
-                    }
-                    
                     .usa-card__body {
-                        span {
-                            border-bottom: 2px solid color("violet-90");
+                        h3 {
+                            span {
+                                border-bottom: 2px solid color("violet-90");
+                            }
                         }
                     }
                 }
