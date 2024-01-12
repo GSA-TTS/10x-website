@@ -360,6 +360,22 @@ h2,
         }       
 
         .usa-card {
+            .usa-card__container {
+                &:hover {
+                    .usa-card__header {
+                        span {
+                            border-bottom: 2px solid color('indigo-warm-60v');
+                        }
+                    }
+                    
+                    .usa-card__body {
+                        span {
+                            border-bottom: 2px solid color("violet-90");
+                        }
+                    }
+                }
+            }
+
             h2 {
                 font-size: size('body', 7);
             }
@@ -375,20 +391,61 @@ h2,
                 line-height: lh('body', 5);               
             }
 
-            .usa-card__header{
-                padding: units(4) units(4) 0 units(4);
+            a {
+                display: block;
+                text-decoration: none;
+            }
 
-                @include at-media("desktop") {
-                    padding: units(5) units(5) 0 units(5);             
-                } 
+            span {
+                line-height: lh('heading', 1);
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .usa-card__header,
+            .usa-card__body {
+                padding: 0;             
+            }
+
+            .usa-card__header {
+                a {
+                    padding: units(4) units(4) 0 units(4);
+                    color: color('indigo-warm-60v');
+
+                    @include at-media("desktop") {
+                        padding: units(5) units(5) 0 units(5);             
+                    }
+                }
             }
 
             .usa-card__body {
-                padding: units(4) units(4) 0 units(4);
+                a {
+                    color: color("violet-90");
+                }
 
-                @include at-media("desktop") {
-                    padding: units(2.5) units(5) 0 units(5);             
-                } 
+                h3 {
+                    margin-bottom: 0;
+
+                    a {
+                        padding: units(4);
+    
+                        @include at-media("desktop") {
+                            padding: units(2.5) units(5) units(4);             
+                        } 
+                    }                    
+                }
+
+                p {
+                    a {
+                        padding: 0 units(4) units(4) units(4);
+    
+                        @include at-media("desktop") {
+                            padding: 0 units(5) units(5) units(5);             
+                        } 
+                    }                      
+                }
             }
 
             .usa-card__footer {

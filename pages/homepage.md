@@ -63,12 +63,22 @@ section_3_content:
   cards:
   - subtitle: "Benefits Eligibility & Delivery"
     title: "BEARS, the benefit eligibility estimator"
-    text: Information on government benefits and services is typical ly agency-centered, rather than human-centered. This investment demonstrates how to build a benefit eligibility estimator that’s easy to understand when facing life’s toughest challenges.
+    text: Information on government benefits and services is typical ly agency-centered, rather than human-centered.
     button_text: "See BEARS in action"
     button_link: "/projects/benefits-eligibility-resource/"
   - subtitle: "Optimizing Digital Experiences"
     title: "The U.S. Web Design System"
-    text: In 2015, the team that later became 10x partnered with 18F and the U.S. Digital Service to release the alpha version of the U.S. Federal Web Design Standards. Following additional investment, the standards became a modular suite of components for all federal websites and were renamed the U.S. Web Design System.
+    text: In 2015, the team that later became 10x partnered with 18F and the U.S. Digital Service to release the alpha version of the U.S. Federal Web Design Standards.
+    button_text: "Check out the USWDS"
+    button_link: "/link/to/page"
+  - subtitle: "Grant-Funded Results"
+    title: "Finding Grant-Funded Results and Products"
+    text: Government grants empower individuals, non-profit organizations, universities, and more with funding to undertake cutting edge research, serve their communities, and promote the economy.
+    button_text: "Check out the USWDS"
+    button_link: "/link/to/page"
+  - subtitle: "Paperwork Reduction Act"
+    title: "A Guide to the Paperwork Reduction Act"
+    text: The intent of the Paperwork Reduction Act (PRA) of 1980 is to reduce the burden of paperwork placed on the public by government agencies who are seeking information.
     button_text: "Check out the USWDS"
     button_link: "/link/to/page"
 

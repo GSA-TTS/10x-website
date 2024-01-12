@@ -74,14 +74,23 @@ section: home
           <li class="usa-card grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4">
             <div class="usa-card__container">
               <div class="usa-card__header">
-                <h2 class="usa-card__heading">{{ card.subtitle }}</h2>
+                <h2 class="usa-card__heading">
+                  <a href="{{ card.button_link }}">
+                    <span>{{ card.subtitle }}</span>
+                  </a>
+                </h2>
               </div>
               <div class="usa-card__body">
-                <h3>{{ card.title }}</h3>
-                <p>{{ card.text }}</p>
-              </div>
-              <div class="usa-card__footer margin-top-4">
-                <a href="{{ card.button_link | url }}" class="usa-button">{{ card.button_text }}</a>
+                <h3>
+                  <a href="{{ card.button_link }}">
+                    <span>{{ card.title }}</span>
+                  </a>                 
+                </h3>
+                <p>
+                  <a href="{{ card.button_link }}">
+                    <span>{{ card.text }}</span>
+                  </a>           
+                </p>
               </div>
             </div>
           </li>
