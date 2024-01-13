@@ -406,7 +406,7 @@ h2,
             }
 
             .usa-card__header {
-                a {
+                h2 {
                     padding: units(4) units(4) 0 units(4);
                     color: color('indigo-warm-60v');
 
@@ -423,24 +423,19 @@ h2,
 
                 h3 {
                     margin-bottom: 0;
-
-                    a {
-                        padding: units(4);
+                    padding: units(4);
     
-                        @include at-media("desktop") {
-                            padding: units(2.5) units(5) units(4);             
-                        } 
+                    @include at-media("desktop") {
+                        padding: units(2.5) units(5) units(4);             
                     }                    
                 }
 
                 p {
-                    a {
-                        padding: 0 units(4) units(4) units(4);
+                    padding: 0 units(4) units(4) units(4);
     
-                        @include at-media("desktop") {
-                            padding: 0 units(5) units(5) units(5);             
-                        } 
-                    }                      
+                    @include at-media("desktop") {
+                        padding: 0 units(5) units(5) units(5);             
+                    }                    
                 }
             }
 
