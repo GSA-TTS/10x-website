@@ -74,13 +74,13 @@ section_3_content:
   - subtitle: "Grant-Funded Results"
     title: "Finding Grant-Funded Results and Products"
     text: Government grants empower individuals, non-profit organizations, universities, and more with funding to undertake cutting edge research, serve their communities, and promote the economy.
-    button_text: "Check out the USWDS"
-    button_link: "/link/to/page"
+    button_text: "Check out the Grant-Funded Results"
+    button_link: "https://10x.gsa.gov/projects/finding-grant-funded-products/"
   - subtitle: "Paperwork Reduction Act"
     title: "A Guide to the Paperwork Reduction Act"
     text: The intent of the Paperwork Reduction Act (PRA) of 1980 is to reduce the burden of paperwork placed on the public by government agencies who are seeking information.
-    button_text: "Check out the USWDS"
-    button_link: "/link/to/page"
+    button_text: "Check out the Paperwork Reduction Act"
+    button_link: "https://10x.gsa.gov/projects/guide-to-pra/"
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."

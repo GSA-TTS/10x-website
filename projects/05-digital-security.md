@@ -16,26 +16,34 @@ Protecting the privacy of individuals and their data is critical to creating use
 
 10x security projects have tackled a number of thorny issues over the years, from inefficiencies in cybersecurity practices to PII management and more.
 
-### Check out some of our projects designed to ensure private information stays private:
+---
 
-#### Automated Security Authorization Processing (ASAP)
+## Check out some of our projects designed to ensure private information stays private:
+
+### Automated Security Authorization Processing (ASAP)
 
 In order to get permission to launch a new site or application, government agencies must complete Government System Security Plans. 10x created an approach to automate key parts of the documentation process to allow for faster review and approval times.
 
-#### Design for security, build for trust
+### Design for security, build for trust
 
 Resilient technology requires elegantly designed security. 10x is exploring the value and viability of shared assets and guidance for federal designers that demonstrate the how and why of designing for security.
 
-#### DevOps for privacy offices (SORN DASH)
+### [DevOps for privacy offices (SORN DASH)](https://all-sorns.app.cloud.gov/)
 
 Privacy officers at federal agencies ensure that personal data is managed carefully and in accordance with agency policies. 10x investigated and built a solution to better equip the privacy officers so they can do a better job of protecting personally identifiable information (PII).
 
-See [SORN Dashboard](https://all-sorns.app.cloud.gov/)
+<p class="static-purple-button usa-button">
+  <a href="https://all-sorns.app.cloud.gov/">
+    See SORN Dashboard
+  </a>
+</p>
 
-#### Privacy-Preserving Record Linkage (PPRL)
+### Privacy-Preserving Record Linkage (PPRL)
 
 10x is looking at how data can be shared across the government without any personally identifiable information (PII). Privacy-preserving record linkage (PPRL) is a family of techniques used to link datasets without requiring access to PII. 
 
-#### Privacy-protected engagement with online government services
+### Privacy-protected engagement with online government services
 
 10x is investigating approaches for providing tools and educating site managers about how to  limit their participation in ad networks, which sometimes collect personal information.
+
+---

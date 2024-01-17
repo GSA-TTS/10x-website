@@ -1,6 +1,9 @@
 <div class="tablet:grid-col-4 margin-bottom-4 tablet:margin-bottom-0">
   <nav aria-label="Side navigation,,">
     <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <a href="{{ investments-list-url | url }}">{{ all-investments }}</a>    
+      </li>
       {%- for project in collections.projects -%}
       <li class="usa-sidenav__item {% if project.url == page.url %}usa-current-list-item{% endif %}">
         <a href="{{ project.url | url }}"
@@ -8,7 +11,7 @@
           {{ project.data.title }}
         </a>
         {%- if project.url == page.url -%}
-        {{ content | toc:'{"tags":["h3","h4"],"wrapper":"nav","wrapperClass":"usa-sidenav__sublist"}' }}        
+        {{ content | toc:'{"tags":["h3"],"wrapper":"nav","wrapperClass":"usa-sidenav__sublist"}' }}        
         {%- endif -%}        
       </li>
       {%- endfor -%}

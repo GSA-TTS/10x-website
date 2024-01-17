@@ -2,21 +2,31 @@
 layout: layouts/base.html
 section: project
 category: "Investment Portfolios"
+return-to-top_text: "Return to top"
+all-investments: "All investment portfolios"
+investments-list-url: "/investments/"
 ---
-<div class="TxContent project-page">
-  <div class="banner-bg-gradient padding-y-3 padding-x-4">
-    <section class="grid-container header-section usa-section" aria-label="Introduction">
-      <h4>{{ category }}</h4>
-      <h1>{{ title }}</h1>
-      <h2>{{ subtitle }}</h2>
-    </section>
-  </div> 
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      {% include "components/side-nav.html" %}
-      <main class="usa-layout-docs__main desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
-        {{ layoutContent }}
-      </main>
+<div class="project-category-pages">
+  <div class="TxContent project-page static-content-page">
+    <div class="banner-bg margin-bottom-9">
+      <div class="banner-bg-gradient padding-y-3 padding-x-4">
+        <section class="grid-container header-section usa-section" aria-label="Introduction">
+          <h4>{{ category }}</h4>
+          <h1>{{ title }}</h1>
+          <h2>{{ subtitle }}</h2>
+        </section>
+      </div> 
+    </div>
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        {% include "components/side-nav.html" %}
+        <main class="usa-layout-docs__main desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
+          {{ layoutContent }}
+        </main> 
+      </div>
+      <p class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+        <a class="usa-link" href="#">{{ return-to-top_text }}</a>
+      </p> 
     </div>
   </div>
 </div>

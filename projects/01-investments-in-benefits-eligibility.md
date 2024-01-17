@@ -19,48 +19,64 @@ For more than five years, 10x has invested in technology that improves the publi
 
 By investing in technology that makes it faster and easier for people to acquire the benefits they are eligible for, 10x is helping the government deliver better services for millions of Americans.
 
-### Check out some of our projects designed to improve the public's experience with public benefits:
+---
 
-#### BEARS  — Benefits Eligibility Awareness Resource Service 
+## Check out some of our projects designed to improve the public's experience with public benefits:
+
+### [BEARS  — Benefits Eligibility Awareness Resource Service](https://benefits-tool-beta.usa.gov/death-of-a-loved-one/)
 
 (now USAGov’s Benefits Finder)
 Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for.
 
-Try [USAGov’s Benefits Finder](https://benefits-tool-beta.usa.gov/death-of-a-loved-one/)
+<p class="static-purple-button usa-button">
+  <a href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">
+    Try USAGov’s Benefits Finder
+  </a>
+</p>
 
-#### Benefits Checker
+### [Benefits Checker](need/link/to/page)
 A comprehensive tool to help people find the benefits that they might be eligible for. People answer a set of questions and are provided with a list of potential benefits.
 
-Try [Benefits Checker](need/link/to/page)
+ <p class="static-purple-button usa-button">
+  <a href="need/link/to/page">
+    Try Benefits Checker
+  </a>
+</p>
 
-#### Benefits eligibility APIs
+### Benefits eligibility APIs
 
 America’s social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster.
 
-#### Notify.gov
+### [Notify.gov](https://beta.notify.gov/)
 
 Notifications, especially text messages, are uniquely effective ways to communicate and can be especially useful in helping people to navigate the benefits space. By providing text alerts for eligibility status, application due dates, and fraud detection, we can help eligible users access federal benefits.
 
-See [Notify.gov](https://beta.notify.gov/)
+<p class="static-purple-button usa-button">
+  <a href="https://beta.notify.gov/">
+    See Notify.gov
+  </a>
+</p>
 
-#### Secure storage for eligibility documents
+### Secure storage for eligibility documents
 
 Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure.
 
-### Find out more:
+#### Find out more:
 
-#### [Trust will be key for U.S. Notify  —  a federal text message service for state benefits](https://www.nextgov.com/cxo-briefing/2023/05/trust-will-be-key-us-notify-federal-text-message-service-state-benefits/385881/)
+[Trust will be key for U.S. Notify  —  a federal text message service for state benefits](https://www.nextgov.com/cxo-briefing/2023/05/trust-will-be-key-us-notify-federal-text-message-service-state-benefits/385881/)
 May 2, 2023
 GSA’s Public Benefits Studio is building a new text messaging service to help states more effectively communicate with benefits recipients. 
 
-#### [Collaborate with the new TTS Public Benefits Studio](https://digital.gov/2023/02/07/collaborate-with-the-tts-public-benefits-studio/)
+[Collaborate with the new TTS Public Benefits Studio](https://digital.gov/2023/02/07/collaborate-with-the-tts-public-benefits-studio/)
 February 8, 2023
 TTS’s new Public Benefits Studio is building on 10x’s U.S. Notify to develop a service to use text messaging to help people access and keep the benefits they are eligible for.
 
-#### [Helping people discover benefits with the new BEARS locator](https://blog.usa.gov/helping-people-discover-benefits-with-the-new-bears-locator)
+[Helping people discover benefits with the new BEARS locator](https://blog.usa.gov/helping-people-discover-benefits-with-the-new-bears-locator)
 August 30, 2022
 BEARS is now available to the public. We continue to look for ways to improve it.
 
-#### [Creating a new way for people to discover government benefits](https://blog.usa.gov/creating-a-new-way-for-people-to-discover-government-benefits)
+[Creating a new way for people to discover government benefits](https://blog.usa.gov/creating-a-new-way-for-people-to-discover-government-benefits)
 March 15, 2022
 10x and USAGov are collaborating on building a new tool to help make it easier for people to find federal benefits.
+
+---

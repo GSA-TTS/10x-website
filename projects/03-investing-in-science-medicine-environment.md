@@ -14,28 +14,32 @@ footer: we-started-as-an-idea-too
 
 10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits from society. But this work isn't easy, and improper use of scientific data and research can cause harm. 10x believes that thoughtful, inclusive, and ethical access to the government's information in this complex space is worthy of 10x's investment power.
 
-### Check out some of our projects designed to improve the public’s experience using insights from federal science and medicine:
+---
 
-#### Modernizing clinical trials
+## Check out some of our projects designed to improve the public’s experience using insights from federal science and medicine:
+
+### Modernizing clinical trials
 
 Clinical trial data informs healthcare policy and leads to innovation, while improving delivery of services and patient outcomes. 10x looked at ways to modernize the infrastructure and improve access to data. 
 
-#### Open science field guide
+### Open science field guide
 
 Making science data open to the public furthers scientific exploration, but doing so in a way that protects privacy is critical. 10x investigated whether there is a way to help agencies navigate the process of making their data more open.
 
-#### Response and tracking of sewer spills
+### Response and tracking of sewer spills
 
 There are tens of thousands of sewage spills each year, a disproportionate number of which impact disadvantaged communities. While states are required to report sewage spills, there wasn’t a way to do so electronically. 10x designed a user-friendly way for local and state governments to report sewage spills.
 
-#### Risk assessments for cancer therapies
+### Risk assessments for cancer therapies
 
 10x looked into whether tailored risk assessments were feasible for cancer therapies.
 
-#### Untangling climate resources
+### Untangling climate resources
 
 Many different federal agencies provide information on the climate, but the data is largely siloed. 10x investigated whether a one-stop-shop for climate resources was a good idea.
 
-#### Visualizing the federal carbon footprint
+### Visualizing the federal carbon footprint
 
 The federal government emits huge amounts of greenhouse gasses each year, but how much and by which facilities is not transparent to the American public. 10x investigated whether a tool to make federal emissions visible to the public is needed and feasible.
+
+---

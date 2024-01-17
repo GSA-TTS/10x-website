@@ -2,7 +2,7 @@
 layout: layouts/base.html
 section: project
 ---
-<div class="projects-wrapper">
+<div class="projects-wrapper project-category-pages">
   <div class="list-page banner-bg">
     <div class="banner-bg-gradient padding-y-3 padding-x-4">
       <section class="grid-container header-section usa-section" aria-label="Introduction">
@@ -54,7 +54,7 @@ section: project
                             {%- for tag in project.data.tags -%}
                               {%- if tag != "project" -%}
                               {%- capture tagUrl- %}/tags/{{ tag }}/{%- endcapture -%}
-                              <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                              <a class="usa-link" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
                               {%- endif -%}
                             {%- endfor -%}
                           </p>
