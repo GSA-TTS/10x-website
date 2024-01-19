@@ -16,7 +16,7 @@ footer: we-started-as-an-idea-too
 
 ---
 
-## Check out some of our projects designed to improve the public’s experience using insights from federal science and medicine:
+## Check out some of our projects designed to improve the public's experience using insights from federal science and medicine:
 
 ### Modernizing clinical trials
 
@@ -28,7 +28,7 @@ Making science data open to the public furthers scientific exploration, but doin
 
 ### Response and tracking of sewer spills
 
-There are tens of thousands of sewage spills each year, a disproportionate number of which impact disadvantaged communities. While states are required to report sewage spills, there wasn’t a way to do so electronically. 10x designed a user-friendly way for local and state governments to report sewage spills.
+There are tens of thousands of sewage spills each year, a disproportionate number of which impact disadvantaged communities. While states are required to report sewage spills, there wasn't a way to do so electronically. 10x designed a user-friendly way for local and state governments to report sewage spills.
 
 ### Risk assessments for cancer therapies
 

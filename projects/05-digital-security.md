@@ -28,12 +28,12 @@ In order to get permission to launch a new site or application, government agenc
 
 Resilient technology requires elegantly designed security. 10x is exploring the value and viability of shared assets and guidance for federal designers that demonstrate the how and why of designing for security.
 
-### [DevOps for privacy offices (SORN DASH)](https://all-sorns.app.cloud.gov/)
+### DevOps for privacy offices (SORN DASH)
 
 Privacy officers at federal agencies ensure that personal data is managed carefully and in accordance with agency policies. 10x investigated and built a solution to better equip the privacy officers so they can do a better job of protecting personally identifiable information (PII).
 
 <p class="static-purple-button usa-button">
-  <a href="https://all-sorns.app.cloud.gov/">
+  <a class="usa-link" rel="noreferrer" target="_blank" href="https://all-sorns.app.cloud.gov/">
     See SORN Dashboard
   </a>
 </p>

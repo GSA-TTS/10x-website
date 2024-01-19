@@ -21,12 +21,12 @@ footer: we-started-as-an-idea-too
 Bringing mutual aid to underserved communities for post-disaster rebuilding
 Underserved communities are uniquely vulnerable to the impacts of climate change. We’re looking at ways to make it easier for public officials and volunteers to provide help to affected areas.
 
-### [Combating bias in AI/ML](https://10x.gsa.gov/reports/fy21-impact-report/)
+### Combating bias in AI/ML
 
 10x has developed tools to help public servants “de-bias” datasets that power AI. Developed in collaboration with the Census, the initial toolkit can help public servants use AI without the fear of introducing bias.
 
 <p class="static-purple-button usa-button">
-  <a href="https://10x.gsa.gov/reports/fy21-impact-report/">
+  <a class="usa-link" rel="noreferrer" target="_blank" href="https://10x.gsa.gov/reports/fy21-impact-report/">
     See Ableist Language Detector
   </a>
 </p>

@@ -56,7 +56,7 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
-        background: url('../images/homepage-gradient-bg.png') top center repeat-x;
+        background: url('../images/homepage-gradient-bg.png') center top repeat-x;
     }
 
     .grid-container {
@@ -118,6 +118,10 @@ h2,
         text-transform: uppercase;
         color: color('indigo-warm-60v');
     }
+}
+
+.usa-card {
+    display: inline-flex;
 }
 
 .usa-card__container {
@@ -266,6 +270,7 @@ h2,
         }
 
         .usa-card {
+
             h2 {
                 font-size: size('body', 4);
             }
@@ -320,7 +325,7 @@ h2,
     }
 
     .section2 {
-        background: url('../images/section2-purple-bg.png') top left repeat-x;
+        background: url('../images/section2-purple-bg.png') left top repeat-x;
     
        h2 {
         font-size: size('body', 12); 
@@ -617,7 +622,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             font-weight: 400;
             padding-bottom: units(1.5);
             color: color('cyan-10v');
-            background: url('../images/header-bottom-border.png') bottom left no-repeat; 
+            background: url('../images/header-bottom-border.png') left bottom no-repeat; 
         }
     
         .header-section {
@@ -773,12 +778,13 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
 
     p {
-        font-size: size('body', 7);
+        font-size: size('body', 6);
         line-height: lh('body', 6);
         max-width: 100%;
 
         &.usa-intro {
-            font-size: size('body', 9);
+            margin-top: 0;
+            font-size: size('body', 8);
         }
     }
      hr {
@@ -834,7 +840,23 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         a {
             color: white;
             text-decoration: none;
+            position: relative;
+            z-index: 5;
         }     
+    }
+
+    h3[tabindex]:focus {
+        outline: none;
+        padding: 0;
+    }
+
+    .return-to-top {
+        &.fixed {
+            position: fixed;
+            bottom: 30px;
+            transition: all .5s ease-in-out;
+            z-index: 1000;           
+        }
     }
 }
 
@@ -843,27 +865,83 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 }
 
 iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
-    padding: units(2px);
-    outline: units(2px) solid color('indigo-warm-60v');
+    outline: units(1px) dotted color('indigo-warm-60v');
 }
 
 .return-to-top {
+    transition: all .5s ease-in-out;
     font-size: size('body', 5);
     margin: 0 units(1) units(2.5) !important;
 }
 
 .usa-sidenav {
-    .usa-sidenav__sublist {
-        ol {
-            list-style: none;
-            padding-left: 30px;
+    .usa-sidenav__item {
+        border-top: none;
+        border-bottom: units(1px) solid color('indigo-warm-70v');
 
-            a {
-                padding-left: 0;
+        a {
+            font-size: size('body', 8); 
+            font-weight: 500;  
+            border: none;
+            padding: units(2.5) units(2) units(2.5) units(4);  
+            color: color('indigo-warm-70v') !important;
+    
+            &:hover,
+            &:active {
+                background: color('blue-5');
+                font-weight: 600;
             }
+        }
 
+        &:first-child {
+            border-top: none; 
+            
+            a {
+                background: url('../images/left-arrow.svg') left units(0.5) no-repeat;
+                padding: units(1px) units(2) units(1) units(4);
+                font-size: size('body', 5);
+            }
+        }
+
+        &.usa-current-list-item {
+            .usa-current {
+                background: color('cyan-5v');
+                border-top: 5px solid color('cyan-20v');
+                border-bottom: units(1px) solid color('indigo-warm-70v');
+                font-weight: 600;
+        
+                &:after {
+                    background: none;
+                    width: 0;
+                }
+            }
+        }
+
+        .usa-sidenav__sublist {
             ol {
-                padding-left: 40px;
+                padding: 0;
+                list-style: none;
+                border: none;
+    
+                li {
+                    border-bottom: units(1px) solid color('indigo-warm-70v');
+    
+                    &:last-child {
+                        border: none;
+                    }
+    
+                    a {
+                        font-size: size('body', 7);
+                        font-weight: 400;
+                        padding: units(2) units(2) units(2) units(7);  
+                        border: none;
+
+                        &:hover,
+                        &:active {
+                            font-weight: 500;
+                        }
+                    }
+                }
             }
         }
     }

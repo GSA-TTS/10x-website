@@ -40,23 +40,35 @@ Small-scale farmers do not have easy access to federal data that might be of use
 
 State and local government fees and fines disproportionately impact and marginalize low-income communities and people of color. 10x looked into whether an integrated dashboard would make it easier for people to find and resolve outstanding fines.
 
-### [U.S. Data Federation](https://federation.data.gov/)
+### U.S. Data Federation
 The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier.
 
 <p class="static-purple-button usa-button">
-  <a href="https://federation.data.gov/">
+  <a class="usa-link" rel="noreferrer" target="_blank" href="https://federation.data.gov/">
     See U.S. Data Federation
   </a>
 </p>
 
 #### Find out more:
 
-[The U.S. Data Federation graduates the 10x program, launches new repository](https://digital.gov/2020/07/02/us-data-federation-graduates-10x-program/)
-July 2, 2020
-Announcement of the launch of the U.S. Data Federation and background on its development.
+<p>
+  <a class="usa-link" rel="noreferrer" target="_blank" href="https://digital.gov/2020/07/02/us-data-federation-graduates-10x-program/">
+    The U.S. Data Federation graduates the 10x program, launches new repository
+  </a>
+  <br>
+  July 2, 2020
+  <br>
+  Announcement of the launch of the U.S. Data Federation and background on its development.
+</p>
 
-[An introduction to the U.S. Data Federation](https://digital.gov/event/2019/04/17/an-introduction-us-data-federation/)
-April 17, 2019
-A video showcasing the goals and capabilities of the U.S. Data Federation.
+<p>
+  <a class="usa-link" rel="noreferrer" target="_blank" href="https://digital.gov/event/2019/04/17/an-introduction-us-data-federation/">
+    An introduction to the U.S. Data Federation
+  </a>
+  <br>
+  April 17, 2019
+  <br>
+  A video showcasing the goals and capabilities of the U.S. Data Federation.
+</p>
 
 ---
