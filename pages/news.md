@@ -1,6 +1,6 @@
 ---
 title: News
-layout: layouts/page.html
+layout: layouts/news-updates.html
 permalink: /news/index.html
 eleventyNavigation:
   parent: root

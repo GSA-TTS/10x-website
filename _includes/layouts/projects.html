@@ -10,64 +10,61 @@ section: project
         <h1>{{ hero_banner.title }}</h1>
         <h2>{{ hero_banner.subtitle }}</h2>
       </section>
-    </div> 
+    </div>
     <div class="TxContent Tx__projects">
       <div class="usa-app__bg">
         <div class="Tx__projects-content">
-          <div class="grid-container">  
+          <div class="grid-container">
             <div class="usa-prose">
               {{ layoutContent }}
-            </div>   
+            </div>
             <section class="ProjectList margin-top-8">
               {%- for project in collections.projects -%}
-                
-                  <div class="usa-card usa-card--flag flex-1 margin-bottom-6 ProjectCard template-{{ project.data.template }}">
-                    <div class="usa-card__container">
-                      <div class="usa-card__header">
-                        <h2 class="usa-card__heading">
-                          <a class="usa-link ProjectCard__link" href="{{ project.url | url }}">
-                            {{ project.data.title }}
-                          </a>
-                        </h2>
-                      </div>
-                      <div class="usa-card__media">
-                        <div class="usa-card__img">
-                          <img
-                            src="{{ project.data.image-url | url }}"
-                            role="img"
-                            alt="{{ project.data.title }}"
-                            aria-hidden="true"
-                          /> 
-                        </div>
-                      </div>
-                      <div class="usa-card__body">
-                        <h3 class="usa-card__subhead">
-                          <a class="usa-link ProjectCard__link" href="{{ project.url | url }}">
-                            {{ project.data.subtitle }}
-                          </a>                         
-                        </h3>
-                        <form action="{{ project.url | url }}" rel="noopener noreferrer">
-                          <button class="usa-button">{{ read-more-button_text }}</button>
-                        </form>
-                        {%- if project.data.tags- %}
-                          <p>
-                            {%- for tag in project.data.tags -%}
-                              {%- if tag != "project" -%}
-                              {%- capture tagUrl- %}/tags/{{ tag }}/{%- endcapture -%}
-                              <a class="usa-link" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                              {%- endif -%}
-                            {%- endfor -%}
-                          </p>
-                        {%- endif -%}
-                      </div>
+
+              <div
+                class="usa-card usa-card--flag flex-1 margin-bottom-6 ProjectCard template-{{ project.data.template }}">
+                <div class="usa-card__container">
+                  <div class="usa-card__media">
+                    <div class="usa-card__img">
+                      <img src="{{ project.data.image-url | url }}" role="img" alt="{{ project.data.title }}"
+                        aria-hidden="true" />
                     </div>
                   </div>
-                
+                  <div class="usa-card__header">
+                    <h2 class="usa-card__heading">
+                      {{ project.data.title }}
+                    </h2>
+                  </div>
+                  <div class="usa-card__body">
+                    <h3 class="usa-card__subhead">
+                      {{ project.data.subtitle }}
+                    </h3>
+                    <p class="usa-button">
+                      <a class="usa-link" href="{{ project.url | url }}">
+                        <span class="usa-sr-only">{{ project.data.title }}</span>
+                        {{ read-more-button_text }}
+                      </a>
+                    </p>
+
+                    {%- if project.data.tags- %}
+                    <p>
+                      {%- for tag in project.data.tags -%}
+                      {%- if tag != "project" -%}
+                      {%- capture tagUrl- %}/tags/{{ tag }}/{%- endcapture -%}
+                      <a class="usa-link" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                      {%- endif -%}
+                      {%- endfor -%}
+                    </p>
+                    {%- endif -%}
+                  </div>
+                </div>
+              </div>
+
               {%- endfor -%}
 
               <p class="usa-identifier__required-links-item return-to-top margin-bottom-3">
                 <a class="usa-link" href="#">{{ return-to-top_text }}</a>
-              </p>             
+              </p>
             </section>
           </div>
         </div>

@@ -12,6 +12,7 @@ body {
 
 h1, h2, h3, h4, h5, p {
     width: 100%;
+    background-color: transparent;
 }
 
 h2 {
@@ -69,6 +70,10 @@ h2,
     padding: units(4);
 }
 
+.usa-card {
+    display: inline-flex;
+}
+
 .usa-hero {
     background: white; 
     background-image: none; 
@@ -109,19 +114,11 @@ h2,
         }
     }
 
-    button {
-        font-size: size('body', 5);
-    }
-
     .date-wrapper {
         font-size: size('body', 7);
         text-transform: uppercase;
         color: color('indigo-warm-60v');
     }
-}
-
-.usa-card {
-    display: inline-flex;
 }
 
 .usa-card__container {
@@ -267,6 +264,11 @@ h2,
             @include at-media("desktop") {
                 font-size: size('body', 9);       
             } 
+        }
+
+        .usa-button {
+            font-size: size('body', 5);
+            font-weight: 500;
         }
 
         .usa-card {
@@ -487,10 +489,15 @@ h2,
 
         .usa-button {
             background: color("indigo-warm-60v");
-            color: white;
             font-size: size('body', 9);
             line-height: lh('body', 1);
-            padding: units(2) units(4);
+            margin-left: auto;
+            margin-right: auto;
+
+            a, a:visited, a:active, span {
+                color: white;
+                padding: units(2) units(4);
+            }           
 
             &:visited {
                 color: color("indigo-warm-70v"); 
@@ -725,7 +732,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__footer {
             @include at-media("tablet") {
                 /* Exact width of project logo:  310px */
-                margin-right: 15rem; 
+                margin-right: 20rem; 
                 margin-left: 0;          
             }        
         }
@@ -796,7 +803,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
      }
 
      .usa-button {
-        background: color("indigo-warm-40v");
+        background: color("indigo-warm-50v");
         border-color: color('indigo-warm-60v');
         font-weight: 600;
     
@@ -811,19 +818,22 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
           content: "";
           z-index: 1;
         }
+        
         &::before {
           width: 0;
           height: 100%;
           border-width: 1px 0 1px 0;
         }
+
         &::after {
           width: 100%;
           height: 0;
           border-width: 0 1px 0 1px;
         }
+
         &:hover {
           border-color: color('indigo-warm-70v');
-          background-color: color('indigo-warm-50v');
+          background-color: color('indigo-warm-60v');
           transition: background-color .6s ease;
     
           &::before {
@@ -837,12 +847,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
           }
         }
 
-        a {
+        a, a:active, a:visited {
             color: white;
             text-decoration: none;
             position: relative;
             z-index: 5;
-        }     
+        }
     }
 
     h3[tabindex]:focus {
@@ -889,7 +899,7 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
             &:hover,
             &:active {
                 background: color('blue-5');
-                font-weight: 600;
+                color: color('indigo-warm-80v') !important;
             }
         }
 
@@ -935,11 +945,6 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
                         font-weight: 400;
                         padding: units(2) units(2) units(2) units(7);  
                         border: none;
-
-                        &:hover,
-                        &:active {
-                            font-weight: 500;
-                        }
                     }
                 }
             }

@@ -51,6 +51,14 @@
         &__link-text {
             color: color('gray-cool-1');
         }
+
+        .ideaLink {
+            .usa-nav__link-text {
+                color: color('violet-30v');
+                font-weight: 600;
+            }          
+        }
+
         .usa-nav__footer {
             flex-direction: column;
             margin-top: units(4);

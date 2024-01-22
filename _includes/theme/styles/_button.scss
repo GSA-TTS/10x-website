@@ -5,8 +5,31 @@
     color: color("violet-warm-90"); 
     border-radius: 0; 
     font-weight: 500; 
-    padding: units(2);
+    font-size: size('body', 5);
     position: relative;
+    padding: 0;
+
+    .usa-link, a, a:visited, a:active, span {
+      color: color("violet-warm-90");
+    }
+
+    &button, &a, a, a:visited, a:active, span {
+      padding: units(2);
+    }
+
+    a, a:visited, a:active, span {     
+      text-decoration: none;
+      position: relative;     
+      z-index: 5;
+      display: block;
+    }
+
+    &:visited,
+    &:active,
+    &:focus {
+      color: color("violet-warm-90"); 
+      background-color: color('cyan-20v'); 
+    }
 
     &:visited {
         color: color("violet-warm-90"); 
@@ -33,6 +56,7 @@
       height: 0;
       border-width: 0 1px 0 1px;
     }
+
     &:hover {
       border-color: color('cyan-50v');
       color: black;
@@ -48,5 +72,11 @@
         height: 100%;
         border-width: 0 1px 0 1px;
       }
+    }
+
+    span {
+      &.usa-sr-only {
+          position: absolute;
+      }        
     }
 }

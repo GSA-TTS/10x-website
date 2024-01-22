@@ -29,7 +29,7 @@ By investing in technology that makes it faster and easier for people to acquire
 Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for.
 
 <p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">
+  <a class="usa-link" rel="noreferrer" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">
     Try USAGov's Benefits Finder
   </a>
 </p>
@@ -38,8 +38,8 @@ Information on government benefits and services is typically agency centered, ra
 
 A comprehensive tool to help people find the benefits that they might be eligible for. People answer a set of questions and are provided with a list of potential benefits.
 
- <p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="need/link/to/page">
+<p class="static-purple-button usa-button">
+  <a class="usa-link" rel="noreferrer" href="need/link/to/page">
     Try Benefits Checker
   </a>
 </p>
@@ -53,7 +53,7 @@ America's social safety net programs, like Headstart and the Supplemental Nutrit
 Notifications, especially text messages, are uniquely effective ways to communicate and can be especially useful in helping people to navigate the benefits space. By providing text alerts for eligibility status, application due dates, and fraud detection, we can help eligible users access federal benefits.
 
 <p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://beta.notify.gov/">
+  <a class="usa-link" rel="noreferrer" href="https://beta.notify.gov/">
     See Notify.gov
   </a>
 </p>
@@ -65,7 +65,7 @@ Social safety net programs require people to prove their eligibility for benefit
 #### Find out more:
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://www.nextgov.com/cxo-briefing/2023/05/trust-will-be-key-us-notify-federal-text-message-service-state-benefits/385881/">
+  <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.nextgov.com/cxo-briefing/2023/05/trust-will-be-key-us-notify-federal-text-message-service-state-benefits/385881/">
     Trust will be key for U.S. Notify  —  a federal text message service for state benefits
   </a>
   <br>
@@ -75,7 +75,7 @@ Social safety net programs require people to prove their eligibility for benefit
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://digital.gov/2023/02/07/collaborate-with-the-tts-public-benefits-studio/">
+  <a class="usa-link usa-link--external" rel="noreferrer" href="https://digital.gov/2023/02/07/collaborate-with-the-tts-public-benefits-studio/">
     Collaborate with the new TTS Public Benefits Studio
   </a>
   <br>
@@ -85,7 +85,7 @@ Social safety net programs require people to prove their eligibility for benefit
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://blog.usa.gov/helping-people-discover-benefits-with-the-new-bears-locator">
+  <a class="usa-link usa-link--external" rel="noreferrer" href="https://blog.usa.gov/helping-people-discover-benefits-with-the-new-bears-locator">
     Helping people discover benefits with the new BEARS locator
   </a>
   <br>
@@ -95,7 +95,7 @@ Social safety net programs require people to prove their eligibility for benefit
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://blog.usa.gov/creating-a-new-way-for-people-to-discover-government-benefits">
+  <a class="usa-link usa-link--external" rel="noreferrer" href="https://blog.usa.gov/creating-a-new-way-for-people-to-discover-government-benefits">
     Creating a new way for people to discover government benefits
   </a>
   <br>
