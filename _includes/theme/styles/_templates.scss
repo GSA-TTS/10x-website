@@ -777,6 +777,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     h3 {
         font-size: size('body', 11);
         color: color('indigo-warm-60v');
+        margin-top: units(6);
     }
 
     h4 {
@@ -791,7 +792,14 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         &.usa-intro {
             margin-top: 0;
-            font-size: size('body', 8);
+            font-size: size('body', 9);
+            font-weight: 500;
+
+            &.introBackground {
+                font-weight: 400;
+                padding: units(4);
+                background: color('cyan-5v');
+            }
         }
     }
      hr {

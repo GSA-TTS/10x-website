@@ -10,9 +10,9 @@
           class="usa-sidenav__item {% if project.url == page.url %}usa-current{% endif %}">
           {{ project.data.title }}
         </a>
-        {%- if project.url == page.url -%}
+        <!-- {%- if project.url == page.url -%}
         {{ content | toc:'{"tags":["h3"],"wrapper":"nav","wrapperClass":"usa-sidenav__sublist"}' }}        
-        {%- endif -%}        
+        {%- endif -%}         -->
       </li>
       {%- endfor -%}
     </ul>

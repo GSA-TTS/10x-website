@@ -1,5 +1,5 @@
 ---
-title: Investments in benefits eligibility and delivery v.1
+title: Investments in benefits eligibility and delivery v.2
 subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
 description: The 10x BEARS project is a vision for an empathetic, human-centered world where the public can learn about benefits in a way that reflects their lived experiences, rather than the complexities of bureaucracy.
 excerpt: |-
@@ -9,7 +9,7 @@ image-url: "/assets/images/benefits-eligibility-icon.png"
 footer: we-started-as-an-idea-too
 ---
 
-<p class="usa-intro">  
+<p class="usa-intro introBackground">  
   From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 </p>
 

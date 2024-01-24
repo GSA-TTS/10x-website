@@ -74,6 +74,29 @@
       }
     }
 
+    &.ideaLink {
+      background: transparent;  
+      border: units(2px) solid color('cyan-10v');
+      margin-left: units(1);
+      height: units(5);
+      border-radius: units(0.5);
+
+      &:hover {
+        border: units(2px) solid white;
+        
+        a {
+          color: white;
+        }
+      }
+      
+      a {
+        color: color('cyan-10v');
+        display: block;
+        padding: units(1.5);
+        margin-top: units(-2px);
+      }
+    }
+
     span {
       &.usa-sr-only {
           position: absolute;
