@@ -3,13 +3,13 @@ layout: layouts/base.html
 section: project
 category: "Investment Portfolios"
 return-to-top_text: "Return to top"
-all-investments: "All investment portfolios"
+all-investments: "Investments"
 home-link-text: "Home"
 investments-list-url: "/investments/"
 ---
 <div class="project-category-pages">
   <div class="TxContent project-page static-content-page">
-    <div class="banner-bg desktop:margin-bottom-5">
+    <div class="banner-bg desktop:margin-bottom-2">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
           <h4>{{ category }}</h4>
@@ -19,11 +19,11 @@ investments-list-url: "/investments/"
       </div>
     </div>
     <section class="usa-section grid-container">
-      <div class="grid-row margin-bottom-3">
-        <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,">
+      <div class="grid-row margin-bottom-4">
+        <nav class="usa-breadcrumb usa-breadcrumb--wrap padding-y-0" aria-label="Breadcrumbs,,">
           <ol class="usa-breadcrumb__list">
             <li class="usa-breadcrumb__list-item">
-              <a href="" class="usa-breadcrumb__link">
+              <a href="/" class="usa-breadcrumb__link">
                 <span>
                   {{ home-link-text }}
                 </span>
@@ -90,5 +90,14 @@ const scrollFunc = () => {
   }
 };
 
+const checkWidthAndApplyStyle = () => {
+  if (window.innerWidth >= 1024) {
+      window.addEventListener("scroll", scrollFunc);
+    } else {
+      window.removeEventListener("scroll", scrollFunc);
+    } 
+}
+
 window.addEventListener("scroll", scrollFunc);
+window.addEventListener('resize', checkWidthAndApplyStyle);
 </script>

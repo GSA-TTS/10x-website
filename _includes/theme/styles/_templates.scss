@@ -666,6 +666,14 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 }
 
 .projects-wrapper {
+    .ProjectList {
+        margin-top: units(6);
+
+        .ProjectCard,
+        .usa-card__container {
+            width: 100%;
+        }
+    }
     .usa-card--flag {
         h2 {
             font-size: size('body', 7);
