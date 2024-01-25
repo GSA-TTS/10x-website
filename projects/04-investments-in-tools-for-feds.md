@@ -1,5 +1,5 @@
 ---
-title: Investments in Tools for Feds
+title: Tools for Federal Digital Teams
 subtitle: How do we provide a consistent and quality digital experience for the American public?
 description: Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
 excerpt: |-

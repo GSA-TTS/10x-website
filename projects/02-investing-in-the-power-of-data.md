@@ -1,5 +1,5 @@
 ---
-title: Investing in the power of data
+title: Open, Usable Federal Data
 subtitle: What would it take to make government data easily usable?
 description: 10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong.
 excerpt: |-

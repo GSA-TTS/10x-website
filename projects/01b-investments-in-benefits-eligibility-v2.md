@@ -1,5 +1,5 @@
 ---
-title: Investments in benefits eligibility and delivery v.2
+title: Benefits Eligibility and Delivery v.2
 subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
 description: The 10x BEARS project is a vision for an empathetic, human-centered world where the public can learn about benefits in a way that reflects their lived experiences, rather than the complexities of bureaucracy.
 excerpt: |-
@@ -25,11 +25,11 @@ By investing in technology that makes it faster and easier for people to acquire
 
 ### USAGov's Benefits Finder
 
-Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can <a class="usa-link usa-link--external" rel="noreferrer" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">read more</a> about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">Benefits Finder</a> at USA&period;gov.
+Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">Benefits Finder</a> at USA&period;gov.
 
 ### Benefits Checker
 
-A comprehensive tool to help people find the benefits that they might be eligible for. People answer a set of questions and are provided with a list of potential benefits. Take a look at how the Benefits Checker tool works <a class="usa-link usa-link--external" rel="noreferrer" href="https://ssabest.benefits.gov/">here</a>.
+A comprehensive tool to help people find the benefits that they might be eligible for. People answer a set of questions and are provided with a list of potential benefits. Take a look at how the <a class="usa-link usa-link--external" rel="noreferrer" href="https://ssabest.benefits.gov/">Benefits Checker</a> tool works.
 
 ### Benefits eligibility APIs
 
@@ -37,11 +37,11 @@ America's social safety net programs, like Headstart and the Supplemental Nutrit
 
 ### Notify&period;gov
 
-Notifications, especially text messages, are uniquely effective ways to communicate and can be especially useful in helping people to navigate the benefits space. By providing text alerts for eligibility status, application due dates, and fraud detection, we can help eligible users access federal benefits. Find out more about the Notify service <a class="usa-link usa-link--external" rel="noreferrer" href="https://beta.notify.gov/">here</a>.
+Notifications, especially text messages, are uniquely effective ways to communicate and can be especially useful in helping people to navigate the benefits space. By providing text alerts for eligibility status, application due dates, and fraud detection, we can help eligible users access federal benefits. Find out more about the beta version of the <a class="usa-link usa-link--external" rel="noreferrer" href="https://beta.notify.gov/">Notify service</a>.
 
 ### Secure storage for eligibility documents
 
-Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure. Read more about this 10x project in support of <a class="usa-link usa-link--external" rel="noreferrer" href="/need/a/link">secure document storage</a>.
+Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure. Read more about 10x projects in support of <a class="usa-link usa-link--external" rel="noreferrer" href="/need/a/link">secure document storage</a>.
 
 #### Find out more:
 

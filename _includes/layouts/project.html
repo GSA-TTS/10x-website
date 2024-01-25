@@ -4,11 +4,12 @@ section: project
 category: "Investment Portfolios"
 return-to-top_text: "Return to top"
 all-investments: "All investment portfolios"
+home-link-text: "Home"
 investments-list-url: "/investments/"
 ---
 <div class="project-category-pages">
   <div class="TxContent project-page static-content-page">
-    <div class="banner-bg margin-bottom-9">
+    <div class="banner-bg margin-bottom-5">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
           <h4>{{ category }}</h4>
@@ -18,6 +19,31 @@ investments-list-url: "/investments/"
       </div>
     </div>
     <div class="grid-container">
+      <div class="grid-row margin-bottom-3">
+        <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+          <ol class="usa-breadcrumb__list">
+            <li class="usa-breadcrumb__list-item">
+              <a href="" class="usa-breadcrumb__link">
+                <span>
+                  {{ home-link-text }}
+                </span>
+              </a>
+            </li>
+            <li class="usa-breadcrumb__list-item">
+              <a href="{{ investments-list-url | url }}" class="usa-breadcrumb__link">
+                <span>
+                  {{ all-investments }}
+                </span>
+              </a>
+            </li>
+            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+              <span>
+                {{ title }}
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
       <div class="grid-row grid-gap-6">
         {% include "components/side-nav.html" %}
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">

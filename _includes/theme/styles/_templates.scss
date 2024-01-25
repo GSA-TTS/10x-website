@@ -797,8 +797,9 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
             &.introBackground {
                 font-weight: 400;
-                padding: units(4);
+                padding: units(2) units(3);
                 background: color('cyan-5v');
+                margin-top: units(1);
             }
         }
     }
@@ -912,20 +913,19 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
         }
 
         &:first-child {
-            border-top: none; 
+            border-top: units(1px) solid color('indigo-warm-70v');
             
-            a {
-                background: url('../images/left-arrow.svg') left units(0.5) no-repeat;
-                padding: units(1px) units(2) units(1) units(4);
-                font-size: size('body', 5);
-            }
+            // a {
+            //     background: url('../images/left-arrow.svg') left units(0.5) no-repeat;
+            //     padding: units(1px) units(2) units(1) units(4);
+            //     font-size: size('body', 5);
+            // }
         }
 
         &.usa-current-list-item {
             .usa-current {
                 background: color('cyan-5v');
                 border-top: 5px solid color('cyan-20v');
-                border-bottom: units(1px) solid color('indigo-warm-70v');
                 font-weight: 600;
         
                 &:after {

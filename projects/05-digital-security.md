@@ -1,5 +1,5 @@
 ---
-title: Digital Security
+title: Digital Trust and Security
 subtitle: How can we help the government deliver safe and secure digital experiences to the public?
 description: These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won't use digital tools they don't trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools.
 excerpt: |-
