@@ -9,7 +9,7 @@ investments-list-url: "/investments/"
 ---
 <div class="project-category-pages">
   <div class="TxContent project-page static-content-page">
-    <div class="banner-bg margin-bottom-5">
+    <div class="banner-bg desktop:margin-bottom-5">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
           <h4>{{ category }}</h4>
@@ -18,9 +18,9 @@ investments-list-url: "/investments/"
         </section>
       </div>
     </div>
-    <div class="grid-container">
+    <section class="usa-section grid-container">
       <div class="grid-row margin-bottom-3">
-        <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+        <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,">
           <ol class="usa-breadcrumb__list">
             <li class="usa-breadcrumb__list-item">
               <a href="" class="usa-breadcrumb__link">
@@ -44,16 +44,16 @@ investments-list-url: "/investments/"
           </ol>
         </nav>
       </div>
-      <div class="grid-row grid-gap-6">
-        {% include "components/side-nav.html" %}
+      <div class="grid-row content-column grid-gap-6">
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {{ layoutContent }}
         </div>
+        {% include "components/side-nav.html" %}
       </div>
       <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
         <a class="usa-link" href="#">{{ return-to-top_text }}</a>
       </p>
-    </div>
+    </section>
   </div>
 </div>
 

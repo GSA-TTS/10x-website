@@ -67,7 +67,7 @@ h2,
 }
 
 .usa-section {
-    padding: units(4);
+    padding: units(4); 
 }
 
 .usa-card {
@@ -228,8 +228,10 @@ h2,
     .section1 {
         background: white;
 
-        .grid-row:first-child {
-            flex-direction: row-reverse;
+        @include at-media("desktop") {
+            .grid-row:first-child {
+                flex-direction: row-reverse;
+            }            
         }
 
         h2, h3 {
@@ -386,9 +388,14 @@ h2,
             }
 
             h3 {
-                font-size: size('body', 11);
+                font-size: size('body', 10);
                 line-height: lh('heading', 3);
                 font-weight: 500;
+
+
+                @include at-media("desktop") {
+                    font-size: size('body', 11);               
+                }
             }
 
             p {
@@ -636,7 +643,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             padding-top: 0;
     
             h1 {
-                font-size: size('body', 13);
+                font-size: size('body', 12);
                 font-weight: 700;
                 line-height: lh('heading', 2);
     
@@ -753,6 +760,13 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 }
 
 .static-content-page { 
+
+    @include at-media("desktop") {
+        .content-column {
+            flex-direction: row-reverse;
+        }            
+    }
+
     a {
         color: color('indigo-warm-60v');
 
