@@ -2,7 +2,11 @@
 layout: layouts/base.html
 section: post
 news-text: Latest News
-return-to-top_text: "Return to top"
+return-to-top_text: Return to top
+back-to-news-updates_text: Back to all news and updates
+home-link-text: Home
+news-update-text: News and Updates
+news-update-url: /news/
 ---
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
@@ -20,6 +24,7 @@ return-to-top_text: "Return to top"
       </div>
     </div>
     <section class="usa-section grid-container">
+      {% include "components/news-blog-post-breadcrumb.html" %}
       <div class="grid-row">
         <article class="usa-prose usa-layout-docs" id="main-content">
           {{ layoutContent }}
@@ -35,7 +40,7 @@ return-to-top_text: "Return to top"
         </p>
         {% endif %}
         <p class="back-to-news-wrapper">
-          <a href="{{ '/news/' | url }}">← Back to all news and updates</a>
+          <a href="{{ news-update-url | url }}">{{ back-to-news-updates_text }}</a>
         </p>
       </div>
       <hr>
