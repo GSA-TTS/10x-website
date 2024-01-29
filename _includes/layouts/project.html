@@ -7,8 +7,8 @@ all-investments: "Investments"
 home-link-text: "Home"
 investments-list-url: "/investments/"
 ---
-<div class="project-category-pages">
-  <div class="TxContent project-page static-content-page">
+<div class="portfolio-blog-pages">
+  <div class="TxContent portfolio-blog-single-page static-content-page">
     <div class="banner-bg desktop:margin-bottom-2">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
@@ -19,31 +19,7 @@ investments-list-url: "/investments/"
       </div>
     </div>
     <section class="usa-section grid-container">
-      <div class="grid-row margin-bottom-4">
-        <nav class="usa-breadcrumb usa-breadcrumb--wrap padding-y-0" aria-label="Breadcrumbs,,">
-          <ol class="usa-breadcrumb__list">
-            <li class="usa-breadcrumb__list-item">
-              <a href="{{ '/' | url }}" class="usa-breadcrumb__link">
-                <span>
-                  {{ home-link-text }}
-                </span>
-              </a>
-            </li>
-            <li class="usa-breadcrumb__list-item">
-              <a href="{{ investments-list-url | url }}" class="usa-breadcrumb__link">
-                <span>
-                  {{ all-investments }}
-                </span>
-              </a>
-            </li>
-            <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
-              <span>
-                {{ title }}
-              </span>
-            </li>
-          </ol>
-        </nav>
-      </div>
+      {% include "components/detail-page-breadcrumb.html" %}
       <div class="grid-row content-column grid-gap-6">
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {{ layoutContent }}
@@ -58,46 +34,36 @@ investments-list-url: "/investments/"
 </div>
 
 <script>
-// Set a variable for our button element.
-const scrollToTopButton = document.getElementById('return-to-top-wrapper');
-const leftNavBottom = document.getElementById('left-nav').getBoundingClientRect().bottom;
-const leftNavBottomPosition = leftNavBottom - 20;
+  // Set a variable for our button element.
+  const scrollToTopButton = document.getElementById('return-to-top-wrapper');
+  const leftNavBottom = document.getElementById('left-nav').getBoundingClientRect().bottom;
+  const leftNavBottomPosition = leftNavBottom - 20;
 
-console.log("leftNavBottom: ", leftNavBottom);
-console.log("leftNavBottomPosition: ", leftNavBottomPosition);
+  // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+  const scrollFunc = () => {
+    const footerTop = document.getElementById('footer').offsetTop;
+    const footerTopPosition = footerTop - 20;
 
-// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
-const scrollFunc = () => {
-  const footerTop = document.getElementById('footer').offsetTop;
-  const footerTopPosition = footerTop - 20;
-
-  console.log("footerTop: ", footerTop);
-  console.log("footerTopPosition: ", footerTopPosition);
-
-  // Get the current scroll value
-  let y = window.scrollY;
-  let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-  console.log("scrollPosition Y: ", y);
-  console.log("scrollPosition OG: ", scrollPosition);
-  console.log("window.innerHeight: ", window.innerHeight);
-  
-  // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
-  if (y > 1000 && y < footerTop - window.innerHeight ) {
-    scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 fixed";
-  } else {
-    scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
-  }
-};
-
-const checkWidthAndApplyStyle = () => {
-  if (window.innerWidth >= 1024) {
-      window.addEventListener("scroll", scrollFunc);
+    // Get the current scroll value
+    let y = window.scrollY;
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+    if (y > 1000 && y < footerTop - window.innerHeight ) {
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 fixed";
     } else {
-      window.removeEventListener("scroll", scrollFunc);
-    } 
-}
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
+    }
+  };
 
-window.addEventListener("scroll", scrollFunc);
-window.addEventListener('resize', checkWidthAndApplyStyle);
+  const checkWidthAndApplyStyle = () => {
+    if (window.innerWidth >= 1024) {
+        window.addEventListener("scroll", scrollFunc);
+      } else {
+        window.removeEventListener("scroll", scrollFunc);
+      } 
+  }
+
+  window.addEventListener("scroll", scrollFunc);
+  window.addEventListener('resize', checkWidthAndApplyStyle);
 </script>

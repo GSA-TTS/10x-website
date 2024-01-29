@@ -7,7 +7,7 @@ permalink: /
 theme: 1
 
 hero_banner:
-  title: "10x is the federal government’s very own venture studio."
+  title: "10x is the federal government’s very own venture studio"
 
 news_card:
   date: "November 30, 2023"
@@ -27,11 +27,11 @@ header_columns:
       text: "We demand that our projects demonstrate feasibility and opportunity for impact at every stage of the process. If they don't, we wind them down."
 
 section_1_static_content:
-  title: "We’re re-imagining government technology services through your ideas."
+  title: "We’re re-imagining government technology services through your ideas"
   text: "As a public servant, you're uniquely positioned to imagine better ways to serve the public. If you’ve ever thought, 'There's got to be a better way to do that,' we want your ideas."
   button_text: "How to pitch your idea"
   button_link: "/link/to/page"
-  subtitle: "Meet our top investment portfolios."
+  subtitle: "Meet our top investment portfolios"
   link_text: "See all of our investment portfolios"
   link_url: "/projects/"
 
@@ -54,12 +54,12 @@ section_1_cards:
     button_link: "/link/to/page"
 
 section_2_static_content:
-  title: "206 investments and counting."
+  title: "206 investments and counting"
   button_text: "Discover our investment portfolios"
   button_link: "/reports/"
 
 section_3_content:
-  title: "Take a look at some of our best investments so far."
+  title: "Take a look at some of our best investments so far"
   cards:
   - subtitle: "Benefits Eligibility & Delivery"
     title: "BEARS, the benefit eligibility estimator"
@@ -88,7 +88,7 @@ section_4_static_content:
   button_link: "https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP"
 
 section_5_static_content:
-  title: "We’re in good company."
+  title: "We’re in good company"
   text: "10x is proud to share the agencies and offices we’ve partnered with recently."
 
 section_5_bullet_list:

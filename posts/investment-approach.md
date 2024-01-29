@@ -9,4 +9,4 @@ excerpt: "OPSI, part of the OECD, profiles 10x's unique approach to funding gove
 ---
 The Observatory of Public Sector Innovation (OPSI), part of the Organization for Economic Co-operation and Development (OECD) profiles 10x and its approach to funding technology solutions in the U.S. government. The article explores their approach to innovation, how they nurture ideas, and what they’ve learned.
 
-**Read more about [10x Investments on OPSI](https://www.oecd-opsi.org/innovations/10x-investments/).**
+Read more about [10x Investments on OPSI](https://www.oecd-opsi.org/innovations/10x-investments/).

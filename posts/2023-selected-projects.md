@@ -10,7 +10,9 @@ theme: '4'
 
 ---
 
-We are very excited to announce the latest cohorts of projects chosen to begin Phase 1 of the 10x process. Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
+<p class="usa-intro">  
+    We are very excited to announce the latest cohorts of projects chosen to begin Phase 1 of the 10x process. Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
+</p>
 
 The ideas we selected for Phase 1 are:
 

@@ -2,7 +2,7 @@
 layout: layouts/base.html
 section: project
 ---
-<div class="projects-wrapper project-category-pages">
+<div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="list-page banner-bg">
     <div class="banner-bg-gradient padding-y-3 padding-x-4">
       <section class="grid-container header-section usa-section" aria-label="Introduction">
@@ -18,11 +18,10 @@ section: project
             <div class="usa-prose">
               {{ layoutContent }}
             </div>
-            <section class="ProjectList desktop:margin-top-8">
+            <section class="portfolio-blog-list desktop:margin-top-8">
               {%- for project in collections.projects -%}
 
-              <div
-                class="usa-card usa-card--flag flex-1 margin-bottom-6 ProjectCard template-{{ project.data.template }}">
+              <div class="usa-card usa-card--flag flex-1 margin-bottom-6 portfolio-blog-card template-{{ project.data.template }}">
                 <div class="usa-card__container">
                   <div class="usa-card__media">
                     <div class="usa-card__img">

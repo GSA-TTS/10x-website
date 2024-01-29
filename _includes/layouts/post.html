@@ -1,31 +1,47 @@
 ---
 layout: layouts/base.html
 section: post
+news-text: Latest News
+return-to-top_text: "Return to top"
 ---
-
-<div class="TxContent">
-  <div class="grid-container">
-    <article class="usa-prose">
-      <h1>{{ title }}</h1>
-
-      <time class="margin-bottom-0 margin-top-4 display-block font-sans-md" datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></a>
-      <hr class="TxBreak__base-lighter" />
-
-      {{ layoutContent }}
-    </article>
-    {% if tags %}
-      <p>
-        {% for tag in tags %}
-        {%- if tag != "post" -%}
-        {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-        {%- endif -%}
-        {% endfor %}
+<div class="portfolio-blog-pages">
+  <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
+    <div class="banner-bg desktop:margin-bottom-2">
+      <div class="banner-bg-gradient padding-y-3 padding-x-4">
+        <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
+          <h4>
+            <span class="news-text-wrapper">{{ news-text }}</span>
+            <span class="divider padding-x-1">|</span>
+            <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
+          </h4>
+          <h1>{{ title }}</h1>
+          <h2>{{ excerpt }}</h2>
+        </section>
+      </div>
+    </div>
+    <section class="usa-section grid-container">
+      <div class="grid-row">
+        <article class="usa-prose usa-layout-docs" id="main-content">
+          {{ layoutContent }}
+        </article>
+        {% if tags %}
+        <p>
+          {% for tag in tags %}
+          {%- if tag != "post" -%}
+          {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+          {%- endif -%}
+          {% endfor %}
+        </p>
+        {% endif %}
+        <p class="back-to-news-wrapper">
+          <a href="{{ '/news/' | url }}">← Back to all news and updates</a>
+        </p>
+      </div>
+      <hr>
+      <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+        <a class="usa-link" href="#">{{ return-to-top_text }}</a>
       </p>
-    {% endif %}
-    <nav class="margin-top-3">
-      <a href="{{ '/news-updates/' | url }}">← Back to all news and updates</a>
-    </nav>
+    </section>
   </div>
 </div>
-

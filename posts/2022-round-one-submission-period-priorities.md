@@ -11,7 +11,9 @@ excerpt: "We are excited to announce the funding themes for our first round of i
 
 ## Announcing new round of project funding and investment priorities
 
-10x is pleased to announce that we are now accepting ideas through November 16th, 2021. Any federal employee is eligible to submit an idea to 10x through our website using our [submission form](https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP). We expect to finalize the list of projects we select for funding in early 2022, and plan to kick-off these new projects at Phase One by March, 2022.
+<p class="usa-intro">  
+    10x is pleased to announce that we are now accepting ideas through November 16th, 2021. Any federal employee is eligible to submit an idea to 10x through our website using our <a class="usa-link usa-link--external" rel="noreferrer" href="https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP">submission form</a>. We expect to finalize the list of projects we select for funding in early 2022, and plan to kick-off these new projects at Phase One by March, 2022.
+</p>
 
 As always, 10x accepts ideas on a broad range of topics across the federal technology ecosystem and your ideas don’t need to align to a particular theme; however, we do have specific investment priorities, and ideas that align to these themes will receive greater attention when we're deliberating on which project ideas to fund. Here are the new, hot-off-the-press 10x investment themes for our first round of project funding for Fiscal Year 2022. 
 

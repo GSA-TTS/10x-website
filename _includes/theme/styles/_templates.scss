@@ -622,7 +622,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
 }
 
-.project-category-pages {
+.portfolio-blog-pages {
     .banner-bg { 
         color: white;
 
@@ -637,6 +637,10 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             padding-bottom: units(1.5);
             color: color('cyan-10v');
             background: url('../images/header-bottom-border.png') left bottom no-repeat; 
+
+            &.blog-post-section-header {
+                background: none;
+            }
         }
     
         .header-section {
@@ -645,31 +649,39 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             h1 {
                 font-size: size('body', 12);
                 font-weight: 700;
-                line-height: lh('heading', 2);
+                line-height: lh('heading', 3);
     
                 @include at-media("tablet-lg") {
                     font-size: size('body', 14);
-                    margin-top: units(8);
+                    margin-top: units(7);
                 }  
             }
     
             h2 {
                 font-size: size('body', 10);
                 font-weight: 400; 
+                line-height: lh('heading', 4);
             }
     
             h1, h2 {
                 color: white;
             }
+
+            &.blog-post-header-section {
+
+                h4 {
+                    background: none;
+                }
+            }
         }
     }
 }
 
-.projects-wrapper {
-    .ProjectList {
+.portfolio-bloglist-wrapper {
+    .portfolio-blog-list {
         margin-top: units(6);
 
-        .ProjectCard,
+        .portfolio-blog-card,
         .usa-card__container {
             width: 100%;
         }
@@ -703,7 +715,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                /* Exact width of project logo:  310px */
                 margin-left: 15rem;            
             }        
         }
@@ -730,7 +741,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                /* Exact width of project logo: 310px */
                 width: 15rem;          
             }   
         }
@@ -746,7 +756,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                /* Exact width of project logo:  310px */
                 margin-right: 20rem; 
                 margin-left: 0;          
             }        
@@ -754,7 +763,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                /* Exact width of project logo: 310px */
                 left: auto;
                 right: units(-2px);          
             }   
@@ -762,7 +770,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
         
     .usa-card__container {
-        /* Exact height of project logo: 330px */
         min-height: auto
     }
 }
@@ -792,14 +799,14 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
 
     h2 {
-        font-size: size('body', 12);
+        font-size: size('body', 11);
         font-weight: 600; 
     }
 
     h3 {
-        font-size: size('body', 11);
-        color: color('indigo-warm-60v');
-        margin-top: units(6);
+        font-size: size('body', 10);
+        color: color('indigo-warm-80v');
+        margin-top: units(5);
     }
 
     h4 {
@@ -811,10 +818,11 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         font-size: size('body', 6);
         line-height: lh('body', 6);
         max-width: 100%;
+        margin-top: units(2);
 
         &.usa-intro {
             margin-top: 0;
-            font-size: size('body', 9);
+            font-size: size('body', 8);
             font-weight: 500;
 
             &.introBackground {
@@ -824,7 +832,20 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 margin-top: units(1);
             }
         }
+
+        &.back-to-news-wrapper {
+            margin: units(4) 0 units(2);
+        }
     }
+
+    &.blog-page {
+        p {
+            &.usa-intro {
+                margin-top: units(2);
+            }
+        }
+    }
+
      hr {
         margin: units(5) 0;
         max-width: 132px;
