@@ -799,13 +799,14 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
     }
 
     h2 {
-        font-size: size('body', 11);
+        font-size: size('body', 12);
         font-weight: 600; 
+        line-height: lh('body', 4);
     }
 
     h3 {
-        font-size: size('body', 10);
-        color: color('indigo-warm-80v');
+        font-size: size('body', 11);
+        color: color('indigo-warm-70v');
         margin-top: units(5);
     }
 
@@ -818,12 +819,13 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         font-size: size('body', 6);
         line-height: lh('body', 6);
         max-width: 100%;
-        margin-top: units(2);
+        margin-top: units(1.5);
 
         &.usa-intro {
-            margin-top: 0;
-            font-size: size('body', 8);
-            font-weight: 500;
+            margin-top: units(-0.5);
+            font-size: size('body', 12);
+            font-weight: 600;
+            line-height: lh('body', 4);
 
             &.introBackground {
                 font-weight: 400;

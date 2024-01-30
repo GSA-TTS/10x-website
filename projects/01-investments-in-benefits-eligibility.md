@@ -35,7 +35,7 @@ A comprehensive tool to help people find the benefits that they might be eligibl
 
 ### Benefits eligibility APIs
 
-America's social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster. Read more about the <a class="usa-link" rel="noreferrer" href="https://10x.gsa.gov/projects/eligibility-apis/">eligibility APIs</a> developed by 10x.
+America's social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster. Read more about the eligibility APIs developed by 10x.
 
 ### Notify&period;gov
 
