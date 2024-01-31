@@ -7,12 +7,14 @@ date: "2023-05-08"
 slug: "2023-selected-projects"
 excerpt: "10x is excited to announce the newest batch of projects selected for Phase 1."
 theme: '4'
-
+tags: Announcement
 ---
 
 <p class="usa-intro">  
-    We are very excited to announce the latest cohorts of projects chosen to begin Phase 1 of the 10x process. Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
+    We are very excited to announce the latest cohorts of projects chosen to begin Phase 1 of the 10x process. 
 </p>
+
+Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
 
 The ideas we selected for Phase 1 are:
 

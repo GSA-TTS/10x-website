@@ -3,7 +3,9 @@ layout: layouts/page.html
 section: blog
 permalink: /news-updates/index.html
 ---
-{{ layoutContent }}
+<div class="portfolio-bloglist-wrapper portfolio-blog-pages">
+    <h1>{{ renderData.title }}</h1>
 
-{% assign postslist = collections.posts %}
-{% include "components/posts-list.html" %}
+    {% assign postslist = collections.posts %}
+    {% include "components/posts-list.html" %}
+</div>

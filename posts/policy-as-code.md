@@ -6,6 +6,7 @@ footer: "10x-in-the-wild"
 date: "2020-05-11"
 slug: "policy-as-code"
 excerpt: "Learn about 18F's approach to writing policy as code for faster implementation of changes."
+tags: Projects
 ---
 
 18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy.

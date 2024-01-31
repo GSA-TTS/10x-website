@@ -1,12 +1,15 @@
 ---
-layout: layouts/base.html
+layout: layouts/page.html
+section: blog
+permalink: /tags/index.html
+news-update-url: /news/
+back-to-news-updates_text: Back to all news and updates
 ---
-
 <h1>Tagged “{{ tag }}”</h1>
 
 {% assign postslist = collections[tag] %}
 {% include "components/posts-list.html" %}
 
-<nav>
-  <a href="{{ '/news-updates/' | url }}">← Blog index</a>
-</nav>
+<p class="back-to-news-wrapper">
+  <a href="{{ news-update-url | url }}">{{ back-to-news-updates_text }}</a>
+</p>

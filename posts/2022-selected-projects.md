@@ -7,12 +7,14 @@ date: "2022-05-11"
 slug: "2022-selected-projects"
 excerpt: "10x is excited to announce the newest batch of projects selected for Phase 1."
 theme: '3'
-
+tags: Announcement
 ---
 
 <p class="usa-intro">  
-    We are excited to reveal the latest cohort of projects chosen to begin Phase 1 of the 10x process.  Out of nearly 200 ideas, we selected the 25 ideas we feel have the most potential to deliver impact for the American public. We want to express sincere gratitude for the many federal employees who raised a hand and submitted ideas to 10x. We are particularly excited that our reach across the government is expanding: over 80% of the ideas we evaluated came from outside of our home agency, a record high.
+    We are excited to reveal the latest cohort of projects chosen to begin Phase 1 of the 10x process.
 </p>
+
+Out of nearly 200 ideas, we selected the 25 ideas we feel have the most potential to deliver impact for the American public. We want to express sincere gratitude for the many federal employees who raised a hand and submitted ideas to 10x. We are particularly excited that our reach across the government is expanding: over 80% of the ideas we evaluated came from outside of our home agency, a record high.
 
 These are the ideas we selected for Phase 1:
 
