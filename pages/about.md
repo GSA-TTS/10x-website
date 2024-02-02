@@ -2,6 +2,10 @@
 title: About
 layout: layouts/page.html
 permalink: /About/index.html
+redirect_from: 
+  - /fueling-innovation
+  - /making-each-dollar-count
+  - /designing-success
 eleventyNavigation:
   parent: root
   key: About
