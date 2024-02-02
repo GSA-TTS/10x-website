@@ -1,9 +1,25 @@
 ---
 layout: layouts/page.html
 section: blog
-permalink: /news-updates/index.html
+pagination:
+  data: collections.posts
+  size: 7
+  alias: posts
+return-to-top_text: "Return to top"
 ---
-{{ layoutContent }}
+<div class="portfolio-bloglist-wrapper portfolio-blog-pages">
+    <h1>{{ renderData.title }}</h1>
 
-{% assign postslist = collections.posts %}
-{% include "components/posts-list.html" %}
+    {% assign postslist = posts %}
+    {% include "components/posts-list.html" %}
+
+    {% if pagination.pages.length > 1 %}
+    {% include "components/pagination.html" %}
+    {% else %}
+    <p>Pagination not needed</p>
+    {% endif %}
+
+    <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+        <a class="usa-link" href="#">{{ return-to-top_text }}</a>
+    </p>
+</div>
