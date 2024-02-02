@@ -1,31 +1,99 @@
 ---
 layout: layouts/base.html
 section: post
+news-text: Latest News
+return-to-top_text: Return to top
+back-to-news-updates_text: Back to all news and updates
+home-link-text: Home
+news-update-text: News and Updates
+list-url: /news/
+tags-list:
+  - Announcement
+  - Media
+  - Projects
 ---
+<div class="portfolio-blog-pages">
+  <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
+    <div class="banner-bg desktop:margin-bottom-2">
+      <div class="banner-bg-gradient padding-y-3 padding-x-4">
+        <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
+          <h4>
+            <span class="news-text-wrapper">{{ news-text }}</span>
+            <span class="divider padding-x-1">|</span>
+            <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
+          </h4>
+          <h1>{{ title }}</h1>
+          <h2>{{ excerpt }}</h2>
+        </section>
+      </div>
+    </div>
+    <section class="usa-section grid-container">
+      {% include "components/news-blog-post-breadcrumb.html" %}
+      <div class="grid-row content-column grid-gap-6">
+        <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
+          {{ layoutContent }}
+          <hr>
+          
+          {% if tags %}
+          <p class="tag-container margin-top-5">
+            <span>Tag:</span>
+            {% for tag in tags %}
+            {%- if tag != "post" -%}
+            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            <span class="usa-tag usa-tag--big">
+              <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            </span>
+            {%- endif -%}
+            {% endfor %}
+          </p>
+          {% endif %}
+          <p class="back-to-news-wrapper">
+            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
+          </p>
+        </div>
+        {% include "components/tags-side-nav.html" %}
 
-<div class="TxContent">
-  <div class="grid-container">
-    <article class="usa-prose">
-      <h1>{{ title }}</h1>
+      </div>
 
-      <time class="margin-bottom-0 margin-top-4 display-block font-sans-md" datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></a>
-      <hr class="TxBreak__base-lighter" />
 
-      {{ layoutContent }}
-    </article>
-    {% if tags %}
-      <p>
-        {% for tag in tags %}
-        {%- if tag != "post" -%}
-        {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-        {%- endif -%}
-        {% endfor %}
+      <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+        <a class="usa-link" href="#">{{ return-to-top_text }}</a>
       </p>
-    {% endif %}
-    <nav class="margin-top-3">
-      <a href="{{ '/news-updates/' | url }}">← Back to all news and updates</a>
-    </nav>
+    </section>
   </div>
 </div>
 
+<script>
+  // Set a variable for our Return to top button element.
+  const scrollToTopButton = document.getElementById('return-to-top-wrapper');
+  const leftNavBottom = document.getElementById('left-nav').getBoundingClientRect().bottom;
+  const leftNavBottomPosition = leftNavBottom - 20;
+
+  // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+  const scrollFunc = () => {
+    const footerTop = document.getElementById('footer').offsetTop;
+    const footerTopPosition = footerTop - 20;
+
+    // Get the current scroll value
+    let y = window.scrollY;
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+    if (y > 1000 && y < footerTop - window.innerHeight ) {
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 fixed";
+    } else {
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
+    }
+  };
+
+  const checkWidthAndApplyStyle = () => {
+    if (window.innerWidth >= 1024) {
+        window.addEventListener("scroll", scrollFunc);
+      } else {
+        window.removeEventListener("scroll", scrollFunc);
+      } 
+  }
+
+  window.addEventListener("scroll", scrollFunc);
+  window.addEventListener('resize', checkWidthAndApplyStyle);
+</script>

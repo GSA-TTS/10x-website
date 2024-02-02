@@ -15,11 +15,14 @@
 								</p>
 							{% endif %}
 							{% if post.data.tags %}
-								<p>
+								<p class="tag-container margin-top-5">
+									<span>Tag:</span>
 									{% for tag in post.data.tags %}
 									{%- if tag != "post" -%}
 									{% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
-									<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+									<span class="usa-tag usa-tag--big">
+										<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+									</span>									
 									{%- endif -%}
 									{% endfor %}
 								</p>

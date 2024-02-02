@@ -11,7 +11,7 @@
 	<a href="#main-content" class="usa-skipnav">Skip to main content</a>
 	<div class="usa-app {% if theme %}usa-app__theme-{{ theme }}{% endif %}">
 
-			{% include "components/header.html" %}
+			{% include "components/header.html", page: page %}
 
 			<main id="main-content" role="main">
 				{{ layoutContent }}

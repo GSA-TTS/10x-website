@@ -7,9 +7,12 @@ footer: 10x-in-the-wild
 date: "2022-10-04"
 excerpt: "Any federal employee is eligible to submit an idea to 10x through our website using our submission form. The deadline is November 30, 2022."
 theme: "8"
+tags: Announcement
 ---
 
-## Announcing new round of project funding and investment priorities
+<p class="usa-intro">  
+    Announcing new round of project funding and investment priorities
+</p>
 
 10x is pleased to announce that we are now accepting ideas through 11:59pm on November 30th, 2022. Any federal employee is eligible to submit an idea to 10x through our website using our submission form. We expect to finalize the list of projects we select for funding in early 2023, and plan to kick-off these new projects at Phase One in Spring 2023.
 
