@@ -8,7 +8,7 @@ pagination:
     - nav
     - post
     - posts
-permalink: projects/tags/{{ tag }}/
+permalink: /tags/{{ tag }}/
 layout: layouts/tags.html
 renderData:
   title: "Tagged “{{ tag }}”"

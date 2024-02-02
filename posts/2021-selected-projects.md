@@ -6,9 +6,14 @@ theme: "6"
 footer: "we-started-as-an-idea-too"
 description: "10x is excited to reveal the latest cohort of projects that we have selected for Phase 1 funding."
 excerpt: "We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. We received and evaluated 250 new submissions  —  a record-high for our program."
-
+tags: Announcement
 ---
-We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. We received and evaluated 250 new submissions  —  a record-high for our program  —  from employees at 34 agencies. Of those, we have selected the 22 ideas we feel have the most potential to deliver impact for the American public. A toast, hug, kudos, and thanks to all of our idea submitters. You make 10x work.
+
+<p class="usa-intro">  
+    We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. 
+</p>
+
+We received and evaluated 250 new submissions  —  a record-high for our program  —  from employees at 34 agencies. Of those, we have selected the 22 ideas we feel have the most potential to deliver impact for the American public. A toast, hug, kudos, and thanks to all of our idea submitters. You make 10x work.
 
 ## These are the ideas we selected for Phase 1:
 

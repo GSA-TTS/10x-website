@@ -2,8 +2,6 @@
   "layout": "layouts/project.html",
   "permalink": "/projects/{{ page.fileSlug }}/index.html",
   "footer": "we-started-as-an-idea-too",
-  "tags": [
-    "project-tag"
-  ],
+  "tags": "portfolio",
   "theme": 5
 }

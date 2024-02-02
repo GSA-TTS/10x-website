@@ -6,6 +6,11 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const { imageShortcode, imageWithClassShortcode } = require('./config');
+const { JSDOM } = require('jsdom');
+const pluginTOC = require('eleventy-plugin-toc');
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require("markdown-it-attrs");
 
 const yaml = require("js-yaml");
 
@@ -118,6 +123,8 @@ module.exports = function (eleventyConfig) {
     svgShortcode: "usa_icons",
   });
 
+  //Eleventy Table of Content Plugin
+  eleventyConfig.addPlugin(pluginTOC);
 
   // Set image shortcodes
   eleventyConfig.addLiquidShortcode('image', imageShortcode);
@@ -147,26 +154,32 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
-  // // Handle redirects
-  // const redirectsPlugin = require('eleventy-plugin-redirects');
-
-  // module.exports = function(eleventyConfig) {
-  //   config.addPlugin(redirectsPlugin, {
-  //     template: 'netlify',
-  //   })
-  // }
+  //Filter that Extracts Headings
+  eleventyConfig.addNunjucksFilter("getHeadings", (content) => {
+    let headings = [];
+    const dom = new JSDOM(content);
+    const document = dom.window.document;
+    const headingElements = [...document.querySelectorAll('h3')]; // Adjust this selector based on your needs
+  
+    headingElements.forEach(heading => {
+      const id = heading.id || heading.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+      headings.push({ id: id, text: heading.textContent });
+    });
+  
+    return headings;
+  });
 
   /* Markdown Plugins */
-  let markdownIt = require("markdown-it");
-  let markdownItAnchor = require("markdown-it-anchor");
-  let markdownItAttrs = require("markdown-it-attrs");
+  // let markdownIt = require("markdown-it");
+  // let markdownItAnchor = require("markdown-it-anchor");
+
   let markdownItOptions = {
     breaks: true,
     linkify: true,
     html: true
   };
   let markdownItAnchorOptions = {
-    permalink: false
+    permalink: false,
   };
   let markdownItRenderer = new markdownIt(markdownItOptions);
 
