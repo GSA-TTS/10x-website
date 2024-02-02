@@ -147,6 +147,15 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
+  // // Handle redirects
+  // const redirectsPlugin = require('eleventy-plugin-redirects');
+
+  // module.exports = function(eleventyConfig) {
+  //   config.addPlugin(redirectsPlugin, {
+  //     template: 'netlify',
+  //   })
+  // }
+
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

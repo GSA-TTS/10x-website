@@ -2,7 +2,9 @@
 title: News
 layout: layouts/page.html
 permalink: /news/index.html
-eleventyNavigation:
+redirect_from:
+  - /news-and-updates/
+=eleventyNavigation:
   parent: root
   key: News
   order: 2
