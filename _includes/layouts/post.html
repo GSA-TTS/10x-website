@@ -6,7 +6,7 @@ return-to-top_text: Return to top
 back-to-news-updates_text: Back to all news and updates
 home-link-text: Home
 news-update-text: News and Updates
-news-update-url: /news/
+list-url: /news/
 tags-list:
   - Announcement
   - Media
@@ -48,7 +48,7 @@ tags-list:
           </p>
           {% endif %}
           <p class="back-to-news-wrapper">
-            <a href="{{ news-update-url | url }}">{{ back-to-news-updates_text }}</a>
+            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
           </p>
         </div>
         {% include "components/tags-side-nav.html" %}

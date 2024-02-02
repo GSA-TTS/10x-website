@@ -1,6 +1,10 @@
 ---
 layout: layouts/base.html
 section: project
+pagination:
+  data: collections.projects
+  size: 7
+  alias: portfolios
 ---
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="list-page banner-bg">
@@ -20,7 +24,6 @@ section: project
             </div>
             <section class="portfolio-blog-list desktop:margin-top-8">
               {%- for project in collections.projects -%}
-
               <div class="usa-card usa-card--flag flex-1 margin-bottom-6 portfolio-blog-card template-{{ project.data.template }}">
                 <div class="usa-card__container">
                   <div class="usa-card__media">
@@ -58,8 +61,11 @@ section: project
                   </div>
                 </div>
               </div>
-
               {%- endfor -%}
+
+              {% if pagination.pages.length > 1 %}
+              {% include "components/pagination.html" %}
+              {% endif %}
 
               <p class="usa-identifier__required-links-item return-to-top margin-bottom-3">
                 <a class="usa-link" href="#">{{ return-to-top_text }}</a>
