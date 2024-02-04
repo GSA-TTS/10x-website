@@ -5,6 +5,7 @@ pagination:
   data: collections.investments
   size: 7
   alias: investments
+return-to-top_text: "Return to top"
 ---
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="list-page banner-bg">
@@ -23,7 +24,7 @@ pagination:
               {{ layoutContent }}
             </div>
             <section class="portfolio-blog-list desktop:margin-top-8">
-              {%- for investment in collections.investments -%}
+              {%- for investment in investments -%}
               <div class="usa-card usa-card--flag flex-1 margin-bottom-6 portfolio-blog-card template-{{ investment.data.template }}">
                 <div class="usa-card__container">
                   <div class="usa-card__media">

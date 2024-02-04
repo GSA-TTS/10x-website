@@ -15,8 +15,6 @@ return-to-top_text: "Return to top"
 
     {% if pagination.pages.length > 1 %}
     {% include "components/pagination.html" %}
-    {% else %}
-    <p>Pagination not needed</p>
     {% endif %}
 
     <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">

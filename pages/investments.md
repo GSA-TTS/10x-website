@@ -1,6 +1,6 @@
 ---
 title: Investments
-layout: layouts/investments.html
+layout: layouts/investments-list.html
 permalink: /investments{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 eleventyNavigation:
   parent: root

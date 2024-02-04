@@ -1,18 +1,13 @@
 ---
 layout: layouts/page.html
 section: blog
-permalink: /tags/index.html
 list-url: /news/
 back-to-news-updates_text: Back to all news and updates
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
-{% assign postslist = collections[tag] %}
+{% assign postslist = collections[tag] | reverse %}
 {% include "components/posts-list.html" %}
-
-<!-- {% if pagination.pages.length > 1 %}
-{% include "components/pagination.html" %}
-{% endif %} -->
 
 <p class="back-to-news-wrapper">
   <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>

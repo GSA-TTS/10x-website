@@ -6,7 +6,7 @@ footer: "every-solution-starts-as-an-idea"
 date: "2020-05-19"
 slug: "investment-approach"
 excerpt: "OPSI, part of the OECD, profiles 10x's unique approach to funding government technology solutions."
-tags: In the news
+tags: In-the-News
 ---
 The Observatory of Public Sector Innovation (OPSI), part of the Organization for Economic Co-operation and Development (OECD) profiles 10x and its approach to funding technology solutions in the U.S. government. The article explores their approach to innovation, how they nurture ideas, and what they’ve learned.
 
