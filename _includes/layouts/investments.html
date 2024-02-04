@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.html
-section: project
+section: investments
 pagination:
-  data: collections.projects
+  data: collections.investments
   size: 7
-  alias: portfolios
+  alias: investments
 ---
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="list-page banner-bg">
@@ -23,34 +23,34 @@ pagination:
               {{ layoutContent }}
             </div>
             <section class="portfolio-blog-list desktop:margin-top-8">
-              {%- for project in collections.projects -%}
-              <div class="usa-card usa-card--flag flex-1 margin-bottom-6 portfolio-blog-card template-{{ project.data.template }}">
+              {%- for investment in collections.investments -%}
+              <div class="usa-card usa-card--flag flex-1 margin-bottom-6 portfolio-blog-card template-{{ investment.data.template }}">
                 <div class="usa-card__container">
                   <div class="usa-card__media">
                     <div class="usa-card__img">
-                      <img src="{{ project.data.image-url | url }}" role="img" alt="{{ project.data.title }}"
+                      <img src="{{ investment.data.image-url | url }}" role="img" alt="{{ investment.data.title }}"
                         aria-hidden="true" />
                     </div>
                   </div>
                   <div class="usa-card__header">
                     <h2 class="usa-card__heading">
-                      {{ project.data.title }}
+                      {{ investment.data.title }}
                     </h2>
                   </div>
                   <div class="usa-card__body">
                     <h3 class="usa-card__subhead">
-                      {{ project.data.subtitle }}
+                      {{ investment.data.subtitle }}
                     </h3>
                     <p class="usa-button">
-                      <a class="usa-link" href="{{ project.url | url }}">
-                        <span class="usa-sr-only">{{ project.data.title }}</span>
+                      <a class="usa-link" href="{{ investment.url | url }}">
+                        <span class="usa-sr-only">{{ investment.data.title }}</span>
                         {{ read-more-button_text }}
                       </a>
                     </p>
 
-                    {%- if project.data.tags- %}
+                    {%- if investment.data.tags- %}
                     <p>
-                      {%- for tag in project.data.tags -%}
+                      {%- for tag in investment.data.tags -%}
                       {%- if tag != "project" -%}
                       {%- capture tagUrl- %}/tags/{{ tag }}/{%- endcapture -%}
                       <a class="usa-link" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>

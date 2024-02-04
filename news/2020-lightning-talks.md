@@ -5,7 +5,7 @@ footer: "10x-in-the-wild"
 date: "2020-06-29"
 slug: "2020-lightning-talks"
 excerpt: "Check out this video of a live showcase of some of 10x’s most innovative projects."
-tags: Media
+tags: In the news
 ---
 Check out this video of a live showcase of some of 10x’s most innovative projects. View a series of quick presentations on Eligibility APIs, Agile Budgeting and Oversight Handbook, and U.S. Web Design System’s Advanced Form Controls. 
 
