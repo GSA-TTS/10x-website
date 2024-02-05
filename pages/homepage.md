@@ -10,8 +10,8 @@ hero_banner:
   title: "10x is the federal government’s very own venture studio"
 
 news_card:
-  date: "November 30, 2023"
-  title: "New projects chosen for FY23"
+  date: "February 14, 2024"
+  title: "New projects chosen for FY24"
   subtitle: "10x selected a new set of high-impact ideas for its next round of Phase 1 funding."
   button_text: "Read more"
   button_link: "https://www.google.com/"
