@@ -67,7 +67,7 @@ section_3_content:
     button_text: "See Site Scanning in action"
     button_link: "/news/site-scanning/"
   - subtitle: "Investments in Equitable Tech"
-    title: "Combating bias in AI"
+    title: "Combating Bias in AI"
     text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_text: "Read more about Combating Bias"
     button_link: "/news/combating-bias-equitable-tech/"
@@ -77,7 +77,7 @@ section_3_content:
     button_text: "Check out Notify.gov"
     button_link: "/news/notify/"
   - subtitle: "Tools for Federal Teams"
-    title: "U.S. Web Design System (USWDS)"
+    title: "U.S. Web Design System"
     text: USWDS is a dynamic platform for continuous innovation within the government's digital services landscape, including design patterns and components.
     button_text: "Read more about USWDS"
     button_link: "/news/uswds/"
