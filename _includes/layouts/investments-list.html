@@ -42,6 +42,9 @@ return-to-top_text: "Return to top"
                     <h3 class="usa-card__subhead">
                       {{ investment.data.subtitle }}
                     </h3>
+                    <p>
+                      {{ investments.data.description }}
+                    </p>
                     <p class="usa-button">
                       <a class="usa-link" href="{{ investment.url | url }}">
                         <span class="usa-sr-only">{{ investment.data.title }}</span>
