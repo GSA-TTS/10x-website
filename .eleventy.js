@@ -27,8 +27,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   // add blog posts to a named collection
-  eleventyConfig.addCollection("posts", collection => {
-    return collection.getFilteredByGlob("posts/*.md").sort(function (a, b) {
+  eleventyConfig.addCollection("news", collection => {
+    return collection.getFilteredByGlob("news/*.md").sort(function (a, b) {
       return b.date - a.date; // sort by date, newest first
     });
   });
@@ -47,8 +47,8 @@ module.exports = function (eleventyConfig) {
   });
 
   // add projects to a named collection
-  eleventyConfig.addCollection("projects", collection => {
-    return collection.getFilteredByGlob("projects/*.md").sort(function (a, b) {
+  eleventyConfig.addCollection("investments", collection => {
+    return collection.getFilteredByGlob("investments/*.md").sort(function (a, b) {
       return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
     });
   });

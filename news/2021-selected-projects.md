@@ -113,7 +113,7 @@ failure-prone, which can result in a massive hit to the federal budget, as well 
 
 Of the 22 projects we selected, 21 aligned with our three investment themes: Public Trust & Civic Life, Public Lands & Environment, and Equity in Delivery.  We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [Our Projects](../projects/); more will be added over the coming months.
+The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [investments]({{'../investments/' | url}}); more will be added over the coming months.
 
 ## About 10x
 

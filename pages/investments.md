@@ -1,7 +1,7 @@
 ---
 title: Investments
-layout: layouts/projects.html
-permalink: /investments/index.html
+layout: layouts/investments-list.html
+permalink: /investments{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 redirect_from: 
   - /projects
   - /reports

@@ -9,7 +9,7 @@ pagination:
     - post
     - posts
 permalink: /tags/{{ tag }}/
-layout: layouts/tags.html
+layout: layouts/tags-list.html
 renderData:
   title: "Tagged “{{ tag }}”"
   description: "All projects tagged with “{{ tag }}”"

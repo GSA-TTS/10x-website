@@ -1,0 +1,7 @@
+{
+  "layout": "layouts/investment-page.html",
+  "permalink": "/investments/{{ page.fileSlug }}/",
+  "footer": "we-started-as-an-idea-too",
+  "tags": "investments",
+  "theme": 9
+}
