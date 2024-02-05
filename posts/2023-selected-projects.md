@@ -24,6 +24,10 @@ We have observed multiple instances of government programs successfully creating
 
 10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public’s experience with the government.
 
+<aside class="pull-quote">
+10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public’s experience with the government.
+</aside>
+
 An idea submitted by a civil servant at: *General Services Administration ~ Federal Acquisition Service*
 
 ## Demystifying 508 Compliance
