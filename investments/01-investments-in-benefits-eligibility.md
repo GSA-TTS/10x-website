@@ -1,7 +1,7 @@
 ---
 title: Benefits Eligibility and Delivery
-subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
-description: The 10x BEARS project is a vision for an empathetic, human-centered world where the public can learn about benefits in a way that reflects their lived experiences, rather than the complexities of bureaucracy.
+subtitle: Easier ways of applying for and receiving benefits
+description: It shouldn’t be a burden to find and apply for government benefits. How can we make it easier for the public to find out if they’re eligible, apply for, and then get the services they need?
 excerpt: |-
   From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 template: "4"
@@ -10,10 +10,10 @@ footer: we-started-as-an-idea-too
 ---
 
 <p class="usa-intro">  
-  From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. 
+  Tens of millions of Americans seek and receive public benefits each year. 
 </p>
 
-Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
+From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 
 But the federal government has no Department of Parenthood. No Ministry for Bereavement. Funding and administering all of the various benefits programs is the responsibility of dozens of agencies and sub-agencies. This means that, for the public, the process of establishing benefits eligibility is a daunting one, and especially daunting during hard times.
 
