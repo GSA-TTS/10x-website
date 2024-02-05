@@ -1,0 +1,77 @@
+---
+layout: layouts/base.html
+section: blog
+tags-list:
+  - Announcement
+  - In-the-News
+  - Projects
+---
+<div class="portfolio-blog-pages">
+  <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
+    <section class="usa-section grid-container">
+      <div class="grid-row content-column grid-gap-6">
+        <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
+          {{ layoutContent }}
+          <hr>
+          {% if tags %}
+          <p class="tag-container margin-top-5">
+            <span>Tag:</span>
+            {% for tag in tags %}
+            {%- if tag != "post" -%}
+            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            <span class="usa-tag usa-tag--big">
+              <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            </span>
+            {%- endif -%}
+            {% endfor %}
+          </p>
+          {% endif %}
+          <p class="back-to-news-wrapper">
+            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
+          </p>
+        </div>
+        {% include "components/tags-side-nav.html" %}
+      </div>
+
+
+      <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+        <a class="usa-link" href="#">{{ return-to-top_text }}</a>
+      </p>
+    </section>
+  </div>
+</div>
+
+<script>
+  // Set a variable for our Return to top button element.
+  const scrollToTopButton = document.getElementById('return-to-top-wrapper');
+  const leftNavBottom = document.getElementById('left-nav').getBoundingClientRect().bottom;
+  const leftNavBottomPosition = leftNavBottom - 20;
+
+  // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+  const scrollFunc = () => {
+    const footerTop = document.getElementById('footer').offsetTop;
+    const footerTopPosition = footerTop - 20;
+
+    // Get the current scroll value
+    let y = window.scrollY;
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+    if (y > 1000 && y < footerTop - window.innerHeight) {
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 fixed";
+    } else {
+      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
+    }
+  };
+
+  const checkWidthAndApplyStyle = () => {
+    if (window.innerWidth >= 1024) {
+      window.addEventListener("scroll", scrollFunc);
+    } else {
+      window.removeEventListener("scroll", scrollFunc);
+    }
+  }
+
+  window.addEventListener("scroll", scrollFunc);
+  window.addEventListener('resize', checkWidthAndApplyStyle);
+</script>
