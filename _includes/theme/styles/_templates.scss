@@ -1047,3 +1047,12 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
         }
     }
 }
+
+// pull quote
+aside.pull-quote {
+    padding: units(1) units(3);
+    margin: units(5) 0;
+    border-left: 7px solid color("indigo-warm-60v");
+    font-size: size('body', 8);
+    font-weight: 600; 
+}
