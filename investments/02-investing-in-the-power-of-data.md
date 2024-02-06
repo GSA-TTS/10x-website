@@ -9,7 +9,7 @@ image-url: "/assets/images/access-to-data-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong. 
+  To really harness the promise of data, it needs to be more than just open and public, but actually findable and usable by the right users.
 </p>
 
 For example, to really harness the promise of data, it needs to be not just open and public, but actually findable and usable by the right users. Doing data right means knowing which data is useful to collect in the first place, how to structure it, keep it safe, and ensure that sensitive data is always stored securely, and only when and for as long as is appropriate. And even if all of the above are true, the civil servants working with it need to understand how data can cause harm if used irresponsibly, and have the tools to avoid doing so.

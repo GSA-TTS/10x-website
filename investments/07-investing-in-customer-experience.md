@@ -9,7 +9,7 @@ image-url: "/assets/images/customer-experience-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving several languages and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
+  Delivering impact for the customer&#8212;the public&#8212;requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
 </p>
 
 Take survivors of natural disasters, for instance. Tools for assisting disaster survivors must meet the needs of both the survivors themselves and the regulatory and reporting needs of the agencies assisting them. Delivering impact for the customer in these situations requires balancing these needs and seeing each solution in the context of its entire ecosystem, which is a strength of the 10x approach.

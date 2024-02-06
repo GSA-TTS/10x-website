@@ -1,5 +1,5 @@
 ---
-title: Findable, Useful Federal Statistical Data
+title: Scientific, Health and Environmental Data
 subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
 description: Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use.
 excerpt: |-
@@ -9,7 +9,7 @@ image-url: "/assets/images/science-medicine-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
+  Thoughtful, inclusive, and ethical access to government data in this complex space is worthy of 10x's investment power. 
 </p>
 
 10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits from society. But this work isn't easy, and improper use of scientific data and research can cause harm. 10x believes that thoughtful, inclusive, and ethical access to the government's information in this complex space is worthy of 10x's investment power.

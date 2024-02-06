@@ -9,7 +9,7 @@ image-url: "/assets/images/security-project-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won’t use digital tools they don’t trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools.
+  The public won't use digital tools they don't trust, and untrustworthy tools can cause harm; taking security and privacy seriously is core to 10x work.
 </p>
 
 Protecting the privacy of individuals and their data is critical to creating useful and usable digital experiences for the public. Sites and applications that do not protect personal information will not be used, and, in fact, may actually do harm by exposing information that may lead to identity theft or other material damage. If the data isn’t secure, the application can’t be trusted.

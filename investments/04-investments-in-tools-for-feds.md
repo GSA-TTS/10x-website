@@ -9,7 +9,7 @@ image-url: "/assets/images/public-service-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
+  Government websites and apps have an obligation to the public to provide useful and usable information to help them find the information they need.
 </p>
 
 10x has been working to create a consistent foundation for many years, and has built many of the technologies and guidance that are now relied upon across the federal space to ensure that newly built (or re-built!) sites and applications are optimized for the public. Key tools, founded by 10x, allow agencies to build sites with confidence, and 10x continues to work in this area, finding new ways to help designers and developers move quickly and confidently.

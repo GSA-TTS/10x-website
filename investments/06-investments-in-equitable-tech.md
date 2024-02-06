@@ -9,7 +9,7 @@ image-url: "/assets/images/equity-project-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving several languages and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
+  Digital products and services need to be designed to reflect the diversity of the people using them&#8212;language, accessibility, and real lived experiences.
 </p>
 
 10x has explored creating equitable digital experiences in a number of ways, including reducing bias in AI, co-designing digital products with American Indians and Alaska Natives, and finding effective ways to make government content available to people who aren’t proficient in English. But while a few projects are noted below, the value of equity has played a key role in all 10x projects and is central to all 10x investments.
