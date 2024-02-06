@@ -87,8 +87,4 @@ Social safety net programs require people to prove their eligibility for benefit
   10x and USAGov are collaborating on building a new tool to help make it easier for people to find federal benefits.
 </p>
 
-<p class="disclaimer">
-  Disclaimer: Links to nongovernment sources are made for educational or source citation purposes only, and do not represent an endorsement of the organizations by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities’ websites.
-</p>
-
 ---
