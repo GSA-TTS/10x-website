@@ -31,3 +31,10 @@ back-to-news-updates_text: All News and Updates
     </section>
   </div>
 </div>
+
+{% capture js %}
+{% include "theme/js/sticky-return-to-top.js" %}
+{% endcapture %}
+<script>
+  {{ js | jsmin }}
+</script>
