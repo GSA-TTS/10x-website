@@ -1,7 +1,7 @@
 ---
-title: Tools for Federal Digital Teams
-subtitle: How do we provide a consistent and quality digital experience for the American public?
-description: Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
+title: Tools for Government Teams
+subtitle: Better, more equitable and accessible digital experiences
+description: Websites and apps should make it easier for the public to find useful and usable information. What design systems, guidance, and tools can be used to center the public, instead of mirroring government siloes?
 excerpt: |-
  Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
 template: "4"

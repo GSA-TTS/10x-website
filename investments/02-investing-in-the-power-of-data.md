@@ -1,7 +1,7 @@
 ---
 title: Open, Usable Federal Data
-subtitle: What would it take to make government data easily usable?
-description: 10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong.
+subtitle: Open, findable, usable government data
+description: Doing data right means knowing which data is useful to collect in the first place, how to structure it, keep it safe, and make sure that sensitive data is secure. How can we make it easier and safer to find and use government data?
 excerpt: |-
  10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong. 
 template: "4"

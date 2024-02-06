@@ -1,7 +1,7 @@
 ---
 title: Benefits Eligibility and Delivery
-subtitle: Shouldn’t it be easier for eligible people to find and receive public benefits?
-description: It shouldn’t be a burden to find and apply for government benefits. How can we make it easier for the public to find out if they’re eligible, apply for, and then get the services they need?
+subtitle: Easier ways of applying for and receiving benefits
+description: It shouldn’t be a burden to find and apply for government benefits. How can we make it easier for the public to find out if they're eligible, apply for, and then get the services they need?
 excerpt: |-
   From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 template: "4"

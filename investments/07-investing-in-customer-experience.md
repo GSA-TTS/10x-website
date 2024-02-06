@@ -1,7 +1,7 @@
 ---
 title: Improved Customer Experience (CX)
-subtitle: How can we help transform the public's key interactions with the federal government?
-description: All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
+subtitle: Better customer experience, when it's most needed
+description: The years-long effort on part of the government to improve the public's customer experience is foundational to the 10x program. How can we better serve the public through a human-centered design approach, that's balanced with agency mission, policy, and law?
 excerpt: |-
   All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
 template: "4"

@@ -1,7 +1,7 @@
 ---
 title: Scientific, Health and Environmental Data
-subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
-description: Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use.
+subtitle: Building evidence with scientific and statistical data
+description: The government collects and manages a wealth of scientific and statistical data. How can we make it easier to find and consume government data, and make it easier to show how the dollars spent get results?
 excerpt: |-
   Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
 template: "4"
