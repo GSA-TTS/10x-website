@@ -7,7 +7,7 @@ footer: 10x-in-the-wild
 date: "2022-10-04"
 excerpt: "Any federal employee is eligible to submit an idea to 10x through our website using our submission form. The deadline is November 30, 2022."
 theme: "8"
-tags: Announcement
+tags: Announcements
 ---
 
 <p class="usa-intro">  

@@ -8,7 +8,7 @@ home-link-text: Home
 news-update-text: News and Updates
 list-url: /news/
 tags-list:
-  - Announcement
+  - Announcements
   - In-the-News
   - Projects
 ---
@@ -39,7 +39,7 @@ tags-list:
             <span>Tag:</span>
             {% for tag in tags %}
             {%- if tag != "post" -%}
-            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            {% capture tagUrl %}/news/tags/{{ tag }}/{% endcapture %}
             <span class="usa-tag usa-tag--big">
               <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
             </span>

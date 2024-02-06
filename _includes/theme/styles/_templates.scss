@@ -760,7 +760,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         h3 {
             font-size: size('body', 8);
             font-weight: 500;
-            line-height: lh('heading', 3);;
+            line-height: lh('heading', 3);
 
             .usa-link {
                 color: black;
@@ -827,6 +827,10 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             margin: 0;
         }
 
+        h3 {
+            margin-bottom: units(2);
+        }
+
         .usa-card__header, 
         .usa-card__body, 
         .usa-card__footer {
@@ -839,6 +843,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             p {
                 &.excerpt-text {
                     font-size:  size('body', 7);
+                    margin: units(2) 0 0;
                 }       
             }
         }

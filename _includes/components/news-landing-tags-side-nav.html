@@ -6,18 +6,10 @@
         <li class="usa-sidenav__item {% if page.url contains tag %}usa-current-list-item{% endif %}">
           <a href="{{ tagUrl | url }}"
             class="usa-sidenav__item {% if page.url contains tag %}usa-current{% endif %}">
-            {{ tag }}
+            {{ tag | replace: "-", " " }}
           </a>
         </li>   
       {%- endfor -%}
-      {% if page.url contains tag %}
-      <li class="usa-sidenav__item {% if page.url contains tag %}usa-current-list-item{% endif %}">
-        <a href="{{ list-url | url }}"
-          class="usa-sidenav__item">
-          {{ back-to-news-updates_text }}
-        </a>
-      </li>  
-      {% endif %}
     </ul>
   </nav>
 </div>

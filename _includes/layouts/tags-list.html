@@ -3,9 +3,11 @@ layout: layouts/base.html
 section: blog
 return-to-top_text: "Return to top"
 read-more-button_text: "Read more"
+home-link-text: Home
+news-update-text: News and Updates
 list-url: /news/
 tags-list:
-  - Announcement
+  - Announcements
   - In-the-News
   - Projects
 back-to-news-updates_text: All News and Updates
@@ -14,10 +16,11 @@ back-to-news-updates_text: All News and Updates
   <div class="newspage-wrapper banner-bg">
     <div class="banner-bg-gradient padding-y-2 padding-x-4">
       <section class="usa-section grid-container">
-        <h1>{{ renderData.title }} “{{ tag }}”"</h1>
+        <h1>{{ renderData.title }} "{{ tag | replace: "-", " " }}"</h1>
       </section>   
     </div>  
     <section class="usa-section grid-container">
+      {% include "components/news-blog-post-breadcrumb.html" %}
       <div class="grid-row content-column grid-gap-6 margin-top-5">
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {% assign postslist = collections[tag] | reverse %}
