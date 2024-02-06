@@ -10,8 +10,8 @@ hero_banner:
   title: "10x is the federal government’s very own venture studio"
 
 news_card:
-  date: "November 30, 2023"
-  title: "New projects chosen for FY23"
+  date: "February 14, 2024"
+  title: "New projects chosen for FY24"
   subtitle: "10x selected a new set of high-impact ideas for its next round of Phase 1 funding."
   button_text: "Read more"
   button_link: "https://www.google.com/"
@@ -61,26 +61,26 @@ section_2_static_content:
 section_3_content:
   title: "Take a look at some of our best investments so far"
   cards:
-  - subtitle: "Benefits Eligibility & Delivery"
-    title: "BEARS, the benefit eligibility estimator"
-    text: Information on government benefits and services is typical ly agency-centered, rather than human-centered.
-    button_text: "See BEARS in action"
-    button_link: "/projects/benefits-eligibility-resource/"
-  - subtitle: "Optimizing Digital Experiences"
-    title: "The U.S. Web Design System"
-    text: In 2015, the team that later became 10x partnered with 18F and the U.S. Digital Service to release the alpha version of the U.S. Federal Web Design Standards.
-    button_text: "Check out the USWDS"
-    button_link: "/link/to/page"
-  - subtitle: "Grant-Funded Results"
-    title: "Finding Grant-Funded Results and Products"
-    text: Government grants empower individuals, non-profit organizations, universities, and more with funding to undertake cutting edge research, serve their communities, and promote the economy.
-    button_text: "Check out the Grant-Funded Results"
-    button_link: "https://10x.gsa.gov/projects/finding-grant-funded-products/"
-  - subtitle: "Paperwork Reduction Act"
-    title: "A Guide to the Paperwork Reduction Act"
-    text: The intent of the Paperwork Reduction Act (PRA) of 1980 is to reduce the burden of paperwork placed on the public by government agencies who are seeking information.
-    button_text: "Check out the Paperwork Reduction Act"
-    button_link: "https://10x.gsa.gov/projects/guide-to-pra/"
+  - subtitle: "Tools for Federal Teams"
+    title: "Site Scanning"
+    text: Automated, real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
+    button_text: "See Site Scanning in action"
+    button_link: "/news/site-scanning/"
+  - subtitle: "Investments in Equitable Tech"
+    title: "Combating Bias in AI"
+    text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
+    button_text: "Read more about Combating Bias"
+    button_link: "/news/combating-bias-equitable-tech/"
+  - subtitle: "Improved Digital Experiences"
+    title: "Notify.gov"
+    text: This text-based service helps all levels of government communicate with the public, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
+    button_text: "Check out Notify.gov"
+    button_link: "/news/notify/"
+  - subtitle: "Tools for Federal Teams"
+    title: "U.S. Web Design System"
+    text: USWDS is a dynamic platform for continuous innovation within the government's digital services landscape, including design patterns and components.
+    button_text: "Read more about USWDS"
+    button_link: "/news/uswds/"
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
