@@ -763,7 +763,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             line-height: lh('heading', 3);
 
             .usa-link {
-                color: black;
+                color: color("violet-90");
             }
             
             @include at-media("tablet-lg") {
@@ -829,6 +829,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         h3 {
             margin-bottom: units(2);
+
+            .usa-link {
+                &:hover {
+                    border-bottom: 2px solid color("violet-90");
+                }
+            }
         }
 
         .usa-card__header, 
