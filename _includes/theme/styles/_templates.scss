@@ -982,6 +982,11 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
     margin: 0 units(1) units(2.5) !important;
 }
 
+.sampleText {
+    background: color('indigo-warm-5v');
+    padding: units(3);
+}
+
 .usa-sidenav {
     .usa-sidenav__item {
         border-top: none;

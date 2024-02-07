@@ -3,6 +3,7 @@ title: Send Us Your Idea! | 10x Idea Submission
 description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
 excerpt: Working in public service makes you uniquely qualified to see how we can create new good-for-government technology that enables good-for-people services. 
 layout: layouts/submit-an-idea-page.html
+pageTitle: Send your idea to 10x
 permalink: /submit-an-idea/index.html
 eleventyNavigation:
   parent: root
@@ -10,7 +11,7 @@ eleventyNavigation:
   order: 3
 theme: 6
 renderData:
-  title: Send your idea to 10x
+  title: Send Us Your Idea! | 10x Idea Submission
 ---
 
 <p class="usa-intro">
@@ -23,7 +24,9 @@ Clearly state the problem or opportunity, and keep it simple–under 1,000 chara
 
 #### Follow this simple structure:
 
-> **I've observed [problem or opportunity] and believe that if we [do this] it'll result in [this benefit] for [this group of people].**
+<p class="sampleText">
+  I've observed [problem or opportunity] and believe that if we [do this] it'll result in [this benefit] for [this group of people].
+</p>
 
 ### Who benefits from solving this problem?
 
