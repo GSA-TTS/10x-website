@@ -1130,4 +1130,9 @@ aside.pull-quote {
     border-left: 7px solid color("indigo-warm-60v");
     font-size: size('body', 8);
     font-weight: 600; 
+    font-style: italic;
+    span.author {
+        display: block;  
+        font-style: normal;
+    }
 }
