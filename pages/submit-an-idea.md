@@ -26,7 +26,7 @@ A great idea should answer three questions...
 
 ###  What's the problem? 
 
-Clearly state the problem or opportunity, and keep it simple–under 1,000 characters! We're looking to solve real problems with big impact.
+Clearly state the problem or opportunity, and keep it simple &#8212; under 1,000 characters! We're looking to solve real problems with big impact.
 
 ### Who benefits from solving this problem?
 
