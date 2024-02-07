@@ -7,7 +7,7 @@ date: "2022-05-11"
 slug: "2022-selected-projects"
 excerpt: "10x is excited to announce the newest batch of projects selected for Phase 1."
 theme: '3'
-tags: Announcement
+tags: Announcements
 ---
 
 <p class="usa-intro">  

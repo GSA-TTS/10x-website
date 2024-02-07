@@ -1,4 +1,6 @@
 ---
+title: Tags | 10x News
+description: 10x in the news, blogs, and announcements--find out what we're working on.
 pagination:
   data: collections
   size: 1
@@ -8,9 +10,9 @@ pagination:
     - nav
     - post
     - posts
-permalink: /tags/{{ tag }}/
+permalink: /news/tags/{{ tag }}/
 layout: layouts/tags-list.html
 renderData:
-  title: "Tagged “{{ tag }}”"
+  title: "News Tagged"
   description: "All projects tagged with “{{ tag }}”"
 ---
