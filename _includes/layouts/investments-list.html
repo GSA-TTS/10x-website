@@ -13,7 +13,7 @@ return-to-top_text: "Return to top"
       <section class="grid-container header-section usa-section" aria-label="Introduction">
         <h4>{{ hero_banner.category }}</h4>
         <h1>{{ hero_banner.title }}</h1>
-        <h2>{{ hero_banner.landing-subtitle }}</h2>
+        <h2>{{ hero_banner.subtitle }}</h2>
       </section>
     </div>
     <div class="TxContent Tx__projects">
@@ -40,7 +40,7 @@ return-to-top_text: "Return to top"
                   </div>
                   <div class="usa-card__body">
                     <h3 class="usa-card__subhead">
-                      {{ investment.data.subtitle }}
+                      {{ investment.data.landing-subtitle }}
                     </h3>
                     <p class="usa-button">
                       <a class="usa-link" href="{{ investment.url | url }}">
