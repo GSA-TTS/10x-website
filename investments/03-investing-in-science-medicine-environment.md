@@ -1,7 +1,8 @@
 ---
-title: Findable, Useful Federal Statistical Data
-subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
-description: Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use.
+title: Science, medicine, and the environment
+subtitle: Government scientific data yields powerful insights and produces tangible benefits for society.
+landing-subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
+description: 10x invests in making research and data in science, medicine, and the environment easier to consume and understand.
 excerpt: |-
   Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
 template: "4"
@@ -9,10 +10,14 @@ image-url: "/assets/images/science-medicine-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
+  Thoughtful, inclusive, and ethical access to government data in this complex space is worthy of 10x's investment power. 
 </p>
 
-10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits from society. But this work isn't easy, and improper use of scientific data and research can cause harm. 10x believes that thoughtful, inclusive, and ethical access to the government's information in this complex space is worthy of 10x's investment power.
+Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
+
+10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits from society. But this work isn’t easy, and improper use of scientific data and research can cause harm. 
+
+Check out some of our projects designed to improve the public's experience using insights from federal science and medicine:
 
 ---
 
