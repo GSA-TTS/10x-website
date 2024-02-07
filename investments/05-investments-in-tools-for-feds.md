@@ -23,16 +23,16 @@ However, like most other digital ecosystems, those of the federal government eme
 
 ### <span>Code.gov</span>
 
-Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created code.gov to help agency partners and developers find and use open source code. Check out <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://code.gov/">Code.gov</a>.
+Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created <span>Code.gov</span> to help agency partners and developers find and use open source code. Check out <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://code.gov/">Code.gov</a>.
 
 ### De-risking government technology
 
-Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link" rel="noreferrer" target="_blank" href="https://derisking-guide.18f.gov/">De-risking Guides</a>.
+Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://derisking-guide.18f.gov/">De-risking Guides</a>.
 
 ### Federalist
 (now <span>cloud.gov</span> Pages)
 
-It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <span>cloud.gov</span> Pages) to allow agencies to quickly launch attractive, secure, and accessible public websites. See  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>.
+It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <span>cloud.gov</span> Pages) to allow agencies to quickly launch attractive, secure, and accessible public websites. See <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>.
 
 ### Low-code/no-code
 

@@ -15,16 +15,16 @@ footer: we-started-as-an-idea-too
 
 Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them &#8212; many federal websites were created with one type of user in mind, leaving several languages and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.  
 
-10x has explored creating equitable digital experiences in a number of ways, including reducing bias in AI, co-designing digital products with American Indians and Alaska Natives, and finding effective ways to make government content available to people who aren't proficient in English. But while a few projects are noted below, the value of equity has played a key role in all 10x projects and is central to all 10x investments.
-
 <aside class="pull-quote">I love the fact that 10x is clearly focused on tech solutions and that they provided reports that were easy to comprehend. I put off retirement to see where the project went!<br>
 - <em>Idea Author, IMLS</em></aside>
+
+10x has explored creating equitable digital experiences in a number of ways, including reducing bias in AI, co-designing digital products with American Indians and Alaska Natives, and finding effective ways to make government content available to people who aren't proficient in English. But while a few projects are noted below, the value of equity has played a key role in all 10x projects and is central to all 10x investments.
 
 ---
 
 ## Check out some of our projects designed to create more equitable digital experiences:
 
-###Bringing mutual aid to underserved communities for post-disaster rebuilding
+### Bringing mutual aid to underserved communities for post-disaster rebuilding
 
 Underserved communities are uniquely vulnerable to the impacts of climate change. We’re looking at ways to make it easier for public officials and volunteers to provide help to affected areas.
 

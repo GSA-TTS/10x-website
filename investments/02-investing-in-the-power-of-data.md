@@ -1,6 +1,6 @@
 ---
 title: Open, usable federal data
-subtitle: What would it take to make government data easily usable?
+subtitle: Government data that’s findable, usable and useful.
 landing-subtitle: What would it take to make government data easily usable?
 description: 10x supports projects that make federal government data open, findable, usable, and safe to use.
 excerpt: |-
@@ -44,13 +44,7 @@ Small-scale farmers do not have easy access to federal data that might be of use
 State and local government fees and fines disproportionately impact and marginalize low-income communities and people of color. 10x looked into whether an integrated dashboard would make it easier for people to find and resolve outstanding fines.
 
 ### U.S. Data Federation
-The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier.
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://federation.data.gov/">
-    See U.S. Data Federation
-  </a>
-</p>
+The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier. See <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://federation.data.gov/">See U.S. Data Federation</a>.
 
 #### Find out more:
 

@@ -10,15 +10,15 @@ image-url: "/assets/images/customer-experience-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Delivering impact for the customer–the public–requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
+  Delivering impact for the customer &#8212; the public &#8212; requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
 </p>
 
 All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
 
-Take survivors of natural disasters, for instance. Tools for assisting disaster survivors must meet the needs of both the survivors themselves and the regulatory and reporting needs of the agencies assisting them. Delivering impact for the customer in these situations requires balancing these needs and seeing each solution in the context of its entire ecosystem, which is a strength of the 10x approach.
-
 <aside class="pull-quote">The key value 10x provided was in helping us understand our customers better, and in advocating for making user needs a top priority as we continue moving forward.<br>
-- <em>Idea Author - EPA</em></aside>
+- <em>Idea Author, EPA</em></aside>
+
+Take survivors of natural disasters, for instance. Tools for assisting disaster survivors must meet the needs of both the survivors themselves and the regulatory and reporting needs of the agencies assisting them. Delivering impact for the customer in these situations requires balancing these needs and seeing each solution in the context of its entire ecosystem, which is a strength of the 10x approach.
 
 ---
 
