@@ -32,7 +32,7 @@ Tech failures are frequently in the news, but they aren't inevitable. 10x develo
 ### Federalist
 (now <span>cloud.gov</span> Pages)
 
-It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now<a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>) to allow agencies to quickly launch attractive, secure, and accessible public websites. 
+It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>) to allow agencies to quickly launch attractive, secure, and accessible public websites. 
 
 ### Low-code/no-code
 
