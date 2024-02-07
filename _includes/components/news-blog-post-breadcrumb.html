@@ -17,7 +17,11 @@
       </li>
       <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
         <span>
+          {%- if page.url contains "/tags/" -%}
+          {{ tag | replace: "-", " " }}
+          {%- else -%}
           {{ title }}
+          {%- endif -%}
         </span>
       </li>
     </ol>

@@ -6,8 +6,9 @@ return-to-top_text: Return to top
 back-to-news-updates_text: Back to all news and updates
 home-link-text: Home
 news-update-text: News and Updates
+list-url: /news/
 tags-list:
-  - Announcement
+  - Announcements
   - In-the-News
   - Projects
 ---
@@ -16,13 +17,13 @@ tags-list:
     <div class="banner-bg desktop:margin-bottom-2">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
-          <h4>
+          <h1>{{ title }}</h1>
+          <h2>{{ excerpt }}</h2>
+          <h3>
             <span class="news-text-wrapper">{{ news-text }}</span>
             <span class="divider padding-x-1">|</span>
             <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
-          </h4>
-          <h1>{{ title }}</h1>
-          <h2>{{ excerpt }}</h2>
+          </h3>
         </section>
       </div>
     </div>
@@ -38,7 +39,7 @@ tags-list:
             <span>Tag:</span>
             {% for tag in tags %}
             {%- if tag != "post" -%}
-            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            {% capture tagUrl %}/news/tags/{{ tag }}/{% endcapture %}
             <span class="usa-tag usa-tag--big">
               <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
             </span>
@@ -62,37 +63,9 @@ tags-list:
   </div>
 </div>
 
+{% capture js %}
+{% include "theme/js/sticky-return-to-top.js" %}
+{% endcapture %}
 <script>
-  // Set a variable for our Return to top button element.
-  const scrollToTopButton = document.getElementById('return-to-top-wrapper');
-  const leftNavBottom = document.getElementById('left-nav').getBoundingClientRect().bottom;
-  const leftNavBottomPosition = leftNavBottom - 20;
-
-  // Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
-  const scrollFunc = () => {
-    const footerTop = document.getElementById('footer').offsetTop;
-    const footerTopPosition = footerTop - 20;
-
-    // Get the current scroll value
-    let y = window.scrollY;
-    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-    
-    // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
-    if (y > 1000 && y < footerTop - window.innerHeight ) {
-      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 fixed";
-    } else {
-      scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
-    }
-  };
-
-  const checkWidthAndApplyStyle = () => {
-    if (window.innerWidth >= 1024) {
-        window.addEventListener("scroll", scrollFunc);
-      } else {
-        window.removeEventListener("scroll", scrollFunc);
-      } 
-  }
-
-  window.addEventListener("scroll", scrollFunc);
-  window.addEventListener('resize', checkWidthAndApplyStyle);
+  {{ js | jsmin }}
 </script>

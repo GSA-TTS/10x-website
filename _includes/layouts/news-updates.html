@@ -1,43 +1,15 @@
 ---
-layout: layouts/base.html
+layout: layouts/news-landing.html
 section: blog
-pagination:
-  data: collections.news
-  size: 7
-  alias: posts
-return-to-top_text: "Return to top"
 ---
+
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
+    <h1>{{ renderData.title }}</h1>
 
-  <div class="list-page banner-bg">
-    <div class="banner-bg-gradient padding-y-3 padding-x-4">
-      <section class="grid-container header-section usa-section" aria-label="Introduction">
-        <h4>{{ renderData.title }}</h4>
-      </section>
-    </div>
-    <div class="TxContent Tx__projects">
-      <div class="usa-app__bg">
-        <div class="Tx__projects-content">
-          <div class="grid-container">
-            <div class="usa-prose">
-              {{ layoutContent }}
-            </div>
-            <section class="portfolio-blog-list desktop:margin-top-8">
+    {% assign postslist = posts %}
+    {% include "components/posts-list.html" %}
 
-              {% assign postslist = posts %}
-              {% include "components/posts-list.html" %}
-          
-              {% if pagination.pages.length > 1 %}
-              {% include "components/pagination.html" %}
-              {% endif %}
-
-              <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-3">
-                <a class="usa-link" href="#">{{ return-to-top_text }}</a>
-              </p>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    {% if pagination.pages.length > 1 %}
+    {% include "components/pagination.html" %}
+    {% endif %}
 </div>
