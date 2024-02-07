@@ -708,6 +708,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 @include at-media("tablet-lg") {
                     font-size: size('body', 14);
                     margin-top: units(7);
+                    margin-bottom: 0;
                 }  
             }
     
