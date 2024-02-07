@@ -7,16 +7,23 @@ section: blog
     <div class="banner-bg-gradient padding-y-2 padding-x-4">
       <section class="grid-container header-section usa-section">
         <h4>{{ pageBrow }}</h4>
-        <h1>{{ pageTitle }} "{{ tag | replace: "-", " " }}"</h1>
+        <h1>{{ pageTitle }}</h1>
         <h2>{{ subtitle }}</h2>
-      </section>  
+      </section>   
     </div>  
     <section class="usa-section grid-container">
-      {% include "components/news-blog-post-breadcrumb.html" %}
+
       <div class="grid-row content-column grid-gap-6 margin-top-5">
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
-          {% assign postslist = collections[tag] | reverse %}
-          {% include "components/posts-list.html" %}       
+          {% assign postslist = posts %}
+          {% include "components/posts-list.html" %}
+      
+          {% if pagination.pages.length > 1 %}
+          {% include "components/pagination.html" %}
+          {% endif %}            
+          <p class="back-to-news-wrapper">
+            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
+          </p>
         </div>
         {% include "components/news-landing-tags-side-nav.html" %}
       </div>

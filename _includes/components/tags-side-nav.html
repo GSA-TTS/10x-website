@@ -3,11 +3,11 @@
     <ul class="usa-sidenav margin-top-1">
       {%- for tag in tags-list -%}
         {%- for current-tag in tags -%}
-        {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+        {% capture tagUrl %}/news/tags/{{ tag }}/{% endcapture %}
         <li class="usa-sidenav__item {% if tag == current-tag %}usa-current-list-item{% endif %}">
           <a href="{{ tagUrl | url }}"
             class="usa-sidenav__item {% if tag == current-tag %}usa-current{% endif %}">
-            {{ tag }}
+            {{ tag | replace: "-", " " }}
           </a>
         </li>   
         {%- endfor -%}
