@@ -1,7 +1,8 @@
 ---
-title: Tools for Federal Digital Teams
-subtitle: How do we provide a consistent and quality digital experience for the American public?
-description: Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
+title: Tools for federal digital teams
+subtitle: Design systems, guidance, and tools that center the public, instead of mirroring government silos.
+landing-subtitle: How do we provide a consistent and quality digital experience for the American public?
+description: 10x works to build a foundation of shared products to make it easier for federal teams to provide exceptional digital experiences.
 excerpt: |-
  Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
 template: "4"
@@ -9,8 +10,10 @@ image-url: "/assets/images/public-service-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
+  Government websites and apps have an obligation to the public to provide useful and usable information to help them find the information they need.
 </p>
+
+However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
 
 10x has been working to create a consistent foundation for many years, and has built many of the technologies and guidance that are now relied upon across the federal space to ensure that newly built (or re-built!) sites and applications are optimized for the public. Key tools, founded by 10x, allow agencies to build sites with confidence, and 10x continues to work in this area, finding new ways to help designers and developers move quickly and confidently.
 
@@ -20,34 +23,16 @@ footer: we-started-as-an-idea-too
 
 ### <span>Code.gov</span>
 
-Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created code.gov to help agency partners and developers find and use open source code.
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://code.gov/">
-    See Code.gov
-  </a>
-</p>
+Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created code.gov to help agency partners and developers find and use open source code. Check out <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://code.gov/">Code.gov</a>.
 
 ### De-risking government technology
 
-Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech.
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://derisking-guide.18f.gov/">
-    De-risking government technology
-  </a>
-</p>
+Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link" rel="noreferrer" target="_blank" href="https://derisking-guide.18f.gov/">De-risking Guides</a>.
 
 ### Federalist
 (now <span>cloud.gov</span> Pages)
 
-It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <span>cloud.gov</span> Pages) to allow agencies to quickly launch attractive, secure, and accessible public websites.
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://pages.cloud.gov/">
-    See cloud.gov Pages
-  </a>
-</p>
+It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <span>cloud.gov</span> Pages) to allow agencies to quickly launch attractive, secure, and accessible public websites. See  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>.
 
 ### Low-code/no-code
 
@@ -55,32 +40,20 @@ Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attr
 
 ### Paperwork Reduction Act compliance
 
-The Paperwork Reduction Act (1995) governs how federal agencies collect information from the American people. 10x developed a website on PRA with guidance on how to navigate the process of getting clearance to interact with the American public.
+The Paperwork Reduction Act (1995) governs how federal agencies collect information from the American people. 10x developed a website on PRA with guidance on how to navigate the process of getting clearance to interact with the American public. Learn more about the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://pra.digital.gov/">Paperwork Reduction Act guidance</a>.
 
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://pra.digital.gov/">
-    See Paperwork Reduction Act guidance
-  </a>
-</p>
-
-### Site Scanner
+### Site Scanning
 
 Federal websites are a key way the American people interact with the government, and ensuring those websites are optimized is important to ensuring this experience is successful. 10x designed and built a scanning service to provide real-time intelligence on website performance.
 
 ### U.S. Web Design System
 
-Well-designed and accessible websites are the foundation of good digital communication. 10x designed and built the U.S. Web Design System (USWDS), which provides reusable components, templates, patterns, and tokens, along with guidance to ensure websites are usable and accessible across the federal space.
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/">
-    See USWDS
-  </a>
-</p>
+Well-designed and accessible websites are the foundation of good digital communication. 10x designed and built the U.S. Web Design System (USWDS), which provides reusable components, templates, patterns, and tokens, along with guidance to ensure websites are usable and accessible across the federal space. Explore <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/">USWDS</a>.
 
 #### Find out more:
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=SG6Bbv-uKeg">
+  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=SG6Bbv-uKeg">
     Real-world accessibility: What's it like to be blind and use the web in 2023
   </a>
   <br>
@@ -90,7 +63,7 @@ Well-designed and accessible websites are the foundation of good digital communi
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/together/">
+  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/together/">
     USWDS's Inclusive Design Patterns
   </a>
   <br>
@@ -100,17 +73,7 @@ Well-designed and accessible websites are the foundation of good digital communi
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/together/">
-    USWDS's Inclusive Design Patterns
-  </a>
-  <br>
-  2023
-  <br>
-  USWDS continues to grow, and has recently included design patterns meant to ensure an equitable and inclusive experience.
-</p>
-
-<p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://digital.gov/2019/06/18/introducing-a-guide-paperwork-reduction-act/">
+  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://digital.gov/2019/06/18/introducing-a-guide-paperwork-reduction-act/">
     Introducing a guide to the Paperwork Reduction Act
   </a>
   <br>
@@ -120,7 +83,7 @@ Well-designed and accessible websites are the foundation of good digital communi
 </p>
 
 <p>
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://digital.gov/event/2019/11/07/happy-3rd-birthday-codegov-what-weve-learned-three-years-in/">
+  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://digital.gov/event/2019/11/07/happy-3rd-birthday-codegov-what-weve-learned-three-years-in/">
     Happy 3rd birthday, Code.gov! What we've learned three years in
   </a>
   <br>

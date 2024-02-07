@@ -1,7 +1,8 @@
 ---
-title: Digital Trust and Security
-subtitle: How can we help the government deliver safe and secure digital experiences to the public?
-description: These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won't use digital tools they don't trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools.
+title: Digital trust and security
+subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.
+landing-subtitle: How can we help the government deliver safe and secure digital experiences to the public?
+description: 10x designs and develops technology to help federal digital teams protect privacy and build public trust.
 excerpt: |-
   These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won't use digital tools they don't trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools. 
 template: "4"
@@ -9,10 +10,10 @@ image-url: "/assets/images/security-project-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won’t use digital tools they don’t trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools.
+  The public won't use digital tools they don't trust, and untrustworthy tools can cause harm; taking security and privacy seriously is core to 10x work.
 </p>
 
-Protecting the privacy of individuals and their data is critical to creating useful and usable digital experiences for the public. Sites and applications that do not protect personal information will not be used, and, in fact, may actually do harm by exposing information that may lead to identity theft or other material damage. If the data isn’t secure, the application can’t be trusted.
+All 10x projects are in the business of online security, but trust building is what animates and inspires them. Protecting the privacy of individuals and their data is critical to creating useful and usable digital experiences for the public. Sites and applications that do not protect personal information will not be used, and, in fact, may actually do harm by exposing information that may lead to identity theft or other material damage. If the data isn't secure, the application can't be trusted.
 
 10x security projects have tackled a number of thorny issues over the years, from inefficiencies in cybersecurity practices to PII management and more.
 
@@ -30,13 +31,7 @@ Resilient technology requires elegantly designed security. 10x is exploring the 
 
 ### DevOps for privacy offices (SORN DASH)
 
-Privacy officers at federal agencies ensure that personal data is managed carefully and in accordance with agency policies. 10x investigated and built a solution to better equip the privacy officers so they can do a better job of protecting personally identifiable information (PII).
-
-<p class="static-purple-button usa-button">
-  <a class="usa-link" rel="noreferrer" target="_blank" href="https://all-sorns.app.cloud.gov/">
-    See SORN Dashboard
-  </a>
-</p>
+Privacy officers at federal agencies ensure that personal data is managed carefully and in accordance with agency policies. 10x investigated and built a solution to better equip the privacy officers so they can do a better job of protecting personally identifiable information (PII). See the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://all-sorns.app.cloud.gov/">SORN Dashboard</a>.
 
 ### Privacy-Preserving Record Linkage (PPRL)
 
