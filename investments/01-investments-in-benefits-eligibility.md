@@ -1,7 +1,8 @@
 ---
-title: Benefits Eligibility and Delivery
-subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
-description: The 10x BEARS project is a vision for an empathetic, human-centered world where the public can learn about benefits in a way that reflects their lived experiences, rather than the complexities of bureaucracy.
+title: Benefits eligibility and delivery
+subtitle: Reducing friction in navigating government benefits.
+landing-subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
+description: 10x projects help the public find out about benefits, eligibility, and how to apply.
 excerpt: |-
   From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 template: "4"
@@ -10,10 +11,10 @@ footer: we-started-as-an-idea-too
 ---
 
 <p class="usa-intro">  
-  From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. 
+  Tens of millions of Americans seek and receive public benefits each year. 
 </p>
 
-Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
+From accessing affordable childcare to assistance buying healthy food, navigating government benefits can be complicated. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 
 But the federal government has no Department of Parenthood. No Ministry for Bereavement. Funding and administering all of the various benefits programs is the responsibility of dozens of agencies and sub-agencies. This means that, for the public, the process of establishing benefits eligibility is a daunting one, and especially daunting during hard times.
 
@@ -27,7 +28,7 @@ By investing in technology that makes it faster and easier for people to acquire
 
 ### USAGov's Benefits Finder
 
-Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://benefits-tool-beta.usa.gov/death-of-a-loved-one/">Benefits Finder</a> at USA&period;gov.
+Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov/benefit-finder">Benefits Finder</a> at USA&period;gov.
 
 ### Benefits Checker
 
@@ -35,7 +36,7 @@ A comprehensive tool to help people find the benefits that they might be eligibl
 
 ### Benefits eligibility APIs
 
-America's social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster. Read more about the eligibility APIs developed by 10x.
+America’s social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster.
 
 ### Notify&period;gov
 
@@ -43,7 +44,7 @@ Notifications, especially text messages, are uniquely effective ways to communic
 
 ### Secure storage for eligibility documents
 
-Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure. Read more about 10x projects in support of <a class="usa-link usa-link--external" rel="noreferrer" href="/need/a/link">secure document storage</a>.
+Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure. 
 
 #### Find out more:
 

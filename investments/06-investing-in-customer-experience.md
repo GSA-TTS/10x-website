@@ -1,7 +1,8 @@
 ---
-title: Improved Customer Experience (CX)
-subtitle: How can we help transform the public's key interactions with the federal government?
-description: All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
+title: Improved customer experience (CX)
+subtitle: Digital touchpoints are critical in serving the public.
+landing-subtitle: How can we help transform the public's key interactions with the federal government?
+description: 10x projects designs solutions to improve the public's interaction with the federal government for an improved customer experience.
 excerpt: |-
   All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
 template: "4"
@@ -9,8 +10,13 @@ image-url: "/assets/images/customer-experience-icon.png"
 footer: we-started-as-an-idea-too
 ---
 <p class="usa-intro">  
-  Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving several languages and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
+  Delivering impact for the customer &#8212; the public &#8212; requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
 </p>
+
+All 10x projects seek to improve the public's experience with the government, but with a public as enormous and diverse as ours, our investments require focus. To do this, 10x takes cues from elsewhere in the federal government about useful and timely ways to invest in the public good. Perhaps the best example is the federal government's years-long focus on delivering excellent Customer Experience (CX) to the public. By aligning with the CX priority, 10x can focus on helping customers (to us, that means everyone) facing tough situations that require them to seek customer service from the government.
+
+<aside class="pull-quote">The key value 10x provided was in helping us understand our customers better, and in advocating for making user needs a top priority as we continue moving forward.<br>
+- <em>Idea Author, EPA</em></aside>
 
 Take survivors of natural disasters, for instance. Tools for assisting disaster survivors must meet the needs of both the survivors themselves and the regulatory and reporting needs of the agencies assisting them. Delivering impact for the customer in these situations requires balancing these needs and seeing each solution in the context of its entire ecosystem, which is a strength of the 10x approach.
 
@@ -32,9 +38,9 @@ The government responds to a wide array of disasters each year and administers m
 
 ### Reimagining access to government services
 
-Accessing public benefits is often most challenging for those who need it the most  —  people without a permanent address and who lack reliable internet access. 10x looked into ways that the government agencies can reach and serve this key, high-need group of customers.
+Accessing public benefits is often most challenging for those who need it the most &#8212; people without a permanent address and who lack reliable internet access. 10x looked into ways that the government agencies can reach and serve this key, high-need group of customers.
 
 ### Reimagining tribal consultation
-Tribal consultation is a formal discourse between the 574 recognized Tribal nations and the U.S. government. But is this form of discourse ideal for improving the customer experience for the millions of people belonging to these nations? We’re not so sure. 10x is investigating how new approaches to technology can elevate this discourse, make engagement more meaningful and impactful and ultimately lead to better nation-to-nation relations.
+<em>Tribal consultation</em> is a formal discourse between the 574 recognized Tribal nations and the U.S. government. But is this form of discourse ideal for improving the customer experience for the millions of people belonging to these nations? We’re not so sure. 10x is investigating how new approaches to technology can elevate this discourse, make engagement more meaningful and impactful and ultimately lead to better nation-to-nation relations.
 
 ---
