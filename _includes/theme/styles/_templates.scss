@@ -727,9 +727,11 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 text-transform: uppercase;
                 font-weight: 400;
                 padding-bottom: units(1.5);
+                line-height: 1.2;
                 color: color('cyan-10v');
                 background: url('../images/header-bottom-border.png') left bottom no-repeat; 
                 margin-bottom: 0; 
+                margin-top: units(3);
                 order: 1; 
 
                 &.blog-post-section-header {
