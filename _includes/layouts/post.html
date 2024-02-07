@@ -17,13 +17,13 @@ tags-list:
     <div class="banner-bg desktop:margin-bottom-2">
       <div class="banner-bg-gradient padding-y-3 padding-x-4">
         <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
-          <h4>
+          <h1>{{ title }}</h1>
+          <h2>{{ excerpt }}</h2>
+          <h3>
             <span class="news-text-wrapper">{{ news-text }}</span>
             <span class="divider padding-x-1">|</span>
             <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
-          </h4>
-          <h1>{{ title }}</h1>
-          <h2>{{ excerpt }}</h2>
+          </h3>
         </section>
       </div>
     </div>

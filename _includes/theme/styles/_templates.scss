@@ -693,27 +693,17 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .banner-bg-gradient {   
             background-size: 275% 275%;
         }
-
-        h4 {
-            font-size: size('body', 7);
-            text-transform: uppercase;
-            font-weight: 400;
-            padding-bottom: units(1.5);
-            color: color('cyan-10v');
-            background: url('../images/header-bottom-border.png') left bottom no-repeat; 
-
-            &.blog-post-section-header {
-                background: none;
-            }
-        }
     
         .header-section {
+            display: flex; 
+            flex-direction: column;
             padding-top: 0;
     
             h1 {
                 font-size: size('body', 12);
                 font-weight: 700;
                 line-height: lh('heading', 3);
+                order: 2; 
     
                 @include at-media("tablet-lg") {
                     font-size: size('body', 14);
@@ -725,10 +715,26 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 font-size: size('body', 10);
                 font-weight: 400; 
                 line-height: lh('heading', 4);
+                order: 3; 
             }
     
             h1, h2 {
                 color: white;
+            }
+
+            h3 {
+                font-size: size('body', 7);
+                text-transform: uppercase;
+                font-weight: 400;
+                padding-bottom: units(1.5);
+                color: color('cyan-10v');
+                background: url('../images/header-bottom-border.png') left bottom no-repeat; 
+                margin-bottom: 0; 
+                order: 1; 
+
+                &.blog-post-section-header {
+                    background: none;
+                }
             }
 
             &.blog-post-header-section {
