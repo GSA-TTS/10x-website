@@ -42,6 +42,12 @@ Does the potential solution make something easier, faster, more accurate? More i
   I've observed [problem or opportunity] and believe that if we [do this] it'll result in [this benefit] for [this group of people].
 </p>
 
+<p class="usa-button">
+  <a class="usa-link usa-link--external" rel="noreferrer" href="{{ submit-idea-url | url }}">
+    {{ submit-idea-button-text }}
+  </a>
+</p>
+
 ## After you fill out the form and hit "Submit"
 
 The 10x team looks at idea submissions at least once a year, and we'll let you know that we got your idea. The evaluation process takes place shortly after the Idea Submission deadline, and we'll let you know whether your idea has been selected for a Phase 1 Investigation.
