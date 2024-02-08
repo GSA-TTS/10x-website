@@ -43,7 +43,7 @@ Does the potential solution make something easier, faster, more accurate? More i
 </p>
 
 <p class="usa-button">
-  <a class="usa-link usa-link--external" rel="noreferrer" href="{{ submit-idea-url | url }}">
+  <a class="usa-link" rel="noreferrer" href="{{ submit-idea-url | url }}">
     {{ submit-idea-button-text }}
   </a>
 </p>
