@@ -4,7 +4,7 @@ section: home
 ---
 <div class="homepage-wrapper list-page-blue-background">
   <div class="usa-home banner-bg">
-    <div class="banner-bg-gradient padding-y-2 padding-x-4">
+    <div class="banner-bg-gradient padding-y-2">
       <section class="grid-container hero-section usa-section padding-y-8" aria-label="Introduction">
         <h1>{{ hero_banner.title }}</h1>
       </section>
@@ -79,7 +79,7 @@ section: home
           {% for card in section_3_content.cards %}
           {% assign isExternal = card.button_link contains "http" %}
           <li class="usa-card grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4">
-            <a href="{{ card.button_link }}">
+            <a href="{{ card.button_link | url }}">
               <div class="usa-card__container">
                 <div class="usa-card__header">
                   <h2 class="usa-card__heading">

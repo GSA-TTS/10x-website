@@ -22,7 +22,7 @@ news-update-text: News and Updates
 list-url: /news/
 tags-list:
   - Announcements
-  - In-the-News
+  - In-the-news
   - Projects
 back-to-news-updates_text: All News and Updates
 renderData:
