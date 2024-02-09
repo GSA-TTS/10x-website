@@ -1,14 +1,12 @@
 ---
 title: Privacy Policy
-description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
+description: Privacy Policy
 pageBrow: Privacy
 pageTitle: Privacy Policy
 layout: layouts/submit-an-idea-page.html
 return-to-top_text: Return to top
 permalink: /privacy-policy/
 theme: 6
-renderData:
-  title: Send Us Your Idea! | 10x Idea Submission
 ---
 
 ## Information you send us as a pitch
