@@ -33,6 +33,11 @@ We ask federal employees like you to send us your idea – in just two or three 
 
 We're looking for ideas that take all shapes and sizes. Since our launch in 2015, we've found that the people closest to the problem are the ones best equipped to come up with innovative ways to solve them. 10x helps you do that. 
 
+<aside class="pull-quote">
+  Working with 10x was easy and a good experience. The culture is friendly, open, collaborative, and innovative, and the team gave me a chance to participate.
+  <span class="author">- Idea Author, EPA</span>
+</aside>
+
 But the idea you send in doesn't have to solve a problem in your agency or be directly connected to your agency’s mission. Maybe you're a veteran, and you have lived experience that sparked an idea on making it easier to figure out government benefits and services. 
 
 Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about the 10x model, process, and phases.
