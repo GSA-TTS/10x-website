@@ -11,9 +11,11 @@ tags: Projects
 
 <p class="usa-intro">No policy or rule stays the same forever. In a crisis, changes come fast and stakes are higher
 </p>
-  
+
 18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy.
 
-“No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.”
+<aside class="pull-quote">
+No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.
+</aside>
 
 Read [Rapid implementation of policy as code on 18F’s website.](https://18f.gsa.gov/2020/05/12/rapid-implementation-of-policy-as-code/)
