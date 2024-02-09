@@ -70,7 +70,7 @@ section_3_content:
     title: "Combating Bias in AI"
     text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_text: "Read more about Combating Bias"
-    button_link: "/news/combating-bias-equitable-tech/"
+    button_link: "/news/combating-bias-ai/"
   - subtitle: "Improved Digital Experiences"
     title: "Notify.gov"
     text: This text-based service helps all levels of government communicate with the public, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
@@ -80,7 +80,7 @@ section_3_content:
     title: "U.S. Web Design System"
     text: USWDS is a dynamic platform for continuous innovation within the government's digital services landscape, including design patterns and components.
     button_text: "Read more about USWDS"
-    button_link: "/news/uswds/"
+    button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
