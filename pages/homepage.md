@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.html
 title: Home
-description: Additional description that can be left blank.
+description: 10x is the federal government’s very own venture studio
 date: Last Modified
 permalink: /
 theme: 1
