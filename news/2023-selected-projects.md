@@ -1,11 +1,11 @@
 ---
 title: 10x announces new projects chosen for FY23 Phase 1 funding
-# title: FY22 Phase 1 Projects | 10x.GSA.gov
+subtitle: 10x is excited to announce the newest batch of projects selected for Phase 1.
 description: 10x selected 15 high-impact ideas for its next round of funding. These projects will kick off mid in 2023.
 footer: every-solution-starts-as-an-idea
 date: "2023-05-08"
 slug: "2023-selected-projects"
-excerpt: "10x is excited to announce the newest batch of projects selected for Phase 1."
+excerpt: "Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government."
 theme: '4'
 tags: Announcements
 ---
@@ -23,10 +23,6 @@ The ideas we selected for Phase 1 are:
 We have observed multiple instances of government programs successfully creating opportunities for the public to opt into user research. The Civic User Testing Network and OPM’s Open Opportunities platform are two examples of platforms that the government has used to find users with specific lived experience and demographic criteria for their research topics. Partnering with Community Benefit Organizations (CBO) to recruit people for research is another tool that agencies have used, but it isn’t a perfect solution.  If there was a universal platform for opting into Federal research opportunities that all agencies could use, or a standardized template for agencies to use when engaging with CBOs, it could both reduce research participant confusion and improve the quality of research outcomes.
 
 10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public’s experience with the government.
-
-<aside class="pull-quote">
-10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public’s experience with the government.
-</aside>
 
 An idea submitted by a civil servant at: *General Services Administration ~ Federal Acquisition Service*
 

@@ -3,7 +3,6 @@ layout: layouts/base.html
 section: post
 news-text: News
 return-to-top_text: Return to top
-back-to-news-updates_text: Back to all news and updates
 home-link-text: Home
 news-update-text: News and Updates
 list-url: /news/
@@ -15,10 +14,10 @@ tags-list:
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
     <div class="banner-bg desktop:margin-bottom-2">
-      <div class="banner-bg-gradient padding-y-3 padding-x-4">
+      <div class="banner-bg-gradient padding-y-2 padding-x-4">
         <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
           <h1>{{ title }}</h1>
-          <h2>{{ excerpt }}</h2>
+          <h2>{{ subtitle }}</h2>
           <h3>
             <span class="news-text-wrapper">{{ news-text }}</span>
             <span class="divider padding-x-1">|</span>
@@ -47,9 +46,6 @@ tags-list:
             {% endfor %}
           </p>
           {% endif %}
-          <p class="back-to-news-wrapper">
-            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
-          </p>
         </div>
         {% include "components/tags-side-nav.html" %}
 

@@ -15,9 +15,7 @@ footer: we-started-as-an-idea-too
 
 Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
 
-10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits from society. But this work isn’t easy, and improper use of scientific data and research can cause harm. 
-
-Check out some of our projects designed to improve the public's experience using insights from federal science and medicine:
+10x has invested heavily in finding ways to make the insights the federal government develops in these areas produce tangible benefits for society. But this work isn’t easy, and improper use of scientific data and research can cause harm. 
 
 ---
 
