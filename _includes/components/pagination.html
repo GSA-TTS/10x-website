@@ -2,7 +2,7 @@
   <ul class="usa-pagination__list">
       {% if pagination.href.previous %}
       <li class="usa-pagination__item usa-pagination__arrow">
-          <a href="{{ pagination.href.previous }}" class="usa-pagination__link usa-pagination__previous-page"
+          <a href="{{ pagination.href.previous | url }}" class="usa-pagination__link usa-pagination__previous-page"
               aria-label="Previous page">
               <svg class="usa-icon" aria-hidden="true" role="img">
                   <use xlink:href="{{ '/assets/images/sprite.svg#navigate_before' | url }}"></use>
@@ -14,7 +14,7 @@
 
       {% for pageNumber in pagination.hrefs %}
       <li class="usa-pagination__item usa-pagination__page-no">
-          <a href="{{ pageNumber }}" class="usa-pagination__button {% if pagination.pageNumber == forloop.index0 %}usa-current{% endif %}" aria-label="Page 1">
+          <a href="{{ pageNumber | url }}" class="usa-pagination__button {% if pagination.pageNumber == forloop.index0 %}usa-current{% endif %}" aria-label="Page 1">
               {{ forloop.index }}
           </a>
       </li>
@@ -22,7 +22,7 @@
 
       {% if pagination.href.next %}
       <li class="usa-pagination__item usa-pagination__arrow">
-          <a href="{{ pagination.href.next }}" class="usa-pagination__link usa-pagination__next-page"
+          <a href="{{ pagination.href.next | url }}" class="usa-pagination__link usa-pagination__next-page"
               aria-label="Next page">
               <span class="usa-pagination__link-text">Next </span>
               <svg class="usa-icon" aria-hidden="true" role="img">
