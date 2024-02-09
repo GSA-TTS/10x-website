@@ -2,7 +2,7 @@
 title: Tags | 10x News
 description: 10x in the news, blogs, and announcements--find out what we're working on.
 pageBrow: News
-pageTitle: Highlights of 10x
+pageTitle: 10x
 subtitle: Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pagination:
   data: collections
