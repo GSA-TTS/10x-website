@@ -1,11 +1,11 @@
 ---
 # title: Announcing the FY23 idea submission deadline | 10x.GSA.gov
-title: How can government use technology to better serve the public? 10x wants your ideas  —  submit now through November 30th.
-subtitle: Any federal employee is eligible to submit an idea to 10x through our website using our submission form. The deadline is November 30, 2022.
-slug: "2023-idea-submission"
+title: How can government use technology to better serve the public? 
+subtitle: 10x wants your ideas  —  submit now through November 30th.
 description: "10x is excited to announce they are accepting idea submissions through November 30, 2022."
 footer: 10x-in-the-wild
 date: "2022-10-04"
+slug: "2023-idea-submission"
 excerpt: "10x is pleased to announce that we are now accepting ideas through 11:59pm on November 30th, 2022. Any federal employee is eligible to submit an idea to 10x through our website using our submission form."
 theme: "8"
 tags: Announcements
