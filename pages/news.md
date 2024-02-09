@@ -1,5 +1,5 @@
 ---
-title: News and Announcements | 10x News
+title: 10x News and Announcements
 description: 10x in the news--stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pageBrow: News
 pageTitle: 10x announcements, media coverage and project highlights
