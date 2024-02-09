@@ -6,7 +6,7 @@ date: "2021-10-12"
 theme: "6"
 footer: "10x-in-the-wild"
 description: "10x is excited to open the submission period for FY22 10x pitches."
-excerpt: "We are excited to announce the funding themes for our first round of idea submissions in FY22."
+excerpt: "We are excited to announce the funding themes for our first round of idea submissions in FY22: reimagining public engagement, digital response to climate challenges, and equity in delivery."
 tags: Announcements
 ---
 
