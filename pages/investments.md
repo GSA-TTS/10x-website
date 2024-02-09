@@ -21,7 +21,7 @@ theme: 8
 hero_banner:
   category: "Investment Portfolios"
   title: "10x investment themes and priorities"
-  subtitle: "We tackle the hardest problems, and while we've always pursued ideas on all topics and themes in the government technology space, we've found some patterns since we started in 2015. We've aligned our investment portfolios based on these patterns, where'we’ve developed expertise to deliver real impact."
+  subtitle: "We tackle the hardest problems, and while we've always pursued ideas on all topics and themes in the government technology space, we've found some patterns since we started in 2015. We've aligned our investment portfolios based on these patterns, where we’ve developed expertise to deliver real impact."
 
 return-to-top_text: "Return to top"
 

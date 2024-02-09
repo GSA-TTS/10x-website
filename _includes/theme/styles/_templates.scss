@@ -708,6 +708,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 @include at-media("tablet-lg") {
                     font-size: size('body', 14);
                     margin-top: units(7);
+                    margin-bottom: 0;
                 }  
             }
     
@@ -929,7 +930,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
     h4 {
         font-size: size('body', 9);
-        color:color('indigo-warm-70v');
+        color:color('indigo-warm-80v');
     }
 
     p {
@@ -974,9 +975,10 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
      }
 
      .usa-button {
-        background: color("indigo-warm-50v");
-        border-color: color('indigo-warm-60v');
+        background: color("indigo-warm-60v");
+        border-color: color('indigo-warm-70v');
         font-weight: 600;
+        margin-top: units(4);
     
         &::before,
         &::after {
@@ -1043,7 +1045,7 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
 .return-to-top {
     transition: all .5s ease-in-out;
     font-size: size('body', 5);
-    margin: 0 units(1) units(2.5) !important;
+    margin: 0 units(1) units(2.5) 0 !important;
 
     &.fixed {
         position: fixed;
@@ -1051,6 +1053,11 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
         transition: all .5s ease-in-out;
         z-index: 1000;           
     }
+}
+
+.sampleText {
+    background: color('indigo-warm-5v');
+    padding: units(3);
 }
 
 .usa-sidenav {

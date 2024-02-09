@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.html
-title: Home
-description: Additional description that can be left blank.
+title: Better Government Technology | 10x Home
+description: 10x takes ideas from federal employees on ways technology can improve government digital experiences. Send in your idea!
 date: Last Modified
 permalink: /
 theme: 1
