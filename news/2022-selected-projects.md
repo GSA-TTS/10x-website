@@ -186,7 +186,7 @@ An idea submitted by a civil servant at: The Department of Commerce
 
 To learn more about what it means for a project to begin Phase 1, see our process. We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. Some of our projects are currently profiled on [Our Projects](../projects/); more will be added over the coming months.
+The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. See some of our projects on the [Investments](/investments/) pages.
 
 ### About 10x
 

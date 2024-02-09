@@ -43,6 +43,6 @@ The government responds to a wide array of disasters each year and administers m
 Accessing public benefits is often most challenging for those who need it the most &#8212; people without a permanent address and who lack reliable internet access. 10x looked into ways that the government agencies can reach and serve this key, high-need group of customers.
 
 ### Reimagining tribal consultation
-<em>Tribal consultation</em> is a formal discourse between the 574 recognized Tribal nations and the U.S. government. But is this form of discourse ideal for improving the customer experience for the millions of people belonging to these nations? We’re not so sure. 10x is investigating how new approaches to technology can elevate this discourse, make engagement more meaningful and impactful and ultimately lead to better nation-to-nation relations.
+10x is investigating how new approaches to technology can elevate this discourse, make engagement more meaningful and impactful and ultimately lead to better nation-to-nation relations.
 
 ---
