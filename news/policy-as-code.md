@@ -9,7 +9,7 @@ excerpt: "18F has been researching a prototyping technique for writing and publi
 tags: Projects
 ---
 
-<p class="usa-intro">No policy or rule stays the same forever. In a crisis, changes come fast and stakes are higher
+<p class="usa-intro">In a crisis, changes come fast and the stakes are higher
 </p>
 
 18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy.
