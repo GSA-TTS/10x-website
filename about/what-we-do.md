@@ -49,6 +49,6 @@ Most 10x projects end after Phase 3, when the product is handed off to its agenc
 
 During Phase 4, Scale, the team – along with agency sponsors and partners – looks to scale the solution to support different use cases across agencies and programs that drive the biggest impact. Our ultimate goal is to expand the reach to transform digital services for the public.
 
-Read up on some of the [projects and investments](../../investments/) that 10x has supported from concept to launch.
+Read up on some of the [projects and investments]({{site.url}}/investments/) that 10x has supported from concept to launch.
 
 ---
