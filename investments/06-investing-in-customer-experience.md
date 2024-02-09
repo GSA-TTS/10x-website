@@ -1,5 +1,5 @@
 ---
-title: Improved customer experience (CX)
+title: Improved customer experience
 subtitle: Digital touchpoints are critical in serving the public.
 landing-subtitle: How can we help transform the public's key interactions with the federal government?
 description: 10x projects designs solutions to improve the public's interaction with the federal government for an improved customer experience.

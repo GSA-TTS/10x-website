@@ -1,7 +1,16 @@
 ---
 title: Privacy Policy
+description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
+pageBrow: Privacy
+pageTitle: Privacy Policy
+layout: layouts/submit-an-idea-page.html
+return-to-top_text: Return to top
+permalink: /privacy-policy/
 theme: 6
+renderData:
+  title: Send Us Your Idea! | 10x Idea Submission
 ---
+
 ## Information you send us as a pitch
 Federal employees can voluntarily send us information as part of an idea submission for 10x funding by submitting a project idea through our online form. Your idea will be shared with subject-matter experts and the 10x team in order to make funding decisions. We publish information about which ideas do and do not receive funding, along with the date of submission, your name, and the name of your agency or organization. If your idea is accepted for funding, your name and home agency will be listed on our website. In some cases, we might feature your actual idea on our website for teaching and promotion purposes.
 
