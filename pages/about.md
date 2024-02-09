@@ -1,5 +1,5 @@
 ---
-title: "About GSA's venture studio | 10x"
+title: "About GSA's venture studio"
 description: GSA's TTS 10x program invests in ideas from civil servants on ways good-for-government technology can make a better-for-the-public experience.
 layout: layouts/about-page.html
 permalink: /about/index.html
@@ -22,41 +22,19 @@ return-to-top_text: Return to top
 ---
 
 <p class="usa-intro">
-  Now's your chance to share that problem or idea and see if it's the next big thing to improve how we serve the public.
+  An agile, innovative approach to solving problems for the public through technology
 </p>
 
-A great idea should answer three questions...
+The 10x program is housed within General Service Administration’s (GSA) Technology Transformation Services (TTS) program. 10x takes an agile, innovative approach to technology that solves problems for the public. 
 
-###  What's the problem? 
+We ask federal employees like you to send us your idea – in just two or three sentences – on ways government digital experiences can be better, or easier, or more accessible for the public.
 
-Clearly state the problem or opportunity, and keep it simple &#8212; under 1,000 characters! We're looking to solve real problems with big impact.
+##  You’ve observed a problem that tech can solve – send us your idea on how to fix it
 
-### Who benefits from solving this problem?
+We're looking for ideas that take all shapes and sizes. Since our launch in 2015, we've found that the people closest to the problem are the ones best equipped to come up with innovative ways to solve them. 10x helps you do that. 
 
-If we can solve a problem, who benefits from the solution? Is it government employees? Medicare recipients? Citizen scientists? Researchers? 
+But the idea you send in doesn't have to solve a problem in your agency or be directly connected to your agency’s mission. Maybe you're a veteran, and you have lived experience that sparked an idea on making it easier to figure out government benefits and services. 
 
-### How will the solution help?
-
-Does the potential solution make something easier, faster, more accurate? More inclusive and equitable? A measurably better customer experience? Help us understand why it matters. 
-
-#### Now, follow this simple structure:
-
-<p class="sampleText">
-  I've observed [problem or opportunity] and believe that if we [do this] it'll result in [this benefit] for [this group of people].
-</p>
-
-<p class="usa-button">
-  <a class="usa-link" rel="noreferrer" href="{{ submit-idea-url | url }}">
-    {{ submit-idea-button-text }}
-  </a>
-</p>
-
-## After you fill out the form and hit "Submit"
-
-The 10x team looks at idea submissions at least once a year, and we'll let you know that we got your idea. The evaluation process takes place shortly after the Idea Submission deadline, and we'll let you know whether your idea has been selected for a Phase 1 Investigation.
-
-## Need some help?
-
-If you'd like help or feedback on your idea before submitting to 10x, send us an email at 10x@gsa.gov. We're happy to make sure your idea is on point. We also hold workshops and other information sessions to guide you on your way to becoming a 10x Idea Author!
+Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about the 10x model, process, and phases.
 
 ---
