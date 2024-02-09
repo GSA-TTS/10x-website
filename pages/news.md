@@ -1,9 +1,9 @@
 ---
-title: News and Announcements | 10x News
-description: 10x in the news, blogs, and announcements--find out what we're working on.
+title: 10x News and Announcements
+description: 10x in the news--stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pageBrow: News
-pageTitle: 10x program announcements, media coverage and project highlights
-subtitle: Read up on 10x news and announcements, highlights from 10x projects, and what the media is saying about the 10x program.
+pageTitle: 10x announcements, media coverage and project highlights
+subtitle: Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 layout: layouts/news-landing.html
 permalink: "/news{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html"
 eleventyNavigation:
