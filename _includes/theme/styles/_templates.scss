@@ -41,6 +41,9 @@ p, .usa-identifier__required-links-list li {
 
 .usa-tag {
     padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
 
     a {
         background: color('indigo-warm-10v');
