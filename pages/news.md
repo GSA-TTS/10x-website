@@ -19,7 +19,7 @@ return-to-top_text: "Return to top"
 read-more-button_text: "Read more"
 tags-list:
   - Announcements
-  - In-the-News
+  - In-the-news
   - Projects
 renderData:
   title: News and Updates
