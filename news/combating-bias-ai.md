@@ -18,8 +18,4 @@ The "Combating Bias in AI/ML Implementations" project aims to address the potent
 
 Over the course of three phases, 10x funded a  project team that collaborated with industry and academic experts to develop open-source "de-biasing" tools that allow civil servants to identify and mitigate biases in datasets used for AI applications. By focusing on upstream data components of AI/ML implementations, the project offers an equitable approach for civil servants who are incorporating these emerging technologies into downstream applications, from Human Resource to benefits administration
 
-The project has completed Phase 3, delivering three functional de-biasing tools.  
-
-
-
-
+The project has completed Phase 3, delivering three functional de-biasing tools. 
