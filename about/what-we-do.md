@@ -25,11 +25,9 @@ Here's a phase-by-phase guide of how 10x supports projects and details why an id
 
 ## Phase 1, Investigation: Is there a "there" there?
 
-In Phase 1, 10x sets out to answer,  <em>“Is this worth investing further?”</em>
+In Phase 1, 10x sets out to answer,  <em>"Is this worth investing further?"</em>
 
-Through our team's extensive research, 10x finds that while there is a problem space, the impact on the public experience is not large enough to justify investment, that work is already being done to solve this issue, or that 10x is not best equipped to solve it. The team will keep you up to speed throughout this initial investigation, and we'll invite you to the close-out meeting. This is when the Phase 1 team makes its recommendation to 10x whether to invest more time and dollars in a Phase 2, Discovery.  
-
-If the Phase 1 team finds that there's a "there" there, 10x can choose to  invest more resources by moving a project into Phase 2, Discovery. 
+In Phase 1, our team dives in to understand if there is a real problem that technology can help solve. We assess whether there is a problem and how many people it impacts. We may find that the impact on the public experience is not large enough to justify investment, that work is already being done to solve this issue, or that 10x is not best equipped to solve it. But if the problem is significant and a potential solution will be impactful, the Phase 1 team will recommend 10x invest more time and dollars in Phase 2, Discovery.
 
 ## Phase 2, Discovery: understanding the problem space, and the root cause(s)
 
