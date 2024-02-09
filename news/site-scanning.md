@@ -2,6 +2,8 @@
 title: Site Scanning for Better Digital Experiences
 subtitle: Automated government website performance and compliance scanning
 description: Site Scanning is a real-time intelligence tool that helps federal web managers improve the websites they oversee and deliver superior digital experiences.
+redirect_from: 
+  - /projects/site-scanner/
 footer: every-solution-starts-as-an-idea
 date: "2024-01-31"
 slug: "site-scanning"

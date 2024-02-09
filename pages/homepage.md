@@ -30,7 +30,7 @@ section_1_static_content:
   title: "We’re re-imagining government technology services through your ideas"
   text: "As a public servant, you're uniquely positioned to imagine better ways to serve the public. If you’ve ever thought, 'There's got to be a better way to do that,' we want your ideas."
   button_text: "How to pitch your idea"
-  button_link: "/link/to/page"
+  button_link: "/submit-an-idea"
   subtitle: "Meet our top investment portfolios"
   link_text: "See all of our investment portfolios"
   link_url: "/projects/"
@@ -56,7 +56,7 @@ section_1_cards:
 section_2_static_content:
   title: "206 investments and counting"
   button_text: "Discover our investment portfolios"
-  button_link: "/reports/"
+  button_link: "/investments/"
 
 section_3_content:
   title: "Take a look at some of our best investments so far"
@@ -70,7 +70,7 @@ section_3_content:
     title: "Combating Bias in AI"
     text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_text: "Read more about Combating Bias"
-    button_link: "/news/combating-bias-equitable-tech/"
+    button_link: "/news/combating-bias-ai/"
   - subtitle: "Improved Digital Experiences"
     title: "Notify.gov"
     text: This text-based service helps all levels of government communicate with the public, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
@@ -80,12 +80,12 @@ section_3_content:
     title: "U.S. Web Design System"
     text: USWDS is a dynamic platform for continuous innovation within the government's digital services landscape, including design patterns and components.
     button_text: "Read more about USWDS"
-    button_link: "/news/uswds/"
+    button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
   button_text: "Ready to share yours?"
-  button_link: "https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP"
+  button_link: "/submit-an-idea"
 
 section_5_static_content:
   title: "We’re in good company"

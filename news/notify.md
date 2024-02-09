@@ -3,7 +3,7 @@ title: Notify.gov text messaging service for alerts and reminders
 subtitle: Helping government benefits administrators reach those who need help most
 description: Read about the partnership between 10x and TTS Public Benefits Studio's Notify.gov — helping benefits administrators stay in touch with benefit recipients.
 footer: every-solution-starts-as-an-idea
-date: "2024-01-11"
+date: "2024-02-09"
 slug: "notify-dot-gov"
 excerpt: "10x built and handed off \"Government Notification Services,\" a text message-based notifications technology to TTS's Public Benefits Studio."
 theme: '4'

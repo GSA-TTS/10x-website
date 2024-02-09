@@ -6,7 +6,7 @@ footer: 10x-in-the-wild
 date: "2020-10-28"
 slug: "transforming-technology-agile-investments"
 excerpt: "View webinar on how 10x approaches investments in key technology projects designed to change how the public experiences the government."
-tags: In-the-News
+tags: In-the-news
 ---
 
 This webinar explores how 10x crowdsources ideas for using technology to improve the public’s experience with government, and how it researches, assesses, funds, and develops the solutions.

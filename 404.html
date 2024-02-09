@@ -11,7 +11,7 @@ theme: 1
 <div class="portfolio-blog-pages">
   <div class="static-content-page portfolio-bloglist-wrapper">
     <div class="banner-bg newspage-wrapper">
-      <div class="banner-bg-gradient padding-y-2 padding-x-4">
+      <div class="banner-bg-gradient padding-y-2">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
             <h1>{{ title }}</h1>
             <h2>We can’t find the page you requested. But at 10x, we believe in smart experimentation and trying to make a difference.</h2>
@@ -28,10 +28,10 @@ theme: 1
             </aside>
             <h4 class="font-sans-sm">Be the one in 1,000. See if these help:</h4>
             <ul class="list">
-                <li><a href="/">10x home</a></li>
-                <li><a href="/investments">Investments</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/news">News</a></li>
+                <li><a href="{{ '/' | url }}">10x home</a></li>
+                <li><a href="{{ '/investments/' | url }}">Investments</a></li>
+                <li><a href="{{ '/about/' | url }}">About</a></li>
+                <li><a href="{{ '/news/' | url }}">News</a></li>
             </ul>
         </div>
       </div>
