@@ -51,6 +51,7 @@ p, .usa-identifier__required-links-list li {
         color: color('indigo-warm-70v');
         text-decoration: none;
         padding: units(1px) units(1);
+        display: block;
 
         &:hover {
             border: 1px solid color('indigo-warm-40v');
