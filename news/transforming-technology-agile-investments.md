@@ -11,4 +11,4 @@ tags: In-the-News
 
 This webinar explores how 10x crowdsources ideas for using technology to improve the public’s experience with government, and how it researches, assesses, funds, and develops the solutions.
 
-View the video of [Federal Crowdsourcing Webinar Series, 10x: Transforming Technology Through Agile Investments](https://digital.gov/event/2020/10/29/federal-crowdsourcing-webinar-series-episode-15-10x-transforming-technology-through-agile-investments/) at Digital.gov.
+View the video of <a class="usa-link usa-link--external" rel="noreferrer" href="https://digital.gov/event/2020/10/29/federal-crowdsourcing-webinar-series-episode-15-10x-transforming-technology-through-agile-investments/">Federal Crowdsourcing Webinar Series, 10x: Transforming Technology Through Agile Investments</a> at <a class="usa-link usa-link--external" rel="noreferrer" href="https://digital.gov/">Digital.gov</a>.

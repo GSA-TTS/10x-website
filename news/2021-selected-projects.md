@@ -6,6 +6,7 @@ theme: "6"
 footer: "we-started-as-an-idea-too"
 description: "10x is excited to reveal the latest cohort of projects that we have selected for Phase 1 funding."
 excerpt: "We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. We received and evaluated 250 new submissions  —  a record-high for our program."
+investments-url: /investments/
 tags: Announcements
 ---
 
@@ -107,13 +108,13 @@ We have observed a few problems with the governmental grants process. First, man
 ### Software Development Vendor Management Guide
 
 We have observed that custom software development projects in government are
-failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the [18F de-Risking Field Guides](https://derisking-guide.18f.gov/)  —  10x will invest in an additional resource that covers vendor maintenance writ large.
+failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the <a class="usa-link usa-link--external" rel="noreferrer" href="https://derisking-guide.18f.gov/">18F de-Risking Field Guides</a> - 10x will invest in an additional resource that covers vendor maintenance writ large.
 
 ----{.TxBreak}
 
 Of the 22 projects we selected, 21 aligned with our three investment themes: Public Trust & Civic Life, Public Lands & Environment, and Equity in Delivery.  We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [investments]({{'../investments/' | url}}); more will be added over the coming months.
+The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [investments]({{ investments-url | url}}); more will be added over the coming months.
 
 ## About 10x
 
