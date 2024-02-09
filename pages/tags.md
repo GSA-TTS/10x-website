@@ -1,9 +1,9 @@
 ---
 title: Tags | 10x News
-description: 10x in the news, blogs, and announcements--find out what we're working on.
+description: 10x in the news--stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pageBrow: News
-pageTitle: Highlights of 10x
-subtitle: Read up on 10x events and announcements, highlights from 10x projects, and what the media is saying about the 10x impact.
+pageTitle: 10x
+subtitle: Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pagination:
   data: collections
   size: 1
