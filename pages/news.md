@@ -1,6 +1,6 @@
 ---
 title: News and Announcements | 10x News
-description: 10x in the news, blogs, and announcements--find out what we're working on.
+description: 10x in the news--stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
 pageBrow: News
 pageTitle: 10x announcements, media coverage and project highlights
 subtitle: Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions.
