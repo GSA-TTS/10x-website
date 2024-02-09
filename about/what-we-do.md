@@ -1,5 +1,5 @@
 ---
-title: "What we do: phases, process, approach, model | 10x"
+title: "What we do: phases, process, approach, model"
 description: GSA's TTS 10x program is a venture studio that takes federal workers' ideas on ways good-for-government technology can make better-for-the-public experiences.
 layout: layouts/about-page.html
 permalink: /about/what-we-do/index.html
@@ -14,41 +14,43 @@ return-to-top_text: Return to top
 ---
 
 <p class="usa-intro">
-  Now's your chance to share that problem or idea and see if it's the next big thing to improve how we serve the public.
+  Small bets mean incremental investments in projects that keep delivering value and high impact
 </p>
 
-A great idea should answer three questions...
+10x is like a venture studio within the federal government. Traditionally found in the private sector, venture studios are investment offices within a larger business or organization. 10x sources ideas across government, places small bets on risky projects, and eventually hands off a service or product to a long-term steward for ongoing maintenance. 
 
-###  What's the problem? 
+We’ve integrated a lot of these private sector practices within a federal government context. We prioritize ideas that align with 10x's investment priorities. And using a phased approach, we vet in-flight projects continuously, and only continue funding if projects continue to demonstrate impact and deliver value. 
 
-Clearly state the problem or opportunity, and keep it simple &#8212; under 1,000 characters! We're looking to solve real problems with big impact.
+Here's a phase-by-phase guide of how 10x supports projects and details why an idea might not move forward. For context, in 2022, we received 181 ideas and selected 25 ideas for the 10x teams to vet. Of those 25 ideas, only seven were approved for funding for Phase 2. 
 
-### Who benefits from solving this problem?
+## Phase 1, Investigation: Is there a "there" there?
 
-If we can solve a problem, who benefits from the solution? Is it government employees? Medicare recipients? Citizen scientists? Researchers? 
+In Phase 1, 10x sets out to answer,  <em>“Is this worth investing further?”</em>
 
-### How will the solution help?
+Through our team's extensive research, 10x finds that while there is a problem space, the impact on the public experience is not large enough to justify investment, that work is already being done to solve this issue, or that 10x is not best equipped to solve it. The team will keep you up to speed throughout this initial investigation, and we'll invite you to the close-out meeting. This is when the Phase 1 team makes its recommendation to 10x whether to invest more time and dollars in a Phase 2, Discovery.  
 
-Does the potential solution make something easier, faster, more accurate? More inclusive and equitable? A measurably better customer experience? Help us understand why it matters. 
+If the Phase 1 team finds that there's a "there" there, 10x can choose to  invest more resources by moving a project into Phase 2, Discovery. 
 
-#### Now, follow this simple structure:
+## Phase 2, Discovery: understanding the problem space, and the root cause(s)
 
-<p class="sampleText">
-  I've observed [problem or opportunity] and believe that if we [do this] it'll result in [this benefit] for [this group of people].
-</p>
+In Phase 2, we try to unpack that "there" there. We bring in strategists, researchers, product and technical experts to dig deeper into the market and tech landscape,  uncover barriers, blockers, and/or other risks that might cause a project to flounder or fail if scaled.
 
-<p class="usa-button">
-  <a class="usa-link" rel="noreferrer" href="{{ submit-idea-url | url }}">
-    {{ submit-idea-button-text }}
-  </a>
-</p>
+In a Phase 2, the research team may discover that the original idea isn't ultimately a technology problem because it's a people, policy, or funding problem. If this is the case, 10x will choose not to invest more resources developing a product or service. 
 
-## After you fill out the form and hit "Submit"
+There are some situations where 10x may pivot from the original idea and change the direction of the project based on the research presented. More commonly, however, 10x discovers that there is a potential technological solution and invests the resources necessary to start developing prototypes. 
 
-The 10x team looks at idea submissions at least once a year, and we'll let you know that we got your idea. The evaluation process takes place shortly after the Idea Submission deadline, and we'll let you know whether your idea has been selected for a Phase 1 Investigation.
+## Phase 3, Develop: prototypes and MVPs
 
-## Need some help?
+Prototyping a minimum viable product (MVP) lets us kick the tires to see how a solution might work (or not) in the real world. We also use Phase 3 to conduct user testing, and start to find its eventual agency home. 
 
-If you'd like help or feedback on your idea before submitting to 10x, send us an email at 10x@gsa.gov. We're happy to make sure your idea is on point. We also hold workshops and other information sessions to guide you on your way to becoming a 10x Idea Author!
+In Phase 3, we want to know if the solution integrates with the agency partner's existing priorities and tech capabilities. We ask what doing this means for existing workflows, and how 10x can help get the agency product owners set up for success after we hand off a solution. 
+
+Most 10x projects end after Phase 3, when the product is handed off to its agency product owner. However, a few select projects require more funding and resources so they move on to the next phase of work, Phase 4, Scale.
+
+## Phase 4, Scale: your idea in action
+
+During Phase 4, Scale, the team – along with agency sponsors and partners – looks to scale the solution to support different use cases across agencies and programs that drive the biggest impact. Our ultimate goal is to expand the reach to transform digital services for the public.
+
+Read up on some of the [projects and investments](../pages/investments.md) that 10x has supported from concept to launch.
 
 ---
