@@ -714,7 +714,16 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                     font-size: size('body', 14);
                     margin-top: units(7);
                     margin-bottom: 0;
-                }  
+                }
+                
+                span {
+                    text-transform: lowercase;
+                    display: inline-block;
+
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+                }
             }
     
             h2 {
@@ -751,6 +760,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                     background: none;
                 }
             }
+        }
+    }
+
+    p {
+        &.disclaimer {
+            font-size: size('body', 1);
         }
     }
 }
