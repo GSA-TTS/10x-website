@@ -53,6 +53,13 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // add projects to a named collection
+  eleventyConfig.addCollection("about", collection => {
+    return collection.getFilteredByGlob("about/*.md").sort(function (a, b) {
+      return a.inputPath.localeCompare(b.inputPath); // sort by path - ascending
+    });
+  });
+
   // note that both of these expect dates to be written in YYYY-MM-DD format assuming east coast time, without a full ISO string or "Z" timezone offset, for easier post date editing in yaml.
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {

@@ -1,9 +1,10 @@
 ---
 title: Send Us Your Idea! | 10x Idea Submission
 description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
-excerpt: Working in public service makes you uniquely qualified to see how we can create new good-for-government technology that enables good-for-people services. 
-layout: layouts/submit-an-idea-page.html
+pageBrow: Ideas
 pageTitle: Send your idea to 10x
+subtitle: Working in public service makes you uniquely qualified to see how we can create new good-for-government technology that enables good-for-people services. 
+layout: layouts/submit-an-idea-page.html
 return-to-top_text: Return to top
 home-link-text: Home
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP

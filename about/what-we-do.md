@@ -1,20 +1,12 @@
 ---
-title: "About GSA's venture studio | 10x"
-description: GSA's TTS 10x program invests in ideas from civil servants on ways good-for-government technology can make a better-for-the-public experience.
+title: "What we do: phases, process, approach, model | 10x"
+description: GSA's TTS 10x program is a venture studio that takes federal workers' ideas on ways good-for-government technology can make better-for-the-public experiences.
 layout: layouts/about-page.html
-permalink: /about/index.html
+permalink: /about/what-we-do/index.html
 pageBrow: About
-pageTitle: About 10x
-subtitle: Tech innovation for better government digital experiences
+pageTitle: What we do
+subtitle: Venture studio model
 mainNavPageTitle: About 10x
-redirect_from: 
-  - /fueling-innovation
-  - /making-each-dollar-count
-  - /designing-success
-eleventyNavigation:
-  parent: root
-  key: About
-  order: 1
 theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!

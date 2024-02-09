@@ -1045,7 +1045,7 @@ iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
 .return-to-top {
     transition: all .5s ease-in-out;
     font-size: size('body', 5);
-    margin: 0 units(1) units(2.5) !important;
+    margin: 0 units(1) units(2.5) 0 !important;
 
     &.fixed {
         position: fixed;

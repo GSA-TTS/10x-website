@@ -1,20 +1,12 @@
 ---
-title: "About GSA's venture studio | 10x"
-description: GSA's TTS 10x program invests in ideas from civil servants on ways good-for-government technology can make a better-for-the-public experience.
+title: "Get in touch | 10x Contact"
+description: Want help brainstorming how to improve digital CX for the public? Have questions about 10x? We want to hear from you!
 layout: layouts/about-page.html
-permalink: /about/index.html
+permalink: /about/contact-us/index.html
 pageBrow: About
-pageTitle: About 10x
-subtitle: Tech innovation for better government digital experiences
+pageTitle: Contact us
+subtitle: 10x wants to hear from you! 
 mainNavPageTitle: About 10x
-redirect_from: 
-  - /fueling-innovation
-  - /making-each-dollar-count
-  - /designing-success
-eleventyNavigation:
-  parent: root
-  key: About
-  order: 1
 theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
