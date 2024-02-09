@@ -30,7 +30,7 @@ section_1_static_content:
   title: "We’re re-imagining government technology services through your ideas"
   text: "As a public servant, you're uniquely positioned to imagine better ways to serve the public. If you’ve ever thought, 'There's got to be a better way to do that,' we want your ideas."
   button_text: "How to pitch your idea"
-  button_link: "/link/to/page"
+  button_link: "/submit-an-idea"
   subtitle: "Meet our top investment portfolios"
   link_text: "See all of our investment portfolios"
   link_url: "/projects/"
@@ -56,7 +56,7 @@ section_1_cards:
 section_2_static_content:
   title: "206 investments and counting"
   button_text: "Discover our investment portfolios"
-  button_link: "/reports/"
+  button_link: "/investments/"
 
 section_3_content:
   title: "Take a look at some of our best investments so far"
@@ -85,7 +85,7 @@ section_3_content:
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
   button_text: "Ready to share yours?"
-  button_link: "https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP"
+  button_link: "/submit-an-idea"
 
 section_5_static_content:
   title: "We’re in good company"
