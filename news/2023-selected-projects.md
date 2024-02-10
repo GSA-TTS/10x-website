@@ -143,5 +143,3 @@ We have observed that the government is developing data tools and applications t
 To help ensure that Native Americans can be included in data equity tools and applications, and their needs better understood and met, 10x will explore building a shared tool for government agencies that can help model and apportion some data for tribal communities and/or at the Census block level.
 
 An idea submitted by a civil servant at: *Department of Transportation*
-
-

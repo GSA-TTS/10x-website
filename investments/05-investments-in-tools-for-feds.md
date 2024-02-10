@@ -93,3 +93,6 @@ Well-designed and accessible websites are the foundation of good digital communi
 </p>
 
 ---
+
+<p class="disclaimer">Disclaimer: Links to nongovernment sources are made for educational or source citation purposes only, and do not represent an endorsement of the organizations by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities' websites.
+</p>
