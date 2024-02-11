@@ -27,7 +27,7 @@ Underserved communities are uniquely vulnerable to the impacts of climate change
 
 ### Combating bias in AI/ML
 
-10x has developed tools to help public servants "de-bias" datasets that power AI. Developed in collaboration with the Census, the initial toolkit can help public servants use AI without the fear of introducing bias.
+10x has developed tools to help public servants "de-bias" datasets that power AI. Developed in collaboration with the Census, the initial toolkit can help public servants use AI without the fear of introducing bias. Check out the beta version of the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://bias.xd.gov/">Bias Toolkit</a>.
 
 ### Equity-centered design with American Indians and Alaska Natives
 
@@ -37,7 +37,7 @@ In the spirit of designing "with" and not "for," 10x looked at developing a fram
 
 Residents in federal housing do not have a way to communicate their values, candid perspectives, and needs to the government. 10x looked at whether there was a way to use technology to help them provide feedback on federal housing effectively and safely.
 
-### Improving access to translated content on government websites
+### Improving language access on government websites
 
 For the more than 60 million Americans who are not fluent in English accessing information on government websites can be a challenge. Even when there is content in their language, it can be hard to find. 10x is conducting user testing with monolingual speakers of languages other than English to find out how to help them find content in their language.
 
