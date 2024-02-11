@@ -5,7 +5,7 @@ description: 10x selected 15 high-impact ideas for its next round of funding. Th
 footer: every-solution-starts-as-an-idea
 date: "2023-05-08"
 slug: "2023-selected-projects"
-excerpt: "Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government."
+excerpt: "Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public's digital experience with the U.S. government."
 theme: '4'
 tags: Announcements
 ---
@@ -14,15 +14,15 @@ tags: Announcements
     We are very excited to announce the latest cohorts of projects chosen to begin Phase 1 of the 10x process. 
 </p>
 
-Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public’s digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
+Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public's digital experience with the U.S. government. We appreciate the thoughtfulness and creativity of the many federal employees who raised a hand and submitted an idea to 10x. Your ideas will make a difference!
 
 The ideas we selected for Phase 1 are:
 
 ## Opt-In Research Opportunities
 
-We have observed multiple instances of government programs successfully creating opportunities for the public to opt into user research. The Civic User Testing Network and OPM’s Open Opportunities platform are two examples of platforms that the government has used to find users with specific lived experience and demographic criteria for their research topics. Partnering with Community Benefit Organizations (CBO) to recruit people for research is another tool that agencies have used, but it isn’t a perfect solution.  If there was a universal platform for opting into Federal research opportunities that all agencies could use, or a standardized template for agencies to use when engaging with CBOs, it could both reduce research participant confusion and improve the quality of research outcomes.
+We have observed multiple instances of government programs successfully creating opportunities for the public to opt into user research. The Civic User Testing Network and OPM's Open Opportunities platform are two examples of platforms that the government has used to find users with specific lived experience and demographic criteria for their research topics. Partnering with Community Benefit Organizations (CBO) to recruit people for research is another tool that agencies have used, but it isn't a perfect solution.  If there was a universal platform for opting into Federal research opportunities that all agencies could use, or a standardized template for agencies to use when engaging with CBOs, it could both reduce research participant confusion and improve the quality of research outcomes.
 
-10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public’s experience with the government.
+10x will explore if a platform, training process, or other technology could allow federal researchers to quickly connect with specific communities to conduct research that will improve the public's experience with the government.
 
 An idea submitted by a civil servant at: *General Services Administration ~ Federal Acquisition Service*
 
@@ -54,13 +54,13 @@ An idea submitted by a civil servant at: *Office of Personnel Management*
 
 We have observed that the government still has room for improving how it serves non-English speakers. For example, despite promoting the adoption of Plain Language, the government does not currently offer similar guidelines for other languages. 
 
-10x will explore if there’s value in offering Federal web managers and designers the resources to deploy multi-lingual, plain language versions of their public-facing content. 10x will prioritize languages that are often overlooked when translating content, such as Native American languages, and see if there is a model that could easily be reused and scaled to other languages. 
+10x will explore if there's value in offering Federal web managers and designers the resources to deploy multi-lingual, plain language versions of their public-facing content. 10x will prioritize languages that are often overlooked when translating content, such as Native American languages, and see if there is a model that could easily be reused and scaled to other languages. 
 
 An idea submitted by a civil servant at: *General Services Administration ~ Federal Acquisition Service*
 
 ## Coming to the United States 
 
-Leaving one’s home behind, struggling with a new language, and difficulties finding employment are just a few of the taxing experiences that new immigrants can face. Among all the difficulties, we have observed that navigating the bureaucratic hurdles involved in immigration are a top contender for most headache-inducing of them all.
+Leaving one's home behind, struggling with a new language, and difficulties finding employment are just a few of the taxing experiences that new immigrants can face. Among all the difficulties, we have observed that navigating the bureaucratic hurdles involved in immigration are a top contender for most headache-inducing of them all.
 
 For example, some families resort to paying hundreds or thousands of dollars in attorney fees seeking help moving through the process, which privileges those with means over low-income immigrants. 
 
@@ -72,7 +72,7 @@ An idea submitted by a civil servant at: *Department of Homeland Security*
 
 We have observed that people with disabilities and certain other needs (like low sensory environments) do not have a reliable, human-centered resource for locating federally managed recreational opportunities. Meeting this need could lead to a more equitable public service for millions of Americans.
 
-10x will explore how to create a platform for people to find recreational activities based on their specific situations, without having to contact a help line and divulge private information in order to find ways to enjoy the country’s protected recreational offerings. If successful, we can make recreation more successful.
+10x will explore how to create a platform for people to find recreational activities based on their specific situations, without having to contact a help line and divulge private information in order to find ways to enjoy the country's protected recreational offerings. If successful, we can make recreation more successful.
 
 An idea submitted by a civil servant at: *Department of Agriculture*
 
@@ -96,9 +96,9 @@ An idea submitted by a civil servant at: *General Services Administration ~ Fede
 
 ## Preventing Abuse of the Freedom of Information Act
 
-The Freedom of Information Act (FOIA) is a major engine for transparency and is of enormous benefit to the public. The dedicated agency staffers in charge of FOIA requests play a critical role in safeguarding and responding to the public’s right to transparent information.
+The Freedom of Information Act (FOIA) is a major engine for transparency and is of enormous benefit to the public. The dedicated agency staffers in charge of FOIA requests play a critical role in safeguarding and responding to the public's right to transparent information.
 
-But we have observed an emergent trend where agencies are inundated with FOIA requests that overwhelm the agency’s capabilities and hinder their operations. 
+But we have observed an emergent trend where agencies are inundated with FOIA requests that overwhelm the agency's capabilities and hinder their operations. 
 
 10x will explore ways of making the FOIA process more efficient for all parties. 
 
@@ -122,7 +122,7 @@ An idea submitted by a civil servant at: *Nuclear Regulatory Commission*
 
 ## De-Biasing Public Infrastructure Investments
 
-We have observed that the federal government’s investments in infrastructure have not always been planned with an emphasis on equity. Less advantaged Americans have often been either excluded from or directly harmed by these projects. 
+We have observed that the federal government's investments in infrastructure have not always been planned with an emphasis on equity. Less advantaged Americans have often been either excluded from or directly harmed by these projects. 
 
 10x will explore ways that modern technology can help the government plan and execute future infrastructure projects more equitably, starting with racial bias in public transportation investments. 
 
@@ -132,7 +132,7 @@ An idea submitted by a civil servant at: *Department of Commerce*
 
 10x has previously funded work exploring the market opportunity for deploying federally managed and built reusable web components for human services programs (e.g. eligibility APIs)  at all levels of government over the years. 
 
-We believe it’s time for 10x to re-invest in this problem space and leverage the institutional knowledge it has built over the years to revisit the potential here. This is particularly relevant because COVID-19 changed how the government uses technology to serve the public. 10x will explore if the landscape has changed and opened new opportunities for investment.
+We believe it's time for 10x to re-invest in this problem space and leverage the institutional knowledge it has built over the years to revisit the potential here. This is particularly relevant because COVID-19 changed how the government uses technology to serve the public. 10x will explore if the landscape has changed and opened new opportunities for investment.
 
 An idea submitted by a civil servant at: *General Services Administration ~ Federal Acquisition Service*
 

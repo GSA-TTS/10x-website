@@ -41,6 +41,9 @@ p, .usa-identifier__required-links-list li {
 
 .usa-tag {
     padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
 
     a {
         background: color('indigo-warm-10v');
@@ -48,6 +51,7 @@ p, .usa-identifier__required-links-list li {
         color: color('indigo-warm-70v');
         text-decoration: none;
         padding: units(1px) units(1);
+        display: block;
 
         &:hover {
             border: 1px solid color('indigo-warm-40v');
@@ -710,7 +714,16 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                     font-size: size('body', 14);
                     margin-top: units(7);
                     margin-bottom: 0;
-                }  
+                }
+                
+                span {
+                    text-transform: lowercase;
+                    display: inline-block;
+
+                    &:first-letter {
+                        text-transform: uppercase;
+                    }
+                }
             }
     
             h2 {
@@ -747,6 +760,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                     background: none;
                 }
             }
+        }
+    }
+
+    p {
+        &.disclaimer {
+            font-size: size('body', 1);
         }
     }
 }

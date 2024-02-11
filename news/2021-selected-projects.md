@@ -6,6 +6,7 @@ theme: "6"
 footer: "we-started-as-an-idea-too"
 description: "10x is excited to reveal the latest cohort of projects that we have selected for Phase 1 funding."
 excerpt: "We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. We received and evaluated 250 new submissions  —  a record-high for our program."
+investments-url: /investments/
 tags: Announcements
 ---
 
@@ -19,11 +20,11 @@ We received and evaluated 250 new submissions  —  a record-high for our progra
 
 ### Know Your Civil Rights
 
-Through user research conducted on a recent civil rights project at the Department of Justice, we learned that the public doesn’t have a good understanding of their civil rights. The public’s experience finding such information and how to seek justice is fragmented across agency websites. The responsibility for investigating civil rights issues, such as sexual harassment in housing, disability discrimination in the workplace, and rights for the incarcerated are shared by multiple agencies, making it difficult for the public to find this critical information. What if there was a new, streamlined way for the government to communicate civil rights information to the public? 10x will investigate the opportunity to remove complex barriers the public faces when seeking justice by bringing this vast pool of information together.
+Through user research conducted on a recent civil rights project at the Department of Justice, we learned that the public doesn't have a good understanding of their civil rights. The public's experience finding such information and how to seek justice is fragmented across agency websites. The responsibility for investigating civil rights issues, such as sexual harassment in housing, disability discrimination in the workplace, and rights for the incarcerated are shared by multiple agencies, making it difficult for the public to find this critical information. What if there was a new, streamlined way for the government to communicate civil rights information to the public? 10x will investigate the opportunity to remove complex barriers the public faces when seeking justice by bringing this vast pool of information together.
 
 ### Reimagining Access to Government Services
 
-We have observed that circumstances of poverty can make it incredibly difficult for the people who need government benefits the most to apply for and receive these benefits. These circumstances include having phone numbers shared among multiple people or lacking a consistent phone number at all, and not having a reliable permanent address to receive mail. These are serious obstacles for many people trying to navigate the government’s benefits processes, because many of these are basic requirements when signing up for government services and communicating with agencies. What if we could design technical workarounds for folks in these difficult situations that would help them access benefits more easily? 10x will investigate these constraints and explore solutions to this problem using technology.
+We have observed that circumstances of poverty can make it incredibly difficult for the people who need government benefits the most to apply for and receive these benefits. These circumstances include having phone numbers shared among multiple people or lacking a consistent phone number at all, and not having a reliable permanent address to receive mail. These are serious obstacles for many people trying to navigate the government's benefits processes, because many of these are basic requirements when signing up for government services and communicating with agencies. What if we could design technical workarounds for folks in these difficult situations that would help them access benefits more easily? 10x will investigate these constraints and explore solutions to this problem using technology.
 
 ### Resources for Formerly Incarcerated Individuals
 
@@ -51,7 +52,7 @@ As creators of government technology, our work has long lasting implications. Ho
 
 ### Visualizing the Federal Carbon Footprint
 
-We have observed that the federal government emits huge amounts of greenhouse gases (GHG) every year, including more than 37 million tons from federal facility operations in 2019 alone. The public lacks a window into how federal agencies are doing their part to reduce the effects of climate change. 10x will investigate how user-centered design and savvy data analysis could create a clear picture of the government’s efforts to kick its carbon habit, resulting in more transparency and accountability and ensuring that we, as civil servants, are doing our best to reduce the impact of climate change on our country.
+We have observed that the federal government emits huge amounts of greenhouse gases (GHG) every year, including more than 37 million tons from federal facility operations in 2019 alone. The public lacks a window into how federal agencies are doing their part to reduce the effects of climate change. 10x will investigate how user-centered design and savvy data analysis could create a clear picture of the government's efforts to kick its carbon habit, resulting in more transparency and accountability and ensuring that we, as civil servants, are doing our best to reduce the impact of climate change on our country.
 
 ### Untangling Climate Resources
 
@@ -67,11 +68,11 @@ The government has a wealth of geospatial data on Federal Lands, but this data i
 
 ### Open Science Field Guide
 
-Federal science communities are required to open their data (Evidence Act 2018) which increases accountability and trust for publicly-funded research. But opening data is complex and resource-intensive to operationalize. There are serious risks including privacy, national security, and misuse/misinterpretation. Agency expertise is inconsistent on this topic, and existing resources don’t support those getting started. Uncertainty has reduced agency open data compliance, increased the risk of redundant funding, and ultimately, risked public credibility. 10x validated these needs and prototyped and documented a solution: a facilitated workshop process in which agencies create a risk/benefit assessment framework tailored to their needs. 10x will investigate expanding on this prototype in collaboration with scientific data stewards and developing an open-source field guide for agencies to help ease the path towards open, publicly-funded science.
+Federal science communities are required to open their data (Evidence Act 2018) which increases accountability and trust for publicly-funded research. But opening data is complex and resource-intensive to operationalize. There are serious risks including privacy, national security, and misuse/misinterpretation. Agency expertise is inconsistent on this topic, and existing resources don't support those getting started. Uncertainty has reduced agency open data compliance, increased the risk of redundant funding, and ultimately, risked public credibility. 10x validated these needs and prototyped and documented a solution: a facilitated workshop process in which agencies create a risk/benefit assessment framework tailored to their needs. 10x will investigate expanding on this prototype in collaboration with scientific data stewards and developing an open-source field guide for agencies to help ease the path towards open, publicly-funded science.
 
 ### Government Technology Hiring Toolkit
 
-Through 18F’s work with agency partners, we have observed that agencies understand the critical importance of bringing technology talent into government service, but struggle with hiring and outreach. We believe that if we assist agencies in crafting position descriptions and performing targeted outreach, we can successfully bring excited, competent technologists to the federal service. 10x will investigate the feasibility of helping agencies bring in diverse, highly-skilled technical talent into government service through developing a handbook or toolkit for hiring technology professionals.
+Through 18F's work with agency partners, we have observed that agencies understand the critical importance of bringing technology talent into government service, but struggle with hiring and outreach. We believe that if we assist agencies in crafting position descriptions and performing targeted outreach, we can successfully bring excited, competent technologists to the federal service. 10x will investigate the feasibility of helping agencies bring in diverse, highly-skilled technical talent into government service through developing a handbook or toolkit for hiring technology professionals.
 
 ### U.S. Federal Election Dates and Deadlines
 
@@ -98,7 +99,7 @@ We have observed that the public does not have a good understanding of what happ
 
 ### Inclusion for Rulemaking in Early Stages
 
-There is an opportunity to increase public participation in the early parts of the rulemaking process. Public commenting is a part of the federal rulemaking process under Section 553 of the Administrative Procedure Act but it often happens after the rule has been drafted. This puts the burden on the public to figure out what rules are being written and to navigate a public comment process that can be confusing, limited, and superficial. 10x will investigate ways to easily and inclusively involve the public in earlier stages of rulemaking, such as during the drafting and ideation of such rules, as well as identify tools, resources, or processes that can help increase early public engagement in ways that are substantive and generative. The earlier that the public’s input is incorporated in this process, the greater the opportunity for the public to impact regulations and have a voice in the rulemaking.
+There is an opportunity to increase public participation in the early parts of the rulemaking process. Public commenting is a part of the federal rulemaking process under Section 553 of the Administrative Procedure Act but it often happens after the rule has been drafted. This puts the burden on the public to figure out what rules are being written and to navigate a public comment process that can be confusing, limited, and superficial. 10x will investigate ways to easily and inclusively involve the public in earlier stages of rulemaking, such as during the drafting and ideation of such rules, as well as identify tools, resources, or processes that can help increase early public engagement in ways that are substantive and generative. The earlier that the public's input is incorporated in this process, the greater the opportunity for the public to impact regulations and have a voice in the rulemaking.
 
 ### Finding Grant-Funded Results and Products
 
@@ -107,14 +108,14 @@ We have observed a few problems with the governmental grants process. First, man
 ### Software Development Vendor Management Guide
 
 We have observed that custom software development projects in government are
-failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the [18F de-Risking Field Guides](https://derisking-guide.18f.gov/)  —  10x will invest in an additional resource that covers vendor maintenance writ large.
+failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the <a class="usa-link usa-link--external" rel="noreferrer" href="https://derisking-guide.18f.gov/">18F de-Risking Field Guides</a> - 10x will invest in an additional resource that covers vendor maintenance writ large.
 
 ----{.TxBreak}
 
 Of the 22 projects we selected, 21 aligned with our three investment themes: Public Trust & Civic Life, Public Lands & Environment, and Equity in Delivery.  We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [investments]({{'../investments/' | url}}); more will be added over the coming months.
+The best place to find information on these projects  —  and other active or completed 10x projects  —  as well as our process, is right here on our website. Some of our projects are currently profiled on [investments]({{ investments-url | url}}); more will be added over the coming months.
 
 ## About 10x
 
-10x is an investment program that takes ideas submitted by federal employees and turns them into technology projects that improve how the government delivers excellence for the public. 10x is a part of GSA’s Technology Transformation Services (TTS) division. TTS applies modern methodologies and technologies to improve the lives of the public and public servants.
+10x is an investment program that takes ideas submitted by federal employees and turns them into technology projects that improve how the government delivers excellence for the public. 10x is a part of GSA's Technology Transformation Services (TTS) division. TTS applies modern methodologies and technologies to improve the lives of the public and public servants.
