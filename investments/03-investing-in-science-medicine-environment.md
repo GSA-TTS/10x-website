@@ -33,7 +33,7 @@ Making science data open to the public furthers scientific exploration, but doin
 
 There are tens of thousands of sewage spills each year, a disproportionate number of which impact disadvantaged communities. While states are required to report sewage spills, there wasn't a way to do so electronically. 10x designed a user-friendly way for local and state governments to report sewage spills.
 
-![Echo sewer spill image]({{site.url}}/theme/images/sewer-spills/echo-epa-gov-search-results.png) 
+<img alt="Echo sewer spill image" src="{{ '/assets/images/sewer-spills/echo-epa-gov-search-results.png' | url }}">
 
 ### Risk assessments for cancer therapies
 
