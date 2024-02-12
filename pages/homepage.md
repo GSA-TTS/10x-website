@@ -54,7 +54,7 @@ section_1_cards:
     button_link: "/link/to/page"
 
 section_2_static_content:
-  title: "206 investments and counting"
+  title: "Hundreds of investments and counting"
   button_text: "Discover our investment portfolios"
   button_link: "/investments/"
 

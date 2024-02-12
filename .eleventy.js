@@ -56,7 +56,7 @@ module.exports = function (eleventyConfig) {
   // add projects to a named collection
   eleventyConfig.addCollection("about", collection => {
     return collection.getFilteredByGlob("about/*.md").sort(function (a, b) {
-      return b.date - a.date; // sort by date, newest first
+      return (a.data.order || 0) - (b.data.order || 0); // Sort by custom order property
     });
   });
 
