@@ -97,6 +97,7 @@ There is existing technology that maps interior spaces, but it is often labor in
 ### Verifying Tribal Affiliations
 
 It has been observed that many benefits reserved for Native peoples are tied directly to that person's membership in a federally-recognized Tribe which can  then only be verified by the federal government, if at all. 
+
 10x will explore a service that verifies Tribal membership with the Tribes themselves, ensuring that benefits flow to the intended recipients, improving service delivery, comply with existing legislation, and better honor its treaty obligations to Tribal Nations.
 
 **An idea submitted by a civil servant at:** *General Services Administration, Federal Acquisition Service*
@@ -139,7 +140,7 @@ The steps vary depending on the algorithms, application type, and datasets used.
 
 It has been observed that data misuse is on the rise in the age of AI. While some privacy protections are enforced, such as informing the public of data collection options, there is a lack of standardization across the web on delivery and accessibility. This will get worse as data becomes more valuable and the level of usage becomes more complex.
 
-10x will investigate existing capabilities, such as a Digital ID, that could build upon new and existing Federal technology, like Login.gov and recent international implementations of similar technology.
+10x will investigate existing capabilities, such as a Digital ID, that could build upon new and existing Federal technology, like <a class="usa-link usa-link--external" rel="noreferrer" href="https://login.gov">Login.gov</a> and recent international implementations of similar technology.
 
 **An idea submitted by civil servants at:** *The Executive Office of the President, Office of Management and Budget &amp; General Services Administration, Federal Acquisition Service*
 
