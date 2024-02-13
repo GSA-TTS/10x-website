@@ -1,6 +1,6 @@
 ---
 title: "TTS Director Talks Citizen Service, Innovation"
-Subtitle: From idea to innovation, U.S. Notify and USWDS are two examples of how 10x investments shape the role of government technology
+subtitle: MeriTalk Q&A
 description: "MeriTalk Q&A with TTS Director Ann Lewis on Tech Innovation, U.S. Notify, USWDS and more."
 footer: 10x-in-the-wild
 date: "2023-05-05"

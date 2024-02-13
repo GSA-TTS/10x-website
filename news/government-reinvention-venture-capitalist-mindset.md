@@ -1,6 +1,6 @@
 ---
-title: "Government reinvention with a venture capitalist mindset"
-# title: "10x's Venture Capitalist Mindset | 10x.GSA.gov"
+title: "Government reinvention"
+subtitle: A venture capitalist mindset
 description: "10x's approach applies learnings from venture capitalists to the development of technology projects for government. Find out how."
 footer: "10x-in-the-wild"
 date: "2019-10-30"

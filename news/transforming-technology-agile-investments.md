@@ -1,6 +1,6 @@
 ---
 title: "10x: Transforming Technology Through Agile Investments"
-# title: "Transforming Technology with Agile Investments | 10x.GSA.gov"
+subtitle: Federal crowdsourcing webinar series
 description: "View webinar on how 10x approaches investments in key technology projects designed to change how the public experiences the government."
 footer: 10x-in-the-wild
 date: "2020-10-28"

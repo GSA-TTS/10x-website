@@ -1,6 +1,6 @@
 ---
-title: 10x invites your idea submissions through November 16; announces FY22 themes
-subtitle: 
+title: 10x announces FY22 themes
+subtitle: We invite your idea submissions through November 16
 slug: 2022-round-one-submission-period-priorities
 date: "2021-10-12"
 theme: "6"

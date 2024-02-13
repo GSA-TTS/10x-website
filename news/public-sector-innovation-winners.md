@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Public Sector Innovation winners"
-# title: "10x Wins Public Sector Innovation Award | 10x.GSA.gov"
+subtitle: 2019 Government Innovation Awards
 description: "Read about how 10x, an innovative program in funding and developing technology solutions that serve the public, was recognized with a 2019 Public Sector Innovation award."
 footer: "every-solution-starts-as-an-idea"
 date: "2019-08-25"
