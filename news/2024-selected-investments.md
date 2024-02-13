@@ -1,5 +1,5 @@
 ---
-title: Announcing 10x's FY24 Investments
+title: Announcing 10x's exciting new investments
 subtitle: 10x selected a new set of high-impact investments for its FY24 Phase 1 funding.
 description: See all the Phase 1 investments 10x is funding in early 2024.
 footer: every-solution-starts-as-an-idea
@@ -18,7 +18,7 @@ tags: Announcements
 
 As always, a huge thank you to all of the civil servants who submitted inspiring ideas for us to consider. Your ideas make 10x work.
 
-## 10x Ideas Selected for Phase One Funding
+## 10x Ideas selected for Phase 1 funding
 
 ### U.S. Service Design Pattern Library
 
@@ -36,7 +36,7 @@ Federal prison inmates have the right to file grievances claims with the Bureau 
 
 These benefits include not only improved customer experience (CX), but also building trust and respect between inmates and staff that can help create safe, well-managed institutions.
 
-**An idea submitted by a civil servant at:** *Department of Justice, Federal Prison System*
+**An idea submitted by civil servants at:** *Department of Justice, Federal Prison System*
 
 ### Accelerating Inclusive CX and Web Access
 
@@ -44,7 +44,7 @@ It has been observed the ongoing user performance issues experienced by numerous
 
 10x will explore researching and shipping an actionable and reusable design and development strategy aligned with W3C Web Sustainability guidelines and also exploring a performance tool tailored for users with poor or restricted internet access. By looking into these options, 10x anticipates a substantial enhancement in the inclusivity and overall user experience of government webpages, and possibly a reduced carbon footprint for the Federal government. 
 
-**An idea submitted by a civil servant at:** *Department of Energy, Other*
+**An idea submitted by a civil servant at:** *Department of Energy, National Renewable Energy Laboratory*
 
 ### Scalable Benefits Delivery Platform
 
@@ -76,7 +76,7 @@ It has been observed that the public wants to report complaints, comments, and t
 
 10x will explore creating a shared "report portal as a service" that would allow agencies to serve the public more consistently. Possible solutions could include: 1) a configurable public-facing web form where the public can submit reports and check back on the status of their submission, and 2) tools for agency staff to organize and search submissions, route them within the agency, and respond to the submitter. This will result in a more empowered public who can trust that their feedback has been heard and can see the results.
 
-**An idea submitted by a civil servant at:** *The General Services Administration, Other*
+**An idea submitted by civil servants at:** *The General Services Administration, Federal Acquisition Service*
 
 ### Raising the Bar for Federal Chatbots
 
@@ -84,7 +84,7 @@ It has been observed that several federal agencies have considered using web-bas
 
 Large language model (LLM) based chatbots can improve this. The Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence directs GSA and OMB to establish a framework for responsible government use of LLM-based chat platforms, but a framework still leaves agencies on their own when it comes to implementation. 10x will explore creating a reusable LLM chatbot template, allowing agencies to rapidly turn a collection of unstructured documents into a world-class chatbot.
 
-**An idea submitted by a civil servant at:** *Department of Commerce, Minority Business Development Agency*
+**An idea submitted by a civil servant at:** *General Services Administration, Presidential Innovation Fellow*
 
 ### Platform for Navigating Federal Buildings 
 
@@ -124,7 +124,7 @@ It has been observed that users face high barriers when implementing the U.S. We
 
 Previous discussions about how to best work with the USWDS within popular frontend frameworks like Angular, React and Vue have spawned second-party libraries that are not supported by the core USWDS project, which introduces risks. We believe that making the USWDS as flexible and modular as possible will increase adoption by developers, and improve the public's experience with the government. 10x can help facilitate the transition to web components with engineering guidance, prototyping and testing, and design and API support. 
 
-**An idea submitted by a civil servant at:** *Department of the Interior, U.S. Geological Survey &amp; General Services Administration, Federal Acquisition Service*
+**An idea submitted by civil servants at:** *Department of the Interior, U.S. Geological Survey &amp; General Services Administration, Federal Acquisition Service*
 
 ### Translating ethical concepts to technical methods
 
@@ -134,7 +134,7 @@ To analyze AI applications for being effective and safe, we need to translate et
 
 The steps vary depending on the algorithms, application type, and datasets used. The government needs additional infrastructure to ensure effectiveness and safety using AI. 10x will investigate the development of standard technical methods to perform risk assessment, and metrics to measure AI application performance using ethical principles with their technical counterparts.
 
-**An idea submitted by a civil servant at:** *Department of Veterans Affairs, Veterans Health Administration &amp; Department of Commerce, Bureau of the Census*
+**An idea submitted by civil servants at:** *Department of Veterans Affairs, Veterans Health Administration &amp; Department of Commerce, Bureau of the Census*
 
 ### Defining Digital Identity and Rights
 
@@ -154,6 +154,4 @@ Supporting the Executive Order on the Safe, Secure, and Trustworthy Development 
 
 ## What’s Next?
 
-We put our team together, and go! We look forward to launching our new projects this spring.
-
-
+We put our teams together, and go! We look forward to launching our new projects this spring.
