@@ -10,6 +10,3 @@ tags: In-the-news
 ---
 
 An investment idea that got its start in 10x, USA.gov's Benefits Locator tool has launched two new life events to help the public locate information on federal benefits when planning for retirement, or navigating a disability or serious illness. See <a class="usa-link usa-link--external" rel="noreferrer" href="https://blog.usa.gov/new-life-events-and-features-for-usagovs-benefits-locator">New life events and features for USAGov's benefits locator.</a>.
-
----
-
