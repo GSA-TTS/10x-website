@@ -13,7 +13,9 @@ home-link-text: "Home"
       <div class="banner-bg-gradient padding-y-2">
         <section class="grid-container header-section usa-section" aria-label="Introduction">
           <h1>{{ title }}</h1>
+          {%- if subtitle != null -%}
           <h2>{{ subtitle }}</h2>
+          {%- endif -%}
           <h3>{{ category }}</h3>
         </section>
       </div>
