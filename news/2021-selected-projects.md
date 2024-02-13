@@ -1,5 +1,6 @@
 ---
-title: "10x announces new projects chosen for FY21 Phase 1 funding"
+title: "10x announces new projects"
+subtitle: FY21 Phase 1 funding
 slug: "2021-selected-projects"
 date: "2021-04-25"
 theme: "6"

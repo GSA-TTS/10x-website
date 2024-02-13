@@ -1,6 +1,6 @@
 ---
-title: "OPSI reports on 10x's approach to investments"
-# title: "OPSI Reports on 10x's Investment Approach | 10x.GSA.gov"
+title: "10x's approach to investments"
+subtitle: An OPSI report 
 description: "OPSI, part of the OECD, profiles 10x's unique approach to funding government technology solutions. Find out how they do it."
 footer: "every-solution-starts-as-an-idea"
 date: "2020-05-19"

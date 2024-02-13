@@ -1,6 +1,6 @@
 ---
-title: 10x announces new projects chosen for FY22 Phase 1 funding
-subtitle: 
+title: FY22 Phase 1 funding
+subtitle: 10x announces new projects
 description: 10x selected 25 high-impact ideas for its next round of funding. These projects will kick off early in 2022.
 footer: every-solution-starts-as-an-idea
 date: "2022-05-11"
