@@ -5,7 +5,7 @@ description: See all the Phase 1 investments 10x is funding in early 2024.
 footer: every-solution-starts-as-an-idea
 date: "2024-02-15"
 slug: "2024-selected-investments"
-excerpt: "Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public's digital experience with the U.S. government."
+excerpt: "We're making 16 new investments this round, and each of them begins with a great idea submitted by a federal employee that, if successful, can transform the public's experience with the government."
 theme: '4'
 tags: Announcements
 ---
