@@ -1,7 +1,7 @@
 ---
 title: "10x program crowdsourcing new customer experience ideas"
 subtitle: "The people closest to a problem are often the ones with ideas on how to solve it."
-description: "10x crowdsources ideas on improving government digital service delivery by asking \"What problem are you trying to solve?\""
+description: "10x crowdsources ideas on improving government digital service delivery by asking &quot;What problem are you trying to solve?&quot;"
 footer: 10x-in-the-wild
 date: "2022-10-22"
 slug: "crowd-sourcing-new-cx-ideas"
