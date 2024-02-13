@@ -7,7 +7,9 @@ section: blog
     <div class="banner-bg-gradient padding-y-2">
       <section class="grid-container header-section usa-section">
         <h1>{{ pageTitle }}</h1>
+        {%- if subtitle != null -%}
         <h2>{{ subtitle }}</h2>
+        {%- endif -%}
         <h3>{{ pageBrow }}</h3>
       </section>   
     </div>  
@@ -20,10 +22,7 @@ section: blog
       
           {% if pagination.pages.length > 1 %}
           {% include "components/pagination.html" %}
-          {% endif %}            
-          <p class="back-to-news-wrapper">
-            <a href="{{ list-url | url }}">{{ back-to-news-updates_text }}</a>
-          </p>
+          {% endif %}
         </div>
         {% include "components/news-landing-tags-side-nav.html" %}
       </div>
