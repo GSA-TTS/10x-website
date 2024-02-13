@@ -4,7 +4,7 @@ description: "Read ExecutiveGov's coverage of 10x's fall 2021 request for idea s
 footer: 10x-in-the-wild
 date: "2021-09-21"
 slug: "FY22-idea-submission-investment-themes"
-excerpt: "ExecutiveGov covers 10x's FY22 solicitation of ideas from federal employees for tech projects that help the government to "better engage with the public and improve the delivery of services to people most in need of help."
+excerpt: "ExecutiveGov covers 10x's FY22 solicitation of ideas from federal employees for tech projects that help the government to \"better engage with the public and improve the delivery of services to people most in need of help.\""
 tags: In-the-news
 ---
 
