@@ -3,6 +3,7 @@ title: Privacy Policy
 description: Privacy Policy
 pageBrow: Privacy
 pageTitle: Privacy Policy
+subtitle: Your privacy matters to us
 layout: layouts/submit-an-idea-page.html
 return-to-top_text: Return to top
 permalink: /privacy-policy/
