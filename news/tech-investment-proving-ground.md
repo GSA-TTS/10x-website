@@ -1,11 +1,10 @@
 ---
 title: "10x phased investment approach is a solid proving ground for new technology"
-Subtitle: 10x helps reduce tech investment risk through its phased approach, helping good ideas become a reality
 description: "Technology investments are inherently risky, but the 10x phased approach offers a proving ground for good ideas."
 footer: 10x-in-the-wild
 date: "2022-05-24"
 slug: "tech-investment-proving-ground"
-excerpt: "Technology investments are inherently risky, but the 10x phased approach offers a proving ground for good ideas."
+excerpt: "10x helps reduce tech investment risk through its phased approach, helping good ideas become a reality."
 tags: In-the-news
 ---
 
