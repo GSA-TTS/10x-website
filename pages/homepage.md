@@ -11,10 +11,10 @@ hero_banner:
 
 news_card:
   date: "February 14, 2024"
-  title: "New projects chosen for FY24"
-  subtitle: "10x selected a new set of high-impact ideas for its next round of Phase 1 funding."
+  title: "Announcing 10x's exciting new investments"
+  subtitle: "10x selected a new set of high-impact investments for its FY24 Phase 1 funding."
   button_text: "Read more"
-  button_link: "https://www.google.com/"
+  button_link: "/news/2024-selected-investments/"
 
 header_columns:
   title: We're different by design
@@ -36,7 +36,7 @@ section_1_static_content:
   link_url: "/projects/"
 
 section_1_cards:
-  - subtitle: "Benefits Eligibility AND DELIVERY"
+  - subtitle: "Benefits Eligibility and Delivery"
     title: "Could it be easier for eligible people to find and receive public benefits?"
     button_text: "Read more"
     button_link: "/link/to/page"
