@@ -1,5 +1,7 @@
 @use "uswds-core" as *;
 
+$homepage-deep-blue: #160449;
+
 html {
     scroll-behavior: smooth;
 }
@@ -84,7 +86,7 @@ p, .usa-identifier__required-links-list li {
 }
 
 .usa-identifier {
-    background: #160449;
+    background: $homepage-deep-blue
 }
 
 h2,
@@ -114,7 +116,7 @@ h2,
 
     .banner-bg-gradient {   
         background: url('../images/homepage-gradient-bg.png') center top repeat-x;
-        background-color: color("violet-70v");
+        background-color: $homepage-deep-blue;
     }
 
     .grid-container {
