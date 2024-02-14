@@ -708,7 +708,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             padding-top: 0;
     
             h1 {
-                font-size: size('body', 12);
+                font-size: size('body', 11);
                 font-weight: 700;
                 line-height: lh('heading', 3);
                 order: 2; 
@@ -730,10 +730,14 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             }
     
             h2 {
-                font-size: size('body', 10);
+                font-size: size('body', 9);
                 font-weight: 400; 
                 line-height: lh('heading', 4);
                 order: 3; 
+
+                @include at-media("tablet-lg") {
+                    font-size: size('body', 10);
+                }
             }
     
             h1, h2 {
@@ -853,10 +857,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 flex-direction: row-reverse;
                 min-height: 40vh;
             }            
-        }
-
-        h1 {
-            margin: 0;
         }
 
         h3 {
