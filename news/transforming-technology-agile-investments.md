@@ -1,5 +1,5 @@
 ---
-title: "10x: Transforming Technology Through Agile Investments"
+title: "10x: Transforming technology through agile investments"
 subtitle: Federal crowdsourcing webinar series
 description: "View webinar on how 10x approaches investments in key technology projects designed to change how the public experiences the government."
 footer: 10x-in-the-wild

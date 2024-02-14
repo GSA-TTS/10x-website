@@ -12,7 +12,7 @@ hero_banner:
 news_card:
   date: "February 14, 2024"
   title: "Announcing 10x's exciting new investments"
-  subtitle: "10x selected a new set of high-impact investments for its FY24 Phase 1 funding."
+  subtitle: "10x selected a new set of high-impact investments for its FY24 Phase 1 funding"
   button_text: "Read more"
   button_link: "/news/2024-selected-investments/"
 
