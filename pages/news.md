@@ -23,5 +23,7 @@ tags-list:
   - Projects
 renderData:
   title: News and Updates
-  description: "All news and updates.”"
+  description: "All news and updates."
+redirect_from: 
+  - /news-updates/
 ---

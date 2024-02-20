@@ -17,6 +17,8 @@ eleventyNavigation:
 theme: 6
 renderData:
   title: Send Us Your Idea! | 10x Idea Submission
+redirect_from: 
+  - /our-challenge-to-you/
 ---
 
 <p class="usa-intro">
