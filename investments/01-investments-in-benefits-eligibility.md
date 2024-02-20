@@ -10,7 +10,6 @@ image-url: "/assets/images/benefits-eligibility-icon.png"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/eligibility-apis/
-  - /projects/finding-grant-funded-products/
   - /projects/benefits-eligibility-resource/
 ---
 
