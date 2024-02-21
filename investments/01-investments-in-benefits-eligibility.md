@@ -11,6 +11,7 @@ footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/eligibility-apis/
   - /projects/benefits-eligibility-resource/
+  - /projects/identity-alerts-for-government/
 ---
 
 <p class="usa-intro">  

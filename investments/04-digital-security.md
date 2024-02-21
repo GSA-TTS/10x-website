@@ -8,6 +8,8 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/security-project-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from:
+  - /projects/devops-for-privacy-offices/
 ---
 <p class="usa-intro">  
   The public won't use digital tools they don't trust, and untrustworthy tools can cause harm; taking security and privacy seriously is core to 10x work.

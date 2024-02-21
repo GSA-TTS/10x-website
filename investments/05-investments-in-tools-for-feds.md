@@ -10,7 +10,6 @@ image-url: "/assets/images/public-service-icon.png"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/de-risking-government-technology-field-guides/
-  - /projects/devops-for-privacy-offices/
   - /projects/low-code-no-code-service-delivery/
 ---
 <p class="usa-intro">  
