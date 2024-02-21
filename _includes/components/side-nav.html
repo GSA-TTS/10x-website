@@ -4,7 +4,8 @@
       {%- for investment in collections.investments -%}
       <li class="usa-sidenav__item {% if investment.url == page.url %}usa-current-list-item{% endif %}">
         <a href="{{ investment.url | url }}"
-          class="usa-sidenav__item {% if investment.url == page.url %}usa-current{% endif %}">
+          class="usa-sidenav__item {% if investment.url == page.url %}usa-current{% endif %}" 
+          {% if investment.url == page.url %}aria-current="page"{% endif %}>
           {{ investment.data.title }}
         </a>
       </li>

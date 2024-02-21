@@ -5,7 +5,8 @@
         {% capture tagUrl %}/news/tags/{{ tag }}/{% endcapture %}
         <li class="usa-sidenav__item {% if tags contains tag %}usa-current-list-item{% endif %}">
           <a href="{{ tagUrl | url }}"
-            class="usa-sidenav__item {% if tags contains tag %}usa-current{% endif %}">
+            class="usa-sidenav__item {% if tags contains tag %}usa-current{% endif %}" 
+            {% if tags contains tag %}aria-current="page"{% endif %}>
             {{ tag | replace: "-", " " }}
           </a>
         </li>   

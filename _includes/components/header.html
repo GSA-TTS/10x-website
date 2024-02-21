@@ -88,7 +88,7 @@
                       aria-controls="extended-nav-section-usa-nav-item-{{ forloop.index0 }}">
                       {%- else -%}
                       <a class="usa-nav__link {% if isCurrent %}usa-current{% endif %}" href="{{ entry.url | url }}" {%
-                        if isCurrent %} data-current="current item" {% endif %}>
+                        if isCurrent %} data-current="current item" aria-current="page"{% endif %}>
                         {%- endif -%}
                         <span class="usa-nav__link-text">
                           {{ entry.title }}
