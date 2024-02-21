@@ -100,21 +100,18 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy({ "public": "/" });
-  // eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/theme/fonts" });
+  eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/fonts" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/images" });
   eleventyConfig.addPassthroughCopy({ "reports/pdfs": "reports" });
   eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/img": "assets/uswds/img" });
-
-
   // eleventyConfig.addPassthroughCopy({ "_includes/theme/uswds-2.10.1-dist/js": "assets/theme/uswds/js" });
-
 
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   eleventyConfig.addPassthroughCopy({
     "node_modules/@uswds/uswds/dist/js/uswds-init.js":
       "assets/uswds/js/uswds-init.js",
   });
-
 
   // SVG Sprite Plugin for USWDS USWDS icons
   eleventyConfig.addPlugin(svgSprite, {
