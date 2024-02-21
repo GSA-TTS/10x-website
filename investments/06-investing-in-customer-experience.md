@@ -8,6 +8,11 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/customer-experience-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/finding-grant-funded-products/
+  - /projects/guide-to-pra/
+  - /projects/inclusion-for-rulemaking/
+  - /projects/shared-components-for-museums-and-libraries/
 ---
 <p class="usa-intro">  
   Delivering impact for the customer &#8212; the public &#8212; requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.

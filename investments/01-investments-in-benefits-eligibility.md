@@ -8,6 +8,9 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/benefits-eligibility-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/eligibility-apis/
+  - /projects/benefits-eligibility-resource/
 ---
 
 <p class="usa-intro">  

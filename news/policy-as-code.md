@@ -7,6 +7,8 @@ date: "2020-05-11"
 slug: "policy-as-code"
 excerpt: "18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy. Learn about 18F's approach to writing policy as code for faster implementation of changes."
 tags: Projects
+redirect_from: 
+  - /posts/policy-as-code/
 ---
 
 <p class="usa-intro">In a crisis, changes come fast and the stakes are higher

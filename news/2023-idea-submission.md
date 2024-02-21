@@ -8,6 +8,8 @@ slug: "2023-idea-submission"
 excerpt: "10x is pleased to announce that we are now accepting ideas through 11:59pm on November 30th, 2022. Any federal employee is eligible to submit an idea to 10x through our website using our submission form."
 theme: "8"
 tags: Announcements
+redirect_from: 
+  - /posts/2023-idea-submission/
 ---
 
 <p class="usa-intro">  

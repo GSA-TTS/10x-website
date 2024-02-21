@@ -12,7 +12,10 @@ submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
 investments-url: /investments/
 return-to-top_text: Return to top
-order: 0
+order: 
+redirect_from: 
+  - /process/
+  - /the-10x-process
 ---
 
 <p class="usa-intro">

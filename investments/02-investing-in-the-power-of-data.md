@@ -8,6 +8,8 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/access-to-data-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/us-data-federation/
 ---
 <p class="usa-intro">  
   To really harness the promise of data, it needs to be more than just open and public, but actually findable and usable by the right users. 

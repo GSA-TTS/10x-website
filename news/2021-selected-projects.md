@@ -9,6 +9,8 @@ description: "10x is excited to reveal the latest cohort of projects that we hav
 excerpt: "We are excited to reveal the latest cohort of projects chosen for Phase 1 investigations. We received and evaluated 250 new submissions  —  a record-high for our program."
 investments-url: /investments/
 tags: Announcements
+redirect_from: 
+  - /posts/2021-selected-projects/
 ---
 
 <p class="usa-intro">  
