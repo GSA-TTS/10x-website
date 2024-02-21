@@ -257,7 +257,7 @@ h2,
             z-index: 6;
         }
 
-        h2 {
+        h2, .h2 {
             font-size: size('body', 13);
             font-weight: 700;
             line-height: lh('heading', 2);     
@@ -288,7 +288,7 @@ h2,
 
     .usa-section {
         .usa-card {
-            h2 {
+            h2, .h2 {
                 font-weight: 500;
                 line-height: lh('heading', 2);
                 text-transform: uppercase;
@@ -347,7 +347,7 @@ h2,
 
         .usa-card {
 
-            h2 {
+            h2, .h2 {
                 font-size: size('body', 4);
             }
 
@@ -455,7 +455,7 @@ h2,
                 }
             }
 
-            h2 {
+            h2, .h2 {
                 font-size: size('body', 7);
             }
 
@@ -494,7 +494,7 @@ h2,
             }
 
             .usa-card__header {
-                h2 {
+                h2, .h2 {
                     padding: units(4) units(4) 0 units(4);
                     color: color('indigo-warm-60v');
 
