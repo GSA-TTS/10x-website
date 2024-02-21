@@ -1062,7 +1062,8 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 }
 
 iframe:focus, [href]:focus, [tabindex]:focus, [contentEditable=true]:focus {
-    outline: units(1px) dotted color('indigo-warm-60v');
+    outline: units(1px) auto color('indigo-warm-60v');
+    outline-offset: 0.3rem;
 }
 
 .return-to-top {
