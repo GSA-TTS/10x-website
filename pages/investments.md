@@ -5,6 +5,7 @@ layout: layouts/investments-list.html
 permalink: /investments{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 redirect_from: 
   - /projects
+  - /projects/spotlight/
   - /reports
   - /reports/fy22-impact-report
   - /reports/fy21-impact-report

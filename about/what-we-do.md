@@ -15,6 +15,7 @@ return-to-top_text: Return to top
 order: 
 redirect_from: 
   - /process/
+  - /the-10x-process
 ---
 
 <p class="usa-intro">

@@ -19,6 +19,7 @@ renderData:
   title: Send Us Your Idea! | 10x Idea Submission
 redirect_from: 
   - /our-challenge-to-you/
+  - /send-us-an-idea/
 ---
 
 <p class="usa-intro">
