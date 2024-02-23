@@ -55,18 +55,19 @@
   </div>
 </section>
 <div class="usa-overlay"></div>
-<header class="usa-header usa-header--basic usa-header--megamenu">
+<header class="usa-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo">
-        <a href="{{ '/' | url }}">10 x home
+        <a href="{{ '/' | url }}">
+          <span class="usa-sr-only">10 x home</span>
           <div class="usa-logo" id="basic-logo"><img alt="10 x home" src="{{ '/assets/images/logo.svg' | url }}"></div>
         </a>
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav">
-      <button class="usa-nav-close usa-nav__close margin-top-2 margin-right-2" id="usa-nav-close"
+      <button class="usa-nav-close usa-nav__close margin-top-2 margin-right-0" id="usa-nav-close"
         type="button">
         <img alt="Close" src="{{ '/assets/images/close-x.svg' | url }}">
       </button>
