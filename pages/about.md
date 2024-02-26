@@ -41,6 +41,6 @@ We're looking for ideas that take all shapes and sizes. Since our launch in 2015
 
 But the idea you send in doesn't have to solve a problem in your agency or be directly connected to your agency’s mission. Maybe you're a veteran, and you have lived experience that sparked an idea on making it easier to figure out government benefits and services. 
 
-Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about the [What we do]({{ what-we-do-url | url}}).
+Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about [What we do]({{ what-we-do-url | url}}).
 
 ---
