@@ -18,6 +18,7 @@ eleventyNavigation:
 theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
+what-we-do-url: /about/what-we-do/
 return-to-top_text: Return to top
 ---
 
@@ -40,6 +41,6 @@ We're looking for ideas that take all shapes and sizes. Since our launch in 2015
 
 But the idea you send in doesn't have to solve a problem in your agency or be directly connected to your agency’s mission. Maybe you're a veteran, and you have lived experience that sparked an idea on making it easier to figure out government benefits and services. 
 
-Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about the 10x model, process, and phases.
+Our idea intake is open exclusively to federal employees. So if you're a federal worker with an idea to improve government digital services, we want you to share your idea! Read more about [What we do]({{ what-we-do-url | url}}).
 
 ---
