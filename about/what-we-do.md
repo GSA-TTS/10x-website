@@ -8,7 +8,7 @@ pageTitle: What we do
 subtitle: Venture studio model
 mainNavPageTitle: About 10x
 theme: 8
-submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
+submit-idea-url: /submit-an-idea/
 submit-idea-button-text: Submit your idea!
 investments-url: /investments/
 return-to-top_text: Return to top
@@ -54,6 +54,6 @@ Most 10x projects end after Phase 3, when the product is handed off to its agenc
 
 During Phase 4, Scale, the team – along with agency sponsors and partners – looks to scale the solution to support different use cases across agencies and programs that drive the biggest impact. Our ultimate goal is to expand the reach to transform digital services for the public.
 
-Read up on some of the [projects and investments]({{ investments-url | url }}) that 10x has supported from concept to launch.
+Read up on some of the [projects and investments]({{ investments-url | url }}) that 10x has supported from concept to launch or [Submit an idea]({{ submit-idea-url | url}}).
 
 ---
