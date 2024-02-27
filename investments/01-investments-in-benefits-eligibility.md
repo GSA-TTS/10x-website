@@ -34,7 +34,7 @@ By investing in technology that makes it faster and easier for people to acquire
 
 Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov/benefit-finder">Benefits Finder</a> at USA&period;gov.
 
-### Benefits&period;gov Discovery
+### Benefits&period;gov discovery
 
 In collaboration with DOL, OMB and <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov">USA.gov</a>, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.
  
