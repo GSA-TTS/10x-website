@@ -34,10 +34,10 @@ By investing in technology that makes it faster and easier for people to acquire
 
 Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov/benefit-finder">Benefits Finder</a> at USA&period;gov.
 
-### Benefits Checker
+### Benefits&period;gov Discovery
 
-A comprehensive tool to help people find the benefits that they might be eligible for. People answer a set of questions and are provided with a list of potential benefits. Take a look at how the <a class="usa-link usa-link--external" rel="noreferrer" href="https://ssabest.benefits.gov/">Benefits Checker</a> tool works.
-
+In collaboration with DOL, OMB and <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov">USA.gov</a>, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.
+ 
 ### Benefits eligibility APIs
 
 America’s social safety net programs, like Headstart and the Supplemental Nutrition Assistance Program (SNAP), are mostly funded by the federal government, but administered by state and local governments. 10x looked at how to make collaboration between systems easier to improve efficiency and get benefits to people faster.
