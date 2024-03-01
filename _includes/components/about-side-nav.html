@@ -3,14 +3,16 @@
     <ul class="usa-sidenav margin-top-1">
       <li class="usa-sidenav__item {% if page.url == '/about/' %}usa-current-list-item{% endif %}">
         <a href="{{ '/about/' | url }}"
-          class="usa-sidenav__item {% if page.url == '/about/' %}usa-current{% endif %}">
+          class="usa-sidenav__item {% if page.url == '/about/' %}usa-current{% endif %}" 
+          {% if page.url == '/about/' %}aria-current="page"{% endif %}>
           {{ mainNavPageTitle }}
         </a>
       </li>
       {%- for aboutPage in collections.about -%}
       <li class="usa-sidenav__item {% if aboutPage.url == page.url %}usa-current-list-item{% endif %}">
         <a href="{{ aboutPage.url | url }}"
-          class="usa-sidenav__item {% if aboutPage.url == page.url %}usa-current{% endif %}">
+          class="usa-sidenav__item {% if aboutPage.url == page.url %}usa-current{% endif %}" 
+          {% if aboutPage.url == page.url %}aria-current="page"{% endif %}>
           {{ aboutPage.data.pageTitle }}
         </a>
       </li>

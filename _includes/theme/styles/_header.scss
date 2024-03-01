@@ -7,24 +7,57 @@
         border-top: 0; 
     }
 
-    .usa-logo {
-        margin-top: units(3);
-        margin-bottom: units(3);
-        line-height: 1;
-        font-size: units(1);
-        img {
-            width: 80%; 
-        };
+    .usa-nav-container {
+        max-width: units('desktop-lg');
+        align-items: center;
+        .usa-navbar {
+            min-height: units(8);
+            @include at-media(desktop) {
+                width: 8%; 
+            }
+            .usa-logo {
+                margin-top: units(2);
+                margin-bottom: units(2);
+                line-height: 1;
+                font-size: units(1);
+                span {
+                    text-indent: -9999px; 
+                }
+                img {
+                    padding: units(1) 0;  
+                    @include at-media(tablet) {
+                        width: auto; 
+                    }
+                };
+            }
+            .usa-menu-btn {
+                background-color: color('cyan-20v'); 
+                color: color("violet-warm-90"); 
+                border-radius: 0; 
+                font-weight: 500; 
+                font-size: size('body', 6);
+                position: relative;
+                height: units(8);
+                width: units(10);
+            }
+        }
     }
+
     .usa-nav {
-        width: 90%;
 
         &.is-visible {
             animation: none;
             background-color: color("violet-90"); 
+            min-width: 50%; 
         }
 
         &__primary {
+            order: 0; 
+            margin-bottom: units(3);
+            @include at-media(desktop) {
+                margin-left: units(1);
+                margin-bottom: 0; 
+            }
             > .usa-nav__primary-item {
                 padding: units(1) 0;
                 a {
@@ -35,16 +68,19 @@
                 }
 
                 .usa-nav__link {
-                    &.usa-current {
+                    &.usa-current, &:hover {
                         text-decoration: underline;
                         text-decoration-thickness: units(2px);
-                        text-underline-offset: units(2px);
+                        text-underline-offset: units(0.5);
                         color: white;
+                        background: transparent; 
                     }
                 }
             }
-            .usa-current::after {
-                background-color: color('cyan-20v');
+            .usa-current::after, .usa-nav__link:hover::after {
+                background-color: transparent;
+                border: 0; 
+                height: 0; 
             }
         }
         
@@ -73,7 +109,6 @@
         @include at-media(desktop) {
             float: none;
             width: 100%;
-            margin-left: units(1);
             display: flex; 
             flex-direction: row; 
             align-items: center;
@@ -95,7 +130,7 @@
                 &:hover {
                     text-decoration: underline;
                     text-decoration-thickness: units(2px);
-                    text-underline-offset: units(2px);
+                    text-underline-offset: units(0.5);
                     color: white;
                 }
             }
@@ -130,16 +165,6 @@
             button {
                 height: 40px; 
             }
-        }
-
-    }
-
-    .usa-header__nav {
-        display: flex; 
-        justify-content: flex-end; 
-        .usa-nav-open {
-            width: units(15);
-            font-size: units(2);
         }
     }
 }

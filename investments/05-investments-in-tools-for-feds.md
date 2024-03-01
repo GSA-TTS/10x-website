@@ -8,6 +8,9 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/public-service-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/de-risking-government-technology-field-guides/
+  - /projects/low-code-no-code-service-delivery/
 ---
 <p class="usa-intro">  
   Government websites and apps have an obligation to the public to provide useful and usable information to help them find the information they need.

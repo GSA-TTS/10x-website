@@ -23,5 +23,9 @@ tags-list:
   - Projects
 renderData:
   title: News and Updates
-  description: "All news and updates.”"
+  description: "All news and updates."
+redirect_from: 
+  - /news-updates/
+  - /posts/scaling-10x/
+  - /posts/2023-submission-period/
 ---

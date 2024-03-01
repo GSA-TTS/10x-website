@@ -8,6 +8,8 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/science-medicine-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/untangling-climate-resources/
 ---
 <p class="usa-intro">  
   Thoughtful, inclusive, and ethical access to government data in this complex space is worthy of 10x's investment power. 

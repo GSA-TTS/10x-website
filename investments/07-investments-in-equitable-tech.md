@@ -8,6 +8,9 @@ excerpt: |-
 template: "4"
 image-url: "/assets/images/equity-project-icon.png"
 footer: we-started-as-an-idea-too
+redirect_from: 
+  - /projects/multilingual-glossary-tool/
+  - /projects/equity-centered-design-for-ai-an/
 ---
 <p class="usa-intro">  
   Digital products and services need to be designed to reflect the diversity of the people using them &#8212; language, accessibility, and real lived experiences.
@@ -43,7 +46,7 @@ For the more than 60 million Americans who are not fluent in English accessing i
 
 ### Multilingual glossary tool
 
-10x is investigating how to provide and manage a tool that will help public servants provide standardized translated terms to users with limited English proficiency (LEP). Using standardized terms that avoid jargon can make digital experiences easier for the American people and reduce duplicative translation efforts.
+10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators.
 
 ### Resources for formerly incarcerated people
 
