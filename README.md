@@ -23,6 +23,10 @@ To watch for css changes:
 
 ```npm run assets:watch```
 
+To refresh the site locally, which includes rebuilding the _site folder and all css assets, run the following:
+
+```npm run assets:refresh```
+
 To build for production:
 
 ```npm run build```
