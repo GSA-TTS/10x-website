@@ -9,7 +9,7 @@ subtitle: Reflection, alignment and focus — an annual exploration of the 10x d
 mainNavPageTitle: About 10x
 theme: 8
 return-to-top_text: Return to top
-order: 2
+order: 3
 redirect_from: 
   - /reports/
 eleventyNavigation:

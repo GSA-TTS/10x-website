@@ -13,7 +13,7 @@ permalink: /submit-an-idea/index.html
 eleventyNavigation:
   parent: root
   key: Submit an Idea
-  order: 3
+  order: 4
 theme: 6
 renderData:
   title: Send Us Your Idea! | 10x Idea Submission
