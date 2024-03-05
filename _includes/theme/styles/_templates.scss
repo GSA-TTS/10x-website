@@ -1208,3 +1208,14 @@ aside.pull-quote {
         margin-top: units(1);
     }
 }
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: units(1.5);
+    width: units(1.5);
+    margin-left: units(0.5);
+    background-size: units(1.5) units(1.5);
+    background-repeat: no-repeat;
+    background-image: url(../images/menu-close-X.png);
+    cursor: pointer;
+}
