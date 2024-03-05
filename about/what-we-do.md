@@ -12,7 +12,7 @@ submit-idea-url: /submit-an-idea/
 submit-idea-button-text: Submit your idea!
 investments-url: /investments/
 return-to-top_text: Return to top
-order: 
+order: 1
 redirect_from: 
   - /process/
   - /the-10x-process
