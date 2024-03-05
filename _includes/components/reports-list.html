@@ -1,28 +1,28 @@
-  </div>
-</div>
-<!-- come back and adjust max width -->
-<div class="grid-container">
-  <div class="ReportList grid-row grid-gap">
+<ul class="usa-card-group grid-row grid-gap-2">
   {%- for report in collections.reports -%}
-   {%- if report.data.pdf -%}
-     {%- assign reportLink = report.data.reportUrl -%}
+  {%- if report.data.pdf -%}
+    {%- assign reportLink = report.data.reportUrl -%}
     {%- else -%}
       {%- assign reportLink = report.url | url -%}
     {%- endif -%}
-  
-    <div class="grid-col-12 desktop:grid-col-6">
-      <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink }}">
-        <div class="usa-card usa-card--no-media ReportCard template-{{ report.data.template }}">
-          <div class="usa-card__container">
-            <div class="usa-card__body">
-              <h1 class="usa-card__heading {% if report.data.pdf -%}pdf-icon{%- endif -%}">FY{{ report.data.year }}</h1>
-              <h2 class="usa-card__subhead">{{ report.data.subtitle }}</h2>
-              <p>{{ report.data.excerpt | markdownify }}</p>
-            </div>
-          </div>
+  <li class="usa-card usa-card--flag grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4 template-{{ report.data.template }}">
+    <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink | url }}">
+      <div class="usa-card__container">
+        <div class="usa-card__header">
+          <h2 class="usa-card__heading {% if report.data.pdf -%}pdf-icon{%- endif -%}">
+            FY{{ report.data.year }}
+          </h2>
         </div>
-      </a>
-    </div>
-  {%- endfor -%}
-  </div>
-</div>
+        <div class="usa-card__body">
+          <h3 class="usa-card__subhead">
+            <span>{{ report.data.subtitle }}</span>             
+          </h3>
+          <p class="excerpt-text">
+            <span>{{ report.data.excerpt | markdownify }}</span>        
+          </p>
+        </div>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

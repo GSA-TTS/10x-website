@@ -75,9 +75,12 @@
         {%- for entry in navPages %}
         {% assign isCurrent = false %}
         {% assign hasChildren = false %}
-        {%- if entry.url == page.url or page.url contains entry.url -%}
+        {%- if entry.url == page.url or if page.url contains entry.title -%}
         {% assign isCurrent = true %}
         {%- endif -%}
+        {% if page.url contains 'impact' and entry.title == 'Impact' %}
+          {% assign isCurrent = true %}
+        {% endif %}
         {%- if entry.children.length > 0 -%}
         {% assign hasChildren = true %}
         {%- endif -%}

@@ -1,0 +1,48 @@
+---
+layout: layouts/base.html
+section: about
+---
+<div class="impact-landing-page portfolio-blog-pages portfolio-bloglist-wrapper">
+  <div class="TxContent portfolio-blog-single-page about-page-section about-page static-content-page">
+    <div class="banner-bg desktop:margin-bottom-2">
+      <div class="banner-bg-gradient padding-y-2">
+        <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
+          <h1>{{ pageTitle }}</h1>
+          {%- if subtitle != null -%}
+          <h2>{{ subtitle }}</h2>
+          {%- endif -%}
+          <h3>{{ pageBrow }}</h3>
+        </section>
+      </div>
+    </div>
+    <section class="usa-section grid-container">
+      <div class="grid-row">
+        <div class="grid-col-12 usa-prose usa-layout-docs" id="main-content">
+          {% assign reportslist = reports %}
+          {% include "components/reports-list.html" %}
+      
+          {% if pagination.pages.length > 1 %}
+          {% include "components/pagination.html" %}
+          {% endif %}
+
+          {% if tags %}
+          <p class="tag-container margin-top-5">
+            <span>Tag:</span>
+            {% for tag in tags %}
+            {%- if tag != "post" -%}
+            {% capture tagUrl %}/news/tags/{{ tag }}/{% endcapture %}
+            <span class="usa-tag usa-tag--big">
+              <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            </span>
+            {%- endif -%}
+            {% endfor %}
+          </p>
+          {% endif %}
+          <p id="return-to-top-wrapper" class="usa-identifier__required-links-item return-to-top margin-bottom-5">
+            <a class="usa-link" href="#top">{{ return-to-top_text }}</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
