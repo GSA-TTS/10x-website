@@ -1,4 +1,5 @@
 {
+  "poppin": "/assets/fonts/poppins",
   "10x-lg.png": "/assets/images/10x-lg-transparent.png",
   "10x_og_imag.png": "/assets/images/10x_og_image.png",
   "access-to-data.png": "/assets/images/access-to-data-icon.png",
@@ -37,6 +38,8 @@
   "in-a-nutshell.svg": "/assets/images/in-a-nutshell-background.svg",
   "in-nutshell.png": "/assets/images/in-nutshell-header.png",
   "left.svg": "/assets/images/left-arrow.svg",
+  "logo.png": "/assets/images/logo-alt.png",
+  "logo.svg": "/assets/images/logo-alt.svg",
   "log.svg": "/assets/images/logo.svg",
   "menu-close.png": "/assets/images/menu-close-X.png",
   "menu.png": "/assets/images/menu-open.png",
@@ -79,7 +82,7 @@
   "uswd": "/assets/images/uswds",
   "app.js": "/assets/js/app-2T4FNZ5M.js",
   "app.map": "/assets/js/app-2T4FNZ5M.js.map",
-  "index.css": "/assets/styles/index-EFGLQ4X4.css",
-  "index.map": "/assets/styles/index-EFGLQ4X4.css.map",
+  "index.css": "/assets/styles/index-QYI7YS24.css",
+  "index.map": "/assets/styles/index-QYI7YS24.css.map",
   "j": "/assets/uswds/js"
 }
