@@ -9,7 +9,6 @@ template: "4"
 image-url: "/assets/images/equity-project-icon.png"
 footer: we-started-as-an-idea-too
 redirect_from: 
-  - /projects/multilingual-glossary-tool/
   - /projects/equity-centered-design-for-ai-an/
 ---
 <p class="usa-intro">  
