@@ -943,6 +943,57 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 }        
             }
         }
+
+        .usa-card__header, 
+        .usa-card__body {
+            background: white;
+        }
+
+        .usa-card__header {
+            margin-top: 16px;
+        }
+
+        .card-1 {
+            .usa-card__container {
+                background: rgb(171,79,228);
+                background: linear-gradient(90deg, rgba(171,79,228,1) 0%, rgba(245,121,136,1) 50%, rgba(171,79,228,1) 100%);
+            }        
+        }
+
+        .card-2 {
+            .usa-card__container {
+                background: rgb(181,240,240);
+                background: linear-gradient(90deg, rgba(181,240,240,1) 0%, rgba(69,217,217,1) 25%, rgba(20,169,169,1) 50%, rgba(69,217,217,1) 75%, rgba(181,240,240,1) 100%);
+            }        
+        }
+
+        .card-3 {
+            .usa-card__container {
+                background: rgb(171,79,228);
+                background: linear-gradient(90deg, rgba(171,79,228,1) 0%, rgba(0,189,227,1) 100%);            
+            }        
+        }
+
+        .card-4 {
+            .usa-card__container {
+                background: rgb(245,121,136);
+                background: linear-gradient(90deg, rgba(245,121,136,1) 0%, rgba(69,217,217,1)20%, rgba(181,240,240,1) 35%, rgba(35,203,222,1) 50%, rgba(181,240,240,1) 65%, rgba(69,217,217,1) 80%, rgba(245,121,136,1) 100%);            
+            }        
+        }
+
+        .card-5 {
+            .usa-card__container {
+                background: rgb(245,121,136);
+                background: linear-gradient(90deg, rgba(245,121,136,1) 0%, rgba(255,183,228,1) 25%, rgba(171,79,228,1) 50%, rgba(255,183,228,1) 75%, rgba(245,121,136,1) 100%);
+            }        
+        }
+
+        .card-6 {
+            .usa-card__container {
+                background: rgba(0,189,227,1);
+                background: linear-gradient(90deg, rgba(0,189,227,1) 0%, rgba(171,79,228,1) 100%);            
+            }      
+        }
     }
         
     .usa-card__container {
