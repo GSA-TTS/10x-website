@@ -45,7 +45,7 @@ For the more than 60 million Americans who are not fluent in English accessing i
 
 ### Multilingual glossary tool
 
-10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators.
+10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators. Learn more on the <a class="usa-link" href="/news/multilingual-glossary-tool/">Multilingual Glossary Tool project page</a>.
 
 ### Resources for formerly incarcerated people
 
