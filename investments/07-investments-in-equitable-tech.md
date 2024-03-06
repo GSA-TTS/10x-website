@@ -7,6 +7,7 @@ excerpt: |-
   Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
 template: "4"
 image-url: "/assets/images/equity-project-icon.png"
+mgt-url: /news/multilingual-glossary-tool/
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/equity-centered-design-for-ai-an/
@@ -45,7 +46,7 @@ For the more than 60 million Americans who are not fluent in English accessing i
 
 ### Multilingual glossary tool
 
-10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators. Learn more on the <a class="usa-link" href="/news/multilingual-glossary-tool/">Multilingual Glossary Tool project page</a>.
+10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators. Learn more on the [Multilingual Glossary Tool project page]({{ mgt-url | url }}).
 
 ### Resources for formerly incarcerated people
 
