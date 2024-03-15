@@ -64,9 +64,9 @@ We’re starting with the assumption that the best way to squeeze value out of c
 
 In the last few years, our country has been having some very public, passionate conversations about a few topics:
 
-- Defining and showing the importance of consent, 
-- Clarifying the expectations and rights dealing with online privacy; and 
-- Understanding the role that trauma plays in people’s lives.
+- Defining and showing the importance of **consent**, 
+- Clarifying the expectations and rights dealing with **online privacy**; and 
+- Understanding the role that **trauma** plays in people’s lives.
 
 These concepts and questions emerge during technology development in government, the same way they emerge online or in the news. We believe that technology can contribute to these conversations in meaningful ways.
 

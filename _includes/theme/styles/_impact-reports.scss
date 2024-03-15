@@ -73,7 +73,7 @@ $c-report-header: #006680;
     .TxBreak__accent-green {
       &:before {
         content: "";
-        background: url("../images/fy21-report/report-green-separator.png") left top no-repeat;
+        background: url("../images/impact-reports/report-green-separator.png") left top no-repeat;
         background-size: contain;
         width: 100%;
         height: 54px;
@@ -116,6 +116,11 @@ $c-report-header: #006680;
       .to-top {
         background-color: $x-lilac;
         color: #162e51;
+
+        span {
+          color: #162e51;
+        }
+
         &:hover {
           background-color: $x-lilac-light;
         }
@@ -134,7 +139,7 @@ $c-report-header: #006680;
       }
       .TxBreak__accent-green {
         &:before {
-          background-image: url("../images/fy21-report/report-gradient-separator.png");
+          background-image: url("../images/impact-reports/report-gradient-separator.png");
           height: 74px;
         }
       }
@@ -162,7 +167,7 @@ $c-report-header: #006680;
     }
   }
   &__nav-header {
-    background-image: url("../images/fy21-report/report-lilac-brush-stroke.png");
+    background-image: url("../images/impact-reports/report-lilac-brush-stroke.png");
     background-position-x: -4px;
     background-repeat: no-repeat;
     color: #FFF;
@@ -213,7 +218,7 @@ $c-report-header: #006680;
       &Half {
         @include u-font("serif", 6);
         align-items: flex-start;
-        background-image: url("../images/fy21-report/callout-lilac-half-lg.png");
+        background-image: url("../images/impact-reports/callout-lilac-half-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -245,7 +250,7 @@ $c-report-header: #006680;
         color: #FFF;
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("../images/fy21-report/callout-green-full-lg.png");
+        background-image: url("../images/impact-reports/callout-green-full-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -272,7 +277,7 @@ $c-report-header: #006680;
       &FullDark {
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("../images/fy21-report/callout-lilac-full-lg.png");
+        background-image: url("../images/impact-reports/callout-lilac-full-lg.png");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -306,7 +311,7 @@ $c-report-header: #006680;
       &Project {
         @include u-font("serif", 7);
         align-items: flex-start;
-        background-image: url("../images/fy21-report/report-green-brush-stroke.png");
+        background-image: url("../images/impact-reports/report-green-brush-stroke.png");
         background-position-x: -1.4rem;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -409,7 +414,7 @@ $c-report-header: #006680;
       }
       .usa-card:nth-child(1) {
         .usa-card__container {
-          background-image: url("../images/fy21-report/portfolio-paint-stroke-#{$t}.png");
+          background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}.png");
         }
       }
       .usa-card:nth-child(2) {
@@ -426,7 +431,7 @@ $c-report-header: #006680;
             height: 100px;
             transform: rotate(180deg);
             background-size: contain;
-            background-image: url("../images/fy21-report/portfolio-paint-stroke-#{$t}.png");
+            background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}.png");
 
             background-repeat: no-repeat;
           }
@@ -438,7 +443,7 @@ $c-report-header: #006680;
           background-position-x: 100.05%;
           background-position-y: 100px;
           background-size: 10%;
-          background-image: url("../images/fy21-report/portfolio-paint-stroke-#{$t}-v.png");
+          background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}-v.png");
           background-repeat: no-repeat;
         }
       }
@@ -528,6 +533,7 @@ $c-report-header: #006680;
   @include u-font-family("serif");
   a {
     text-decoration: none;
+    color: #162e51;
   }
   ul {
     padding: 0;
@@ -547,7 +553,7 @@ $c-report-header: #006680;
       }
       &.active {
         background-position-y: 0.3rem;
-        background-image: url("../images/fy21-report/report-nav-active-bar.png");
+        background-image: url("../images/impact-reports/report-nav-active-bar.png");
         background-repeat: no-repeat;
         font-weight: bold;
       }
@@ -576,19 +582,19 @@ $c-report-header: #006680;
   @include u-padding-top(8);
   @include u-padding-bottom(15);
   background-color: #ffffff;
-  background-image: url("../images/fy21-report/report-1-bg-mobile.png");
+  background-image: url("../images/impact-reports/report-1-bg-mobile.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 0;
   background-size: cover;
 
   @media screen and (min-width: 1024px) {
-    background-image: url("../images/fy21-report/report-1-bg.png");
+    background-image: url("../images/impact-reports/report-1-bg.png");
     background-position-y: -120px;
     background-size: cover;
   }
   @media screen and (min-width: 640px) {
-    background-image: url("../images/fy21-report/report-1-bg-tablet.png");
+    background-image: url("../images/impact-reports/report-1-bg-tablet.png");
     background-position-y: 0;
     background-size: cover;
   }
@@ -596,7 +602,7 @@ $c-report-header: #006680;
 }
 
 .the10xTeam {
-  background-image: url("../images/fy21-report/the-10x-team.png");
+  background-image: url("../images/impact-reports/the-10x-team.png");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -608,24 +614,31 @@ $c-report-header: #006680;
   }
 }
 
-.to-top {
-  font-size: 0.8rem;
-  padding: 0.5rem 1rem;
-  width: 20%;
-  &:after {
-    @include u-margin-left(1);
-    content: "\f062";
-    display: inline-block;
-    font-family: "Font Awesome 5 Free Solid";
+.usa-button {
+  &.to-top {
     font-size: 0.8rem;
-  }
-  @media screen and (min-width: 640px) {
-    width: initial;
+    padding: 0.5rem 1rem;
+    width: 20%;
+  
+    span {
+      padding: 0;
+      margin-top: units(1px);
+      display: inline-block;
+      vertical-align: top;
+      color: white;
+      margin-right: units(0.5);
+    }
+  
+    @media screen and (min-width: 640px) {
+      width: initial;
+    }
   }
 }
 
+
+
 .projectDemo {
-  background-image: url("../images/fy21-report/ableist-ui-demo-800px-opt.gif");
+  background-image: url("../images/impact-reports/ableist-ui-demo-800px-opt.gif");
   background-position-y: top;
   background-repeat: no-repeat;
   display: none;
@@ -657,7 +670,7 @@ $c-report-header: #006680;
 
 .pdf-icon:after {
   @include u-margin-left(1);
-  background-image: url("../images/fy21-report/impact-report_pdf-icon.png");
+  background-image: url("../images/impact-reports/impact-report_pdf-icon.png");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -725,14 +738,14 @@ ul {
   margin: 1rem;
 
   &--delna {
-    background-image: url("../images/fy22-report/delna.png");
+    background-image: url("../images/impact-reports/delna.png");
   }
 
   &--jim {
-    background-image: url("../images/fy22-report/jim.png");
+    background-image: url("../images/impact-reports/jim.png");
   }
 
   &--frank {
-    background-image: url("../images/fy22-report/frank.png");
+    background-image: url("../images/impact-reports/frank.png");
   }
 }

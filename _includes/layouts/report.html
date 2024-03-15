@@ -7,7 +7,12 @@ section: reports
 
 {%- capture back_to_top -%}
   <div class="display-flex flex-justify-end margin-top-2">
-    <a class="usa-button to-top" href="#top">TOP</a>
+    <a class="usa-button to-top" href="#top">
+      <span class="display-inline-block text-top">TOP </span>
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="{{'/assets/images/sprite.svg#arrow_upward' | url}}"></use>
+      </svg>    
+    </a>
   </div>
 {%- endcapture %}
 
