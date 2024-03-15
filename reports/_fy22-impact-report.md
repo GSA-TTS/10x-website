@@ -2,7 +2,7 @@
 title: 10x FY22 Impact report
 subtitle: 10x FY22 Impact report
 year: 22
-reportUrl: ''
+reportUrl: '/reports/_fy22-impact-report'
 template: '1'
 
 report_key: 'fy22'

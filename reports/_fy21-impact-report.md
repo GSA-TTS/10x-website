@@ -2,7 +2,7 @@
 title: 10x FY21 Impact report
 subtitle: 10x FY21 Impact report
 year: 21
-reportUrl: ''
+reportUrl: '/reports/_fy21-impact-report'
 template: '1'
 
 report_key: 'fy21'
