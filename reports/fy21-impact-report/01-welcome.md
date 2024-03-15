@@ -23,4 +23,4 @@ We’ve met inspiring people fighting the good innovation fight and making thing
 
 Sincerely,
 
-![The 10x Team](/assets/images/impact-reports/the-10x-team.png){.width-tablet}
+<img alt="" class="width-tablet" src="{{ '/assets/images/impact-reports/the-10x-team.png' | url }}">

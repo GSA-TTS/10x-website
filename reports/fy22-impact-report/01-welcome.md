@@ -34,4 +34,4 @@ Sincerely,
 
 The Newer—and Bigger —10x Team
 
-![The 10x Team](/assets/images/impact-reports/the-10x-team-22.png){.width-desktop}
+<img alt="" class="width-desktop" src="{{ '/assets/images/impact-reports/the-10x-team-22.png' | url }}">
