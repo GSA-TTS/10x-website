@@ -6,7 +6,7 @@
       {%- assign reportLink = report.url | url -%}
     {%- endif -%}
   <li class="usa-card usa-card--flag card-{{ forloop.index }} fy{{ report.data.year }}-card  grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4 template-{{ report.data.template }}">
-    <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink | url }}">
+    <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink }}">
       <div class="usa-card__container">
         <div class="usa-card__header">
           <h2 class="usa-card__heading">
