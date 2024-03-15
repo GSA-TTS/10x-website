@@ -3,7 +3,7 @@ permalink: false
 report_parent: fy21
 
 nav_order: 4
-nav_label: "The Dark Matterw"
+nav_label: "The Dark Matter"
 nav_id: "the-dark-matter"
 
 class: dark-gray

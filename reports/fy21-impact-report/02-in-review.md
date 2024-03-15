@@ -11,10 +11,10 @@ class: light-gray
 ## FY21 in Review 
 
 <div class="grid-row">
-  <div class="grid-col-6">
+  <div class="mobile:grid-col-12 desktop:grid-col-6">
     <p>We’ve funded hundreds of projects over the years and we always encourage our teams to practice good agile hygiene. The retrospective (or ‘retro’ as it’s commonly called)  is a critical part of the agile development process. That’s when a team pauses after a development sprint (usually every two weeks) to look back and examine what went well, what didn’t go well. We explore how to improve things moving forward. Practicing what we preach, we've conducted a mega-retro to examine what went well and didn’t go well over the last year. Here are our main takeaways:</p>
   </div>
-  <div class="grid-col-6 calloutHalf">
+  <div class="mobile:grid-col-12 desktop:grid-col-6 calloutHalf">
     <p>At 10x, we’re lucky to have flexibility in deciding what projects we take on.</p>
   </div>
 </div>

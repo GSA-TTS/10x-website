@@ -34,4 +34,4 @@ Sincerely,
 
 The Newer—and Bigger —10x Team
 
-![The 10x Team](/assets/images/fy21-report/the-10x-team.png){.width-tablet}
+![The 10x Team](/assets/images/fy22-report/the-10x-team-22.png){.width-desktop}

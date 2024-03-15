@@ -10,15 +10,9 @@ class: light-gray
 ---
 ## FY22 in Review 
 
-<div class="intro">
-  <p>
-    We sum up 10x’s FY22 in three sentences: We grew a lot. Our projects achieved a lot of milestones. And through the American Rescue Plan, we delivered results.
-  </p>
-  <p>
-    Here’s what we did:
-  </p>
-</div>
+We sum up 10x’s FY22 in three sentences: We grew a lot. Our projects achieved a lot of milestones. And through the American Rescue Plan, we delivered results.
 
+Here’s what we did:
 
 ### A growing team.
 
