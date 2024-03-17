@@ -75,12 +75,18 @@
         {%- for entry in navPages %}
         {% assign isCurrent = false %}
         {% assign hasChildren = false %}
-        {%- if entry.url == page.url or if page.url contains entry.title -%}
+        {% assign lowercase_entry_title = entry.title | downcase %}
+        
+        {% if entry.url == page.url %}
         {% assign isCurrent = true %}
-        {%- endif -%}
-        {% if page.url contains 'impact' and entry.title == 'Impact' %}
+        {% elsif entry.title == 'Impact' and page.url contains '/about/impact-reports' %}
+          {% assign isCurrent = true %}
+        {% elsif page.url contains 'impact' and lowercase_entry_title contains 'impact' %}
+          {% assign isCurrent = true %}
+        {% elsif entry.title != 'Impact' and page.url contains lowercase_entry_title and not page.url contains '/about/impact-reports' %}
           {% assign isCurrent = true %}
         {% endif %}
+
         {%- if entry.children.length > 0 -%}
         {% assign hasChildren = true %}
         {%- endif -%}

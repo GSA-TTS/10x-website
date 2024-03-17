@@ -529,6 +529,35 @@ $c-report-header: #006680;
   }
 }
 
+.usa-in-page-nav-container {
+  .usa-in-page-nav {
+    max-width: units('mobile');
+    order: unset;
+
+    &.nav-sticky {
+      background: white;
+      border-radius: 0.5rem;
+      height: auto;
+      margin: 0 units(3) units(1) 0;
+      max-height: calc(100vh - units(2));
+      padding: 1rem 0;
+      position: -webkit-sticky;
+      position: sticky;
+      width: auto;
+      z-index: 2;
+    
+      h3 {
+        display: none;
+      }
+    }
+  }
+
+  main {
+    max-width: 50rem;
+  }
+}
+
+
 .TxLinks {
   @include u-font-family("serif");
   a {
@@ -544,7 +573,6 @@ $c-report-header: #006680;
       @include u-padding-left(3);
       border-top: 1px solid #{color("base-light")};
       font-size: initial;
-      height: 41px;
       margin-bottom: 2px;
       padding-top: 6px;
       @media screen and (min-width: 640px) {
@@ -564,18 +592,51 @@ $c-report-header: #006680;
   }
 }
 
-.nav-sticky {
-  background: white;
-  border-radius: 0.5rem;
-  height: auto;
-  margin-bottom: 8px;
-  max-height: calc(100vh - 16px);
-  padding: 2rem 0;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10px;
-  width: auto;
-  z-index: 2;
+.usa-in-page-nav__list {
+  border-left: 0;
+
+  .usa-in-page-nav__item {
+      border-top: none;
+      border-bottom: units(1px) solid color('indigo-warm-70v');
+
+      a {
+          font-size: size('body', 8); 
+          font-weight: 500;  
+          border: none;
+          padding: units(2.5) units(2) units(2.5) units(4);  
+          color: color('indigo-warm-70v') !important;
+          background: white;
+  
+          &:hover,
+          &:active {
+              background: color('blue-5');
+              color: color('indigo-warm-80v') !important;
+              text-decoration: none;
+          }
+      }
+
+      &:first-child {
+          border-top: units(1px) solid color('indigo-warm-70v');
+      }
+
+      .usa-in-page-nav__link {
+
+        &.usa-current {
+          background: color('cyan-5v');
+          border-top: 5px solid color('cyan-20v');
+          border-left: none;
+          font-weight: 600;
+  
+          &:after {
+              background: none;
+              width: 0;
+          }
+      }
+
+      }
+
+
+  }
 }
 
 .report-header {

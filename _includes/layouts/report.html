@@ -35,10 +35,10 @@ section: reports
   </div>
 </div>
 <div class="TxContent">
-  <div class="grid-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
-    <div class="grid-row grid-gap-4">
+  <div class="grid-container usa-in-page-nav-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
+    <!-- <div class="grid-row grid-gap-4">
       <div class="grid-col-12 desktop:grid-col-3">
-        <div id="nav-sticky" class="nav-sticky">
+        <div id="nav-sticky" class="nav-sticky">   
           <h2 class="TxReport__nav-header">{{ navHeader }}</h2>
           <div class="TxLinks">
             <ul>
@@ -46,10 +46,22 @@ section: reports
               <li class="TxLinks__item"><a href="#section-{{- section.data.nav_id -}}">{{ section.data.nav_label }}</a></li>
               {%- endfor -%}
             </ul>
-          </div>
+          </div> 
         </div>
-      </div>
-      <div class="grid-col-12 desktop:grid-col-9 TxReport__content">
+      </div> -->
+      <aside
+        id="nav-sticky"
+        class="usa-in-page-nav nav-sticky"
+        data-heading-elements="h2"
+        data-main-content-selector=".sub-main-content"
+        data-title-text="On this page"
+        data-title-heading-level="h3"
+        data-scroll-offset="0"
+        data-root-margin="0px 0px 0px 0px"
+        data-threshold="1"
+      >
+      </aside>   
+      <main class="sub-main-content TxReport__content">
         {% for section in reportSections %} 
           <section class="{{- section.data.class -}}" id="section-{{- section.data.nav_id -}}">
             {{- break -}}
@@ -57,7 +69,7 @@ section: reports
             {{- back_to_top -}}
           </section>
         {%- endfor -%}
-      </div>
+        </main>
     </div>
   </div>
 </div>
