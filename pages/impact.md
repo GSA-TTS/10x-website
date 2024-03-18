@@ -5,7 +5,7 @@ layout: layouts/impact-list-page.html
 permalink: /about/impact-reports{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 pageBrow: About
 pageTitle: Our impact
-subtitle: Reflection, alignment and focus — an annual exploration of the 10x difference
+subtitle: A yearly review of 10x investments in improving government digital services
 mainNavPageTitle: About 10x
 theme: 8
 return-to-top_text: Return to top
