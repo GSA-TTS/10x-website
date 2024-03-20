@@ -8,7 +8,8 @@ eleventyExcludeFromCollections: true
     {%- unless page.data.permalink == false %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.date | date: '%Y-%m-%d' }}</lastmod>
+        <lastmod>{{ page.date | date: '%Y-%m-%d' }}{{ 'now' | 'T%H:%M'}}
+        </lastmod>
     </url>
     {%- endunless -%}
     {% endfor %}
