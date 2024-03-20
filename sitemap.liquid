@@ -8,8 +8,7 @@ eleventyExcludeFromCollections: true
     {%- unless page.data.permalink == false %}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ "now" | date: "%Y-%m-%dT%H:%M+04:00 }}
-        </lastmod>
+        <lastmod>{{ page.date.toISOString }}</lastmod>
     </url>
     {%- endunless -%}
     {% endfor %}
