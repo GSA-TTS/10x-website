@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://10x.gsa.gov/sitemap.xml
