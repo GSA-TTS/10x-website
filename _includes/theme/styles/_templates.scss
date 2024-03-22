@@ -865,7 +865,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
             .usa-link {
                 &:hover {
-                    border-bottom: 2px solid color("violet-90");
+                    border-bottom: units(2px) solid color("violet-90");
                 }
             }
         }
@@ -950,14 +950,27 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         }
 
         .usa-card__header {
-            margin-top: 16px;
+            margin-top: units(2);
         }
 
         .usa-card__body {
             margin-top: -1px;
         }
 
+        .current-year {
+            .usa-card__header {
+                margin-top: units(3)
+            }           
+        }
+
         &.impact-landing1 {
+
+            .fy23-card {
+                .usa-card__container {
+                    background: rgba(0,189,227,1);
+                    background: linear-gradient(90deg, rgba(0,189,227,1) 0%, rgba(171,79,228,1) 100%);   
+                }        
+            }
 
             .fy22-card {
                 .usa-card__container {
@@ -1011,40 +1024,46 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         }
 
         &.impact-landing3 {
+            .fy23-card {
+                .usa-card__container {
+                    background: rgba(171,79,228,1);
+                }           
+            }
+
             .fy22-card {
                 .usa-card__container {
-                    background:rgba(69,217,217,1);
-                }        
+                    background: rgba(0,189,227,1);
+                }         
             }
     
             .fy21-card {
                 .usa-card__container {
-                    background: rgba(171,79,228,1);
-                }        
+                    background:rgba(69,217,217,1);
+                }      
             }
     
             .fy20-card {
                 .usa-card__container {
-                    background: rgba(0,189,227,1);
-                }        
+                    background: rgba(171,79,228,1);
+                }     
             }
     
             .fy19-card {
                 .usa-card__container {
-                    background:rgba(69,217,217,1);
+                    background: rgba(0,189,227,1);
                 }        
             }
     
             .fy18-card {
                 .usa-card__container {
-                    background: rgba(171,79,228,1);
+                    background:rgba(69,217,217,1);
                 }        
             }
     
             .fy17-card {
                 .usa-card__container {
-                    background: rgba(0,189,227,1);
-                }      
+                    background: rgba(171,79,228,1);
+                }     
             }
         }
     }
