@@ -5,7 +5,7 @@
     {%- else -%}
       {%- assign reportLink = report.url | url -%}
     {%- endif -%}
-  <li class="usa-card usa-card--flag fy-card fy{{ report.data.year }}-card grid-col-12  widescreen:grid-col-4 template-{{ report.data.template }} {% if not report.data.year == 23 %} desktop:grid-col-6 tablet-lg:grid-col-6{%- else -%} current-year {%- endif -%}">
+  <li class="usa-card usa-card--flag fy-card fy{{ report.data.year }}-card template-{{ report.data.template }} mobile:grid-col-12 {% if not report.data.year == 23 %}  widescreen:grid-col-4 desktop:grid-col-6 {%- else -%} usa-card--media-right current-year {%- endif -%}">
     <a class="ReportCard__link" {% if report.data.pdf -%}target="_blank"{%- endif %} href="{{ reportLink }}">
       <div class="usa-card__container">
         <div class="usa-card__header">
@@ -22,6 +22,23 @@
           </p>
         </div>
       </div>
+      {% if report.data.year == 23 %}
+      <div class="usa-card__media usa-card__media">
+        <div class="usa-card__img">
+          {% if className == 'impact-landing1' %}
+          <img
+            src="{{ '/assets/images/placeholder-full.png' | url }}"
+            alt="A placeholder image"
+          />
+          {%- else -%}
+          <img
+            src="{{ '/assets/images/placeholder-icon.png' | url }}"
+            alt="A placeholder image"
+          /> 
+          {%- endif -%}         
+        </div>
+      </div>
+      {%- endif -%}
     </a>
   </li>
   {% endfor %}

@@ -963,6 +963,42 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             }           
         }
 
+        .fy23-card {
+            .usa-card__container {
+                @include at-media("desktop") {
+                    width: 75%;          
+                }    
+            }   
+
+            .usa-card__header, 
+            .usa-card__body, 
+            .usa-card__footer {
+                margin-right: 0;  
+            }
+            
+            .usa-card__media {
+                right: 15px;
+
+                @include at-media("desktop") {
+                    width: 23.5%;
+                    visibility: visible;          
+                }   
+
+                @include at-media-max('desktop') {
+                    visibility: hidden;    
+                }
+
+                .usa-card__img {
+                    background: none;
+                    
+                    img {
+                        object-fit: initial;
+                    }
+                }
+            }
+            
+        }
+
         &.impact-landing1 {
 
             .fy23-card {
