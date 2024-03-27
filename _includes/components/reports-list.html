@@ -13,6 +13,13 @@
             FY{{ report.data.year }}
           </h2>
         </div>
+        {% if report.data.year == 23 %}
+        <div class="usa-card__media usa-card__media">
+          <div class="usa-card__img">
+            <img src="{{ '/assets/images/current-report-icon.svg' | url }}" alt="" />    
+          </div>
+        </div>
+        {%- endif -%}
         <div class="usa-card__body">
           <h3 class="usa-card__subhead {% if report.data.pdf -%}pdf-icon{%- endif -%}">
             <span>{{ report.data.subtitle }}</span>             
@@ -22,23 +29,6 @@
           </p>
         </div>
       </div>
-      {% if report.data.year == 23 %}
-      <div class="usa-card__media usa-card__media">
-        <div class="usa-card__img">
-          {% if className == 'impact-landing1' %}
-          <img
-            src="{{ '/assets/images/placeholder-full.png' | url }}"
-            alt="A placeholder image"
-          />
-          {%- else -%}
-          <img
-            src="{{ '/assets/images/placeholder-icon.png' | url }}"
-            alt="A placeholder image"
-          /> 
-          {%- endif -%}         
-        </div>
-      </div>
-      {%- endif -%}
     </a>
   </li>
   {% endfor %}

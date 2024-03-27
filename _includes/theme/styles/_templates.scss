@@ -964,24 +964,27 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         }
 
         .fy23-card {
-            .usa-card__container {
-                @include at-media("desktop") {
-                    width: 75%;          
-                }    
-            }   
-
             .usa-card__header, 
             .usa-card__body, 
             .usa-card__footer {
                 margin-right: 0;  
             }
+
+            .usa-card__body {
+                @include at-media("desktop") {
+                    width: 75%; 
+                }   
+            }
             
             .usa-card__media {
-                right: 15px;
-
+                bottom: 0;
+                height: 95%;
+                top: auto;
+                visibility: visible;
+                background: white;   
+                
                 @include at-media("desktop") {
-                    width: 23.5%;
-                    visibility: visible;          
+                    width: 25%; 
                 }   
 
                 @include at-media-max('desktop') {
@@ -990,6 +993,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
                 .usa-card__img {
                     background: none;
+                    padding-right: units(5);
                     
                     img {
                         object-fit: initial;
