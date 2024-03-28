@@ -970,6 +970,10 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 margin-right: 0;  
             }
 
+            .usa-card__header {
+                margin-top: units(2);
+            }
+
             .usa-card__body {
                 @include at-media("desktop") {
                     width: 75%; 
@@ -978,9 +982,8 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             
             .usa-card__media {
                 bottom: 0;
-                height: 95%;
+                height: 96%;
                 top: auto;
-                visibility: visible;
                 background: white;   
                 
                 @include at-media("desktop") {
@@ -988,12 +991,11 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 }   
 
                 @include at-media-max('desktop') {
-                    visibility: hidden;    
+                    display: none;    
                 }
 
                 .usa-card__img {
                     background: none;
-                    padding-right: units(5);
                     
                     img {
                         object-fit: initial;
@@ -1004,12 +1006,27 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         }
 
         &.impact-landing1 {
+            @include at-media("desktop") {
+                .fy23-card {
+                    .usa-card__header {
+                        margin-top: 0;
+                    }
+        
+                    .usa-card__media {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        &.impact-landing1,
+        &.impact-landing2 {
 
             .fy23-card {
                 .usa-card__container {
                     background: rgba(0,189,227,1);
                     background: linear-gradient(90deg, rgba(0,189,227,1) 0%, rgba(171,79,228,1) 100%);   
-                }        
+                }
             }
 
             .fy22-card {
@@ -1055,14 +1072,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
             }
 
         }
-
-        &.impact-landing2 {
-            .usa-card__container {
-                background: rgba(0,189,227,1);
-                background: linear-gradient(90deg, rgba(0,189,227,1) 0%, rgba(171,79,228,1) 100%);    
-            }
-        }
-
+        
         &.impact-landing3 {
             .fy23-card {
                 .usa-card__container {
