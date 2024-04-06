@@ -4,11 +4,11 @@ description: Find out about the impact of 10x projects and products, and how inv
 layout: layouts/impact-list-page.html
 permalink: /about/impact-reports{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 pageBrow: About
-pageTitle: Our impact - Version 1
+pageTitle: Our impact
 subtitle: A yearly review of 10x investments in improving government digital services
 mainNavPageTitle: About 10x
 theme: 8
-className: impact-landing1 
+className: impact-landing2
 return-to-top_text: Return to top
 order: 3
 redirect_from: 

@@ -22,18 +22,6 @@ section: reports
 
 
 {%- if permalink -%}
-<!-- <div class="usa-app__bg report-header">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col-12 desktop:grid-col-8">
-        <h1 class="TxReport__title">{{ title }}</h1>
-        <div class="TxReport__intro">
-          {{- intro | markdownify -}}
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 <div class="portfolio-blog-pages">
   <div class="TxContent">
     <div class="banner-bg desktop:margin-bottom-2">
@@ -72,3 +60,23 @@ section: reports
     </div>
 </div>
 {%- endif -%}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to update aria-current based on usa-current class
+    function updateAriaCurrent() {   
+      document.querySelectorAll('.usa-in-page-nav__link').forEach(link => {
+        link.removeAttribute('aria-current');
+      });
+
+      const currentLink = document.querySelector('.usa-in-page-nav__link.usa-current');
+
+      if (currentLink) {
+        currentLink.setAttribute('aria-current', 'true');
+      }
+    }
+
+    window.addEventListener('scroll', updateAriaCurrent);
+    updateAriaCurrent();
+  });
+</script>
