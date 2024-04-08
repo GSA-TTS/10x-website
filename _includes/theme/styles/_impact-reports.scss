@@ -32,13 +32,16 @@ $c-report-header: #006680;
 
 @mixin linkVariant--light {
   color: color("primary-light");
+
   &:active,
   &:focus {
     color: color("primary-light");
   }
+
   &:visited {
     color: color("base-light");
   }
+
   &:hover {
     color: color("primary-lighter");
   }
@@ -46,13 +49,16 @@ $c-report-header: #006680;
 
 @mixin linkVariant--dark {
   color: color("primary-darkest");
+
   &:active,
   &:focus {
     color: color("primary-darkest");
   }
+
   &:visited {
     color: color("base");
   }
+
   &:hover {
     color: color("primary-darker");
   }
@@ -82,37 +88,44 @@ $c-report-header: #006680;
     }
 
     blockquote {
-        padding-left: 2rem;
-        border-left: 0.5rem solid #006680;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        font-size: 1em;
+      padding-left: 2rem;
+      border-left: 0.5rem solid #006680;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      font-size: 1em;
     }
 
     &.white {
       background-color: color("white");
+
       .to-top {
         color: #FFF;
         background-color: $x-grimace-light;
         padding: 10px;
+
         &:hover {
           background-color: $x-grimace;
         }
       }
     }
+
     &.light-gray {
       background-color: rgba(216, 216, 216, 0.25);
+
       .to-top {
         color: #FFF;
         background-color: $x-grimace-light;
+
         &:hover {
           background-color: $x-grimace;
         }
       }
     }
+
     &.dark-gray {
       background-color: $x-charcoal;
       color: #FFF;
+
       .to-top {
         background-color: $x-lilac;
         color: #162e51;
@@ -125,18 +138,23 @@ $c-report-header: #006680;
           background-color: $x-lilac-light;
         }
       }
+
       a {
         color: $x-lilac;
+
         &:hover {
           color: $x-lilac-light;
         }
       }
+
       h2 {
         color: $x-lilac;
       }
+
       strong {
         color: $x-sky;
       }
+
       .TxBreak__accent-green {
         &:before {
           background-image: url("../images/impact-reports/report-gradient-separator.png");
@@ -144,20 +162,25 @@ $c-report-header: #006680;
         }
       }
     }
+
     &:first-child {
       padding-top: 0;
+
       .TxBreak__accent-green {
         padding-top: 2rem;
       }
     }
+
     strong {
       color: $c-report-header;
     }
+
     @media screen and (min-width: 640px) {
       margin-left: -2%;
       padding: 1.5rem;
       width: 103.8%;
     }
+
     @media screen and (min-width: 1024px) {
       margin-left: -200%;
       padding: 4rem 260% 4rem 200%;
@@ -166,6 +189,7 @@ $c-report-header: #006680;
       width: 560%;
     }
   }
+
   &__nav-header {
     background-image: url("../images/impact-reports/report-lilac-brush-stroke.png");
     background-position-x: -4px;
@@ -179,6 +203,7 @@ $c-report-header: #006680;
     padding-left: 5rem;
     padding-top: 0.4rem;
     position: relative;
+
     @media screen and (min-width: 1024px) {
       background-position-x: left;
       justify-content: center;
@@ -187,28 +212,35 @@ $c-report-header: #006680;
       padding-top: 0.2rem;
     }
   }
+
   &__nav-link {
     a {
       @include linkVariant--light;
     }
+
     svg {
       @include u-margin-right(1);
     }
   }
+
   &__title {
     color: #FFF;
     @include u-margin-top(2);
   }
+
   &__subtitle {
     @include u-margin-top(2);
   }
+
   &__intro {
     color: #FFF;
     @include u-font("serif", 8);
+
     @media screen and (min-width: 640px) {
       @include u-font("serif", 10);
     }
   }
+
   &__content {
     h2 {
       color: $c-report-header;
@@ -230,14 +262,17 @@ $c-report-header: #006680;
         margin-top: 4rem;
         padding-top: 4rem;
         position: relative;
+
         @media screen and (min-width: 1024px) {
           align-items: center;
           padding-top: 2rem;
         }
+
         p {
           font-size: 1rem;
           width: 58%;
           line-height: 1.3rem;
+
           @media screen and (min-width: 640px) {
             width: 45%;
             font-size: 1.2rem;
@@ -246,6 +281,7 @@ $c-report-header: #006680;
           }
         }
       }
+
       &Full {
         color: #FFF;
         @include u-font("serif", 7);
@@ -267,6 +303,7 @@ $c-report-header: #006680;
           font-size: 0.8rem;
           max-width: 68%;
           line-height: 1rem;
+
           @media screen and (min-width: 640px) {
             font-size: 1.2rem;
             max-width: 70%;
@@ -274,6 +311,7 @@ $c-report-header: #006680;
           }
         }
       }
+
       &FullDark {
         @include u-font("serif", 7);
         align-items: center;
@@ -290,17 +328,21 @@ $c-report-header: #006680;
         padding-top: 2rem;
         padding-bottom: 1em;
         position: relative;
-      @media screen and (min-width: 640px) {
+
+        @media screen and (min-width: 640px) {
           /* background-size: contain; */
         }
+
         p {
           font-size: 0.8rem;
           max-width: 68%;
           line-height: 1rem;
+
           @media screen and (min-width: 640px) {
             font-size: 1rem;
             max-width: 70%;
           }
+
           @media screen and (min-width: 1024px) {
             font-size: 1.2rem;
             max-width: 577px;
@@ -308,6 +350,7 @@ $c-report-header: #006680;
           }
         }
       }
+
       &Project {
         @include u-font("serif", 7);
         align-items: flex-start;
@@ -322,9 +365,11 @@ $c-report-header: #006680;
         padding-left: 1rem;
         padding-top: 0.2rem;
         position: relative;
+
         p {
           font-size: 1.4rem;
           max-width: 535px;
+
           @media screen and (min-width: 1024px) {
             max-width: 615px;
           }
@@ -334,8 +379,10 @@ $c-report-header: #006680;
 
     .usa-card__container {
       box-shadow: $card-shadow;
+
       .usa-card__body {
         position: relative;
+
         ul {
           list-style: none;
           margin: 0;
@@ -346,6 +393,7 @@ $c-report-header: #006680;
             display: flex;
             align-items: baseline;
             @include u-margin-bottom(2);
+
             &:before {
               content: "\f058";
               display: inline-block;
@@ -355,6 +403,7 @@ $c-report-header: #006680;
               font-size: 1.25rem;
               transform: translateY(4px);
             }
+
             svg {
               transform: translateY(2px);
             }
@@ -363,11 +412,14 @@ $c-report-header: #006680;
       }
     }
   }
+
   &__details {
     h3 {
       @include u-margin-bottom(2);
     }
+
     @media screen and (min-width: 1024px) {
+
       a,
       .usa-button--primary.usa-button--unstyled {
         @include linkVariant--light;
@@ -376,7 +428,7 @@ $c-report-header: #006680;
 
     .usa-card__container {
       box-shadow: $card-shadow;
- 
+
       @media screen and (min-width: 1024px) {
         margin: 0;
         background: transparent;
@@ -392,6 +444,7 @@ $c-report-header: #006680;
         }
       }
     }
+
     @media screen and (min-width: 1024px) {
       @include u-padding-x(3);
     }
@@ -400,6 +453,7 @@ $c-report-header: #006680;
   .TxLede {
     @include u-margin-bottom(8);
   }
+
   .usa-card {
     color: color("ink");
   }
@@ -412,15 +466,18 @@ $c-report-header: #006680;
         background-position-y: top;
         background-repeat: no-repeat;
       }
+
       .usa-card:nth-child(1) {
         .usa-card__container {
           background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}.png");
         }
       }
+
       .usa-card:nth-child(2) {
         .usa-card__container {
           position: relative;
           @include u-padding-bottom(6);
+
           &:before {
             content: "";
             position: absolute;
@@ -437,6 +494,7 @@ $c-report-header: #006680;
           }
         }
       }
+
       .usa-card:nth-child(3) {
         .usa-card__container {
           position: relative;
@@ -454,21 +512,27 @@ $c-report-header: #006680;
     &-1 {
       @include ReportContentBg(1);
     }
+
     &-2 {
       @include ReportContentBg(2);
     }
+
     &-3 {
       @include ReportContentBg(3);
     }
+
     &-4 {
       @include ReportContentBg(4);
     }
+
     &-5 {
       @include ReportContentBg(5);
     }
+
     &-6 {
       @include ReportContentBg(6);
     }
+
     &-9 {
       @include ReportContentBg(1);
     }
@@ -477,6 +541,7 @@ $c-report-header: #006680;
 
 .usa-app__theme-reports {
   background: linear-gradient(180deg, #{$x-charcoal} 2px, #{$x-lead} 75%, #{$x-smoke} 100%);
+
   @media screen and (min-width: 1024px) {
     background: linear-gradient(180deg, #{$x-charcoal} 2px, #{$x-lead} 2000px, #{$x-smoke} 2600px);
   }
@@ -489,13 +554,16 @@ $c-report-header: #006680;
     min-width: 30px;
     text-align: center;
   }
+
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
+
     li {
       display: flex;
       @include u-margin-bottom(2);
+
       &:last-child {
         margin-bottom: 0;
       }
@@ -505,22 +573,27 @@ $c-report-header: #006680;
 
 .TxProjects {
   @include u-margin-top(2);
+
   a {
     color: $x-grimace;
     text-decoration: none;
+
     svg {
       transform: rotateZ(-45deg);
     }
   }
+
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
+
     li {
       @include u-margin-right(2);
       padding-top: 0.3rem;
       margin-bottom: 2px;
       height: 41px;
+
       a {
         line-height: normal;
         white-space: nowrap;
@@ -529,8 +602,23 @@ $c-report-header: #006680;
   }
 }
 
+.fy23-impact-report-page {
+
+  .report-intro {
+    h2 {
+      color: color('gray-warm-90');
+      font-weight: 600;
+    }
+
+    h2,
+    h3 {
+      font-weight: 600;     
+    }
+  }
+}
+
 .usa-in-page-nav-container {
-  
+
   .usa-in-page-nav {
     max-width: units('mobile');
     order: unset;
@@ -546,7 +634,7 @@ $c-report-header: #006680;
       position: sticky;
       width: auto;
       z-index: 2;
-    
+
       h3 {
         display: none;
       }
@@ -561,14 +649,17 @@ $c-report-header: #006680;
 
 .TxLinks {
   @include u-font-family("serif");
+
   a {
     text-decoration: none;
     color: #162e51;
   }
+
   ul {
     padding: 0;
     margin: 0;
     list-style: none;
+
     li {
       @include u-margin-right(2);
       @include u-padding-left(3);
@@ -576,16 +667,19 @@ $c-report-header: #006680;
       font-size: initial;
       margin-bottom: 2px;
       padding-top: 6px;
+
       @media screen and (min-width: 640px) {
         font-size: 1.1rem;
         padding-top: 4px;
       }
+
       &.active {
         background-position-y: 0.3rem;
         background-image: url("../images/impact-reports/report-nav-active-bar.png");
         background-repeat: no-repeat;
         font-weight: bold;
       }
+
       a {
         line-height: normal;
       }
@@ -597,44 +691,44 @@ $c-report-header: #006680;
   border-left: 0;
 
   .usa-in-page-nav__item {
-      border-top: none;
-      border-bottom: units(1px) solid color('indigo-warm-70v');
+    border-top: none;
+    border-bottom: units(1px) solid color('indigo-warm-70v');
 
-      a {
-          font-size: size('body', 8); 
-          font-weight: 500;  
-          border: none;
-          padding: units(2.5) units(2) units(2.5) units(4);  
-          color: color('indigo-warm-70v') !important;
-          background: white;
-  
-          &:hover,
-          &:active {
-              background: color('blue-5');
-              color: color('indigo-warm-80v') !important;
-              text-decoration: none;
-          }
+    a {
+      font-size: size('body', 8);
+      font-weight: 500;
+      border: none;
+      padding: units(2.5) units(2) units(2.5) units(4);
+      color: color('indigo-warm-70v') !important;
+      background: white;
+
+      &:hover,
+      &:active {
+        background: color('blue-5');
+        color: color('indigo-warm-80v') !important;
+        text-decoration: none;
+      }
+    }
+
+    &:first-child {
+      border-top: units(1px) solid color('indigo-warm-70v');
+    }
+
+    .usa-in-page-nav__link {
+
+      &.usa-current {
+        background: color('cyan-5v');
+        border-top: 5px solid color('cyan-20v');
+        border-left: none;
+        font-weight: 600;
+
+        &:after {
+          background: none;
+          width: 0;
+        }
       }
 
-      &:first-child {
-          border-top: units(1px) solid color('indigo-warm-70v');
-      }
-
-      .usa-in-page-nav__link {
-
-        &.usa-current {
-          background: color('cyan-5v');
-          border-top: 5px solid color('cyan-20v');
-          border-left: none;
-          font-weight: 600;
-  
-          &:after {
-              background: none;
-              width: 0;
-          }
-      }
-
-      }
+    }
 
 
   }
@@ -655,6 +749,7 @@ $c-report-header: #006680;
     background-position-y: -120px;
     background-size: cover;
   }
+
   @media screen and (min-width: 640px) {
     background-image: url("../images/impact-reports/report-1-bg-tablet.png");
     background-position-y: 0;
@@ -670,6 +765,7 @@ $c-report-header: #006680;
   background-size: contain;
   height: 93px;
   width: 100%;
+
   @media screen and (min-width: 640px) {
     height: 213px;
     width: 60%;
@@ -681,7 +777,7 @@ $c-report-header: #006680;
     font-size: 0.8rem;
     padding: 0.5rem 1rem;
     width: 20%;
-  
+
     span {
       padding: 0;
       margin-top: units(1px);
@@ -690,7 +786,7 @@ $c-report-header: #006680;
       color: white;
       margin-right: units(0.5);
     }
-  
+
     @media screen and (min-width: 640px) {
       width: initial;
     }
@@ -707,6 +803,7 @@ $c-report-header: #006680;
   height: 442px;
   max-width: 800px;
   width: 100%;
+
   @media screen and (min-width: 640px) {
     display: block;
   }
@@ -714,6 +811,7 @@ $c-report-header: #006680;
 
 .recharts-wrapper {
   display: none;
+
   @media screen and (min-width: 640px) {
     display: block;
   }
@@ -746,20 +844,24 @@ $c-report-header: #006680;
 
 ul {
   margin-bottom: 2rem;
+
   p {
     margin-bottom: 0;
   }
 }
 
-.ReportTable, .ReportBudgetTable {
+.ReportTable,
+.ReportBudgetTable {
   //background-color: rgba(217, 217, 240, .24);
   padding: 40px 0;
   padding-top: 30px;
   position: relative;
   width: 100%;
+
   table {
     margin: 0;
     width: 100%;
+
     th {
       @include u-font("serif", 1);
       border-bottom: 2px solid $x-tiger;
@@ -768,18 +870,22 @@ ul {
       font-weight: bold;
       border-top-width: 0;
     }
+
     h2 {
       margin-bottom: 0;
     }
+
     .highlight {
       background-color: #F6F6FC;
     }
   }
+
   &__heading {
     color: $x-tiger-dark;
     font-size: 1.2rem;
     margin-bottom: 0;
   }
+
   &__label {
     display: block;
     @include u-font("sans", "2xs");
@@ -809,5 +915,16 @@ ul {
 
   &--frank {
     background-image: url("../images/impact-reports/frank.png");
+  }
+}
+
+.impact-breadcrumb {
+  .grid-container {
+    margin: 0 auto;
+    width: 100%;
+
+    nav {
+      padding: units(2);
+    }
   }
 }
