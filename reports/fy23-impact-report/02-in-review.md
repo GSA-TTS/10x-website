@@ -36,7 +36,7 @@ We funded 18 brand new Phase One projects this year–17 of which aligned with a
 
 Here are two good examples of projects we funded that align with our investment priorities:
 
-Resources for Formerly Incarcerated Persons
+<h4><a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/yqGLPqux">Resources for Formerly Incarcerated Persons</a></h4>
 
 More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x.
 
@@ -83,7 +83,7 @@ Making a difference for people in situations like that is exactly the type of im
 <div class="blue-hilighted-insights">
     <h4>Project Insights</h4>
     <ul>
-        <li>.Most form-related products within the civil legal system were designed with lawyers in mind as the intended user base. However,  a growing portion of that user base is non-legal professionals who often lack any form of representation. This is a big problem.</li>
+        <li>Most form-related products within the civil legal system were designed with lawyers in mind as the intended user base. However,  a growing portion of that user base is non-legal professionals who often lack any form of representation. This is a big problem.</li>
         <li>This space is ripe with opportunity and filled with enthusiastic stakeholders working towards the same goal. The team found engaged collaborators and potential partners.</li>
     </ul>
 </div>
