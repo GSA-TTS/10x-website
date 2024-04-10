@@ -14,7 +14,7 @@ tags: Projects
     Improving the public's experience with the government by shipping human-centered, accessible web components
 </p>
 
-Since the very beginning of the 10x program, investments in improving the public's experience with the government by shipping human-centered, accessible web components – particularly through the evolution of the <a class="usa-link" rel="noreferrer" href="https://designsystem.digital.gov">U.S. Web Design System (USWDS)</a> – have been at the forefront of our investment pipeline, as well as one of our biggest areas of success and impact.
+Since the very beginning of the 10x program, investments in improving the public's experience with the government by shipping human-centered, accessible web components – particularly through the evolution of the <a class="usa-link--external" rel="noreferrer" href="https://designsystem.digital.gov">U.S. Web Design System (USWDS)</a> – have been at the forefront of our investment pipeline, as well as one of our biggest areas of success and impact.
 
 A highly scalable toolkit for federal designers, USWDS is widely used across the federal design space – across hundreds of government websites and reaching hundreds of millions of collective site views. USWDS has been recognized in legislation and in official memos for its role in delivering exceptional digital experiences to the public. And it all started with an early investment from 10x.
 
