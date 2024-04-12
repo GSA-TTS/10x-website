@@ -95,15 +95,55 @@ $c-report-header: #006680;
       font-size: 1em;
     }
 
+    .top-button-wrapper {
+      justify-content: flex-end;
+    
+      .usa-button {
+        &.to-top {
+          font-size: size('body', 5);
+          font-weight: 500;
+          padding: units(2) units(2.5);
+          width: 25%;
+          margin-bottom: units(4);
+      
+          span {
+            padding: 0;
+            margin-top: units(1px);
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            margin-right: units(0.5);
+          }
+      
+          @media screen and (min-width: 640px) {
+            width: initial;
+          }
+        }
+      }
+    
+      @include at-media-max('tablet-lg') {
+        justify-content: center;
+    
+        .usa-button {
+          &.to-top {
+            margin-bottom: units(1);
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
     &.white {
       background-color: color("white");
 
-      .to-top {
-        color: #FFF;
-        background-color: $x-grimace-light;
-
-        &:hover {
-          background-color: $x-grimace;
+      .top-button-wrapper {
+        .to-top {
+          color: #FFF;
+          background-color: $x-grimace-light;
+  
+          &:hover {
+            background-color: $x-grimace;
+          }
         }
       }
     }
@@ -111,12 +151,14 @@ $c-report-header: #006680;
     &.light-gray {
       background-color: rgba(216, 216, 216, 0.25);
 
-      .to-top {
-        color: #FFF;
-        background-color: $x-grimace-light;
-
-        &:hover {
-          background-color: $x-grimace;
+      .top-button-wrapper {
+        .to-top {
+          color: #FFF;
+          background-color: $x-grimace-light;
+  
+          &:hover {
+            background-color: $x-grimace;
+          }
         }
       }
     }
@@ -125,16 +167,18 @@ $c-report-header: #006680;
       background-color: $x-charcoal;
       color: #FFF;
 
-      .to-top {
-        background-color: $x-lilac;
-        color: #162e51;
-
-        span {
+      .top-button-wrapper {
+        .to-top {
+          background-color: $x-lilac;
           color: #162e51;
-        }
-
-        &:hover {
-          background-color: $x-lilac-light;
+  
+          span {
+            color: #162e51;
+          }
+  
+          &:hover {
+            background-color: $x-lilac-light;
+          }
         }
       }
 
@@ -596,44 +640,6 @@ $c-report-header: #006680;
   }
 }
 
-.top-button-wrapper {
-  justify-content: flex-end;
-
-  .usa-button {
-    &.to-top {
-      font-size: size('body', 5);
-      padding: units(2) units(2.5);
-      width: 25%;
-      margin-bottom: units(3);
-  
-      span {
-        padding: 0;
-        margin-top: units(1px);
-        display: inline-block;
-        vertical-align: top;
-        color: white;
-        margin-right: units(0.5);
-      }
-  
-      @media screen and (min-width: 640px) {
-        width: initial;
-      }
-    }
-  }
-
-  @include at-media-max('tablet-lg') {
-    justify-content: center;
-
-    .usa-button {
-      &.to-top {
-        margin-bottom: units(1);
-        margin-right: 0;
-      }
-    }
-  }
-}
-
-
 .fy23-impact-report-page {
   color: color('gray-warm-90');
 
@@ -651,6 +657,7 @@ $c-report-header: #006680;
   }
 
   section {
+    padding-bottom: 0;
 
     .usa-link,
     h2,
@@ -675,7 +682,7 @@ $c-report-header: #006680;
       font-size: size('body', 12);
 
       &+h3 {
-        margin-top: units(3);
+        margin-top: units(5);
       }
     }
 
@@ -703,6 +710,18 @@ $c-report-header: #006680;
       color: color('gray-warm-90');
     }
 
+    .top-button-wrapper {
+      .usa-button {
+        &.to-top {
+          background: color('violet-70v');
+
+          &:hover {
+            background: $x-grimace;
+          }
+        }
+      }
+    }
+
     &.dark-gray {
       color: white;
       background: color('gray-warm-90');
@@ -717,9 +736,11 @@ $c-report-header: #006680;
         color: white;
       }
 
-      .usa-button {
-        &.to-top {
-          background: color('cyan-10v');
+      .top-button-wrapper {
+        .usa-button {
+          &.to-top {
+            background: color('cyan-10v');
+          }
         }
       }
     }
@@ -792,16 +813,6 @@ $c-report-header: #006680;
             padding: 0;
             margin: 0;
           }
-        }
-      }
-    }
-
-    .top-button-wrapper {
-
-      .usa-button {
-        &.to-top {
-          font-weight: 500;
-          background: color('violet-60v');
         }
       }
     }
