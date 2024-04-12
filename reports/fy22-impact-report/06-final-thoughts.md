@@ -71,8 +71,11 @@ Lastly, we’re sending some heartfelt gratitude to the civil servants everywher
 
 –10x
 
-<div class="display-flex flex-justify-end margin-top-2">
-    <a class="usa-button to-top" href="#top">TOP</a>
+<div class="top-button-wrapper display-flex margin-top-2">
+  <a class="usa-button to-top" href="#top">
+    <span class="display-inline-block text-top">TOP </span>
+    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img"><use xlink:href="{{'/assets/images/sprite.svg#arrow_upward' | url}}"></use></svg>
+  </a>
 </div>
 
 <div class="TxBreak TxBreak__accent-green TxBreak__extraWide"></div>

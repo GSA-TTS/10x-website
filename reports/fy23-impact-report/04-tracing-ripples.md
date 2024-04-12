@@ -21,7 +21,9 @@ But that's not the case for 10x. As a Federal Venture Studio, the returns we see
 To square this circle, we try to 'trace the ripples'. Here, our initial investments are a tiny stone dropped in a big pond. The 'ripples' that spread from there are the long-term positive changes we hope to see from our products and ideas. To evaluate our long-term ROI, we follow those ripples to see which stubborn driftwood gets loosened. In other words, we keep an eye on the projects that graduate from 10x. This year, we caught up with two product owners, both of whom work on programs that 10x invested in years ago, to see what and how they're delivering impact post-10x.
 
 <aside class="overview-text" role="note">
-    <span class="hilighted-text"><strong>21,000</strong> hours invested in research, design, engineering, and more.
+  <div class="contentRow">
+      <span class="hilighted-text"><strong>21,000</strong></span> hours invested in research, design, engineering, and more.
+  </div>
 </aside>
 
 ### Investments in Design Innovation

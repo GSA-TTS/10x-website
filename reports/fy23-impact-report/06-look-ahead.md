@@ -81,6 +81,8 @@ Run towards hard problems. Focus on the public. Deliver impact for people.
 
  <hr>
 
- <aside class="overview-text" role="note">
-    <span class="hilighted-text"><strong>1,300</strong> ideas evaluated by 10x since 2017
+ <aside class="overview-text medium-wide" role="note">
+    <div class="contentRow">
+        <span class="hilighted-text"><strong>1,300</strong></span> ideas evaluated by 10x since 2017
+    </div> 
 </aside>

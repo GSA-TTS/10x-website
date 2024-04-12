@@ -27,7 +27,9 @@ We learned that the problem is real and not everyone has equitable access to new
 Even though this area has significant potential, we ultimately elected not to proceed with Phase Two of this project due to the risk of duplicating existing, promising efforts. Based on our Phase One Investigation into the idea, we do not see a slam-dunk path for 10x to add value in the space of infrastructure equity. If 10x were to revisit this project in the future, the Phase One team suggests focusing on specific case studies and examining how investments impact specific underprivileged groups, rather than looking for meta-solutions.
 
 <aside class="overview-text" role="note">
-    <span class="hilighted-text"><strong>12</strong> of the <strong>17</strong></span> projects selected for Phase 1 fit into our <strong>Equity</strong> theme. 5 other projects supported our <strong>Digital Foundations</strong> theme.
+    <div class="contentRow">
+        <span class="hilighted-text"><strong>12</strong> of the <strong>17</strong></span> projects selected for Phase 1 fit into our <strong>Equity</strong> theme. 5 other projects supported our <strong>Digital Foundations</strong> theme.
+    </div>
 </aside>
 
 ### Other Bets we Placed
@@ -38,11 +40,11 @@ Here are two good examples of projects we funded that align with our investment 
 
 <h4><a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/yqGLPqux">Resources for Formerly Incarcerated Persons</a></h4>
 
-More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x.
+_More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x._
 
-For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement -- services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry.
+_For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement -- services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry._
 
-### Why Bet on This?
+#### Why Bet on This?
 
 We bet big on equity-centered tech to help people who need it most, and we chose this project because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people (disproportionately minority and low-income) who leave prisons and jails each year successfully move back into society.
 
@@ -55,7 +57,7 @@ We bet big on equity-centered tech to help people who need it most, and we chose
     </ul>
 </div>
 
-### How it Went
+#### How it Went
 
 Early on, our Phase One team learned that resources for this population and their families are available, and often designed to accommodate the varied structures and jurisdictions of state or municipal governments. We also learned that most people incarcerated in the country end up there through state and local justice systems–not federal. 
 
@@ -75,7 +77,7 @@ _Many people owe fines and fees to the federal government, often amounts that ar
 
 _10x will explore ways to compile data on fees owed to agencies, such as a personal dashboard or notifications capability that offers visibility into fees owed to the government with links to repayment or forbearance options. This could reduce indebtedness, increase satisfaction with government services, and reduce time on call centers._
 
-### Why Bet on This?
+#### Why Bet on This?
 
 To show why we feel this project is important, consider a hypothetical but realistic use case: a member of the public who needs to file a restraining order with the government can’t complete that task, because the forms and processes needed to successfully file that request are designed to be completed by this petitioner’s attorney, which they don’t have, and are at risk of not completing this task and endangering themselves…
 Making a difference for people in situations like that is exactly the type of impact 10x is proud to pursue.
@@ -88,7 +90,7 @@ Making a difference for people in situations like that is exactly the type of im
     </ul>
 </div>
 
-### How it’s Going
+#### How it’s Going
 
 Digital Access to Justice Platform, or as we like to call it A2J, is a great example of how the 10x process embraces change. Our project teams have the freedom to recommend pivots in project directions when new paths of delivering impact emerge over the course of phase. In this case, the initial idea that focused on resolving fines and fees didn’t feel like a winning bet for 10x. But the team did find an opportunity to help in a different way — one that was still in the spirit of the initial idea: to improve the digital experience people have with the justice system. 
 
@@ -101,13 +103,15 @@ If successful, we’d deliver impact by helping people assemble the documents th
 
 We’ve approved this project Phase Three and can’t wait to help it succeed!
 
-<aside class="overview-text" role="note">
-    <span class="hilighted-text"><strong>FY23</strong></span> 
-    <ul>
-        <li><strong>18</strong> projects</li>
-        <li><strong>40</strong> phase kickoffs</li>
-        <li><strong>60</strong> agency and sub-agency collaborators</li>
-    </ul>
+<aside class="overview-text wide" role="note">
+    <div class="contentRow">
+        <span class="hilighted-text"><strong>FY23</strong></span> 
+        <ul>
+            <li><strong>18</strong> projects</li>
+            <li><strong>40</strong> phase kickoffs</li>
+            <li><strong>60</strong> agency and sub-agency collaborators</li>
+        </ul>
+    </div>
 </aside>
 
 ### FY23 Wins

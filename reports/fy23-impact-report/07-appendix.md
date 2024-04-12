@@ -6,7 +6,7 @@ nav_order: 6
 nav_label: "Appendix"
 nav_id: "appendix"
 
-class: white
+class: white appendix-page
 ---
 ## Appendix
 
@@ -16,7 +16,7 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
 
 #### Here’s how we invested in FY23
 
-<table class="usa-table usa-table--striped">
+<table class="usa-table usa-table--striped usa-table--stacked">
   <thead>
     <tr>
       <th scope="col">Phase</th>
@@ -60,7 +60,7 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
 
 #### 10x Investment Snapshot
 
-<table class="usa-table usa-table--striped">
+<table class="usa-table usa-table--striped usa-table--stacked">
   <thead>
     <tr>
       <th scope="col">Year</th>
@@ -120,3 +120,5 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
     </tr>
   </tbody>
 </table>
+
+This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted in prior years. 
