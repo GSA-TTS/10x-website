@@ -38,7 +38,7 @@ We funded 18 brand new Phase One projects this year–17 of which aligned with a
 
 Here are two good examples of projects we funded that align with our investment priorities:
 
-<h4><a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/yqGLPqux">Resources for Formerly Incarcerated Persons</a></h4>
+<h4>Resources for Formerly Incarcerated Persons</h4>
 
 _More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x._
 
