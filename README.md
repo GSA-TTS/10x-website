@@ -23,6 +23,10 @@ To watch for css changes:
 
 ```npm run assets:watch```
 
+To refresh the site locally, which includes rebuilding the _site folder and all css assets, run the following:
+
+```npm run assets:refresh```
+
 To build for production:
 
 ```npm run build```
@@ -71,3 +75,13 @@ $theme-font-path: "theme/fonts"
   background-image: url("theme/images/10x-logo.png");
 }
 ```
+
+### How to access Cloud Pages build for all branches in the 10x Website
+
+Below is the cloud.gov link to the build for the `main` branch:
+
+`https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/`
+
+To view the build for any `10x Website` branch that has been committed to Github,  copy the link above and append it with your branch name. Example:
+
+`https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/post-launch-bug-fixes/`
