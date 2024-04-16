@@ -25,8 +25,12 @@ const checkWidthAndApplyStyle = () => {
         window.addEventListener("scroll", scrollFunc);
     } else {
         window.removeEventListener("scroll", scrollFunc);
+        scrollToTopButton.className = "usa-identifier__required-links-item return-to-top margin-bottom-5 not-fixed";
+
     }
 }
+
+checkWidthAndApplyStyle();
 
 window.addEventListener("scroll", scrollFunc);
 window.addEventListener('resize', checkWidthAndApplyStyle);
