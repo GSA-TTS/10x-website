@@ -43,7 +43,7 @@ Overall, the government needs to deliver better experiences with public forms, a
 
 **We’re taking a ‘try everything’ approach to making forms better** through many active projects in our pipeline, including Digital Access to Justice Platform and Equitable Form Design. Through these investments and more to come, we see a path towards a public forms experience that consistently meets the standards of the private sector. It should also, whenever possible, eliminate the need for the public to fill out forms entirely. Getting there is far away, but 10x is excited to help  the government get ever closer.
 
-<div class="section-divider">
+<div class="section-divider margin-top-10">
     <img alt="" src="{{ '/assets/images/impact-reports/whats-next-arrows.svg' | url }}">
 </div>
 
