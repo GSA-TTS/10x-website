@@ -996,6 +996,8 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
                 .usa-card__img {
                     background: none;
+                    padding: units(4);
+                    margin-top: units(10);
                     
                     img {
                         object-fit: initial;
