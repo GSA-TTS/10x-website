@@ -38,7 +38,7 @@ We funded 18 brand new Phase One projects this year–17 of which aligned with a
 
 Here are two good examples of projects we funded that align with our investment priorities:
 
-<h4>Resources for Formerly Incarcerated Persons</h4>
+#### Resources for Formerly Incarcerated Persons
 
 _More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x._
 
@@ -49,7 +49,7 @@ _For example, we have observed that there is no centralized, government-led reso
 We bet big on equity-centered tech to help people who need it most, and we chose this project because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people (disproportionately minority and low-income) who leave prisons and jails each year successfully move back into society.
 
 <div class="blue-hilighted-insights">
-    <h4>Project Insights</h4>
+    <h4 id="project-insights-1" tabindex="-1">Project Insights</h4>
     <ul>
         <li>About two in three people who are released from prison will be rearrested within three years of their release.</li>
         <li>People with low education levels and limited access to affordable housing and healthcare are much more likely to be incarcerated after release.</li>
@@ -83,7 +83,7 @@ To show why we feel this project is important, consider a hypothetical but reali
 Making a difference for people in situations like that is exactly the type of impact 10x is proud to pursue.
 
 <div class="blue-hilighted-insights">
-    <h4>Project Insights</h4>
+    <h4 id="project-insights-1" tabindex="-1">Project Insights</h4>
     <ul>
         <li>Most form-related products within the civil legal system were designed with lawyers in mind as the intended user base. However,  a growing portion of that user base is non-legal professionals who often lack any form of representation. This is a big problem.</li>
         <li>This space is ripe with opportunity and filled with enthusiastic stakeholders working towards the same goal. The team found engaged collaborators and potential partners.</li>
