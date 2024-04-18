@@ -41,17 +41,19 @@ esbuild
     outdir: '_site/assets',
     format: 'iife',
     loader: {
-      '.jpg': 'dataurl',
-      '.gif': 'dataurl',
-      '.png': 'dataurl',
-      '.svg': 'dataurl',
-      '.ttf': 'dataurl',
-      '.woff': 'dataurl',
-      '.woff2': 'dataurl',
-
+      '.jpg': 'file',
+      '.gif': 'file',
+      '.png': 'file',
+      '.svg': 'file',
+      '.ttf': 'file',
+      '.woff': 'file',
+      '.woff2': 'file',
     },
-    minify: true,
+    assetNames: 'assets/[name]-[hash]',
+    minify: process.env.ELEVENTY_ENV === 'production',
     sourcemap: process.env.ELEVENTY_ENV !== 'production',
+    bundle: true, 
+    minifyWhitespace: true, 
     target: ['chrome58', 'firefox57', 'safari11', 'edge18'],
     plugins: [sassPlugin({
       loadPaths: [
