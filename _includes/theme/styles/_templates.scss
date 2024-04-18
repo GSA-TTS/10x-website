@@ -115,7 +115,7 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
-        background: url('../images/homepage-gradient-bg.png') center top repeat-x;
+        background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
         background-color: $homepage-deep-blue;
     }
 
@@ -216,7 +216,7 @@ h2,
         }
 
         .banner-bg-gradient {
-            background-size: 275% 60%;
+            background-size: 130% 60%;
         }
 
         .hero-section {
@@ -699,7 +699,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         color: white;
 
         .banner-bg-gradient {   
-            background-size: 275% 275%;
+            background-size: 150%;
         }
     
         .header-section {
