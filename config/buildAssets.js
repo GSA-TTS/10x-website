@@ -48,8 +48,9 @@ esbuild
       '.ttf': 'dataurl',
       '.woff': 'dataurl',
       '.woff2': 'dataurl',
+
     },
-    minify: process.env.ELEVENTY_ENV === 'production',
+    minify: true,
     sourcemap: process.env.ELEVENTY_ENV !== 'production',
     target: ['chrome58', 'firefox57', 'safari11', 'edge18'],
     plugins: [sassPlugin({
