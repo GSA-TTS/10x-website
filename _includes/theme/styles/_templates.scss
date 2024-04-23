@@ -396,6 +396,10 @@ h2,
         }
 
         .usa-media-block__img {
+            width: 100%;
+            height: auto;
+            max-width: 515px;
+            max-height: 435px;
             @include at-media("tablet") {
                 margin: units(2) auto;
                 display: block;
