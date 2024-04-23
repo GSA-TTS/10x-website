@@ -115,8 +115,11 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
-        background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
         background-color: $homepage-deep-blue;
+        background: url('../images/homepage-gradient-bg-mobile.jpg') top left repeat-x;  
+        @include at-media("tablet") {
+           background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
+        }
     }
 
     .grid-container {
