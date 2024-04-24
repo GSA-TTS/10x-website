@@ -6,7 +6,7 @@ description: 10x supports projects that make federal government data open, finda
 excerpt: |-
  10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong. 
 template: "4"
-image-url: "/assets/images/access-to-data-icon.png"
+image-url: "/assets/images/access-to-data-icon.webp"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/us-data-federation/

@@ -6,7 +6,7 @@ description: 10x designs and develops technology to help federal digital teams p
 excerpt: |-
   These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won't use digital tools they don't trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools. 
 template: "4"
-image-url: "/assets/images/security-project-icon.png"
+image-url: "/assets/images/security-project-icon.webp"
 footer: we-started-as-an-idea-too
 redirect_from:
   - /projects/devops-for-privacy-offices/
