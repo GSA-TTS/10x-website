@@ -115,11 +115,12 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
+        background: radial-gradient(49.19% 88.28% at 72.99% 113.54%, rgba(93, 227, 236, 0.73) 0%, rgba(93, 227, 236, 0.1679) 59.78%, rgba(93, 227, 236, 0) 100%), linear-gradient(312deg, #4c0070 8.59%, rgba(185, 91, 230, 0) 80.49%), radial-gradient(118.75% 118.75% at 96.65% 74.22%, #308EE6 0%, rgba(48, 158, 230, 0) 73.91%), radial-gradient(114.51% 155.86% at 9.82% 10.94%, rgba(168, 55, 255, 0.7) 0%, rgba(255, 85, 85, 0.147) 61.98%, rgba(255, 85, 85, 0) 100%, #F2F5FA); 
+        background-blend-mode: hard-light,darken,normal,normal,normal,normal; 
+        filter: blur(0px);        
+        background-repeat: no-repeat;
+        background-size: 100 60%;
         background-color: $homepage-deep-blue;
-        background: url('../images/homepage-gradient-bg-mobile.jpg') top left repeat-x;  
-        @include at-media("tablet") {
-           background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
-        }
     }
 
     .grid-container {
