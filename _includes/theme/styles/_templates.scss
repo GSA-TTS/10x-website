@@ -115,8 +115,11 @@ h2,
     position: relative;
 
     .banner-bg-gradient {   
-        background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
         background-color: $homepage-deep-blue;
+        background: url('../images/homepage-gradient-bg-mobile.jpg') top left repeat-x;  
+        @include at-media("tablet") {
+           background: url('../images/homepage-gradient-bg.jpg') top left repeat-x;
+        }
     }
 
     .grid-container {
@@ -393,6 +396,10 @@ h2,
         }
 
         .usa-media-block__img {
+            width: 100%;
+            height: auto;
+            max-width: 515px;
+            max-height: 435px;
             @include at-media("tablet") {
                 margin: units(2) auto;
                 display: block;

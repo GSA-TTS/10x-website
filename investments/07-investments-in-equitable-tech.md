@@ -6,7 +6,7 @@ description: 10x designs government digital products that remove barriers to acc
 excerpt: |-
   Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
 template: "4"
-image-url: "/assets/images/equity-project-icon.png"
+image-url: "/assets/images/equity-project-icon.webp"
 mgt-url: /news/multilingual-glossary-tool/
 footer: we-started-as-an-idea-too
 redirect_from: 

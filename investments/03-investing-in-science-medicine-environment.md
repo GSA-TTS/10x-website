@@ -6,7 +6,7 @@ description: 10x invests in making research and data in science, medicine, and t
 excerpt: |-
   Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
 template: "4"
-image-url: "/assets/images/science-medicine-icon.png"
+image-url: "/assets/images/science-medicine-icon.webp"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/untangling-climate-resources/
