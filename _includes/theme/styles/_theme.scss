@@ -1,6 +1,6 @@
 @use 'uswds-core' with (
   $theme-show-notifications: false,
-  $theme-font-path: 'https://10x.gsa.gov/assets/fonts',
+  $theme-font-path: '../fonts',
   $theme-image-path: '@uswds/uswds/img',
   $theme-grid-container-max-width: "desktop-lg",
   $theme-banner-max-width: "desktop-lg",
@@ -44,7 +44,6 @@
       100: "Poppins-ThinItalic",
       200: "Poppins-ExtraLightItalic",
       300: "Poppins-LightItalic",
-      400: "Poppins-RegularItalic",
       500: "Poppins-MediumItalic",
       600: "Poppins-SemiBoldItalic",
       700: "Poppins-BoldItalic",
