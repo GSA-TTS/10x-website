@@ -5,10 +5,12 @@ module.exports = {
     require('autoprefixer')({
       map: process.env.ELEVENTY_ENV !== 'production'
     }),
-    require('@fullhuman/postcss-purgecss')({
-      content: ["./_site/**/*.html"],
-      css: ["./_site/**/*.css"],
-      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-    })
+    ...(
+      process.env.ELEVENTY_ENV === 'production' ? [require('@fullhuman/postcss-purgecss')({
+        content: ["./_site/**/*.html"],
+        css: ["./_site/**/*.css"],
+        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+      })] : []
+    )
   ],
 };
