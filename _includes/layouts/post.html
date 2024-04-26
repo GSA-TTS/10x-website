@@ -7,15 +7,17 @@ home-link-text: Home
 news-update-text: News and Updates
 list-url: /news/
 tags-list:
-  - Announcements
-  - In-the-news
-  - Projects
+- Announcements
+- In-the-news
+- Projects
 ---
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
     <div class="banner-bg desktop:margin-bottom-2">
-      <div class="banner-bg-gradient padding-y-2" style="background-image: url(../assets/images/homepage-gradient-bg.jpg)">
+      <div class="banner-bg-gradient padding-y-2">
         <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
+          style="display: none !important;" />
+        <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
           style="display: none !important;" />
         <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
           <h1>{{ title }}</h1>
@@ -36,7 +38,7 @@ tags-list:
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {{ layoutContent }}
           <hr>
-          
+
           {% if tags %}
           <p class="tag-container margin-top-5">
             <span>Tag:</span>
@@ -67,5 +69,5 @@ tags-list:
 {% include "theme/js/sticky-return-to-top.js" %}
 {% endcapture %}
 <script>
-  {{ js | jsmin }}
+  { { js | jsmin } }
 </script>
