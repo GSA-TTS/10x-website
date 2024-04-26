@@ -7,9 +7,9 @@ home-link-text: Home
 news-update-text: News and Updates
 list-url: /news/
 tags-list:
-- Announcements
-- In-the-news
-- Projects
+  - Announcements
+  - In-the-news
+  - Projects
 ---
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
@@ -38,7 +38,7 @@ tags-list:
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {{ layoutContent }}
           <hr>
-
+          
           {% if tags %}
           <p class="tag-container margin-top-5">
             <span>Tag:</span>
@@ -69,5 +69,5 @@ tags-list:
 {% include "theme/js/sticky-return-to-top.js" %}
 {% endcapture %}
 <script>
-  { { js | jsmin } }
+  {{ js | jsmin }}
 </script>
