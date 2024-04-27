@@ -133,6 +133,13 @@ $c-report-header: #006680;
       }
     }
 
+
+    h2,
+    h3,
+    h4 {
+      line-height: lh('heading', 6);
+    }
+
     &.white {
       background-color: color("white");
 
@@ -674,7 +681,7 @@ $c-report-header: #006680;
     h3,
     h4 {
       margin-top: units(5);
-      line-height: lh('heading', 5);
+      line-height: lh('heading', 6);
     }
 
     h2 {
