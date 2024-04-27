@@ -1,11 +1,10 @@
 {
-  "10x-lg-transparent.png": "/assets/assets/10x-lg-transparent-BOIRESM5.png",
   "ableist-ui-demo-800px-opt.gif": "/assets/assets/ableist-ui-demo-800px-opt-BR3MFL55.gif",
   "add.svg": "/assets/assets/add-XJXD7HSN.svg",
   "arrow_back.svg": "/assets/assets/arrow_back-NBHWBQVI.svg",
   "calendar_today.svg": "/assets/assets/calendar_today-3TYM6CKQ.svg",
   "callout-green-full-lg.png": "/assets/assets/callout-green-full-lg-MFBOOOSR.png",
-  "callout-lilac-full-lg.png": "/assets/assets/callout-lilac-full-lg-LMZHP5UE.png",
+  "callout-lilac-full-lg.png": "/assets/assets/callout-lilac-full-lg-F3F42BKW.png",
   "callout-lilac-half-lg.png": "/assets/assets/callout-lilac-half-lg-UK4VPIBK.png",
   "check--blue-60v.svg": "/assets/assets/check--blue-60v-PCQB53AU.svg",
   "check_circle.svg": "/assets/assets/check_circle-FKYRF36F.svg",
@@ -26,7 +25,9 @@
   "file-word.svg": "/assets/assets/file-word-LAS3SDGR.svg",
   "frank.png": "/assets/assets/frank-DKYCFJPK.png",
   "header-bottom-border.png": "/assets/assets/header-bottom-border-EV652JWI.png",
+  "hero.jpg": "/assets/assets/hero-OXUBFI7L.jpg",
   "homepage-gradient-bg.jpg": "/assets/assets/homepage-gradient-bg-L552LDA4.jpg",
+  "homepage-gradient-bg-mobile.jpg": "/assets/assets/homepage-gradient-bg-mobile-7NX7I3DV.jpg",
   "impact-report_pdf-icon.png": "/assets/assets/impact-report_pdf-icon-WRQSQRSX.png",
   "info.svg": "/assets/assets/info-TBKQSD4V.svg",
   "jim.png": "/assets/assets/jim-KWD62HAN.png",
@@ -67,6 +68,6 @@
   "warning.svg": "/assets/assets/warning-5OR6W6GJ.svg",
   "app.js": "/assets/js/app-EDZES2YK.js",
   "app.map": "/assets/js/app-EDZES2YK.js.map",
-  "index.css": "/assets/styles/index-TS7M27FZ.css",
-  "index.map": "/assets/styles/index-TS7M27FZ.css.map"
+  "index.css": "/assets/styles/index-DGL5D575.css",
+  "index.map": "/assets/styles/index-DGL5D575.css.map"
 }

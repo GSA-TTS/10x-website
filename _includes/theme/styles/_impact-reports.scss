@@ -363,18 +363,19 @@ $c-report-header: #006680;
         background-size: 100% 100%;
         color: $x-charcoal;
         display: flex;
-        height: 16rem;
         justify-content: center;
         left: 0;
+        margin-top: 2rem;
         margin-bottom: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 1em;
+        padding: units(4) units(8);
         position: relative;
 
         p {
           font-size: 0.8rem;
           max-width: 68%;
-          line-height: 1rem;
+          line-height: units(3);
+          margin: units(7) units(7) units(4) units(7);
+          background: #d6d6ed;
 
           @media screen and (min-width: 640px) {
             font-size: 1rem;
@@ -384,7 +385,6 @@ $c-report-header: #006680;
           @media screen and (min-width: 1024px) {
             font-size: 1.2rem;
             max-width: 577px;
-            line-height: 1.3rem;
           }
         }
       }
