@@ -100,8 +100,10 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy({ "public": "/" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "/_includes/theme/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/fonts" });
-  eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "assets/fonts" });
+  //eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "theme/fonts" });
+  //eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/images" });
   eleventyConfig.addPassthroughCopy({ "reports/pdfs": "reports" });
   eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/img": "assets/uswds/img" });
