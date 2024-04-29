@@ -44,6 +44,7 @@ esbuild
       '.jpg': 'file',
       '.gif': 'file',
       '.png': 'file',
+      '.webp': 'file',
       '.svg': 'file',
       '.ttf': 'file',
       '.woff': 'file',

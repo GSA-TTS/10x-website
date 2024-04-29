@@ -409,7 +409,7 @@ h2,
     }
 
     .section2 {
-        background: url('../images/section2-purple-bg.png') left top repeat-x;
+        background: url('../images/section2-purple-bg.webp') left top repeat-x;
     
        h2 {
         font-size: size('body', 12); 
@@ -759,7 +759,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 padding-bottom: units(1.5);
                 line-height: 1.2;
                 color: color('cyan-10v');
-                background: url('../images/header-bottom-border.png') left bottom no-repeat; 
+                background: url('../images/header-bottom-border.webp') left bottom no-repeat; 
                 margin-bottom: 0; 
                 margin-top: units(3);
                 order: 1; 
@@ -1184,6 +1184,6 @@ input[type="search"]::-webkit-search-cancel-button {
     margin-left: units(0.5);
     background-size: units(1.5) units(1.5);
     background-repeat: no-repeat;
-    background-image: url(../images/menu-close-X.png);
+    background-image: url(../images/menu-close-X.webp);
     cursor: pointer;
 }
