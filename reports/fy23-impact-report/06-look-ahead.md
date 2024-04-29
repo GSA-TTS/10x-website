@@ -41,7 +41,7 @@ Filling out and submitting government paperwork are two of the most common ways 
 
 Overall, the government needs to deliver better experiences with public forms, and are under a lot of pressure to do so. There is a lot of potential for innovation and impact in this area that 10x is already working on. 
 
-**We’re taking a ‘try everything’ approach to making forms better** through many active projects in our pipeline, including Digital Access to Justice Platform and Equitable Form Design. Through these investments and more to come, we see a path towards a public forms experience that consistently meets the standards of the private sector. It should also, whenever possible, eliminate the need for the public to fill out forms entirely. Getting there is far away, but 10x is excited to help  the government get ever closer.
+<span class="text-bold">We’re taking a ‘try everything’ approach to making forms better</span> through many active projects in our pipeline, including Digital Access to Justice Platform and Equitable Form Design. Through these investments and more to come, we see a path towards a public forms experience that consistently meets the standards of the private sector. It should also, whenever possible, eliminate the need for the public to fill out forms entirely. Getting there is far away, but 10x is excited to help  the government get ever closer.
 
 <div class="section-divider margin-top-10">
     <img alt="" src="{{ '/assets/images/impact-reports/whats-next-arrows.svg' | url }}">
@@ -83,6 +83,6 @@ Run towards hard problems. Focus on the public. Deliver impact for people.
 
  <aside class="overview-text medium-wide" role="note">
     <div class="contentRow">
-        <span class="hilighted-text"><strong>1,300</strong></span> ideas evaluated by 10x since 2017
+        <span class="hilighted-text"><span class="text-bold">1,300</span></span> ideas evaluated by 10x since 2017
     </div> 
 </aside>

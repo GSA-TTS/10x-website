@@ -201,7 +201,8 @@ $c-report-header: #006680;
         color: $x-lilac;
       }
 
-      strong {
+      strong,
+      .text-bold {
         color: $x-sky;
       }
 
@@ -222,7 +223,8 @@ $c-report-header: #006680;
       }
     }
 
-    strong {
+    strong,
+    h4 {
       color: $c-report-header;
     }
 
@@ -706,6 +708,7 @@ $c-report-header: #006680;
     h4 {
       font-size: size('body', 8);
       font-weight: 700;
+      color: color('gray-warm-90');
 
       .usa-link {
         font-size: size('body', 9);
@@ -713,7 +716,8 @@ $c-report-header: #006680;
       }   
     }
 
-    strong {
+    strong,
+    .text-bold {
       color: color('gray-warm-90');
     }
 
@@ -739,7 +743,9 @@ $c-report-header: #006680;
       }
 
       .usa-link,
-      strong {
+      .text-bold,
+      strong,
+      h4 {
         color: white;
       }
 
@@ -802,7 +808,8 @@ $c-report-header: #006680;
             background: white;
             padding: units(1);
 
-            strong {
+            strong,
+            .text-bold {
               font-size: size('body', 17);
               font-weight: 800;
               vertical-align: middle;
@@ -810,7 +817,8 @@ $c-report-header: #006680;
             }
           }
 
-          strong {
+          strong,
+          .text-bold {
             color: color('violet-60v');
             font-weight: 700;
           }

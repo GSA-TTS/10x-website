@@ -16,26 +16,26 @@ In order for the government to truly modernize and deliver excellent public serv
 
 10x inherits GSA’s vision of an effective and efficient government. To play our part in helping make that a reality, we need to keep our finger on the pulse of developments, challenges, and opportunities in the govtech space. With that in mind, about a year ago, the 10x team met with top federal IT executives and colleagues to discuss projects we were hoping to evangelize and make connections for, while also learning about the technology challenges and opportunities they see for their agencies. We gain invaluable intelligence and inspiration from these colleagues that helps guide our investment strategy.
 
-_“The value of 10x isn’t in the achievements or adoption of any individual product. Rather, the value of 10x is in the ideas we surface. **In order for the government to truly modernize and deliver excellent public service in the digital age, agencies don’t just need better software, they need new ideas for how to tackle long-standing problems.”**_
+<p class="text-italic">“The value of 10x isn’t in the achievements or adoption of any individual product. Rather, the value of 10x is in the ideas we surface. <span class="text-bold">In order for the government to truly modernize and deliver excellent public service in the digital age, agencies don’t just need better software, they need new ideas for how to tackle long-standing problems.”</span></p>
 ~ Shared by Federal IT Executive
 
-What they’re suggesting is that we need to produce value not just in the form of _technology_, but also in _innovation_—new ideas about how the federal government can do tech differently. This is the challenge that 10x chose to take on, and this is where the concept 10x dark matter comes in. Dark Matter represents the innovations that 10x discovers that aren’t product-shaped. For this year’s Dark Matter, we’re going to explore ideas that are largely drawn on our [Shared Components for Museums and Libraries project](../../projects/shared-components-for-museums-and-libraries/).
+What they’re suggesting is that we need to produce value not just in the form of <span class="text-italic">technology</span>, but also in <span class="text-italic">innovation</span>—new ideas about how the federal government can do tech differently. This is the challenge that 10x chose to take on, and this is where the concept 10x dark matter comes in. Dark Matter represents the innovations that 10x discovers that aren’t product-shaped. For this year’s Dark Matter, we’re going to explore ideas that are largely drawn on our [Shared Components for Museums and Libraries project](../../projects/shared-components-for-museums-and-libraries/).
 
 ### The Innovation
 
-**This year, one of the most exciting innovations we found is the possibility of applying Internet of Things capabilities to public service in creative new ways.**
+<p class="text-bold">This year, one of the most exciting innovations we found is the possibility of applying Internet of Things capabilities to public service in creative new ways.</p>
 
 We found these opportunities quite unexpectedly, and we assume there are more.
 
 Two concepts are key to understanding this year’s dark matter content.
 
-First is the _digital divide_, which refers to how different populations face gaps in access to technology. Factors like income, age, and geographical location can determine where a person falls on the digital divide.
+First is the <span class="text-italic">digital divide</span>, which refers to how different populations face gaps in access to technology. Factors like income, age, and geographical location can determine where a person falls on the digital divide.
 
 People who are less-connected face a number of disadvantages, including difficulty participating in the digital economy. A practical and timely example are the challenges people without reliable internet access faced in adapting to life during COVID-19, like shifting to remote work and remote schooling.
 
-Many levels of government have tried to solve, **or bridge, the digital divide for years. 10x believes this area has great potential for innovation.**
+Many levels of government have tried to solve, <span class="text-bold">or bridge, the digital divide for years. 10x believes this area has great potential for innovation.</span>
 
-The second concept is the _Internet of Things_, or IoT. IoT is a rapidly-expanding field of technology based on networks of physical devices that can receive and send information over the internet, often with embedded software or sensors. Good examples of IoT technology include smart home devices, like WiFi-enabled thermostats.
+The second concept is the <span class="text-italic">Internet of Things</span>, or IoT. IoT is a rapidly-expanding field of technology based on networks of physical devices that can receive and send information over the internet, often with embedded software or sensors. Good examples of IoT technology include smart home devices, like WiFi-enabled thermostats.
 
 <div class="grid-row">
   <div class="grid-col-12 calloutFullDark">
@@ -44,7 +44,7 @@ The second concept is the _Internet of Things_, or IoT. IoT is a rapidly-expandi
 </div>
 
 
-In the public sector, existing IoT uses include sensor-driven traffic control and waste management systems in city and municipal governments. But in general, current applications of IoT within the _federal_ government cluster around internal agency operations, such as:
+In the public sector, existing IoT uses include sensor-driven traffic control and waste management systems in city and municipal governments. But in general, current applications of IoT within the <span class="text-italic">federal</span> government cluster around internal agency operations, such as:
 
 - supply chain management,
 - inventory tracking,
@@ -57,16 +57,18 @@ In addition, most of these technologies were acquired by procuring commercial of
 
 Our work last year stands out among federal government use cases of IoT, because we use it in a direct, mission-delivery way. Our innovations can help bridge the digital divide.
 
-**As far as we know, our work is the first technology project in the federal government that**
+<p class="text-bold">As far as we know, our work is the first technology project in the federal government that</p>
 
-- **developed in-house IoT capabilities,**
-- **used open-source software that is compatible with inexpensive and readily available open-source hardware,**
-- **neither collects nor stores sensitive information, and**
-- **is freely available and documented on the web for anyone to use.**
+<ul class="text-bold">
+<li>developed in-house IoT capabilities,</li>
+<li>used open-source software that is compatible with inexpensive and readily available open-source hardware</li>
+<li>neither collects nor stores sensitive information, and</li>
+<li>is freely available and documented on the web for anyone to use.</li>
+</ul>
 
 The best part is that our user base is librarians embedded in communities across the country who can use our IoT technology to make data-informed decisions that benefit their patrons.
 
-And if that _isn’t_ the best part, then the best part is that we discovered a new way of getting disconnected folks online along the way. We helped the government reimagine ways to bridge the digital divide.
+And if that <span class="text-italic">isn’t</span> the best part, then the best part is that we discovered a new way of getting disconnected folks online along the way. We helped the government reimagine ways to bridge the digital divide.
 
 ### The Project
 

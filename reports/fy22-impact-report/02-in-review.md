@@ -52,7 +52,7 @@ The problem? This situation burdens people in vulnerable situations. At a diffic
 
 We believe that saving people time—the hours it would take to navigate different agency web portals and FAQ pages— could let them do what they really want to do: grieve and recover during hard times. If innovation might help reduce this burden, then it was worth a 10x investment.
 
-***In FY22, we’re closing the project after four successful phases.*** Through the BEARS project, 10x developed a benefits locator tool in beta that covers a loved one’s death. We’ve handed off the tech stack and responsibility to our capable partners at USAGov. They will continue to scale the benefits locator tool into the future.
+<span class="text-bold">In FY22, we’re closing the project after four successful phases.</span> Through the BEARS project, 10x developed a benefits locator tool in beta that covers a loved one’s death. We’ve handed off the tech stack and responsibility to our capable partners at USAGov. They will continue to scale the benefits locator tool into the future.
 
 And when they do, they’ll be sure to include some nice occasions too, like giving birth or retiring. For more on BEARS, see the description on our projects page. To find the benefits locator tool in action, visit usa.gov.
 
@@ -72,7 +72,7 @@ If the pilot proves that PETs adoption in government is both technically feasibl
 
 ### American Rescue Plan.
 
-_On March 11, 2021, President Biden signed the American Rescue Plan (ARP) Act into law. This $1.9 trillion coronavirus rescue package is designed to boost the country’s recovery from the severe economic and health effects of the COVID-19 pandemic. In addition to addressing the public health and economic crises, the ARP provides funding to modernize technology and improve cybersecurity across the federal government. The fund that makes 10x possible is called the Federal Citizen Services Fund (FCSF). The FCSF received $150 million as part of the ARP to support government-wide citizen-facing services. Some of that funding came to 10x. We want to be open and transparent about how we are using these funds  and will cover some of the projects we supported in FY22 using ARP funding._
+<p class="text-italic">On March 11, 2021, President Biden signed the American Rescue Plan (ARP) Act into law. This $1.9 trillion coronavirus rescue package is designed to boost the country’s recovery from the severe economic and health effects of the COVID-19 pandemic. In addition to addressing the public health and economic crises, the ARP provides funding to modernize technology and improve cybersecurity across the federal government. The fund that makes 10x possible is called the Federal Citizen Services Fund (FCSF). The FCSF received $150 million as part of the ARP to support government-wide citizen-facing services. Some of that funding came to 10x. We want to be open and transparent about how we are using these funds  and will cover some of the projects we supported in FY22 using ARP funding.</p>
 
 #### Identity Alerts for Government
 
@@ -91,7 +91,7 @@ Our work is:
 - would create a better customer experience for the public, and 
 - helps reimagine government service delivery, which is one of the guiding principles that TTS holds to in releasing ARP funds for investment.
 
-_Identity Alerts for Government is ongoing in Phase Two._
+<p class="text-italic">Identity Alerts for Government is ongoing in Phase Two.</p>
 
 #### U.S. Notify
 

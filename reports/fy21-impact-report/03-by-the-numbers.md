@@ -85,19 +85,19 @@ reasonsForRejection:
 ---
 ## FY21 by the Numbers
 
-- **250** ideas received - average between FY17 - FY20 = 192
-- **47** projects kicked off - average between FY17 - FY20 = 48
-- **46** project endings/closeouts - average between FY17 - FY20 = 45
+- <span class="text-bold">250</span> ideas received - average between FY17 - FY20 = 192
+- <span class="text-bold">47</span> projects kicked off - average between FY17 - FY20 = 48
+- <span class="text-bold">46</span> project endings/closeouts - average between FY17 - FY20 = 45
 
 
 {% include "components/report-bar-chart.html" %}
 
 This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY21, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted before.
 
-**Fun facts: Across all the collective projects we kicked off in FY21, our 10x project teams have conducted more than:**
+<span class="text-bold">Fun facts: Across all the collective projects we kicked off in FY21, our 10x project teams have conducted more than:</span>
 
-- **115+** unique organization collaborations
-- **400+** user and subject-matter expert interviews
+- <span class="text-bold">115+</span> unique organization collaborations
+- <span class="text-bold">400+</span> user and subject-matter expert interviews
 
 ### Project Endings
 
@@ -196,5 +196,5 @@ The chart above illustrates the 41 projects that received obligated funding in F
 
 In addition to our usual appropriations, we were entrusted with $5m in funding via the [TTS American Rescue Plan](https://www.gsa.gov/technology/government-it-initiatives/tts-american-rescue-plan) ([TTS ARP](https://www.gsa.gov/technology/government-it-initiatives/tts-american-rescue-plan)) at the end of FY21. The funding will be used in FY22 to help accelerate TTS’ efforts to reimagine digital services delivery. This includes supporting TTS’ process and execution on their ARP-aligned projects.
 
-Also, at the end of FY21, we used some of this ARP funding to advance a few existing projects that are already well-aligned to the ARP goals, including _Government Notification Services_.
+Also, at the end of FY21, we used some of this ARP funding to advance a few existing projects that are already well-aligned to the ARP goals, including <span class="text-italic">Government Notification Services</span>.
 

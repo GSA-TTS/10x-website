@@ -12,11 +12,11 @@ class: white
 
 ### Our Investment Strategy
 
-Each year, we identify priority areas of investment to help steer our project pipeline, either in a direction where we have an established record of success or towards a new area of exploration we want to pursue. We call these investment themes, and in FY23 our investment themes were _Digital Foundations and Equity in Delivery_.
+Each year, we identify priority areas of investment to help steer our project pipeline, either in a direction where we have an established record of success or towards a new area of exploration we want to pursue. We call these investment themes, and in FY23 our investment themes were <span class="text-italic">Digital Foundations and Equity in Delivery</span>.
 
-With the _Digital Foundations_ theme, we wanted to fund projects for digital innovations to support the country’s massive new investments in physical infrastructure. This theme was new for us, timely and relevant.
+With the <span class="text-italic">Digital Foundations</span> theme, we wanted to fund projects for digital innovations to support the country’s massive new investments in physical infrastructure. This theme was new for us, timely and relevant.
 
-_Equity in Delivery_ projects cover topics of justice, access, and using tech to help those most in need. Equity is an investment theme we return to again and again, and where we’ve found success. We expect to double-down on this portfolio of projects again in FY24.
+<span class="text-italic">Equity in Delivery</span> projects cover topics of justice, access, and using tech to help those most in need. Equity is an investment theme we return to again and again, and where we’ve found success. We expect to double-down on this portfolio of projects again in FY24.
 
 A good example of an idea we received and funded that aligns well with both of these themes is our <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/BkfVw9Ip">De-Biasing Public Infrastructure Investments</a> project.
 
@@ -28,7 +28,7 @@ Even though this area has significant potential, we ultimately elected not to pr
 
 <aside class="overview-text" role="note">
     <div class="contentRow">
-        <span class="hilighted-text"><strong>12</strong> of the <strong>17</strong></span> projects selected for Phase 1 fit into our <strong>Equity</strong> theme. 5 other projects supported our <strong>Digital Foundations</strong> theme.
+        <span class="hilighted-text"><span class="text-bold">12</span> of the <span class="text-bold">17</span></span> projects selected for Phase 1 fit into our <span class="text-bold">Equity</span> theme. 5 other projects supported our <span class="text-bold">Digital Foundations</span> theme.
     </div>
 </aside>
 
@@ -40,9 +40,9 @@ Here are two good examples of projects we funded that align with our investment 
 
 #### Resources for Formerly Incarcerated Persons
 
-_More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x._
+<p class="text-italic">More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x.</p>
 
-_For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement -- services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry._
+<p class="text-italic">For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement -- services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry.</p>
 
 #### Why Bet on This?
 
@@ -73,9 +73,9 @@ Of course, we found some resounding ‘Yes’ projects. And projects that do res
 
 <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/25Jl6NwJ">Digital Access to Justice Platform</a> (formerly known as Transparency in Fines and Fees)
 
-_Many people owe fines and fees to the federal government, often amounts that are initially less than $50, such as co-payments to the Veterans Health Administration, late fees associated with loan repayments, etc. If left unpaid, these accrue over time and across agencies when people do not realize what they owe, costing the government and taxpayers valuable time and money._
+<p class="text-italic">Many people owe fines and fees to the federal government, often amounts that are initially less than $50, such as co-payments to the Veterans Health Administration, late fees associated with loan repayments, etc. If left unpaid, these accrue over time and across agencies when people do not realize what they owe, costing the government and taxpayers valuable time and money.</p>
 
-_10x will explore ways to compile data on fees owed to agencies, such as a personal dashboard or notifications capability that offers visibility into fees owed to the government with links to repayment or forbearance options. This could reduce indebtedness, increase satisfaction with government services, and reduce time on call centers._
+<p class="text-italic">10x will explore ways to compile data on fees owed to agencies, such as a personal dashboard or notifications capability that offers visibility into fees owed to the government with links to repayment or forbearance options. This could reduce indebtedness, increase satisfaction with government services, and reduce time on call centers.</p>
 
 #### Why Bet on This?
 
@@ -105,11 +105,11 @@ We’ve approved this project Phase Three and can’t wait to help it succeed!
 
 <aside class="overview-text wide" role="note">
     <div class="contentRow">
-        <span class="hilighted-text"><strong>FY23</strong></span> 
+        <span class="hilighted-text"><span class="text-bold">FY23</span></span> 
         <ul>
-            <li><strong>18</strong> projects</li>
-            <li><strong>40</strong> phase kickoffs</li>
-            <li><strong>60</strong> agency and sub-agency collaborators</li>
+            <li><span class="text-bold">18</span> projects</li>
+            <li><span class="text-bold">40</span> phase kickoffs</li>
+            <li><span class="text-bold">60</span> agency and sub-agency collaborators</li>
         </ul>
     </div>
 </aside>
@@ -117,15 +117,15 @@ We’ve approved this project Phase Three and can’t wait to help it succeed!
 ### FY23 Wins
 
 <div class="blue-hilighted-insights">
-    <p><strong>Benefits Locator Tool</strong> - Last time you heard about this project, it was a 10x project called the Benefits Eligibility Awareness Recognition Service (BEARS) that just graduated Phase Four. Since then, we have launched an interactive web app to help members of the public easily identify benefits they qualify for based on major life events. It’s now a fully operational product owned and maintained by USA.gov.</p>
+    <p><span class="text-bold">Benefits Locator Tool</span> - Last time you heard about this project, it was a 10x project called the Benefits Eligibility Awareness Recognition Service (BEARS) that just graduated Phase Four. Since then, we have launched an interactive web app to help members of the public easily identify benefits they qualify for based on major life events. It’s now a fully operational product owned and maintained by USA.gov.</p>
 </div>
 
 <div class="blue-hilighted-insights">
-    <p><strong>Benefits.gov Discovery</strong> - In collaboration with DOL, OMB and USA.gov, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.</p>
+    <p><span class="text-bold">Benefits.gov Discovery</span> - In collaboration with DOL, OMB and USA.gov, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.</p>
 </div>
 
 <div class="blue-hilighted-insights">
-    <p><strong>Automated Security Authorization Processing (ASAP)</strong> - 10x partnered with FedRAMP to strengthen and automate their compliance checklist. It increases FedRAMP's capacity to meet governmentwide demand for secure cloud services.</p>
+    <p><span class="text-bold">Automated Security Authorization Processing (ASAP)</span> - 10x partnered with FedRAMP to strengthen and automate their compliance checklist. It increases FedRAMP's capacity to meet governmentwide demand for secure cloud services.</p>
 </div> 
 
 ### Celebrating "No"

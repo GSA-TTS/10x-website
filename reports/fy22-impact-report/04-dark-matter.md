@@ -72,7 +72,7 @@ These concepts and questions emerge during technology development in government,
 
 ### Why Government Technologists Need to Understand Trauma
 
-_Equity-Centered Design with American Indians and Alaska Natives (AI/AN)_  is an active 10x project in Phase Two. The goal of the project is to find ways of improving public service delivery to AI/AN populations by testing an equity-centered, collaborative design approach between civil servants, technologists, and communities.
+<span class="text-italic">Equity-Centered Design with American Indians and Alaska Natives (AI/AN)</span>  is an active 10x project in Phase Two. The goal of the project is to find ways of improving public service delivery to AI/AN populations by testing an equity-centered, collaborative design approach between civil servants, technologists, and communities.
 
 In Phase One, our team quickly learned that a lack of trust between AI/AN populations and the federal government will be an obstacle to success for this project. This strained relationship can be attributed to this population’s experience with generational trauma from being marginalized for hundreds of years. In order to deliver success on this project, 10x is carefully considering how the role of trauma must be taken into account.
 

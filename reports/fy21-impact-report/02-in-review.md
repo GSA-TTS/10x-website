@@ -21,15 +21,16 @@ class: light-gray
 
 
 ### Where we succeeded
+
 For most of our history, we’ve used what we call the “everything bagel approach” to source the types of ideas we want to invest in. This approach meant we left the market wide open and accepted ideas across every topic in government technology you can think of, including contracting, cybersecurity, robotic process automation (RPA), etc.
 
-In FY21, we did something different. We moved away from the “everything bagel approach” and  defined a few specific areas of the government technology ecosystem where we were particularly interested in exploring. We called these areas investment themes. Defining the types of projects where we wanted to invest allowed us to set up parameters for the ideas we wanted to target and center our outreach accordingly. The first themes we chose were _Public Trust and Civic Life, Equity in Delivery_, and _Public Lands and the Environment_. 
+In FY21, we did something different. We moved away from the “everything bagel approach” and  defined a few specific areas of the government technology ecosystem where we were particularly interested in exploring. We called these areas investment themes. Defining the types of projects where we wanted to invest allowed us to set up parameters for the ideas we wanted to target and center our outreach accordingly. The first themes we chose were <span class="text-italic">Public Trust and Civic Life, Equity in Delivery</span>, and <span class="text-italic">Public Lands and the Environment</span>. 
 
 Why these themes? In order to serve the public, we need to understand what matters to the public. And one of the great privileges of being in the civil service is that we are able to bring our whole selves to our work: both as civil servants and as members of the public. After all, we live in communities, we talk with friends and neighbors, and we read the news just like everyone else. In other words, we get to wear two hats at once. We hear what people discuss and what matters to them, and we feel that our themes address topics (like low trust in government and concerns about our changing natural environment) that the public will recognize as timely and directly relevant to their lives.
 
 That change succeeded and worked in our favor for a few reasons:
 
-First, defining themes made outreach easier. For example, when we made _Public Lands and the Environment_ a theme, we immediately knew where to look for great ideas: federal agencies that work to protect and study the environment.
+First, defining themes made outreach easier. For example, when we made <span class="text-italic">Public Lands and the Environment</span> a theme, we immediately knew where to look for great ideas: federal agencies that work to protect and study the environment.
 
 Second, defining themes allowed us to develop important contacts and map the who’s who of certain problem spaces in government technology. One of our challenges on new 10x projects is figuring out where to start and who to talk with first. By moving towards this structure, we’ve built strong contacts with subject-matter experts who we can easily consult on projects relevant to their expertise.
 

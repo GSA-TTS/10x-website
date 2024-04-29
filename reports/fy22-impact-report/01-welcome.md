@@ -9,7 +9,8 @@ nav_id: "welcome"
 class: white
 ---
 ## Letter from the Team
-**Welcome to the 10x Fiscal Year 2022 (FY22) Impact Report!**
+
+#### Welcome to the 10x Fiscal Year 2022 (FY22) Impact Report!
 
 This is the sixth year in a row that we’ve published our annual impact report. As always, we’ll start with a letter from the team.
 

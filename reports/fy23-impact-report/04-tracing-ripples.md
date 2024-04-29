@@ -22,7 +22,7 @@ To square this circle, we try to 'trace the ripples'. Here, our initial investme
 
 <aside class="overview-text" role="note">
   <div class="contentRow">
-      <span class="hilighted-text"><strong>21,000</strong></span> hours invested in research, design, engineering, and more.
+      <span class="hilighted-text"><span class="text-bold">21,000</span></span> hours invested in research, design, engineering, and more.
   </div>
 </aside>
 
@@ -46,7 +46,7 @@ Scaling through community was never a guaranteed path to success. As we learned 
 
 ### Investments in Notifications Technology
 
-In 2022, 10x concluded three phases of the US Notify project, which delivered a notifications  product called  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.notify.gov">Notify.gov</a>. **This shared services platform can help federal, state, local, tribal, and territorial governments more effectively communicate with their program participants** through texting. The product is being piloted by TTS' Public Benefits Studio, a team that develops shared technology tools and best practices for all kinds of benefits programs simultaneously.
+In 2022, 10x concluded three phases of the US Notify project, which delivered a notifications  product called  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.notify.gov">Notify.gov</a>. <span class="text-bold">This shared services platform can help federal, state, local, tribal, and territorial governments more effectively communicate with their program participants</span> through texting. The product is being piloted by TTS' Public Benefits Studio, a team that develops shared technology tools and best practices for all kinds of benefits programs simultaneously.
 
 Since graduating from 10x, the Benefits Studio has gone a long way in helping Notify succeed. They've accomplished a lot behind the scenes by doing the heavy lifting - invisible to users - that is required to make products like this work in government:
 

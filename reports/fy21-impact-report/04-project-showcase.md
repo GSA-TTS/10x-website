@@ -11,7 +11,7 @@ class: light-gray
 ---
 ## FY21 Project Showcase
 
-_We had a lot of projects that really inspired us in FY21 – projects we feel can – and do – deliver true impact for the public. For this year’s Impact Report, we’re focusing on one of the most exciting projects that blossomed during FY21: **Combating Bias in Artificial Intelligence and Machine Learning Implementations (AI/ML)**. To check out some of our other work, please head over to the [projects section of our site](../../projects/). It’s got the scoop on what we learned and the impact we’ve created through our individual projects._
+<p class="text-italic">We had a lot of projects that really inspired us in FY21 – projects we feel can – and do – deliver true impact for the public. For this year’s Impact Report, we’re focusing on one of the most exciting projects that blossomed during FY21: <span class="text-italic">Combating Bias in Artificial Intelligence and Machine Learning Implementations (AI/ML)</span>. To check out some of our other work, please head over to the [projects section of our site](../../projects/). It’s got the scoop on what we learned and the impact we’ve created through our individual projects.</p>
 
 <div class="grid-row">
   <div class="grid-col-12 calloutProject">
@@ -19,7 +19,7 @@ _We had a lot of projects that really inspired us in FY21 – projects we feel c
   </div>
 </div>
 
-**How a 10x investment enshrines democratic principles in a changing govtech landscape**
+<p class="text-bold">How a 10x investment enshrines democratic principles in a changing govtech landscape</p>
 
 Artificial Intelligence and Machine Learning (AI/ML) technologies will affect how the government serves the public. Public sector spending on AI is projected to reach well into the billions before long.<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> Federal CIOs have encouraged agencies to start experimenting with AI and two previous presidential administrations have all issued guidance, memoranda, or executive orders specific to AI adoption in government.
 
@@ -35,7 +35,7 @@ To meet this challenge, we placed a bet on the table: combating bias in upstream
 
 Throughout FY21, the 10x team worked with the U.S. Census Bureau (Census) to develop the bias toolkit. This project along with our other AI-related projects, is how we’re helping the government get AI/ML right during these early days.
 
-**What we delivered**
+#### What we delivered
 
 The toolkit includes three functioning de-biasing tools that federal employees can use to lay a more equitable foundation for their AI-enhanced workflows. Together, these three tools provide a great foundation for future de-biasing initiatives.
 
@@ -49,7 +49,7 @@ The toolkit includes three functioning de-biasing tools that federal employees c
 
 The toolkit is currently in beta and awaiting a full launch in FY22. Census will own, maintain, and expand the toolkit. As the U.S. government’s premier statistical agency, Census works with the types of eye-poppingly large, complex datasets that power advanced AI, making them a great fit for championing this work into the future.
 
-**Why we’re proud of this**
+#### Why we’re proud of this
 
 Everyone wins when a project is moved to where it can continue to thrive after exiting the 10x funding pipeline. An example of  how two agencies should work together, it’s a great project transition that will have a huge impact.
 
@@ -57,7 +57,7 @@ We showcase this de-biasing project because we believe it resonates with communi
 
 We’re proud of this project and we’re proud that we helped ensure that the government adopts rapidly advancing, powerful technologies in a way that shows a serious effort to protect democratic values and delivers positive, meaningful impact for the public. We are excited to see it grow and mature under the stewardship of our U.S. Census Bureau partners. Be on the lookout for the full roll-out in 2022, we’ll keep our site updated. In the meantime, the initial toolkit is open-source and available freely on the web. Anyone in the world can find, use, and contribute to our tools.
 
-**Summary**
+#### Summary
 
 10x is a small program within our own agency and we are only one of many initiatives across the government that are also thinking about the future of AI/ML in public service delivery. Naturally, the private sector and other groups will play a central role in the future of public sector AI/ML adoption. But we believe the government has a special role to play.
 

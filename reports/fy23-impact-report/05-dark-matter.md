@@ -30,7 +30,7 @@ Although the collection of user data is commonplace in federal research, interac
 
 This is a real sore spot for 10x as the lion's share of our projects focus on delivering exactly these types of products and services. Real agency concerns about running afoul of Paperwork Reduction Act (PRA) guidelines, a lack of support or understanding of the value of UX from agency budget officials and leaders, and strict legal limitations from within an agency's General Counsel's Office are just some of many blockers designers face. We believe those blockers aren't going away on their own, and that action is needed to help Federal designers serve the public, by empowering them to test products with and gather feedback directly with members of the general public.
 
-### Why That Matters
+#### Why That Matters
 
 Digital modernization projects in government are destined to fail when they are built without user input. And there have been several instances where significant modernization efforts for critical public-facing websites and services, where great digital experiences can make a tremendous difference in peoples' lives. Think emergency response, taxes, application forms, and more.
 
@@ -40,12 +40,12 @@ For the federal civil service, we believe this inability to effectively reach th
 
 There are many ways to connect the public and civil servants, and the government will need to innovate new ones in the future. As a team that builds software, we'll focus on one new way that the government can connect more with the public that's within our wheelhouse, something we're calling inclusive research.
 
-### The Transformative Potential of Inclusive Research
+#### The Transformative Potential of Inclusive Research
 
 To us, inclusive research in the federal space means diligent user research that meets at least one, but ideally both, of the following criteria:
 
-- Includes **participation of non-technical civil servants**, such as policy experts, budget authorities, or scientists, in either a formal or observatory capacity. 
-- Directly **involves members of the general public** in research planning and execution.
+- Includes <span class="text-bold">participation of non-technical civil servants</span>, such as policy experts, budget authorities, or scientists, in either a formal or observatory capacity. 
+- Directly <span class="text-bold">involves members of the general public</span> in research planning and execution.
 
 For an example of inclusive research practices from the last fiscal year, think of Connie, the grants policy wiz from IMLS we heard from earlier. Over the course of  the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://trello.com/c/qRIRMv6b">Finding Grant-Funded Results and Products</a> project, the 10x project team encouraged her to sit in on user interviews. She jumped at the opportunity and learned a lot about what her agency's customers are really after. We can prove that her 10x experience was engaging, because she said so herself to the point that she delayed retirement so that she could see the results of her 10x project through. That's employee engagement.
 
@@ -53,8 +53,8 @@ Another good example is the work 10x did on the <a class="usa-link usa-link--ext
 
 Strong research practices can help deliver benefits to end users in the public that are fairly intuitive. The benefits for the federal workforce are less so, but still significant. We believe that connecting feds and the public through inclusive research practices can deliver massive, positive results for both "peoples":
 
-- **Impact for the public** through improved, human-centered digital experiences with the government.
-- **Impact for the federal Workforce** by helping them deliver on their missions, re-engaging them, and giving them a chance to learn new skills.
+- <span class="text-bold">Impact for the public</span> through improved, human-centered digital experiences with the government.
+- <span class="text-bold">Impact for the federal Workforce</span> by helping them deliver on their missions, re-engaging them, and giving them a chance to learn new skills.
 
 Consider the bilingual research we mentioned above. Connecting in-person with vulnerable populations — people who can't communicate effectively in English — was eye opening. Here are a few highlights from that experience:
 
@@ -69,7 +69,7 @@ The point here isn't that user research is important, even though it is. The poi
 
 10x has invested time and resources into clearing a path for easier public-facing research in government, starting at home within our own agency. Over the last year, 10x has worked internally to secure permission to conduct in-person user testing sessions, and developed a framework to help determine when it's permissible to compensate members of the public who participate in user research. This required working hand in hand with agency advocates in IT, legal, and procurement. We think this could scale widely and help other agencies do the same.
 
-### Where We Go From Here
+#### Where We Go From Here
 
 Understanding real dark matter (the kind in outer space) is a colossal undertaking involving countless teams of scientists. The dark matter between the high-level priorities for the civil service outlined in the PMA may not require astrophysicists, but it does leave plenty to be explored, and will also require the effort of many. We outlined our grand plans for making an impact by connecting feds and the public through inclusive research. But there are certainly other ways of building these connections, and not all of them will be explored by 10x.
 
