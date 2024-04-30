@@ -5,6 +5,10 @@ section: home
 <div class="homepage-wrapper list-page-blue-background">
   <div class="usa-home banner-bg">
     <div class="banner-bg-gradient padding-y-2">
+      <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
+        style="display: none !important;" />
+      <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
+        style="display: none !important;" />
       <section class="grid-container hero-section usa-section padding-y-8" aria-label="Introduction">
         <h1>{{ hero_banner.title }}</h1>
       </section>
@@ -88,10 +92,10 @@ section: home
                 </div>
                 <div class="usa-card__body">
                   <h3>
-                    <span>{{ card.title }}</span>             
+                    <span>{{ card.title }}</span>
                   </h3>
                   <p>
-                    <span>{{ card.text }}</span>        
+                    <span>{{ card.text }}</span>
                   </p>
                 </div>
               </div>

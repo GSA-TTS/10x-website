@@ -5,21 +5,25 @@ section: blog
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="newspage-wrapper banner-bg">
     <div class="banner-bg-gradient padding-y-2">
+      <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
+        style="display: none !important;" />
+      <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
+        style="display: none !important;" />
       <section class="grid-container header-section usa-section">
         <h1>{{ pageTitle }}</h1>
         {%- if subtitle != null -%}
         <h2>{{ subtitle }}</h2>
         {%- endif -%}
         <h3>{{ pageBrow }}</h3>
-      </section>   
-    </div>  
+      </section>
+    </div>
     <section class="usa-section grid-container">
 
       <div class="grid-row content-column grid-gap-6 margin-top-5">
         <div class="desktop:grid-col-8 usa-prose usa-layout-docs" id="main-content">
           {% assign postslist = posts %}
           {% include "components/posts-list.html" %}
-      
+
           {% if pagination.pages.length > 1 %}
           {% include "components/pagination.html" %}
           {% endif %}
@@ -37,5 +41,5 @@ section: blog
 {% include "theme/js/sticky-return-to-top.js" %}
 {% endcapture %}
 <script>
-  {{ js | jsmin }}
+  { { js | jsmin } }
 </script>
