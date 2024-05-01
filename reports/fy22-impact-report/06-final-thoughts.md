@@ -55,19 +55,19 @@ chartYMax: 400
 
 Thank you for reading our FY22 Impact Report. If you've made it this far, we hope you're wanting more from 10x. Here are a few ways we can make that happen:
 
-<span class="text-bold">Workshops.</span> If you’re a federal employee who wants to submit an idea but don’t know where to start, 10x can help. We offer virtual workshops that explain exactly what 10x is looking for in a great idea, and they’ll help you construct a great idea of your own. These workshops are great for you and 10-15 of your colleagues. As a bonus, those who attend a workshop are eligible to receive individualized feedback on your idea from a member of the 10x team before you submit the final proposal.
+<span class="text-bold">Workshops.</span> If you're a federal employee who wants to submit an idea but don't know where to start, 10x can help. We offer virtual workshops that explain exactly what 10x is looking for in a great idea, and they'll help you construct a great idea of your own. These workshops are great for you and 10-15 of your colleagues. As a bonus, those who attend a workshop are eligible to receive individualized feedback on your idea from a member of the 10x team before you submit the final proposal.
 
-<span class="text-bold">10x-in-a-box.</span> It’s always a pleasure meeting passionate civil servants who are determined to make innovation work for their agencies. Civil servants often reach out to ask 10x for lightweight consulting on how to set up something like 10x within their own agencies.
+<span class="text-bold">10x-in-a-box.</span> It's always a pleasure meeting passionate civil servants who are determined to make innovation work for their agencies. Civil servants often reach out to ask 10x for lightweight consulting on how to set up something like 10x within their own agencies.
 
-The 10x model is designed to function within our agency context. The 10x program reflects GSA’s mission, TTS’ technology talent, and the funding authorities we adhere to. The 10x model works for us. It might not work for you. We expect any initiative inspired by 10x at other agencies to look different. We are happy to talk with you about our experience and share some advice on how you might set up your own innovation program in a way that works for your agency, your team, your funding, your mission, etc.
+The 10x model is designed to function within our agency context. The 10x program reflects GSA's mission, TTS' technology talent, and the funding authorities we adhere to. The 10x model works for us. It might not work for you. We expect any initiative inspired by 10x at other agencies to look different. We are happy to talk with you about our experience and share some advice on how you might set up your own innovation program in a way that works for your agency, your team, your funding, your mission, etc.
 
-<span class="text-bold">Project Collaboration.</span> Have any of the projects we’ve covered in this report resonated with you? If you’re interested in learning more about any of our projects, believe you can contribute to them, or want to use them, then don’t be shy! Reach out using the email below, or ask questions in any of our public GitHib repositories, which are linked to on their [investment cards]({{ investments-url | url }}) on our website.
+<span class="text-bold">Project Collaboration.</span> Have any of the projects we've covered in this report resonated with you? If you're interested in learning more about any of our projects, believe you can contribute to them, or want to use them, then don't be shy! Reach out using the email below, or ask questions in any of our public GitHib repositories, which are linked to on their [investment cards]({{ investments-url | url }}) on our website.
 
-<span class="text-bold">Send your project ideas to 10x!</span> All feds can submit ideas to 10x anytime, day or night through our website. We’ll keep your idea and evaluate it during our next round of Phase One funding. We aren’t sure when our next round of project selection will happen, but we encourage you to submit your ideas as they develop.
+<span class="text-bold">Send your project ideas to 10x!</span> All feds can submit ideas to 10x anytime, day or night through our website. We'll keep your idea and evaluate it during our next round of Phase One funding. We aren't sure when our next round of project selection will happen, but we encourage you to submit your ideas as they develop.
 
 Send us an email at 10x@gsa.gov for any of the above. For everything else, check [10x.gsa.gov]({{ "/" | url }}) for more updates on upcoming and current projects.
 
-Lastly, we’re sending some heartfelt gratitude to the civil servants everywhere who make transformation happen every day. Thank you for your public service.
+Lastly, we're sending some heartfelt gratitude to the civil servants everywhere who make transformation happen every day. Thank you for your public service.
 
 –10x
 
@@ -84,11 +84,11 @@ Lastly, we’re sending some heartfelt gratitude to the civil servants everywher
 
 ### Project Funding
 
-The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund appropriated by Congress that supports public-facing services and agency-facing programs that drive government-wide transformation. Here’s how we invested in FY22:
+The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund appropriated by Congress that supports public-facing services and agency-facing programs that drive government-wide transformation. Here's how we invested in FY22:
 
 {% include "components/report-bar-chart.html" %}
 
-This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted in prior years.
+This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we've conducted in prior years.
 
 <div class="ReportTable">
   <h3 class="ReportTable__heading">10x Projects</h3>

@@ -12,11 +12,11 @@ class: light-gray
 
 Each year, in this section of the report, we share our financial and staffing projections for FY23.
 
-But this time, we’re not trying to predict the future in our Look Ahead section. If you’re after the numbers and graphs, check out the appendix at the end!
+But this time, we're not trying to predict the future in our Look Ahead section. If you're after the numbers and graphs, check out the appendix at the end!
 
 Instead, we wanted to hear from some of our new Delivery Team members about what they are personally excited about in the coming fiscal year.
 
-Here’s what some of our delivery team members who joined 10x in FY22 had to say about FY23:
+Here's what some of our delivery team members who joined 10x in FY22 had to say about FY23:
 
 > &ldquo;At the very end of September, we held the first IRL (in-real-life) meeting since 10x created the delivery team. We generated a lot of new ideas for ways to improve our program that I'm excited to see develop. One idea I'm particularly excited about is <span class="text-bold">10x's commitment to establishing discipline-focused guilds for the first time in FY23.</span> Our program uses talent from more than five separate organizations to staff all of our projects, which means our approach to product development has been informed by the common practices and expectations within each of those organizations. Also, all of us as product managers have our own ideas based on our own experiences working in the field. The 10x product guild will allow us to codify a core group of programwide principles and practices, and I'm excited to help out.&rdquo;
 >
