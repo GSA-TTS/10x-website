@@ -16,7 +16,7 @@ This is the sixth year in a row that we’ve published our annual impact report.
 
 This year, team means something a bit different to us. The team behind this year’s letter is a whole lot bigger and looks a whole lot different than the team who wrote last year’s letter. By the end of FY22, we had enough staff to fill a medium-sized conference room. We know this because we hosted an IRL (in real life) meeting, and every seat was taken. We learned a lot during the 10x IRL, including that at least one of us can carry a tune.
 
-But something we knew already—because we carefully selected for it while expanding the team—is that we all are dedicated to innovating for the public good. It’s this fact that has always animated the 10x team, whenever and whatever the size.
+But something we knew already — because we carefully selected for it while expanding the team — is that we all are dedicated to innovating for the public good. It’s this fact that has always animated the 10x team, whenever and whatever the size.
 
 Innovating for the public good can be challenging. But thorny challenges can also bring teams together, and that’s exactly what we saw during FY22.
 
