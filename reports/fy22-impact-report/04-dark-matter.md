@@ -17,7 +17,7 @@ Astronomers believe that roughly 85% of the universe is made up of this mysterio
 
 What does this concept have to do with 10x? Well, we've borrowed the term and applied it to our field of inquiry, i.e., innovation in government technology.
 
-To us, dark matter is the value that 10x brings to the government that isn't product-shaped. It's not the combined value of the applications, research, and APIs we deliver—it's the powerful, but shapeless, ideas we generate along the way. And we think there's a real chance that 85% of the value that 10x delivers lies within these ideas. All we have to do is uncover them.
+To us, dark matter is the value that 10x brings to the government that isn't product-shaped. It's not the combined value of the applications, research, and APIs we deliver — it's the powerful, but shapeless, ideas we generate along the way. And we think there's a real chance that 85% of the value that 10x delivers lies within these ideas. All we have to do is uncover them.
 
 <div class="calloutFullDark">
   <p>
@@ -56,7 +56,7 @@ One advantage of conversations is that unlike prototypes, conversations do not n
 
 Technology relies on formal, continuous research to influence how a project can pivot towards the most valuable path forward. But conversations can do this too, without the research or even the intent.
 
-Conversations about big topics—like what an ideal grants technology ecosystem might be able to do—withstand changes in circumstances on the ground, compared to technical prototypes that quickly become useless when they can't grow without constant developer support.
+Conversations about big topics — like what an ideal grants technology ecosystem might be able to do — withstand changes in circumstances on the ground, compared to technical prototypes that quickly become useless when they can't grow without constant developer support.
 
 So what can 10x do with these insights? How do we harness the value of conversations, and contribute to them?
 

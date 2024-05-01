@@ -10,7 +10,7 @@ class: white
 ---
 ## Where are they now?
 
-One great challenge that 10x has grappled with over the years is how to track the impact that our projects deliver once they've left our pipeline—something we call "tracing the ripples."
+One great challenge that 10x has grappled with over the years is how to track the impact that our projects deliver once they've left our pipeline — something we call "tracing the ripples."
 
 Our business model emphasizes seed funding over long-term ownership and maintenance. We work hard to ensure that our products can succeed in a post-10x life.
 
@@ -49,7 +49,7 @@ A few years after FGR graduated from 10x, circumstances changed. In 2022, GSA re
 
 Due to the complexity of such a transition, stakeholders approached 10x to ask us to oversee the FAC's initial transition, using what we learned and the relationships and credibility we built during the FGR project. We agreed to oversee the transition and then hand off the work to our colleagues within GSA.
 
-This current FAC reimagination project is not a traditional 10x project—it's better described as a post-Phase Four project.
+This current FAC reimagination project is not a traditional 10x project — it's better described as a post-Phase Four project.
 
 The new, 10x-managed, GSA-staffed FAC team set out on a path of continuous innovation and modernization. The team consists of a cross-functional group of designers, engineers, policy experts, and other professions. The team was drawn from a mix of existing 10x staff as well as talent from both within and outside TTS. Through this process, the team we stood up will carry this work forward, and will ultimately build and deliver a brand new clearinghouse for Single Audits for hundreds of thousands of users who interact with tens of billions of dollars in federal grant funding each year. This effort represents an organization-wide effort, in which many different offices within GSA contributed talent and expertise. This highlights another strength of 10x, which is to serve as a convening role for technology innovation: bringing the right folks together from across organizational boundaries, with the right outlook, and a shared perspective and vision for impact.
 
@@ -63,7 +63,7 @@ Over the course of this work, 10x documented the complex compliance process that
 
 Today, vendors express the cybersecurity controls and control baselines they have in place for their products in proprietary formats. This requires converting data and significant manual effort to describe how they are implemented.
 
-To improve these processes, the National Institute for Standards and Technology (NIST) and GSA, in collaboration with industry, have developed a new language format called OSCAL–a standardized, machine readable framework to document cybersecurity controls.
+To improve these processes, the National Institute for Standards and Technology (NIST) and GSA, in collaboration with industry, have developed a new language format called OSCAL – a standardized, machine readable framework to document cybersecurity controls.
 
 The value of OSCAL is shifting security documentation from test-based formats to machine-readable code (XML, YAML, JSON) allowing for automation and efficiency. With systems security information represented in OSCAL, security professionals will be able to automate security assessment, auditing, and continuous monitoring processes. That focus on automation led us to rebrand the project as ASAP, or Automated Security Authorization Process, in FY22.
 

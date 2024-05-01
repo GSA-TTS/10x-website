@@ -50,7 +50,7 @@ The BEARS project helps the government meet people where they are. BEARS helps t
 
 The problem? This situation burdens people in vulnerable situations. At a difficult time, they have to navigate complex governmental bureaucracies when they need help the most.
 
-We believe that saving people time—the hours it would take to navigate different agency web portals and FAQ pages— could let them do what they really want to do: grieve and recover during hard times. If innovation might help reduce this burden, then it was worth a 10x investment.
+We believe that saving people time — the hours it would take to navigate different agency web portals and FAQ pages — could let them do what they really want to do: grieve and recover during hard times. If innovation might help reduce this burden, then it was worth a 10x investment.
 
 <span class="text-bold">In FY22, we're closing the project after four successful phases.</span> Through the BEARS project, 10x developed a benefits locator tool in beta that covers a loved one's death. We've handed off the tech stack and responsibility to our capable partners at USAGov. They will continue to scale the benefits locator tool into the future.
 
@@ -78,7 +78,7 @@ If the pilot proves that PETs adoption in government is both technically feasibl
 
 The federal government responded to the COVID-19 pandemic by expanding the eligibility criteria for many existing social safety net programs and created new ways for struggling Americans to get help when they needed it most.
 
-Unfortunately, swindlers, grifters, fraudsters, criminals, troublemakers, and scammers took opportunities to benefit from the expanded government assistance. Fraud and identity theft increased exponentially. Identity theft and benefit claims fraud resulted in millions of people suffering financial hardship and the stress of cleaning up their stolen identities—all during a global pandemic.
+Unfortunately, swindlers, grifters, fraudsters, criminals, troublemakers, and scammers took opportunities to benefit from the expanded government assistance. Fraud and identity theft increased exponentially. Identity theft and benefit claims fraud resulted in millions of people suffering financial hardship and the stress of cleaning up their stolen identities — all during a global pandemic.
 
 10x is looking into developing an Identity Alert Service that will allow members of the public to voluntarily sign up to receive notifications when their personal information is used to apply for government services and benefits. This service will build trust and strengthen social safety net programs across the government. It can also help prevent fraud, and could scale to use cases beyond submitting applications for benefits.
 
