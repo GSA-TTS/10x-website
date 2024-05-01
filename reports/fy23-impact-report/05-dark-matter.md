@@ -24,7 +24,7 @@ When reading the <a class="usa-link usa-link--external" rel="noreferrer" href="h
 
 The PMA's second priority, <a class="usa-link usa-link--external text-italic" rel="noreferrer" href="https://www.performance.gov/pma/cx/">Delivering excellent, equitable, equitable, and secure Federal services and customer experience</a>, is geared towards improving satisfaction rates with government services. Successful implementation means taking a specific mindset stating that "<em>People</em> are at the center of everything the Government does."
 
-These two priorities focus on two separate, yet interrelated definitions of "people." First, federal employees and second, the public they serve. While they may be categorized independently within the PMA, 10x detects a strong link between them and believes that there are ample opportunities for executing on them simultaneously. This year's <span class="text-italic">Dark Matter</a> examines that connection and our perspective that the federal government might find transformative potential in bridging the gap between federal employees and the public.
+These two priorities focus on two separate, yet interrelated definitions of "people." First, federal employees and second, the public they serve. While they may be categorized independently within the PMA, 10x detects a strong link between them and believes that there are ample opportunities for executing on them simultaneously. This year's <span class="text-italic">Dark Matter</span> examines that connection and our perspective that the federal government might find transformative potential in bridging the gap between federal employees and the public.
 
 ### The gap
 
