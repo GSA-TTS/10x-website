@@ -68,7 +68,7 @@ Second, the fact that there are several existing resources and organizations wor
 
 All of this made moving to Phase Two feel risky, and creating a centralized resource to support formerly incarcerated individuals at the federal level might be unfeasible and/or unnecessary. Ultimately, we decided not to move forward. 
 
-But at 10x <a href="#celebrating-no">we love celebrating our "No's"</a> – investments that produce great research and results, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
+But <a href="#celebrating-%22no%22">at 10x we love celebrating our "No's"</a> – investments that produce great research and results, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
 
 Of course, we did find some resounding "Yes" investments as well. Here's a good example from FY23:
 
