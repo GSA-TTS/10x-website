@@ -49,7 +49,7 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
       <td data-label="# of project hours worked">3,569.25</td>
     </tr>
     <tr>
-      <th data-label="Phase" scope="row" scope="row">Total</th>
+      <th data-label="Phase" scope="row" scope="row">All Phases</th>
       <td data-label="# of projects kicked off">40</td>
       <td data-label="# of project hours worked">22,139.75</td>
     </tr>

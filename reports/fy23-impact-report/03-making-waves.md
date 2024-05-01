@@ -14,9 +14,9 @@ class: white
 
 ## Making Waves
 
-<p class="text-italic">This is the "Don't take our word for it" section. We want you to hear directly from the folks outside GSA who interact with 10x projects in one way or another. That's our idea authors, users, product owners, agency champions, and the people who wear multiple hats simultaneously or interchangeably.</p>
+This is the "Don't take our word for it" section. We want you to hear directly from the folks outside GSA who interact with 10x projects in one way or another. That's our idea authors, users, product owners, agency champions, and the people who wear multiple hats simultaneously or interchangeably.
 
-<p class="text-italic">Here are stories from two individuals who devoted time to working with 10x project teams in FY23, in their own words. Without engaged partners like Carey and Connie on our side, 10x can't deliver the impact we're really after. For their enthusiasm and hard work we are tremendously grateful.</p>
+Here are stories from two individuals who devoted time to working with 10x project teams in FY23, in their own words. Without engaged partners like Carey and Connie on our side, 10x can't deliver the impact we're really after. For their enthusiasm and hard work we are tremendously grateful.
 
 <aside class="testimonial-text" role="complementary">
     <h3 id="careys-story" tabindex="-1">Carey's Story</h3>
