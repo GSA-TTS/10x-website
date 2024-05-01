@@ -10,7 +10,7 @@ class: white
 ---
 ## Letter from the Team 
 
-#### Welcome to the 10x Fiscal Year 2021 (FY21) Impact Report!
+<p class="text-bold">Welcome to the 10x Fiscal Year 2021 (FY21) Impact Report!</p>
 
 2021 has been an eventful year for the world, the country, and our small but mighty 10x team. Although faced with uncertainty around the pandemic, transitioning to a new administration, and shifting budget priorities, we never lost our focus: invest in and experiment on federal employees’ technology ideas and see if they work.  As always, we want to radically improve how the government uses technology innovation to serve the public.
 
@@ -24,4 +24,4 @@ We’ve met inspiring people fighting the good innovation fight and making thing
 
 Sincerely,
 
-<img alt="" class="width-tablet" src="{{ '/assets/images/impact-reports/the-10x-team.png' | url }}">
+<img alt="" src="{{ '/assets/images/impact-reports/the-10x-team.webp' | url }}" width="640" height="152">

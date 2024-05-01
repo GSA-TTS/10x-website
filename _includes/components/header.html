@@ -79,11 +79,9 @@
         
         {% if entry.url == page.url %}
         {% assign isCurrent = true %}
-        {% elsif entry.title == 'Impact' and page.url contains '/about/impact-reports' %}
+        {% elsif entry.title == 'Impact' and page.url contains '/impact' %}
           {% assign isCurrent = true %}
         {% elsif page.url contains 'impact' and lowercase_entry_title contains 'impact' %}
-          {% assign isCurrent = true %}
-        {% elsif entry.title != 'Impact' and page.url contains lowercase_entry_title and not page.url contains '/about/impact-reports' %}
           {% assign isCurrent = true %}
         {% endif %}
 

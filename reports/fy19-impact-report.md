@@ -5,7 +5,7 @@ slug: fy19-impact-report
 pdf: true
 subtitle: 10x FY19 Impact report
 template: "4"
-reportUrl: "/reports/10x_FY19_Year_in_Review_Report.pdf"
+reportUrl: "/impact/10x_FY19_Year_in_Review_Report.pdf"
 year: 19
 permalink: false
 ---

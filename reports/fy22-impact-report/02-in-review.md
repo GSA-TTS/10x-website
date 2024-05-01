@@ -44,7 +44,7 @@ With permanent staff, we’ll have someone with firsthand project experience ava
 
 If you were thinking, "They’re both animals," then you’d be wrong. The answer is that they’re both 10x projects. Many of our projects have delivered results in FY22, but we’ll highlight two: BEARS and PETs.
 
-#### Benefits Eligibility Awareness Resource Service (BEARS)
+<p class="text-bold">Benefits Eligibility Awareness Resource Service (BEARS)</p>
 
 The BEARS project helps the government meet people where they are. BEARS helps the public learn about government benefits they may be eligible for based on their life events. For example, a survivor of a natural disaster may be eligible for services like financial aid for home repairs or certain types of tax relief. But completely different agencies offer these benefits. And uncovering what benefits are out there, who’s eligible for them, and how to apply can be confusing and time consuming.
 
@@ -56,7 +56,7 @@ We believe that saving people time—the hours it would take to navigate differe
 
 And when they do, they’ll be sure to include some nice occasions too, like giving birth or retiring. For more on BEARS, see the description on our projects page. To find the benefits locator tool in action, visit usa.gov.
 
-#### Deploying Privacy-Enhancing Technologies (PETs)
+<p class="text-bold">Deploying Privacy-Enhancing Technologies (PETs)</p>
 
 As we continue to deepen our investment in promising emerging technologies, we are particularly excited about work we funded this year around the deployment of Privacy-Enhancing Technologies (PETs). PETs are a suite of techniques that allow people to gain insight from sensitive data without having access to the data itself.
 
@@ -74,7 +74,7 @@ If the pilot proves that PETs adoption in government is both technically feasibl
 
 <p class="text-italic">On March 11, 2021, President Biden signed the American Rescue Plan (ARP) Act into law. This $1.9 trillion coronavirus rescue package is designed to boost the country’s recovery from the severe economic and health effects of the COVID-19 pandemic. In addition to addressing the public health and economic crises, the ARP provides funding to modernize technology and improve cybersecurity across the federal government. The fund that makes 10x possible is called the Federal Citizen Services Fund (FCSF). The FCSF received $150 million as part of the ARP to support government-wide citizen-facing services. Some of that funding came to 10x. We want to be open and transparent about how we are using these funds  and will cover some of the projects we supported in FY22 using ARP funding.</p>
 
-#### Identity Alerts for Government
+<p class="text-bold">Identity Alerts for Government</p>
 
 The federal government responded to the COVID-19 pandemic by expanding the eligibility criteria for many existing social safety net programs and created new ways for struggling Americans to get help when they needed it most.
 
@@ -93,7 +93,7 @@ Our work is:
 
 <p class="text-italic">Identity Alerts for Government is ongoing in Phase Two.</p>
 
-#### U.S. Notify
+<p class="text-bold">U.S. Notify</p>
 
 Most people get easily accessible communications from the companies whose products they use:
 
@@ -113,7 +113,7 @@ In late 2022, U.S. Notify graduated 10x at Phase Three as a functional product t
 
 That team will own and develop U.S. Notify further and is actively recruiting customers.
 
-#### Some Background
+<p class="text-bold">Some Background</p>
 
 In 2018, 10x funded a project called Notifications-as-a-Service. The project got through Phase Two, but we didn’t fund the project for Phase Three because the timing wasn’t quite right.
 

@@ -12,7 +12,7 @@ class: light-gray
 
 We’re 100% convinced that FY22 is going to be busy, exciting, and challenging. We have projects advancing into technology we’ve never worked with before. We have a once-in-a-generation opportunity to multiply our impact by funding more work than ever. And new doors have opened that can help scale and support our projects post-10x when the projects complete Phase Four. Here are a few things we’re expecting to come across over the next 365 days and how we’re thinking about them:
 
-#### Scaling and Multiplying
+<p class="text-bold">Scaling and Multiplying</p>
 
 Two things will be important for us in FY22:
 

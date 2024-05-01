@@ -9,7 +9,7 @@ nav_id: "10x-dark-matter"
 class: dark-gray
 ---
 <div class="section-divider">
-    <img alt="" src="{{ '/assets/images/impact-reports/dark-matter-planet.svg' | url }}">
+    <img alt="" src="{{ '/assets/images/impact-reports/dark-matter-planet.svg' | url }}" width="767" height="372">
 </div>
 
 ## 10x Dark Matter

@@ -9,7 +9,7 @@ nav_id: "making-waves"
 class: white
 ---
 <div class="section-divider">
-    <img alt="" src="{{ '/assets/images/impact-reports/making-waves.svg' | url }}">
+    <img alt="" src="{{ '/assets/images/impact-reports/making-waves.svg' | url }}" width="557" height="192">
 </div>
 
 ## Making Waves

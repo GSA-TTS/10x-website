@@ -1,6 +1,6 @@
 ---
 slug: fy20-impact-report
-reportUrl: "/reports/10x_FY20_Impact_Report.pdf"
+reportUrl: "/impact/10x_FY20_Impact_Report.pdf"
 title: FY20
 subtitle: 10x FY20 Impact report
 year: 20

@@ -9,7 +9,7 @@ nav_id: "tracing-ripples"
 class: white
 ---
 <div class="section-divider">
-    <img alt="" src="{{ '/assets/images/impact-reports/tracing-ripples.svg' | url }}">
+    <img alt="" src="{{ '/assets/images/impact-reports/tracing-ripples.svg' | url }}" width="528" height="337">
 </div>
 
 ## Tracing Ripples

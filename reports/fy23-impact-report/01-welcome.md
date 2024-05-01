@@ -24,5 +24,5 @@ There’s also been something brewing behind the scenes that we’re very excite
 _The 10x Team_
 
 <div class="section-divider">
-    <img alt="" src="{{ '/assets/images/impact-reports/the-10x-team-24.png' | url }}">
+    <img alt="" src="{{ '/assets/images/impact-reports/the-10x-team-24.png' | url }}" width="767" height="302">
 </div>

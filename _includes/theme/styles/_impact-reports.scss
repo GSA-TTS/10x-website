@@ -79,7 +79,7 @@ $c-report-header: #006680;
     .TxBreak__accent-green {
       &:before {
         content: "";
-        background: url("../images/impact-reports/report-green-separator.png") left top no-repeat;
+        background: url("../images/impact-reports/report-green-separator.webp") left top no-repeat;
         background-size: contain;
         width: 100%;
         height: 54px;
@@ -208,7 +208,7 @@ $c-report-header: #006680;
 
       .TxBreak__accent-green {
         &:before {
-          background-image: url("../images/impact-reports/report-gradient-separator.png");
+          background-image: url("../images/impact-reports/report-gradient-separator.webp");
           height: 74px;
         }
       }
@@ -301,7 +301,7 @@ $c-report-header: #006680;
       &Half {
         @include u-font("serif", 6);
         align-items: flex-start;
-        background-image: url("../images/impact-reports/callout-lilac-half-lg.png");
+        background-image: url("../images/impact-reports/callout-lilac-half-lg.webp");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -337,7 +337,7 @@ $c-report-header: #006680;
         color: #FFF;
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("../images/impact-reports/callout-green-full-lg.png");
+        background-image: url("../images/impact-reports/callout-green-full-lg.webp");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -366,7 +366,7 @@ $c-report-header: #006680;
       &FullDark {
         @include u-font("serif", 7);
         align-items: center;
-        background-image: url("../images/impact-reports/callout-lilac-full-lg.png");
+        background-image: url("../images/impact-reports/callout-lilac-full-lg.webp");
         background-position-x: center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -401,7 +401,7 @@ $c-report-header: #006680;
       &Project {
         @include u-font("serif", 7);
         align-items: flex-start;
-        background-image: url("../images/impact-reports/report-green-brush-stroke.png");
+        background-image: url("../images/impact-reports/report-green-brush-stroke.webp");
         background-position-x: -1.4rem;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -660,7 +660,7 @@ $c-report-header: #006680;
   }
 
   .header-section {
-    h2 {
+    .intro {
       margin: units(2.5) 0 units(4);
     }
   }
@@ -953,7 +953,7 @@ $c-report-header: #006680;
         margin-right: 0;
       }
 
-      h3 {
+      h2 {
         display: none;
       }
     }
@@ -1074,7 +1074,7 @@ $c-report-header: #006680;
 }
 
 .the10xTeam {
-  background-image: url("../images/impact-reports/the-10x-team.png");
+  background-image: url("../images/impact-reports/the-10x-team.webp");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1088,16 +1088,9 @@ $c-report-header: #006680;
 }
 
 .projectDemo {
-  background-image: url("../images/impact-reports/ableist-ui-demo-800px-opt.gif");
-  background-position-y: top;
-  background-repeat: no-repeat;
-  display: none;
-  height: 442px;
-  max-width: 800px;
-  width: 100%;
-
-  @media screen and (min-width: 640px) {
-    display: block;
+  video {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -1122,7 +1115,7 @@ $c-report-header: #006680;
 
 .pdf-icon:after {
   @include u-margin-left(1);
-  background-image: url("../images/impact-reports/impact-report_pdf-icon.png");
+  background-image: url("../images/impact-reports/impact-report_pdf-icon.webp");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1198,15 +1191,15 @@ ul {
   margin: 1rem;
 
   &--delna {
-    background-image: url("../images/impact-reports/delna.png");
+    background-image: url("../images/impact-reports/delna.webp");
   }
 
   &--jim {
-    background-image: url("../images/impact-reports/jim.png");
+    background-image: url("../images/impact-reports/jim.webp");
   }
 
   &--frank {
-    background-image: url("../images/impact-reports/frank.png");
+    background-image: url("../images/impact-reports/frank.webp");
   }
 }
 

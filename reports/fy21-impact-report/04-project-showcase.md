@@ -35,7 +35,7 @@ To meet this challenge, we placed a bet on the table: combating bias in upstream
 
 Throughout FY21, the 10x team worked with the U.S. Census Bureau (Census) to develop the bias toolkit. This project along with our other AI-related projects, is how we’re helping the government get AI/ML right during these early days.
 
-#### What we delivered
+<p class="text-bold">What we delivered</p>
 
 The toolkit includes three functioning de-biasing tools that federal employees can use to lay a more equitable foundation for their AI-enhanced workflows. Together, these three tools provide a great foundation for future de-biasing initiatives.
 
@@ -43,13 +43,17 @@ The toolkit includes three functioning de-biasing tools that federal employees c
 
 - The second tool uses AI to detect ableist language in federal job postings, which is language that may be offensive to people with disabilities. The tool automatically suggests more appropriate, inclusive alternatives that hiring managers can use to create better, more equitable job descriptions.
 
-<div class="projectDemo"></div>
+<div class="projectDemo">
+  <video controls>
+    <source src="{{ '/assets/images/impact-reports/ableist-ui-demo-800px-opt.mp4' | url }}" type="video/mp4" />
+  </video>
+</div>
 
 - The third tool offers a standard language format, or model card, that describes the AI/ML model’s characteristics. Similar to a nutrition label on a can of soup that tells you the ingredients, nutritional profile, and allergen warnings, the model card shows the characteristics — including errors that could lead to biased outputs if left unaddressed – within that AI model. Model cards provide transparency about the AI model’s limitations and can help people re-use these models equitably and transparently.
 
 The toolkit is currently in beta and awaiting a full launch in FY22. Census will own, maintain, and expand the toolkit. As the U.S. government’s premier statistical agency, Census works with the types of eye-poppingly large, complex datasets that power advanced AI, making them a great fit for championing this work into the future.
 
-#### Why we’re proud of this
+<p class="text-bold">Why we’re proud of this</p>
 
 Everyone wins when a project is moved to where it can continue to thrive after exiting the 10x funding pipeline. An example of  how two agencies should work together, it’s a great project transition that will have a huge impact.
 
@@ -57,7 +61,7 @@ We showcase this de-biasing project because we believe it resonates with communi
 
 We’re proud of this project and we’re proud that we helped ensure that the government adopts rapidly advancing, powerful technologies in a way that shows a serious effort to protect democratic values and delivers positive, meaningful impact for the public. We are excited to see it grow and mature under the stewardship of our U.S. Census Bureau partners. Be on the lookout for the full roll-out in 2022, we’ll keep our site updated. In the meantime, the initial toolkit is open-source and available freely on the web. Anyone in the world can find, use, and contribute to our tools.
 
-#### Summary
+<p class="text-bold">Summary</p>
 
 10x is a small program within our own agency and we are only one of many initiatives across the government that are also thinking about the future of AI/ML in public service delivery. Naturally, the private sector and other groups will play a central role in the future of public sector AI/ML adoption. But we believe the government has a special role to play.
 

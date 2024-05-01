@@ -27,7 +27,7 @@ In the coming year, we see a shift towards longer-term investments that double-d
 
 Here are a few other areas we expect to invest heavily in, and see real progress with tangible results:
 
-#### Boosting research practices across government
+<p class="text-bold">Boosting research practices across government</p>
 
 As we discussed in the Dark Matter section, getting research right is critical for the federal government. We have active projects that are working, in concert, on different facets of the issue. One project is called Intuitive Consent, which explores ways to make it easier for participants to sign up for federal research opportunities.
 
@@ -35,7 +35,7 @@ Another is Enabling Government Research Operations, which is exploring the possi
 
 We’ve already succeeded in moving the needle in FY23: we were able to compensate research participants and conduct in-person, bilingual user research with the public. When taken collectively, and with further investment from 10x, we’re beginning to see a path towards making diligent, ethical, and human-centered research ubiquitous across the federal government. In FY24, we’re not just thinking about how to do it, but really making it happen.
 
-#### Forms, Forms, Forms!
+<p class="text-bold">Forms, Forms, Forms!</p>
 
 Filling out and submitting government paperwork are two of the most common ways that Americans interact with the federal government. Think small business loans, benefits applications, and annual tax forms.
 
@@ -44,7 +44,7 @@ Overall, the government needs to deliver better experiences with public forms, a
 <span class="text-bold">We’re taking a ‘try everything’ approach to making forms better</span> through many active projects in our pipeline, including Digital Access to Justice Platform and Equitable Form Design. Through these investments and more to come, we see a path towards a public forms experience that consistently meets the standards of the private sector. It should also, whenever possible, eliminate the need for the public to fill out forms entirely. Getting there is far away, but 10x is excited to help  the government get ever closer.
 
 <div class="section-divider margin-top-10">
-    <img alt="" src="{{ '/assets/images/impact-reports/whats-next-arrows.svg' | url }}">
+    <img alt="" src="{{ '/assets/images/impact-reports/whats-next-arrows.svg' | url }}" width="525" height="98">
 </div>
 
 ### What’s Next
