@@ -652,13 +652,6 @@ $c-report-header: #006680;
 .fy23-impact-report-page {
   color: color('gray-warm-90');
 
-  .report-intro {
-    h2 {
-      color: color('gray-warm-90');
-      font-weight: 600;
-    }
-  }
-
   .header-section {
     .intro {
       margin: units(2.5) 0 units(4);
@@ -719,6 +712,26 @@ $c-report-header: #006680;
     strong,
     .text-bold {
       color: color('gray-warm-90');
+    }
+
+    .section-divider {
+      text-align: center;
+      margin-bottom: units(10);
+    }
+
+    &.report-intro {
+      h2 {
+        color: color('gray-warm-90');
+        font-weight: 600;
+      }
+  
+      .section-divider {
+        margin-bottom: units(2);
+      }   
+    }
+
+    &#section-fy23-in-review {
+      padding-top: units(1);
     }
 
     .top-button-wrapper {
@@ -830,11 +843,6 @@ $c-report-header: #006680;
           }
         }
       }
-    }
-
-    .section-divider {
-      text-align: center;
-      margin-bottom: units(10);
     }
 
     .blue-hilighted-insights {

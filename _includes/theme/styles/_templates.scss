@@ -41,8 +41,19 @@ p, .usa-identifier__required-links-list li {
     line-height: lh('body', 5);
 }
 
+a,
 .usa-link {
     color: color('indigo-warm-60v');
+
+    &--external::after {
+        display: inline-block;
+        margin-top: 0;
+    }
+}
+
+em,
+.text-italic {
+    font-family: "Poppins-Italic", Arial, Helvetica, sans-serif;
 }
 
 .usa-tag {

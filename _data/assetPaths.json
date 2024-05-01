@@ -7,6 +7,7 @@
   "Latin-Merriweather-Regular.woff2": "/assets/assets/Latin-Merriweather-Regular-EYXYAATC.woff2",
   "Poppins-Bold.woff2": "/assets/assets/Poppins-Bold-3GBDYPWO.woff2",
   "Poppins-BoldItalic.woff2": "/assets/assets/Poppins-BoldItalic-2VJWFQLM.woff2",
+  "Poppins-Italic.woff2": "/assets/assets/Poppins-Italic-F6OTYX7T.woff2",
   "Poppins-Light.woff2": "/assets/assets/Poppins-Light-36KYKMDJ.woff2",
   "Poppins-LightItalic.woff2": "/assets/assets/Poppins-LightItalic-IX33PQO5.woff2",
   "Poppins-Regular.woff2": "/assets/assets/Poppins-Regular-CQW4ZHRL.woff2",
@@ -84,6 +85,6 @@
   "warning.svg": "/assets/assets/warning-5OR6W6GJ.svg",
   "app.js": "/assets/js/app-EDZES2YK.js",
   "app.map": "/assets/js/app-EDZES2YK.js.map",
-  "index.css": "/assets/styles/index-RNJLKCFU.css",
-  "index.map": "/assets/styles/index-RNJLKCFU.css.map"
+  "index.css": "/assets/styles/index-ZKCHH6AR.css",
+  "index.map": "/assets/styles/index-ZKCHH6AR.css.map"
 }
