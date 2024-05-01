@@ -33,6 +33,6 @@ We hope this report will convey some of the impact we've delivered for the publi
 
 Sincerely,
 
-The Newer—and Bigger —10x Team
+The Newer — and Bigger — 10x Team
 
 <img alt="" src="{{ '/assets/images/impact-reports/the-10x-team-22.webp' | url }}" width="800" height="326">
