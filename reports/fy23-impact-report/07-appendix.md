@@ -10,11 +10,9 @@ class: white appendix-page
 ---
 ## Appendix
 
-### Project Funding
+### Investments
 
-The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund appropriated by Congress that supports public-facing services and agency-facing programs that drive governmentwide transformation. 
-
-#### Here’s how we invested in FY23
+The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund appropriated by Congress that supports public-facing services and agency-facing programs that drive governmentwide transformation. Here's how we invested in FY23.
 
 <table class="usa-table usa-table--striped usa-table--stacked">
   <thead>
@@ -58,7 +56,7 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
   </tbody>
 </table>
 
-#### 10x Investment Snapshot
+### 10x investment snapshot
 
 <table class="usa-table usa-table--striped usa-table--stacked">
   <thead>
@@ -121,4 +119,4 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
   </tbody>
 </table>
 
-This chart shows the number of ideas that we received, the number of projects kicked off in our various phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted in prior years. 
+This chart shows the number of ideas that we received, the number of investments kicked off in our various Phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted in prior years.
