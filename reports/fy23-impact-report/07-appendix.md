@@ -26,34 +26,34 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Phase One</th>
-      <td>18</td>
-      <td>2,727.25</td>
+      <th data-label="Phase" scope="row">Phase One</th>
+      <td data-label="# of projects kicked off">18</td>
+      <td data-label="# of project hours worked">2,727.25</td>
     </tr>
     <tr>
-      <th scope="row">Phase Two</th>
-      <td>13</td>
-      <td>9,901.75</td>
+      <th data-label="Phase" scope="row">Phase Two</th>
+      <td data-label="# of projects kicked off">13</td>
+      <td data-label="# of project hours worked">9,901.75</td>
     </tr>
     <tr>
-      <th scope="row">Phase Three</th>
-      <td>4</td>
-      <td>4,241</td>
+      <th data-label="Phase" scope="row">Phase Three</th>
+      <td data-label="# of projects kicked off">4</td>
+      <td data-label="# of project hours worked">4,241</td>
     </tr>
     <tr>
-      <th scope="row">Phase Four</th>
-      <td>Ongoing from FY2022</td>
-      <td>1,700.50</td>
+      <th data-label="Phase" scope="row">Phase Four</th>
+      <td data-label="# of projects kicked off">Ongoing from FY2022</td>
+      <td data-label="# of project hours worked">1,700.50</td>
     </tr>
     <tr>
-      <th scope="row">No Phase</th>
-      <td>1</td>
-      <td>3,569.25</td>
+      <th data-label="Phase" scope="row">No Phase</th>
+      <td data-label="# of projects kicked off">1</td>
+      <td data-label="# of project hours worked">3,569.25</td>
     </tr>
     <tr>
-      <th scope="row">Total</th>
-      <td>40</td>
-      <td>22,139.75</td>
+      <th data-label="Phase" scope="row" scope="row">Total</th>
+      <td data-label="# of projects kicked off">40</td>
+      <td data-label="# of project hours worked">22,139.75</td>
     </tr>
   </tbody>
 </table>
@@ -71,52 +71,52 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
   </thead>
   <tbody>
     <tr>
-      <th scope="row">FY17</th>
-      <td>20</td>
-      <td>17</td>
-      <td>36</td>
+      <th data-label="Year" scope="row">FY17</th>
+      <td data-label="Projects Kicked Off *In various Phases">20</td>
+      <td data-label="Projects Closed Out">17</td>
+      <td data-label="Ideas Received">36</td>
     </tr>
     <tr>
-      <th scope="row">FY18</th>
-      <td>28</td>
-      <td>23</td>
-      <td>146</td>
+      <th data-label="Year" scope="row">FY18</th>
+      <td data-label="Projects Kicked Off *In various Phases">28</td>
+      <td data-label="Projects Closed Out">23</td>
+      <td data-label="Ideas Received">146</td>
     </tr>
     <tr>
-      <th scope="row">FY19</th>
-      <td>53</td>
-      <td>51</td>
-      <td>220</td>
+      <th data-label="Year" scope="row">FY19</th>
+      <td data-label="Projects Kicked Off *In various Phases">53</td>
+      <td data-label="Projects Closed Out">51</td>
+      <td data-label="Ideas Received">220</td>
     </tr>
     <tr>
-      <th scope="row">FY20</th>
-      <td>91</td>
-      <td>88</td>
-      <td>365</td>
+      <th data-label="Year" scope="row">FY20</th>
+      <td data-label="Projects Kicked Off *In various Phases">91</td>
+      <td data-label="Projects Closed Out">88</td>
+      <td data-label="Ideas Received">365</td>
     </tr>
     <tr>
-      <th scope="row">FY21</th>
-      <td>47</td>
-      <td>46</td>
-      <td>250</td>
+      <th data-label="Year" scope="row">FY21</th>
+      <td data-label="Projects Kicked Off *In various Phases">47</td>
+      <td data-label="Projects Closed Out">46</td>
+      <td data-label="Ideas Received">250</td>
     </tr>
     <tr>
-      <th scope="row">FY22</th>
-      <td>47</td>
-      <td>38</td>
-      <td>181</td>
+      <th data-label="Year" scope="row">FY22</th>
+      <td data-label="Projects Kicked Off *In various Phases">47</td>
+      <td data-label="Projects Closed Out">38</td>
+      <td data-label="Ideas Received">181</td>
     </tr>
     <tr>
-      <th scope="row">FY23</th>
-      <td>40</td>
-      <td>39</td>
-      <td>182</td>
+      <th data-label="Year" scope="row">FY23</th>
+      <td data-label="Projects Kicked Off *In various Phases">40</td>
+      <td data-label="Projects Closed Out">39</td>
+      <td data-label="Ideas Received">182</td>
     </tr>
     <tr>
-      <th scope="row">Total</th>
-      <td>326</td>
-      <td>302</td>
-      <td>1380</td>
+      <th data-label="Year" scope="row">Total</th>
+      <td data-label="Projects Kicked Off *In various Phases">326</td>
+      <td data-label="Projects Closed Out">302</td>
+      <td data-label="Ideas Received">1380</td>
     </tr>
   </tbody>
 </table>
