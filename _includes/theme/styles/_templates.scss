@@ -732,7 +732,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 font-size: size('body', 11);
                 font-weight: 700;
                 line-height: lh('heading', 3);
-                order: 2; 
     
                 @include at-media("tablet-lg") {
                     font-size: size('body', 14);
@@ -755,7 +754,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 font-size: size('body', 9);
                 font-weight: 400; 
                 line-height: lh('heading', 4);
-                order: 3; 
 
                 @include at-media("tablet-lg") {
                     font-size: size('body', 10);
@@ -766,7 +764,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 color: white;
             }
 
-            h3 {
+            .page-brow {
                 font-size: size('body', 7);
                 text-transform: uppercase;
                 font-weight: 400;
@@ -776,7 +774,6 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
                 background: url('../images/header-bottom-border.webp') left bottom no-repeat; 
                 margin-bottom: 0; 
                 margin-top: units(3);
-                order: 1; 
 
                 &.blog-post-section-header {
                     background: none;

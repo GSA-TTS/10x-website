@@ -10,11 +10,11 @@ section: blog
       <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
         style="display: none !important;" />
       <section class="grid-container header-section usa-section">
+        <span class="page-brow">{{ pageBrow }}</span>
         <h1>{{ pageTitle }}</h1>
         {%- if subtitle != null -%}
         <h2>{{ subtitle }}</h2>
         {%- endif -%}
-        <h3>{{ pageBrow }}</h3>
       </section>
     </div>
     <section class="usa-section grid-container">
