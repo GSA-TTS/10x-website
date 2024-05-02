@@ -1,6 +1,6 @@
 ---
-title: 10x FY23 Impact report
-subtitle: 10x FY23 Impact report
+title: 10x FY23 Impact Report
+subtitle: 10x FY23 Impact Report
 year: 23
 reportUrl: '/reports/_fy23-impact-report'
 template: '1'
