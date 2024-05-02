@@ -10,8 +10,8 @@ section: about
           style="display: none !important;" />
         <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
           style="display: none !important;" />
-        <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
-          <span class="page-brow">{{ pageBrow }}</span>
+        <section class="grid-container header-section blog-post-header-section usa-section" aria-labelledby="{{ pageBrow }}">
+          <span class="page-brow" id="{{ pageBrow }}">{{ pageBrow }}</span>
           <h1>{{ pageTitle }}</h1>
           {%- if subtitle != null -%}
           <h2>{{ subtitle }}</h2>
