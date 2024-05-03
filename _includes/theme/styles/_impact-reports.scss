@@ -871,6 +871,8 @@ $c-report-header: #006680;
       padding: units(3);
       margin-top: units(6);
       margin-bottom: units(6);
+      margin-left: 0; 
+      width: auto; 
 
       &:last-child {
         margin-bottom: 0;

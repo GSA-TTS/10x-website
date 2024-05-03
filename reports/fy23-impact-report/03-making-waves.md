@@ -18,7 +18,7 @@ This is the "Don't take our word for it" section. We want you to hear directly f
 
 Here are stories from two individuals who devoted time to working with 10x project teams in FY23, in their own words. Without engaged partners like Carey and Connie on our side, 10x can't deliver the impact we're really after. For their enthusiasm and hard work we are tremendously grateful.
 
-<aside class="testimonial-text" role="complementary">
+<section class="testimonial-text" aria-labelledby="careys-story">
     <h3 id="careys-story" tabindex="-1">Carey's Story</h3>
     <p class="text-italic">I submitted the idea for the project <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://github.com/orgs/GSA-TTS/projects/38/views/1?pane=issue&itemId=61533312">Improving Response and Tracking of Sewer Spills</a> during the FY22 round of idea evaluation. And I worked with 10x across its lifecycle before it concluded after Phase Two.</p>
     <p class="text-italic">I help EPA and state inspectors collaborate through EPA's <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://echo.epa.gov/targeting/national-targeting-center">National Targeting Center</a>, which focuses on improving their inspection and enforcement using innovative online tools (many of which are available through EPA public-facing system called <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://echo.epa.gov/">ECHO</a>). I also help implement an <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.epa.gov/compliance/npdes-ereporting">EPA rulemaking</a> that requires Clean Water Act (CWA) permittees and regulators to use existing, available information technology to electronically report information and data related to the CWA permit program instead of filing written reports.</p>
@@ -28,9 +28,9 @@ Here are stories from two individuals who devoted time to working with 10x proje
     <p class="text-italic">Since then, we've established a working group with our users to refine the visual design that 10x helped us create. The first new feature for product refinement is a search capability for the tool, which we'll be coding and implementing later this year.</p>
     <p class="text-italic">Overall, I would describe my experience as "easy and light."  The expectations that 10x had for me were always reasonable. My input was always welcomed, I got to sit in on user research, and I was encouraged to keep in regular communications. I was pleased that 10x required very little paperwork on my end, even though they were deep in the weeds helping us out. I would describe the culture of 10x as friendly, collaborative, and enthusiastic about innovation.</p>
     <p class="text-italic text-bold">Carey Johnston, EPA</p>
-</aside>
+</section>
 
-<aside class="testimonial-text" role="complementary">
+<section class="testimonial-text" aria-labelledby="connies-story">
     <h3 id="connies-story" tabindex="-1">Connie's Story</h3>
     <p class="text-italic">Throughout my entire career, I've never been very far from the world of federal grants and at times, have been in the very heart of it. I'm an archaeologist by trade. Long before I ever joined the civil service, I spent many humid afternoons in a remote village in Northern Luzon conducting field work for my dissertation on local agriculture. That research was funded by a grant from the National Science Foundation. I spent many more years working in museums and also benefited from the federal grants ecosystem along the way.</p>
     <p class="text-italic">It's now 2023 and at the end of the year, I'll be retiring from my dream job as the Director of Grants Policy and Management at the Institute of Museum and Library Services (IMLS). Like I said, I've never been far from Federal grants.</p>
@@ -44,5 +44,5 @@ Here are stories from two individuals who devoted time to working with 10x proje
     <p class="text-italic">One of the main reasons 10x recommended against moving forward with Phase Three was because we at IMLS had been evolving as an organization and the 10x team felt that it was time to pass the baton back to us. They recommended the work move forward and made a persuasive case that the potential for impact to the public was enormous, but that the time was right for IMLS to progress independently.</p>
     <p class="text-italic">None of this was a heartbreak for us. Partly because the 10x team I worked with were so warm, so communicative, and so professional that I always felt looped-in. I got to sit in on real user interviews for the first time, and our agency learned so much about what our customers are really after that we'll put to use in the future. We're more confident in our ability to envision our own tech-enabled future and to define our needs. We have a much better sense of how to marry technology and our agency's mission. We're more self-sufficient at home and are less dependent on outsourcing our problem-solving to others. This is an exciting shift I've seen within IMLS, and 10x has helped us get there. </p>
     <p class="text-italic text-bold">Connie Bodner, IMLS (Retired)</p>
-</aside>
+</section>
 
