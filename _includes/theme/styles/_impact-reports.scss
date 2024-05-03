@@ -967,7 +967,7 @@ $c-report-header: #006680;
     }
   }
 
-  main {
+  .sub-main-content {
     max-width: 50rem;
   }
 }
@@ -1129,9 +1129,9 @@ $c-report-header: #006680;
   background-size: contain;
   content: "";
   display: inline-block;
+  vertical-align: top;
   height: 30px;
   position: relative;
-  top: 0.1rem;
   width: 35px;
 }
 

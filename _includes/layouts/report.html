@@ -53,7 +53,7 @@ home-link-text: "Home"
           data-threshold="1"
         >
         </aside>   
-        <main class="sub-main-content TxReport__content">
+        <div class="sub-main-content TxReport__content">
           {% for section in reportSections %} 
             <section class="{{- section.data.class -}}" id="section-{{- section.data.nav_id -}}">
               {{- break -}}
@@ -61,7 +61,7 @@ home-link-text: "Home"
               {{- back_to_top -}}
             </section>
           {%- endfor -%}
-          </main>
+          </div>
       </div>
     </div>
 </div>
