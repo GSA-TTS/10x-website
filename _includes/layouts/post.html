@@ -19,16 +19,16 @@ tags-list:
           style="display: none !important;" />
         <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
           style="display: none !important;" />
-        <section class="grid-container header-section blog-post-header-section usa-section" aria-label="Introduction">
+        <section class="grid-container header-section blog-post-header-section usa-section" aria-labelledby="{{ news-text }}">
+          <span class="page-brow" id="{{ news-text }}">
+            <span class="news-text-wrapper">{{ news-text }}</span>
+            <span class="divider padding-x-1">|</span>
+            <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
+          </span>
           <h1>{{ title }}</h1>
           {%- if subtitle != null -%}
           <h2>{{ subtitle }}</h2>
           {%- endif -%}
-          <h3>
-            <span class="news-text-wrapper">{{ news-text }}</span>
-            <span class="divider padding-x-1">|</span>
-            <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
-          </h3>
         </section>
       </div>
     </div>
