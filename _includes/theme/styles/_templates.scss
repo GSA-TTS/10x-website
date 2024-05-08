@@ -824,7 +824,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                margin-left: 15rem;            
+                margin-left: 18rem;            
             }        
         }
 
@@ -850,13 +850,12 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                width: 15rem;          
+                width: 18rem;          
             }   
         }
 
         .usa-card__img {
             border-radius: 0;
-            width: 100%;
         }
     }
 
