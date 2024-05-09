@@ -85,3 +85,18 @@ Below is the cloud.gov link to the build for the `main` branch:
 To view the build for any `10x Website` branch that has been committed to Github,  copy the link above and append it with your branch name. Example:
 
 `https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/post-launch-bug-fixes/`
+
+### Testing
+
+There is a need for testing of new front end components. Until we have a complete solution, there is a workaround that checks every page in the sitemap and ensures that a certain element exists. The code was originally provided by @jonathanbobel and I converted to [a gist that can be downloaded here](https://gist.github.com/natashapl/cacee9f540e83f89d0792e08dac01812). 
+
+**To use this code, do the following:**
+
+1. Download the code snippet mentioned above. The file is called "sitemap-element-checker.js".
+2. Add that file to the root of the 10x project.
+3. Open the file site.json and temporarily change the value of "url" to "http://localhost:8080". Save the file.
+4. Open a new terminal and run the following:
+
+`node sitemap-element-checker.js`
+
+ It will list all the pages in the site and state whether or not the element exists in the page.
