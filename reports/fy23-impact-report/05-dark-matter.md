@@ -44,7 +44,7 @@ We believe the government's inability to effectively reach the public represents
 
 We've seen firsthand that connecting federal workers and the public has transformative potential both to improve public services and to strengthen the workforce. And so we're looking for more opportunities to connect more with the public and conduct research that is transformative for civil servants, the public, and the technology solutions we build together. This means:
 
-- Including <span class="text-bold">participation of non-technical civil servants</span>, such as policy experts, budget authorities, or scientists, in either a formal or observatory capacity. 
+- Including <span class="text-bold">non-technical civil servants</span>, such as policy experts, budget authorities, or scientists, in either a formal or observatory capacity. 
 - Directly <span class="text-bold">involving members of the general public</span> in research planning and execution.
 
 Most people recognize that better products for the public result from strong research practices, but the benefits for the federal workforce are less obvious. We believe that connecting federal employees and the public can deliver:
