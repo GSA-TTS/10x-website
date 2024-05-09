@@ -1,6 +1,6 @@
 {% assign formatted_category = hero_banner.category | replace: ' ', '-' | downcase %}
 
-<div class="banner-bg-gradient padding-y-2">
+<div class="banner-bg-gradient header-banner-component padding-y-2">
   <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
     style="display: none !important;" />
   <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
@@ -21,7 +21,11 @@
     <h1>{{ hero_banner.title }}</h1>
     {% endif %}
     {%- if hero_banner.subtitle != null -%}
+    {% if section == 'reports' %}
+    <p class="intro">{{ intro }}</p>
+    {%- else -%}
     <p class="intro">{{ hero_banner.subtitle }}</p>
+    {% endif %}
     {%- endif -%}
   </section>
 </div>

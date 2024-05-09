@@ -1,6 +1,8 @@
 ---
 title: 10x FY22 Impact Report
-subtitle: 10x FY22 Impact Report
+hero_banner:
+    title: 10x FY22 Impact Report
+    subtitle: 10x FY22 Impact Report
 year: 22
 reportUrl: '/reports/_fy22-impact-report'
 template: '1'
