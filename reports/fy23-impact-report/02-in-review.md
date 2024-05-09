@@ -12,17 +12,17 @@ class: white
 
 ### Our investment strategy
 
-Each year, we identify investment areas to help steer our investments pipeline. These are often areas where we either have an established record of success, or towards a new area of exploration we want to pursue. We call these investment themes, and in FY23 our investment themes were <span class="text-italic">Digital Foundations</span> and <span class="text-italic">Equity in Delivery</span>.
+Each year, we identify investment areas to help steer our investments pipeline. These are often areas where we either have an established record of success, or move us toward a new area of exploration we want to pursue. We call these investment themes, and in FY23 our investment themes were <span class="text-italic">Digital Foundations</span> and <span class="text-italic">Equity in Delivery</span>.
 
 With the <span class="text-italic">Digital Foundations</span> theme, we wanted to fund investments for digital innovations to support the country's massive new investments in physical infrastructure. <span class="text-italic">Equity in Delivery</span> investments cover topics of justice, access, and using tech to help those most in need. <span class="text-italic">Equity</span> is an investment theme we return to again and again, and where we've found success. We expect to double-down on this portfolio of investments again in FY24.
 
 Sometimes an idea reflects <em>both</em> of our investment themes. A good example of this is an idea we received called <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://github.com/orgs/GSA-TTS/projects/38/views/1?pane=issue&itemId=61591228">"De-Biasing Public Infrastructure Investments</a>." The observation of this investment is that government investments in public infrastructure do not always take into account possible negative effects that these investments can have on local populations, and in particular, vulnerable communities. For example, a city might build a much-needed highway, but in a way that divides a lower-income neighborhood and displaces residents.
 
-The Idea Author's hypothesis was that 10x could deliver value by researching and, if necessary, delivering a new digital capability that ensures underrepresented populations have the opportunity and platform to provide input into the planning and prioritization of new infrastructure investments. We felt the impact we would deliver in the event that the problem was both significant and technically-solvable was worth the investment of Phase One resources.
+The Idea Author's hypothesis was that 10x could deliver value by researching and, if necessary, delivering a new digital capability that ensures underrepresented populations have the opportunity and platform to provide input into the planning and prioritization of new infrastructure investments. We felt the impact we would deliver in the event that the problem was both significant and technically-solvable was worth the investment of Phase 1 resources.
 
-In our Phase One research, we learned that the problem is real and not everyone has equitable access to new infrastructure, or a strong voice in naming infrastructure priorities. We also learned this is not an unknown problem and there are many resources and efforts at the federal and local levels to address this issue. For example, recent Executive Orders and the Bipartisan Infrastructure Law (BIL) instruct federal agencies to emphasize equity across all investments.
+In our Phase 1 research, we learned that the problem is real and not everyone has equitable access to new infrastructure, or a strong voice in naming infrastructure priorities. We also learned this is not an unknown problem and there are many resources and efforts at the federal and local levels to address this issue. For example, recent Executive Orders and the Bipartisan Infrastructure Law (BIL) instruct federal agencies to emphasize equity across all investments.
 
-Even though this area has significant potential, we ultimately elected not to proceed with Phase Two of this investment due to the risk of duplicating existing and promising efforts. Based on our Phase One Investigation into the idea, we do not see a slam-dunk path for 10x to add value in the space of infrastructure equity. If 10x were to revisit this investment in the future, the Phase One team suggests focusing on specific case studies and examining how investments impact specific underprivileged groups, rather than looking for meta-solutions.
+Even though this area has significant potential, we ultimately elected not to proceed with Phase 2 of this investment due to the risk of duplicating existing and promising efforts. Based on our Phase 1 investigation into the idea, we did not see a slam-dunk path for 10x to add value in the space of infrastructure equity. If 10x were to revisit this investment in the future, the Phase 1 team suggests focusing on specific case studies and examining how investments impact specific underprivileged groups, rather than looking for meta-solutions.
 
 <aside class="overview-text" role="note">
     <div class="contentRow">
@@ -32,7 +32,7 @@ Even though this area has significant potential, we ultimately elected not to pr
 
 ### Other bets we placed
 
-We funded <a class="usa-link" href="{{ '/news/2024-selected-investments/' | url }}">18 brand new Phase One investments</a> this year – 17 of which aligned with at least one of our two investment themes.
+We funded <a class="usa-link" href="{{ '/news/2024-selected-investments/' | url }}">18 brand new Phase 1 investments</a> this year – 17 of which aligned with at least one of our two investment themes.
 
 Here are two good examples of investments we funded that align with our investment priorities:
 
@@ -46,7 +46,7 @@ Here are two good examples of investments we funded that align with our investme
 
 #### Why Bet on This?
 
-We bet big on equity-centered tech to help people who need it most, and we chose this investment because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people who leave prisons and jails, a disproportionate amount of whom are minority and low-income, successfully move back into society.
+We bet big on equity-centered tech to help people who need it most, and we chose this investment because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people who leave prison and jails, a disproportionate amount of whom are minority and low-income, successfully move back into society. 
 
 <div class="blue-hilighted-insights">
     <h4 id="project-insights-1" tabindex="-1">Insights</h4>
@@ -59,16 +59,17 @@ We bet big on equity-centered tech to help people who need it most, and we chose
 
 #### How it Went
 
-Early on, our Phase One team learned that there are resources that are already available and often designed to accommodate the nuanced structures and jurisdictions of state and municipal governments. We also learned that most people incarcerated in the country end up there through state and local justice systems, not federal. 
+Early on, our Phase 1 team learned that there are resources that are already available and often designed to accommodate the nuanced structures and jurisdictions of state and municipal governments. We also learned that most people incarcerated in the country end up there through state and local justice systems, not federal. 
 
 Learning this was a signal to our team that this investment may not be the best place for 10x to operate. 
+
 First, 10x is a <em>federal</em> program. Our ability to work with and help at the state and local government levels is limited. This meant that the beneficiaries and users of a solution we develop would need to be scoped solely to those who have interacted with the federal prison systems. But this is only 10% of the entire target population — not a sizable percentage. 
 
 Second, the fact that there are several existing resources and organizations working in this space suggests that reentry resource access may not be a key issue in helping people avoid recidivism. Anything 10x tried to do could be duplicative. And because many of those resources are from local organizations, they are likely better suited to address the distinctions within each community better than the federal government. 
 
-All of this made moving to Phase Two feel risky, and creating a centralized resource to support formerly incarcerated individuals at the federal level might be unfeasible and/or unnecessary. Ultimately, we decided not to move forward. 
+All of this made moving to Phase 2 feel risky, and creating a centralized resource to support formerly incarcerated individuals at the federal level might be unfeasible and/or unnecessary. Ultimately, we decided not to move forward. 
 
-But <a href="#celebrating-%22no%22">at 10x we love celebrating "No"</a> – investments that produce great research and results, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
+But at 10x we love celebrating "No" – investments that produce great research and results, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
 
 Of course, we did find some resounding "Yes" investments as well. Here's a good example from FY23:
 
@@ -82,7 +83,7 @@ Of course, we did find some resounding "Yes" investments as well. Here's a good 
 
 #### Why bet on this?
 
-Consider a hypothetical but realistic use case: a member of the public who needs to file a petition for a restraining order with the court can't complete that task, because the forms and processes needed to do so are designed and written for attorneys. The vast majority of petitioners do not have an attorney or other legal representation, and while they can file the petition themselves, the process itself imposes burdens that may delay or interfere with taking this legal action to protect themselves. Making a difference by simplified, guided form completion for people in these types of situations is exactly the type of impact 10x is proud to pursue.
+"Digital Access to Justice Platform" is a great example of how the 10x process embraces change. Our teams have the freedom to recommend pivots from original directions when new paths of delivering impact emerge over the course of a given phase.  Consider a hypothetical but realistic use case: a member of the public who needs to file a petition for a restraining order with the court can't complete that task, because the forms and processes needed to do so are designed and written for attorneys. The vast majority of petitioners do not have an attorney or other legal representation, and while they can file the petition themselves, the process itself imposes burdens that may delay or interfere with taking this legal action to protect themselves. Making a difference by simplified, guided form completion for people in these types of situations is exactly the type of impact 10x is proud to pursue.
 
 <div class="blue-hilighted-insights">
     <h4 id="project-insights-2" tabindex="-1">Insights</h4>
@@ -95,11 +96,9 @@ Consider a hypothetical but realistic use case: a member of the public who needs
 
 #### How it's going
 
-"Digital Access to Justice Platform" is a great example of how the 10x process embraces change. Our teams have the freedom to recommend pivots from original directions when new paths of delivering impact emerge over the course of a given Phase.
+The initial idea focused on resolving fines and fees that didn't feel like a winning bet for 10x. But the team did find an opportunity to help in a different way, which was to improve the digital experience people have with the justice system. 
 
-In this case, the initial idea that focused on resolving fines and fees didn’t feel like a winning bet for 10x. But the team did find an opportunity to help in a different way, which was to improve the digital experience people have with the justice system.
-
-The new opportunity in this space that our team will be pursuing in Phase Three during FY24 addresses a problem that our team uncovered in earlier phases: that "justice forms" are designed for lawyers, when the majority of people who interact with the system are not lawyers, nor have lawyers to represent them. 
+The new opportunity in this space that our team will be pursuing in Phase 3 during FY24 addresses a problem that our team uncovered in earlier phases: that "justice forms" are designed for lawyers, while the majority of people who interact with the system are not lawyers, nor have lawyers to represent them. 
 
 The first use case within the court system is to deliver shared technology for facilitating online interviews for members of the public seeking legal redress. If successful, we'll deliver impact by helping people assemble the documents they need to advocate for themselves within the justice system, and eventually scale to other public interactions with the government. 
 
@@ -117,7 +116,7 @@ The first use case within the court system is to deliver shared technology for f
 ### FY23 wins
 
 <div class="blue-hilighted-insights">
-    <p><span class="text-bold">Benefits Locator Tool</span><br/>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Recognition Service" (BEARS), and it had just graduated from Phase Four of our pipeline. Today it's a <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">fully operational product</a> transitioned to a new home at USA.gov, which will iterate, improve, own, and sustain the product moving forward.</p>
+    <p><span class="text-bold">Benefits Locator Tool</span><br/>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Recognition Service" (BEARS), and it had just graduated from Phase 4 of our pipeline. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">Today it's a fully operational product</a> transitioned to a new home at USA<span>.</span>gov, which will iterate, improve, own, and sustain the product moving forward.</p>
 </div>
 
 <div class="blue-hilighted-insights">
@@ -131,7 +130,7 @@ The first use case within the court system is to deliver shared technology for f
 
 ### Celebrating "No"
 
-As is typical for any Impact Report, we want to highlight the body and breadth of our work, and showcase select 10x investments in FY23. But, unlike typical Impact Reports, we also want to call attention to the investments we’ve said "No" to.
+As is typical for any Impact Report, we want to highlight the body and breadth of our work, and showcase select 10x investments in FY23. But, unlike typical Impact Reports, we also want to call attention to the investments we've said "No" to.
 
 At 10x, we celebrate "No."  Saying "No" is an expression of why our approach to funding ideas, investments, and products works. If we can't justify spending time and money on an investment, we stop funding it. And, in fact, we've said "No" more times than we've said "Yes." But it means that we are shifting our resources to the investments and products that show the biggest potential, the biggest impact. 
 
