@@ -1,7 +1,9 @@
 ---
 title: 10x announces new projects chosen for FY23 Phase 1 funding
-subtitle: 10x is excited to announce the newest batch of projects selected for Phase 1.
 description: 10x selected 15 high-impact ideas for its next round of funding. These projects will kick off mid in 2023.
+hero_banner:
+  title: 10x announces new projects chosen for FY23 Phase 1 funding
+  subtitle: 10x is excited to announce the newest batch of projects selected for Phase 1.
 footer: every-solution-starts-as-an-idea
 date: "2023-05-08"
 slug: "2023-selected-projects"

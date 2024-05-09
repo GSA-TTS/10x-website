@@ -1,7 +1,9 @@
 ---
 title: "10x's approach to investments"
-subtitle: An OPSI report 
 description: "OPSI, part of the OECD, profiles 10x's unique approach to funding government technology solutions. Find out how they do it."
+hero_banner:
+  title: "10x's approach to investments"
+  subtitle: An OPSI report
 footer: "every-solution-starts-as-an-idea"
 date: "2020-05-19"
 slug: "investment-approach"

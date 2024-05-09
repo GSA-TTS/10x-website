@@ -1,7 +1,9 @@
 ---
 title: "10x Project Lightning Talks"
-subtitle: "Live showcase on Digital.gov"
 description: "View a video of a live showcase of some of 10x's most innovative projects."
+hero_banner:
+  title: "10x Project Lightning Talks"
+  subtitle: "Live showcase on Digital.gov"
 footer: "10x-in-the-wild"
 date: "2020-06-29"
 slug: "2020-lightning-talks"

@@ -1,7 +1,8 @@
 ---
 layout: layouts/base.html
 section: post
-news-text: News
+hero_banner:
+  category: "News"
 return-to-top_text: Return to top
 home-link-text: Home
 news-update-text: News and Updates
@@ -14,23 +15,7 @@ tags-list:
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page blog-page static-content-page">
     <div class="banner-bg desktop:margin-bottom-2">
-      <div class="banner-bg-gradient padding-y-2">
-        <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
-          style="display: none !important;" />
-        <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
-          style="display: none !important;" />
-        <section class="grid-container header-section blog-post-header-section usa-section" aria-labelledby="{{ news-text }}">
-          <span class="page-brow" id="{{ news-text }}">
-            <span class="news-text-wrapper">{{ news-text }}</span>
-            <span class="divider padding-x-1">|</span>
-            <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
-          </span>
-          <h1>{{ title }}</h1>
-          {%- if subtitle != null -%}
-          <h2>{{ subtitle }}</h2>
-          {%- endif -%}
-        </section>
-      </div>
+      {% include "components/gradient-hero-banner.html" %}
     </div>
     <section class="usa-section grid-container">
       {% include "components/news-blog-post-breadcrumb.html" %}

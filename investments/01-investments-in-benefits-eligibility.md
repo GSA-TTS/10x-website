@@ -1,6 +1,7 @@
 ---
-title: Benefits eligibility and delivery
-subtitle: Reducing friction in navigating government benefits.
+hero_banner:
+  title: "Benefits eligibility and delivery"
+  subtitle: "Reducing friction in navigating government benefits."
 landing-subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
 description: 10x projects help the public find out about benefits, eligibility, and how to apply.
 excerpt: |-

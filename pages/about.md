@@ -3,10 +3,11 @@ title: "About GSA's venture studio"
 description: GSA's TTS 10x program invests in ideas from civil servants on ways good-for-government technology can make a better-for-the-public experience.
 layout: layouts/about-page.html
 permalink: /about/index.html
-pageBrow: About
-pageTitle: About 10x
-subtitle: Tech innovation for better government digital experiences
 mainNavPageTitle: About 10x
+hero_banner:
+  category: "About"
+  title: "About 10x"
+  subtitle: "Tech innovation for better government digital experiences"
 redirect_from: 
   - /fueling-innovation
   - /making-each-dollar-count

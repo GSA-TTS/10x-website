@@ -1,7 +1,9 @@
 ---
 title: Combating bias in artificial intelligence
-subtitle: Helping civil servants mitigate bias for equitable use of AI
 description: The Combating Bias in AI project addresses potential inequities and harms associated with the federal government's adoption of AI and ML capabilities.
+hero_banner:
+  title: Combating bias in artificial intelligence
+  subtitle: Helping civil servants mitigate bias for equitable use of AI
 redirect_from: 
   - /projects/combating-bias-in-ai-ml-implementation/
 footer: every-solution-starts-as-an-idea

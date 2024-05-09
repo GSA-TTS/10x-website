@@ -1,7 +1,9 @@
 ---
 title: "Requesting ideas on reimagining public engagement and equity in delivery"
-subtitle: ExecutiveGov Coverage
 description: "Read ExecutiveGov's coverage of 10x's fall 2021 request for idea submissions for FY22 investments."
+hero_banner:
+    title: "Requesting ideas on reimagining public engagement and equity in delivery"
+    subtitle: ExecutiveGov Coverage
 footer: 10x-in-the-wild
 date: "2021-09-21"
 slug: "FY22-idea-submission-investment-themes"

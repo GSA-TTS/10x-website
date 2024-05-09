@@ -13,7 +13,7 @@
         <a href="{{ aboutPage.url | url }}"
           class="usa-sidenav__item {% if aboutPage.url == page.url %}usa-current{% endif %}" 
           {% if aboutPage.url == page.url %}aria-current="page"{% endif %}>
-          {{ aboutPage.data.pageTitle }}
+          {{ aboutPage.data.hero_banner.title }}
         </a>
       </li>
       {%- endfor -%}

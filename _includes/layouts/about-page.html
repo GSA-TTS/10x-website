@@ -1,23 +1,13 @@
 ---
 layout: layouts/base.html
 section: about
+hero_banner:
+  category: "About"
 ---
 <div class="portfolio-blog-pages">
   <div class="TxContent portfolio-blog-single-page about-page-section about-page static-content-page">
     <div class="banner-bg desktop:margin-bottom-2">
-      <div class="banner-bg-gradient padding-y-2">
-        <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
-          style="display: none !important;" />
-        <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
-          style="display: none !important;" />
-        <section class="grid-container header-section blog-post-header-section usa-section" aria-labelledby="{{ pageBrow }}">
-          <span class="page-brow" id="{{ pageBrow }}">{{ pageBrow }}</span>
-          <h1>{{ pageTitle }}</h1>
-          {%- if subtitle != null -%}
-          <h2>{{ subtitle }}</h2>
-          {%- endif -%}
-        </section>
-      </div>
+      {% include "components/gradient-hero-banner.html" %}
     </div>
     <section class="usa-section grid-container">
       <div class="grid-row content-column grid-gap-6">

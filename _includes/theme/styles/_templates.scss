@@ -132,7 +132,7 @@ h2,
     .banner-bg-gradient {   
         background: $homepage-deep-blue url('../images/homepage-gradient-bg-mobile.jpg') top left repeat-x;  
         @include at-media("tablet") {
-           background: $homepage-deep-blue url('../images/homepage-gradient-bg.jpg') top left repeat-x;
+            background: $homepage-deep-blue url('../images/homepage-gradient-bg.jpg') top left repeat-x;
         }
     }
 
@@ -815,8 +815,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         h3 {
             font-size: size('body', 8);
             font-weight: 500;
-            line-height: lh('heading', 3);
-            color: color("violet-90");
+            line-height: lh('heading', 5);
 
             .usa-link {
                 color: color("violet-90");

@@ -1,6 +1,7 @@
 ---
-title: Science, medicine, and the environment
-subtitle: Government scientific data yields powerful insights and produces tangible benefits for society.
+hero_banner:
+  title: Science, medicine, and the environment
+  subtitle: Government scientific data yields powerful insights and produces tangible benefits for society.
 landing-subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
 description: 10x invests in making research and data in science, medicine, and the environment easier to consume and understand.
 excerpt: |-
