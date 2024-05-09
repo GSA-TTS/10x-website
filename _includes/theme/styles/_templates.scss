@@ -296,7 +296,7 @@ h2,
             }
         }
 
-        .usa-hero__heading + * {     
+        .header-section-column {     
             @include at-media("desktop") {
                 margin-top: units(4);
             }
