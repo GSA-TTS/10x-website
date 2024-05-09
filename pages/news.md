@@ -1,9 +1,10 @@
 ---
 title: 10x News and Announcements
 description: 10x in the news--stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions
-pageBrow: News
-pageTitle: 10x announcements, media coverage and project highlights
-subtitle: Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions
+hero_banner:
+  category: "News"
+  title: "10x announcements, media coverage and project highlights"
+  subtitle: "Stories of innovation, experiments, and what we've learned as we work toward delivering good-for-people digital solutions"
 layout: layouts/news-landing.html
 permalink: "/news{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html"
 eleventyNavigation:

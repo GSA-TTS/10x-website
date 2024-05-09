@@ -1,22 +1,10 @@
 ---
 layout: layouts/base.html
-section: blog
+section: tags
 ---
 <div class="portfolio-bloglist-wrapper portfolio-blog-pages">
   <div class="newspage-wrapper banner-bg">
-    <div class="banner-bg-gradient padding-y-2">
-      <img src="{{ '/assets/images/homepage-gradient-bg.jpg' | url }}" alt="" width="0" height="0"
-        style="display: none !important;" />
-      <img src="{{ '/assets/images/homepage-gradient-bg-mobile.jpg' | url }}" alt="" width="0" height="0"
-        style="display: none !important;" />
-      <section class="grid-container header-section usa-section">
-        <h1>{{ pageTitle }} <span>{{ tag | replace: "-", " " }}</span></h1>
-        {%- if subtitle != null -%}
-        <h2>{{ subtitle }}</h2>
-        {%- endif -%}
-        <h3>{{ pageBrow }}</h3>
-      </section>  
-    </div>  
+    {% include "components/gradient-hero-banner.html" %}
     <section class="usa-section grid-container">
       {% include "components/news-blog-post-breadcrumb.html" %}
       <div class="grid-row content-column grid-gap-6 margin-top-5">

@@ -1,6 +1,7 @@
 ---
-title: Open, usable federal data
-subtitle: Government data that’s findable, usable and useful.
+hero_banner:
+  title: "Open, usable federal data"
+  subtitle: "Government data that’s findable, usable and useful."
 landing-subtitle: What would it take to make government data easily usable?
 description: 10x supports projects that make federal government data open, findable, usable, and safe to use.
 excerpt: |-

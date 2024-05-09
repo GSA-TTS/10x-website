@@ -1,7 +1,9 @@
 ---
 title: "Government reinvention"
-subtitle: A venture capitalist mindset
 description: "10x's approach applies learnings from venture capitalists to the development of technology projects for government. Find out how."
+hero_banner:
+  title: "Government reinvention"
+  subtitle: A venture capitalist mindset
 footer: "10x-in-the-wild"
 date: "2019-10-30"
 slug: "government-reinvention-venture-capitalist-mindset"
