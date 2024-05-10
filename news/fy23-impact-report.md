@@ -1,7 +1,3 @@
-title: "10x's FY23 Impact Report is now available"
-  subtitle: "We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23"
-
-
 ---
 title: 10x's FY23 Impact Report is now available
 description: We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23.
