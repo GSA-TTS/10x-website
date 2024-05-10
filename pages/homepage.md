@@ -10,11 +10,11 @@ hero_banner:
   title: "10x is the federal government’s very own venture studio"
 
 news_card:
-  date: "February 14, 2024"
-  title: "Announcing 10x's exciting new investments"
-  subtitle: "10x selected a new set of high-impact investments for its FY24 Phase 1 funding"
+  date: "May 13, 2024"
+  title: "10x's FY23 Impact Report is now available"
+  subtitle: "We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23"
   button_text: "Read more"
-  button_link: "/news/2024-selected-investments/"
+  button_link: "/impact/_fy23-impact-report/"
 
 header_columns:
   title: We're different by design
