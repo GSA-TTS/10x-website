@@ -60,7 +60,7 @@ Conversations about big topics — like what an ideal grants technology ecosyste
 
 So what can 10x do with these insights? How do we harness the value of conversations, and contribute to them?
 
-We're starting with the assumption that the best way to squeeze value out of conversations is to know which conversations to start in the first place. And a good place to start is by identifying what important conversations are happening that innovation could inform. [We've written previously]({{ fy21-url | url }}) about the opportunity that civil servants have to bring their whole selves to work, and how that can influence our technology priorities.
+We're starting with the assumption that the best way to squeeze value out of conversations is to know which conversations to start in the first place. And a good place to start is by identifying what important conversations are happening that innovation could inform. We've written previously about the opportunity that civil servants have to bring their whole selves to work, and how that can influence our technology priorities.
 
 In the last few years, our country has been having some very public, passionate conversations about a few topics:
 
