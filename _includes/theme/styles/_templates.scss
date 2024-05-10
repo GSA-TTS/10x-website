@@ -1184,6 +1184,8 @@ input[type="search"]::-webkit-search-cancel-button {
     cursor: pointer;
 }
 
-.usa-footer .grid-container {
-    max-width: 64rem;
+.usa-footer {
+    .grid-container {
+        max-width: 64rem;
+    }
 }
