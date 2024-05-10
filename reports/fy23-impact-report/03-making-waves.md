@@ -3,7 +3,7 @@ permalink: false
 report_parent: fy23
 
 nav_order: 2
-nav_label: "Making Waves"
+nav_label: "Making waves"
 nav_id: "making-waves"
 
 class: white
@@ -12,16 +12,16 @@ class: white
     <img alt="" src="{{ '/assets/images/impact-reports/making-waves.svg' | url }}" width="557" height="192">
 </div>
 
-## Making Waves
+## Making waves
 
-This is the "Don't take our word for it" section. We want you to hear directly from the folks outside GSA who interact with 10x projects in one way or another. That's our idea authors, users, product owners, agency champions, and the people who wear multiple hats simultaneously or interchangeably.
+This is the "Don't take our word for it" section. We want you to hear directly from the folks outside GSA who interact with 10x projects in one way or another. That's our Idea Authors, users, product owners, agency champions, and the people who wear multiple hats simultaneously or interchangeably.
 
 Here are stories from two individuals who devoted time to working with 10x project teams in FY23, in their own words. Without engaged partners like Carey and Connie on our side, 10x can't deliver the impact we're really after. For their enthusiasm and hard work we are tremendously grateful.
 
 <section class="testimonial-text" aria-labelledby="careys-story">
-    <h3 id="careys-story" tabindex="-1">Carey's Story</h3>
+    <h3 id="careys-story" tabindex="-1">Carey's story</h3>
     <p class="text-italic">I submitted the idea for the project <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://github.com/orgs/GSA-TTS/projects/38/views/1?pane=issue&itemId=61533312">Improving Response and Tracking of Sewer Spills</a> during the FY22 round of idea evaluation. And I worked with 10x across its lifecycle before it concluded after Phase Two.</p>
-    <p class="text-italic">I help EPA and state inspectors collaborate through EPA's <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://echo.epa.gov/targeting/national-targeting-center">National Targeting Center</a>, which focuses on improving their inspection and enforcement using innovative online tools (many of which are available through EPA public-facing system called <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://echo.epa.gov/">ECHO</a>). I also help implement an <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.epa.gov/compliance/npdes-ereporting">EPA rulemaking</a> that requires Clean Water Act (CWA) permittees and regulators to use existing, available information technology to electronically report information and data related to the CWA permit program instead of filing written reports.</p>
+    <p class="text-italic">I help EPA and state inspectors collaborate through EPA's National Targeting Center, which focuses on improving their inspection and enforcement using innovative online tools (many of which are available through EPA public-facing system called <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://echo.epa.gov/">ECHO</a>). I also help implement an <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.epa.gov/compliance/npdes-ereporting">EPA rulemaking</a> that requires Clean Water Act (CWA) permittees and regulators to use existing, available information technology to electronically report information and data related to the CWA permit program instead of filing written reports.</p>
     <p class="text-italic">I submitted to 10x because I was looking for a way to jumpstart EPA's implementation of CWA electronic reporting for sewer spill reports. Sewage treatment plants submit these reports when there is an unexpected release of sewage from the sewer collection system. I also wanted to help make these data accessible and usable for EPA and state inspectors and the general public. Each year there are tens of thousands of sewer spills that negatively affect communities by polluting their environments and homes. Switching to electronic reporting and standardizing this noncompliance reporting will help EPA and states provide more effective and efficient oversight. It will also provide transparency to the public on the locations of frequent sewer spills, including if they are in areas of environmental justice concerns, such as underserved communities.</p>
     <p class="text-italic">So I jotted my idea down, and hit submit.</p>
     <p class="text-italic">Over the course of Phases One and Two, the 10x team I worked with was able to pivot based on the new resources EPA received to start on a solution for electronic data collection and reporting. 10x helped us understand our customers better and make user needs a top priority as we moved forward with the electronic reporting transition (which centers on a public-facing system called ECHO). At the end of Phase Two, 10x provided us with the research and artifacts that we needed to improve accessibility to ECHO, allowing the  EPA to move forward without further assistance.</p>
@@ -31,7 +31,7 @@ Here are stories from two individuals who devoted time to working with 10x proje
 </section>
 
 <section class="testimonial-text" aria-labelledby="connies-story">
-    <h3 id="connies-story" tabindex="-1">Connie's Story</h3>
+    <h3 id="connies-story" tabindex="-1">Connie's story</h3>
     <p class="text-italic">Throughout my entire career, I've never been very far from the world of federal grants and at times, have been in the very heart of it. I'm an archaeologist by trade. Long before I ever joined the civil service, I spent many humid afternoons in a remote village in Northern Luzon conducting field work for my dissertation on local agriculture. That research was funded by a grant from the National Science Foundation. I spent many more years working in museums and also benefited from the federal grants ecosystem along the way.</p>
     <p class="text-italic">It's now 2023 and at the end of the year, I'll be retiring from my dream job as the Director of Grants Policy and Management at the Institute of Museum and Library Services (IMLS). Like I said, I've never been far from Federal grants.</p>
     <p class="text-italic">During my time at the agency, I noticed a peculiarity in the nature of the grants that I came across. Most scientific research funded by Federal grants gets published. There's a culture of sharing and debating in science, because the discipline demands rigorous peer-reviewing. </p>

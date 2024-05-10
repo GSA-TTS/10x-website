@@ -3,12 +3,12 @@ permalink: false
 report_parent: fy23
 
 nav_order: 1
-nav_label: "FY23 in Review"
+nav_label: "FY23 in review"
 nav_id: "fy23-in-review"
 
 class: white
 ---
-## FY23 in Review
+## FY23 in review
 
 ### Our investment strategy
 
@@ -26,13 +26,13 @@ Even though this area has significant potential, we ultimately elected not to pr
 
 <aside class="overview-text" role="note">
     <div class="contentRow">
-        <span class="hilighted-text"><span class="text-bold">12</span> of the <span class="text-bold">17</span></span> projects selected for Phase 1 fit into our <span class="text-bold">Equity</span> theme. 5 other projects supported our <span class="text-bold">Digital Foundations</span> theme.
+        <span class="hilighted-text"><span class="text-bold">12</span> of the <span class="text-bold">18</span></span> projects selected for Phase 1 fit into our <span class="text-bold">Equity</span> theme. 5 other projects supported our <span class="text-bold">Digital Foundations</span> theme.
     </div>
 </aside>
 
 ### Other bets we placed
 
-We funded <a class="usa-link" href="{{ '/news/2024-selected-investments/' | url }}">18 brand new Phase 1 investments</a> this year – 17 of which aligned with at least one of our two investment themes.
+We funded <a class="usa-link" href="{{ '/news/2023-selected-projects/' | url }}">18 brand new Phase 1 investments</a> this year – 17 of which aligned with at least one of our two investment themes.
 
 Here are two good examples of investments we funded that align with our investment priorities:
 
@@ -44,7 +44,7 @@ Here are two good examples of investments we funded that align with our investme
 
 <p class="text-italic">For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement - services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry.</p>
 
-#### Why Bet on This?
+#### Why bet on this?
 
 We bet big on equity-centered tech to help people who need it most, and we chose this investment because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people who leave prison and jails, a disproportionate amount of whom are minority and low-income, successfully move back into society. 
 
@@ -57,7 +57,7 @@ We bet big on equity-centered tech to help people who need it most, and we chose
     </ul>
 </div>
 
-#### How it Went
+#### How it went
 
 Early on, our Phase 1 team learned that there are resources that are already available and often designed to accommodate the nuanced structures and jurisdictions of state and municipal governments. We also learned that most people incarcerated in the country end up there through state and local justice systems, not federal. 
 
@@ -69,7 +69,7 @@ Second, the fact that there are several existing resources and organizations wor
 
 All of this made moving to Phase 2 feel risky, and creating a centralized resource to support formerly incarcerated individuals at the federal level might be unfeasible and/or unnecessary. Ultimately, we decided not to move forward. 
 
-But at 10x we love celebrating "No" – investments that produce great research and results, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
+But at 10x we love celebrating "No" – investments that produce great research and insights, but that don't result in a recommendation for a new product or service. We view closing unpromising investments and sharing the learnings as a win. So even though we did not move this forward, we do not count this as a failure.
 
 Of course, we did find some resounding "Yes" investments as well. Here's a good example from FY23:
 
@@ -116,7 +116,7 @@ The first use case within the court system is to deliver shared technology for f
 ### FY23 wins
 
 <div class="blue-hilighted-insights">
-    <p><span class="text-bold">Benefits Locator Tool</span><br/>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Recognition Service" (BEARS), and it had just graduated from Phase 4 of our pipeline. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">Today it's a fully operational product</a> transitioned to a new home at USA<span>.</span>gov, which will iterate, improve, own, and sustain the product moving forward.</p>
+    <p><span class="text-bold">Benefits Locator Tool</span><br/>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Resource Service" (BEARS), and it had just graduated from Phase 4 of our pipeline. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">Today it's a fully operational product</a> transitioned to a new home at USA<span>.</span>gov, which will iterate, improve, own, and sustain the product moving forward.</p>
 </div>
 
 <div class="blue-hilighted-insights">
@@ -130,7 +130,7 @@ The first use case within the court system is to deliver shared technology for f
 
 ### Celebrating "No"
 
-As is typical for any Impact Report, we want to highlight the body and breadth of our work, and showcase select 10x investments in FY23. But, unlike typical Impact Reports, we also want to call attention to the investments we've said "No" to.
+As is typical for any impact report, we want to highlight the body and breadth of our work, and showcase select 10x investments in FY23. But, unlike typical impact reports, we also want to call attention to the investments we've said "No" to.
 
 At 10x, we celebrate "No."  Saying "No" is an expression of why our approach to funding ideas, investments, and products works. If we can't justify spending time and money on an investment, we stop funding it. And, in fact, we've said "No" more times than we've said "Yes." But it means that we are shifting our resources to the investments and products that show the biggest potential, the biggest impact. 
 

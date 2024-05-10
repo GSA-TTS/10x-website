@@ -3,7 +3,7 @@ permalink: false
 report_parent: fy23
 
 nav_order: 4
-nav_label: "10x Dark Matter"
+nav_label: "10x dark matter"
 nav_id: "10x-dark-matter"
 
 class: dark-gray
@@ -12,7 +12,7 @@ class: dark-gray
     <img alt="" src="{{ '/assets/images/impact-reports/dark-matter-planet.svg' | url }}" width="767" height="372">
 </div>
 
-## 10x Dark Matter
+## 10x dark matter
 
 <p class="text-italic">In scientific parlance, "dark matter" refers to everything that makes up the known universe that is neither visible nor detectable by humans using existing technology – about 85% of everything in the universe. To us, dark matter refers to the powerful but hard to pin down ideas that the 10x investment model delivers for civil servants. Dark Matter is a section we write about each year. It boils down to identifying and describing the hidden value in 10x work. Similar to our investments featured within the "Trace the ripples" section, we explore 10x's impact that isn't product-shaped. Through dark matter, we ask the following question: What if 85% of the value that 10x delivers lies within great ideas, not software?</p>
 
@@ -42,7 +42,7 @@ We believe the government's inability to effectively reach the public represents
 
 #### The transformative potential of research
 
-We've seen firsthand that connecting federal workers and the public has transformative potential both to improve public services and to strengthen the workforce. And so we're looking for more opportunities to connect more with the public and conduct research that is transformative for civil servants, the public, and the technology solutions we build together. This means:
+We've seen firsthand that connecting federal workers and the public has transformative potential both to improve public services and to strengthen the workforce. And so we're looking for more opportunities to connect with the public and conduct research that is transformative for civil servants, the public, and the technology solutions we build together. This means:
 
 - Including <span class="text-bold">non-technical civil servants</span>, such as policy experts, budget authorities, or scientists, in either a formal or observatory capacity. 
 - Directly involving <span class="text-bold">members of the general public</span> in research planning and execution.

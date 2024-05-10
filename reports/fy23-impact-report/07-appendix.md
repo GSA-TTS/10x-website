@@ -119,4 +119,4 @@ The 10x budget is funded through the Federal Citizen Service Fund (FCSF), a fund
   </tbody>
 </table>
 
-This chart shows the number of ideas that we received, the number of investments kicked off in our various Phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we’ve conducted in prior years.
+This chart shows the number of ideas that we received, the number of investments kicked off in our various phases, and how many closed out over the years. In FY22, we held only one round of idea solicitation and evaluation, rather than the two rounds we've conducted in prior years.
