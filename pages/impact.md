@@ -6,12 +6,12 @@ hero_banner:
   title: "Our impact"
   subtitle: "A yearly review of 10x investments in improving government digital services"
 layout: layouts/impact-list-page.html
-permalink: /impact{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 mainNavPageTitle: Impact Reports
 theme: 8
 className: impact-landing2
 return-to-top_text: Return to top
 order: 3
+permalink: /impact{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 redirect_from: 
   - /reports/
 eleventyNavigation:

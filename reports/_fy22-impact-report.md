@@ -4,7 +4,10 @@ hero_banner:
     title: 10x FY22 Impact Report
     subtitle: 10x FY22 Impact Report
 year: 22
-reportUrl: '/reports/_fy22-impact-report'
+permalink: /impact/fy22-report/index.html
+redirect_from: 
+  - /reports/_fy22-impact-report
+reportUrl: '/impact/fy22-report'
 template: '1'
 
 report_key: 'fy22'

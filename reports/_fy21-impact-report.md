@@ -4,7 +4,10 @@ hero_banner:
     title: 10x FY21 Impact Report
     subtitle: 10x FY21 Impact Report
 year: 21
-reportUrl: '/reports/_fy21-impact-report'
+permalink: /impact/fy21-report/index.html
+redirect_from: 
+  - /reports/_fy21-impact-report
+reportUrl: '/impact/fy21-report'
 template: '1'
 
 report_key: 'fy21'
