@@ -947,6 +947,7 @@ $c-report-header: #006680;
       height: auto;
       margin: 0 units(3) units(1) 0;
       max-height: calc(100vh - units(2));
+      min-width: 289px;
       padding: 1rem 0;
       position: -webkit-sticky;
       position: sticky;
