@@ -50,7 +50,7 @@ We're taking a "try everything" approach to bettering government forms. Current 
 
 Since the earliest days of 10x, we've stuck with a <a class="usa-link" href="{{ '/about/' | url }}">phased investment approach</a>. But change is healthy, and evolution is necessary for any business hoping to innovate.
 
-10x embraces change, and our history reflects that. For example, the number of phases, their expected milestones, and funding levels have all evolved over the years. Even our staffing model is <a class="usa-link" href="{{ '/impact/_fy22-impact-report' | url }}">completely different than a year ago</a>.
+10x embraces change, and our history reflects that. For example, the number of phases, their expected milestones, and funding levels have all evolved over the years. Even our staffing model is <a class="usa-link" href="{{ '/impact/fy22-report' | url }}">completely different than a year ago</a>.
 
 But all of these adaptations existed within our traditional model, or 10x Classic. This year, we've been asking, "What's next?" Because change is imperative to keep up with the pace of technology and current investment practices, 10x needs to adapt, or risk irrelevancy.
 

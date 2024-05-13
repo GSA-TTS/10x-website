@@ -7,7 +7,7 @@ nav_label: "10x Dark Matter"
 nav_id: "10x-dark-matter"
 
 class: dark-gray
-fy21-url: /reports/_fy21-impact-report/
+fy21-url: /impact/fy21-report/
 ---
 ## 10x Dark Matter
 
