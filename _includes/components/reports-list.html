@@ -1,7 +1,7 @@
 <ul class="usa-card-group grid-row grid-gap-2">
   {%- for report in collections.reports -%}
   {%- if report.data.pdf -%}
-    {%- assign reportLink = report.data.reportUrl -%}
+    {%- assign reportLink = report.data.reportUrl | url -%}
     {%- else -%}
       {%- assign reportLink = report.url | url -%}
     {%- endif -%}
