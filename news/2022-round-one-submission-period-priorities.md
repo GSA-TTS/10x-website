@@ -10,6 +10,7 @@ theme: "6"
 footer: "10x-in-the-wild"
 excerpt: "We are excited to announce the funding themes for our first round of idea submissions in FY22: reimagining public engagement, digital response to climate challenges, and equity in delivery."
 tags: Announcements
+news-link-url: /news/2021-selected-projects/
 redirect_from: 
   - /posts/2022-round-one-submission-period-priorities/
 ---
@@ -54,7 +55,7 @@ A few example topics that meet the spirit of this theme include civil rights awa
 
 Those of you who have been following our work (and sending ideas our way!) for a while may notice that this year's themes are similar to last year's themes. This is intentional. Overall, we were very pleased with the outcomes of the tailored investment themes we piloted last round. Last year's themes covered topics that are just as relevant today, if not more so. This time, we've tweaked the theme descriptions to provide a little more clarity.
 
-Because the themes are similar, we encourage folks to take a look at [the list of projects we funded last round](/news/2021-selected-projects/). This will give folks ideas on the types of projects we want to fund as well as avoid duplicating an idea we're already working on.
+Because the themes are similar, we encourage folks to take a look at [the list of projects we funded last round]({{ news-link-url | url }}). This will give folks ideas on the types of projects we want to fund as well as avoid duplicating an idea we're already working on.
 
 ## About 10x
 

@@ -10,6 +10,7 @@ slug: "2022-selected-projects"
 excerpt: "Out of nearly 200 ideas, we selected the 25 ideas we feel have the most potential to deliver impact for the American public. 10x is excited to announce this newest batch of projects selected for Phase 1."
 theme: '3'
 tags: Announcements
+investments-url: /investments/
 redirect_from: 
   - /posts/2022-selected-projects/
 ---
@@ -190,7 +191,7 @@ An idea submitted by a civil servant at: The Department of Commerce
 
 To learn more about what it means for a project to begin Phase 1, see our process. We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. See some of our projects on the [Investments](/investments/) pages.
+The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. See some of our projects on the [investments]({{ investments-url | url}}) pages.
 
 ### About 10x
 
