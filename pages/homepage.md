@@ -14,7 +14,7 @@ news_card:
   title: "10x's FY23 Impact Report is now available"
   subtitle: "We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23"
   button_text: "Read more"
-  button_link: "/impact/_fy23-impact-report/"
+  button_link: "/impact/fy23-report/"
 
 header_columns:
   title: We're different by design
