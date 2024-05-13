@@ -1,13 +1,16 @@
 ---
 title: FY22 Phase 1 funding
-subtitle: 10x announces new projects
 description: 10x selected 25 high-impact ideas for its next round of funding. These projects will kick off early in 2022.
+hero_banner:
+  title: FY22 Phase 1 funding
+  subtitle: 10x announces new projects
 footer: every-solution-starts-as-an-idea
 date: "2022-05-11"
 slug: "2022-selected-projects"
 excerpt: "Out of nearly 200 ideas, we selected the 25 ideas we feel have the most potential to deliver impact for the American public. 10x is excited to announce this newest batch of projects selected for Phase 1."
 theme: '3'
 tags: Announcements
+investments-url: /investments/
 redirect_from: 
   - /posts/2022-selected-projects/
 ---
@@ -188,7 +191,7 @@ An idea submitted by a civil servant at: The Department of Commerce
 
 To learn more about what it means for a project to begin Phase 1, see our process. We anticipate kicking off these projects on a rolling basis over the next few months.
 
-The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. See some of our projects on the [Investments](/investments/) pages.
+The best place to find information on these projects — and other active or completed 10x projects — as well as our process, is right here on our website. See some of our projects on the [investments]({{ investments-url | url}}) pages.
 
 ### About 10x
 

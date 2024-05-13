@@ -1,7 +1,9 @@
 ---
 title: Announcing 10x's exciting new investments
-subtitle: 10x selected a new set of high-impact investments for its FY24 Phase 1 funding.
 description: See all the Phase 1 investments 10x is funding in early 2024.
+hero_banner:
+    title: Announcing 10x's exciting new investments
+    subtitle: 10x selected a new set of high-impact investments for its FY24 Phase 1 funding.
 footer: every-solution-starts-as-an-idea
 date: "2024-02-15"
 slug: "2024-selected-investments"

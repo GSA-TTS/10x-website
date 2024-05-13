@@ -3,15 +3,15 @@ title: "Contact 10x"
 description: Want help brainstorming how to improve digital CX for the public? Have questions about 10x? We want to hear from you!
 layout: layouts/about-page.html
 permalink: /about/contact-us/index.html
-pageBrow: About
-pageTitle: Contact us
-subtitle: 10x wants to hear from you! 
 mainNavPageTitle: About 10x
+hero_banner:
+  title: "Contact us"
+  subtitle: "10x wants to hear from you!"
 theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
 return-to-top_text: Return to top
-order: 1
+order: 3
 ---
 
 <p class="usa-intro">

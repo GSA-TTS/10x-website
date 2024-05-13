@@ -1,9 +1,10 @@
 ---
 title: Send Us Your Idea! | 10x Idea Submission
 description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
-pageBrow: Ideas
-pageTitle: Send your idea to 10x
-subtitle: Working in public service makes you uniquely qualified to see how we can create new good-for-government technology that enables good-for-people services. 
+hero_banner:
+  category: "Ideas"
+  title: "Send your idea to 10x"
+  subtitle: "Working in public service makes you uniquely qualified to see how we can create new good-for-government technology that enables good-for-people services."
 layout: layouts/submit-an-idea-page.html
 return-to-top_text: Return to top
 home-link-text: Home
@@ -13,7 +14,7 @@ permalink: /submit-an-idea/index.html
 eleventyNavigation:
   parent: root
   key: Submit an Idea
-  order: 3
+  order: 4
 theme: 6
 renderData:
   title: Send Us Your Idea! | 10x Idea Submission

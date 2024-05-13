@@ -1,6 +1,8 @@
 ---
 title: Equitable and accessible tech
-subtitle: Open, useful, usable federal digital products that reflect the diversity of users.
+hero_banner:
+  title: Equitable and accessible tech
+  subtitle: Open, useful, usable federal digital products that reflect the diversity of users.
 landing-subtitle: How can we ensure that modern government technology works for everyone, especially those most in need?
 description: 10x designs government digital products that remove barriers to access and reflect the diversity of people in the U.S. 
 excerpt: |-

@@ -44,8 +44,9 @@
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
-    "@uswds/uswds": "^3.6.1",
+    "@uswds/uswds": "^3.8.0",
+    "axios": "^1.6.8",
     "eleventy-plugin-toc": "^1.1.5",
-    "jsdom": "^23.0.1"
+    "jsdom": "^23.2.0"
   }
 }

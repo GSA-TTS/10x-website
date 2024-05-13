@@ -1,0 +1,1227 @@
+@use "uswds-core" as *;
+
+/*
+----------------------------------------
+Old theme palette colors
+----------------------------------------
+*/
+$x-lilac-light: #d8d6ee;
+$x-lilac: #c2c2f5;
+
+$x-grimace: #3a337b;
+$x-grimace-light: #7570a3;
+
+$x-tiger-light: #f3afa6;
+$x-tiger: #ff6839;
+$x-tiger-dark: #b34928;
+
+$x-sky-light: #c9f4fd;
+$x-sky: #78e3fb;
+$x-sky-dark: #549fb0;
+
+$x-ocean-light: #b5f0f0;
+$x-ocean: #45d9d9;
+$x-ocean-dark: #309898;
+
+$x-smoke: #d8d8d8;
+$x-lead: #4e5164;
+$x-charcoal: #292a2b;
+
+$card-shadow: 0px 16px 24px rgba(0, 0, 0, 0.15);
+$c-report-header: #006680;
+
+@mixin linkVariant--light {
+  color: color("primary-light");
+
+  &:active,
+  &:focus {
+    color: color("primary-light");
+  }
+
+  &:visited {
+    color: color("base-light");
+  }
+
+  &:hover {
+    color: color("primary-lighter");
+  }
+}
+
+@mixin linkVariant--dark {
+  color: color("primary-darkest");
+
+  &:active,
+  &:focus {
+    color: color("primary-darkest");
+  }
+
+  &:visited {
+    color: color("base");
+  }
+
+  &:hover {
+    color: color("primary-darker");
+  }
+}
+
+
+.usa-app__theme-report {
+  background-color: #ffffff;
+}
+
+.TxReport,
+.Tx__reports {
+  section {
+    margin-left: 0;
+    padding: units(5) units(3);
+    width: 100%;
+
+    .TxBreak__accent-green {
+      &:before {
+        content: "";
+        background: url("../images/impact-reports/report-green-separator.webp") left top no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 54px;
+        display: block;
+      }
+    }
+
+    blockquote {
+      padding-left: 2rem;
+      border-left: 0.5rem solid #006680;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      font-size: 1em;
+    }
+
+    .top-button-wrapper {
+      justify-content: flex-end;
+    
+      .usa-button {
+        &.to-top {
+          font-size: size('body', 5);
+          font-weight: 500;
+          padding: units(2) units(2.5);
+          width: 25%;
+          margin-bottom: units(4);
+      
+          span {
+            padding: 0;
+            margin-top: units(1px);
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+            margin-right: units(0.5);
+          }
+      
+          @media screen and (min-width: 640px) {
+            width: initial;
+          }
+        }
+      }
+    
+      @include at-media-max('tablet-lg') {
+        justify-content: center;
+    
+        .usa-button {
+          &.to-top {
+            margin-bottom: units(1);
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+
+    h2,
+    h3,
+    h4 {
+      line-height: lh('heading', 6);
+    }
+
+    &.white {
+      background-color: color("white");
+
+      .top-button-wrapper {
+        .to-top {
+          color: #FFF;
+          background-color: $x-grimace-light;
+  
+          &:hover {
+            background-color: $x-grimace;
+          }
+        }
+      }
+    }
+
+    &.light-gray {
+      background-color: rgba(216, 216, 216, 0.25);
+
+      .top-button-wrapper {
+        .to-top {
+          color: #FFF;
+          background-color: $x-grimace-light;
+  
+          &:hover {
+            background-color: $x-grimace;
+          }
+        }
+      }
+    }
+
+    &.dark-gray {
+      background-color: $x-charcoal;
+      color: #FFF;
+
+      .top-button-wrapper {
+        .to-top {
+          background-color: $x-lilac;
+          color: #162e51;
+  
+          span {
+            color: #162e51;
+          }
+  
+          &:hover {
+            background-color: $x-lilac-light;
+          }
+        }
+      }
+
+      a {
+        color: $x-lilac;
+
+        &:hover {
+          color: $x-lilac-light;
+        }
+      }
+
+      h2 {
+        color: $x-lilac;
+      }
+
+      strong,
+      .text-bold {
+        color: $x-sky;
+      }
+
+      .TxBreak__accent-green {
+        &:before {
+          background-image: url("../images/impact-reports/report-gradient-separator.webp");
+          height: 74px;
+        }
+      }
+    }
+
+    &:first-child {
+      padding-top: 0;
+      margin-top: 0;
+
+      .TxBreak__accent-green {
+        padding-top: 2rem;
+      }
+    }
+
+    strong,
+    h4 {
+      color: $c-report-header;
+    }
+
+    @media screen and (min-width: 640px) {
+      margin-left: -2%;
+      padding: 1.5rem;
+      width: 103.8%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-left: -200%;
+      padding: 4rem 260% 4rem 200%;
+      width: 560%;
+    }
+  }
+
+  &__nav-header {
+    background-image: url("../images/impact-reports/report-lilac-brush-stroke.png");
+    background-position-x: -4px;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    font-size: 1.4rem;
+    height: 44px;
+    justify-content: left;
+    left: 0;
+    padding-left: 5rem;
+    padding-top: 0.4rem;
+    position: relative;
+
+    @media screen and (min-width: 1024px) {
+      background-position-x: left;
+      justify-content: center;
+      left: -50px;
+      padding-left: 1rem;
+      padding-top: 0.2rem;
+    }
+  }
+
+  &__nav-link {
+    a {
+      @include linkVariant--light;
+    }
+
+    svg {
+      @include u-margin-right(1);
+    }
+  }
+
+  &__title {
+    color: #FFF;
+    @include u-margin-top(2);
+  }
+
+  &__subtitle {
+    @include u-margin-top(2);
+  }
+
+  &__intro {
+    color: #FFF;
+    @include u-font("serif", 8);
+
+    @media screen and (min-width: 640px) {
+      @include u-font("serif", 10);
+    }
+  }
+
+  &__content {
+    h2 {
+      color: $c-report-header;
+      font-weight: 500;
+    }
+
+    .callout {
+      &Half {
+        @include u-font("serif", 6);
+        align-items: flex-start;
+        background-image: url("../images/impact-reports/callout-lilac-half-lg.webp");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: $x-grimace;
+        display: flex;
+        height: 200px;
+        justify-content: center;
+        left: 0;
+        margin-top: 4rem;
+        padding-top: 4rem;
+        position: relative;
+
+        @media screen and (min-width: 1024px) {
+          align-items: center;
+          padding-top: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+          width: 58%;
+          line-height: 1.3rem;
+
+          @media screen and (min-width: 640px) {
+            width: 45%;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            width: 200px;
+          }
+        }
+      }
+
+      &Full {
+        color: #FFF;
+        @include u-font("serif", 7);
+        align-items: center;
+        background-image: url("../images/impact-reports/callout-green-full-lg.webp");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        left: 0;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 1em;
+        position: relative;
+
+        p {
+          font-size: 0.8rem;
+          max-width: 68%;
+          line-height: 1rem;
+
+          @media screen and (min-width: 640px) {
+            font-size: 1.2rem;
+            max-width: 70%;
+            line-height: 1.3rem;
+          }
+        }
+      }
+
+      &FullDark {
+        @include u-font("serif", 7);
+        align-items: center;
+        background-image: url("../images/impact-reports/callout-lilac-full-lg.webp");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: $x-charcoal;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: units(4) units(8);
+        position: relative;
+
+        p {
+          font-size: 0.8rem;
+          max-width: 68%;
+          line-height: units(3);
+          margin: units(7) units(7) units(4) units(7);
+          background: #d6d6ed;
+
+          @media screen and (min-width: 640px) {
+            font-size: 1rem;
+            max-width: 70%;
+          }
+
+          @media screen and (min-width: 1024px) {
+            font-size: 1.2rem;
+            max-width: 577px;
+          }
+        }
+      }
+
+      &Project {
+        @include u-font("serif", 7);
+        align-items: flex-start;
+        background-image: url("../images/impact-reports/report-green-brush-stroke.webp");
+        background-position-x: -1.4rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: $x-charcoal;
+        justify-content: flex-start;
+        left: 0;
+        margin-bottom: 2rem;
+        padding-left: 1rem;
+        padding-top: 0.2rem;
+        position: relative;
+
+        p {
+          font-size: 1.4rem;
+          max-width: 535px;
+
+          @media screen and (min-width: 1024px) {
+            max-width: 615px;
+          }
+        }
+      }
+    }
+
+    .usa-card__container {
+      box-shadow: $card-shadow;
+
+      .usa-card__body {
+        position: relative;
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          @include u-font("sans", "xs");
+
+          li {
+            display: flex;
+            align-items: baseline;
+            @include u-margin-bottom(2);
+
+            &:before {
+              content: "\f058";
+              display: inline-block;
+              font-family: "Font Awesome 5 Free Solid";
+              @include u-margin-right(1);
+              color: color("accent-cool");
+              font-size: 1.25rem;
+              transform: translateY(4px);
+            }
+
+            svg {
+              transform: translateY(2px);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__details {
+    h3 {
+      @include u-margin-bottom(2);
+    }
+
+    @media screen and (min-width: 1024px) {
+
+      a,
+      .usa-button--primary.usa-button--unstyled {
+        @include linkVariant--light;
+      }
+    }
+
+    .usa-card__container {
+      box-shadow: $card-shadow;
+
+      @media screen and (min-width: 1024px) {
+        margin: 0;
+        background: transparent;
+        box-shadow: none;
+
+        color: color("base-dark");
+      }
+
+      .usa-card__body {
+        @media screen and (min-width: 1024px) {
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      @include u-padding-x(3);
+    }
+  }
+
+  .TxLede {
+    @include u-margin-bottom(8);
+  }
+
+  .usa-card {
+    color: color("ink");
+  }
+
+  @mixin ReportContentBg($t: 1) {
+    .TxReport__content {
+      .usa-card__container {
+        background-size: 50%;
+        background-position-x: right;
+        background-position-y: top;
+        background-repeat: no-repeat;
+      }
+
+      .usa-card:nth-child(1) {
+        .usa-card__container {
+          background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}.png");
+        }
+      }
+
+      .usa-card:nth-child(2) {
+        .usa-card__container {
+          position: relative;
+          @include u-padding-bottom(6);
+
+          &:before {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            bottom: 0;
+            right: 0;
+            left: 40%;
+            height: 100px;
+            transform: rotate(180deg);
+            background-size: contain;
+            background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}.png");
+
+            background-repeat: no-repeat;
+          }
+        }
+      }
+
+      .usa-card:nth-child(3) {
+        .usa-card__container {
+          position: relative;
+          background-position-x: 100.05%;
+          background-position-y: 100px;
+          background-size: 10%;
+          background-image: url("../images/impact-reports/portfolio-paint-stroke-#{$t}-v.png");
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+
+  &--template {
+    &-1 {
+      @include ReportContentBg(1);
+    }
+
+    &-2 {
+      @include ReportContentBg(2);
+    }
+
+    &-3 {
+      @include ReportContentBg(3);
+    }
+
+    &-4 {
+      @include ReportContentBg(4);
+    }
+
+    &-5 {
+      @include ReportContentBg(5);
+    }
+
+    &-6 {
+      @include ReportContentBg(6);
+    }
+
+    &-9 {
+      @include ReportContentBg(1);
+    }
+  }
+}
+
+.usa-app__theme-reports {
+  background: linear-gradient(180deg, #{$x-charcoal} 2px, #{$x-lead} 75%, #{$x-smoke} 100%);
+
+  @media screen and (min-width: 1024px) {
+    background: linear-gradient(180deg, #{$x-charcoal} 2px, #{$x-lead} 2000px, #{$x-smoke} 2600px);
+  }
+}
+
+.TxTeam {
+  &__icon {
+    display: inline-block;
+    @include u-margin-right(1);
+    min-width: 30px;
+    text-align: center;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      @include u-margin-bottom(2);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.TxProjects {
+  @include u-margin-top(2);
+
+  a {
+    color: $x-grimace;
+    text-decoration: none;
+
+    svg {
+      transform: rotateZ(-45deg);
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      @include u-margin-right(2);
+      padding-top: 0.3rem;
+      margin-bottom: 2px;
+      height: 41px;
+
+      a {
+        line-height: normal;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.fy23-impact-report-page {
+  color: color('gray-warm-90');
+
+  .header-section {
+    .intro {
+      margin: units(2.5) 0 units(4);
+    }
+  }
+
+  section {
+    padding-bottom: 0;
+
+    .usa-link,
+    h2,
+    h3 {
+      color: color('indigo-warm-70v');
+    }
+
+    h2,
+    h3 {
+      font-weight: 600;
+    }
+
+    h2,
+    h3,
+    h4 {
+      margin-top: units(5);
+      line-height: lh('heading', 6);
+    }
+
+    h2 {
+      margin-bottom: units(4);
+      font-size: size('body', 12);
+
+      &+h3 {
+        margin-top: units(5);
+      }
+    }
+
+    h3 {
+      font-size: size('body', 11);
+    }
+
+    h3,
+    h4 {
+      margin-top: units(5); 
+      margin-bottom: units(2.5);   
+    }
+
+    h4 {
+      font-size: size('body', 8);
+      font-weight: 700;
+      color: color('gray-warm-90');
+
+      .usa-link {
+        font-size: size('body', 9);
+        font-weight: 600;
+      }   
+    }
+
+    strong,
+    .text-bold {
+      color: color('gray-warm-90');
+    }
+
+    .section-divider {
+      text-align: center;
+      margin-bottom: units(10);
+    }
+
+    &.report-intro {
+      h2 {
+        color: color('gray-warm-90');
+        font-weight: 600;
+      }
+  
+      .section-divider {
+        margin-bottom: units(2);
+      }   
+    }
+
+    &#section-fy23-in-review {
+      padding-top: units(1);
+    }
+
+    .top-button-wrapper {
+      .usa-button {
+        &.to-top {
+          background: color('violet-70v');
+
+          &:hover {
+            background: $x-grimace;
+          }
+        }
+      }
+    }
+
+    &.dark-gray {
+      color: white;
+      background: color('gray-warm-90');
+
+      h2,
+      h3 {
+        color: color('cyan-10v');
+      }
+
+      .usa-link,
+      .text-bold,
+      strong,
+      h4 {
+        color: white;
+      }
+
+      .top-button-wrapper {
+        .usa-button {
+          &.to-top {
+            background: color('cyan-10v');
+          }
+        }
+      }
+    }
+
+    aside {
+      &.overview-text {
+        max-width: 435px;
+        margin: units(8) auto units(9);
+        font-size: size('body', 10);
+        color: color('violet-60v');
+        position: relative;
+
+        &.medium-wide {
+          max-width: 455px;
+        }
+
+        &.wide {
+          max-width: 560px;
+        }
+
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: units(2.5);
+          left: units(2.5);
+          z-index: 1;
+        }
+
+        &:before {
+          border-top: 5px solid color('cyan-20v');
+          border-right: 5px solid color('cyan-20v');
+        }
+
+        &:after {
+          border-bottom: 5px solid color('cyan-20v');
+          border-left: 5px solid color('cyan-20v');
+        }
+
+        .contentRow {
+          border: 5px solid color('violet-60v');
+          padding: units(4) units(3) units(3);
+          position: relative;
+          background: white;
+          z-index: 2;
+
+          .hilighted-text {
+            position: absolute;
+            top: units(-6);
+            background: white;
+            padding: units(1);
+
+            strong,
+            .text-bold {
+              font-size: size('body', 17);
+              font-weight: 800;
+              vertical-align: middle;
+              line-height: 1em;
+            }
+          }
+
+          strong,
+          .text-bold {
+            color: color('violet-60v');
+            font-weight: 700;
+          }
+
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .blue-hilighted-insights {
+      background: color('cyan-5v');
+      padding: units(3);
+      margin-top: units(4);
+
+      h4 {
+        margin-top: 0;
+        font-weight: 700;
+      }
+
+      ul {
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        li {
+          margin-bottom: units(1);
+        }
+      }
+    }
+
+    .testimonial-text {
+      background: color('violet-5');
+      padding: units(3);
+      margin-top: units(6);
+      margin-bottom: units(6);
+      margin-left: 0; 
+      width: auto; 
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      h3 {
+        margin-top: 0;
+      }
+    }
+
+    hr {
+      margin: units(4) 0;
+      max-width: 132px;
+      border: none;
+      border-top: 5px solid color('violet-60v');
+      height: 5px;
+    }
+  }
+
+  .usa-table {
+    width: 100%;
+
+    tr {
+      &:nth-child(odd) {
+        td,
+        th {
+          background: color('violet-10');
+        }
+      }
+    }
+
+    thead {
+      tr {
+        th,
+        td {
+          background-color: #000 !important;
+          color: white;
+          font-weight: 700;
+          border-right: 1px solid white;
+          border-bottom: 5px solid color('violet-50');;
+          text-align: center;
+
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+  }
+
+  .appendix-page {
+    h4 {
+      font-size: size('body', 9);
+      font-weight: 600;
+    }
+  }
+}
+
+.usa-in-page-nav-container {
+
+  @include at-media-max('tablet-lg') {
+    display: block;
+  }
+
+  .usa-in-page-nav {
+    max-width: units('mobile');
+    order: unset;
+
+    &.nav-sticky {
+      background: white;
+      border-radius: 0.5rem;
+      height: auto;
+      margin: 0 units(3) units(1) 0;
+      max-height: calc(100vh - units(2));
+      min-width: 289px;
+      padding: 1rem 0;
+      position: -webkit-sticky;
+      position: sticky;
+      width: auto;
+      z-index: 2;
+
+      @include at-media-max('tablet-lg') {
+        position: relative;
+        display: block !important;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+      }
+
+      h2 {
+        display: none;
+      }
+    }
+  }
+
+  .sub-main-content {
+    max-width: 50rem;
+  }
+}
+
+
+.TxLinks {
+  @include u-font-family("serif");
+
+  a {
+    text-decoration: none;
+    color: #162e51;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      @include u-margin-right(2);
+      @include u-padding-left(3);
+      border-top: 1px solid #{color("base-light")};
+      font-size: initial;
+      margin-bottom: 2px;
+      padding-top: 6px;
+
+      @media screen and (min-width: 640px) {
+        font-size: 1.1rem;
+        padding-top: 4px;
+      }
+
+      &.active {
+        background-position-y: 0.3rem;
+        background-image: url("../images/impact-reports/report-nav-active-bar.png");
+        background-repeat: no-repeat;
+        font-weight: bold;
+      }
+
+      a {
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.usa-in-page-nav__list {
+  border-left: 0;
+
+  .usa-in-page-nav__item {
+    border-top: none;
+    border-bottom: units(1px) solid color('indigo-warm-70v');
+
+    a {
+      font-size: size('body', 8);
+      font-weight: 500;
+      border: none;
+      padding: units(2.5) units(2) units(2.5) units(4);
+      color: color('indigo-warm-70v') !important;
+      background: white;
+
+      &:hover,
+      &:active {
+        background: color('blue-5');
+        color: color('indigo-warm-80v') !important;
+        text-decoration: none;
+      }
+    }
+
+    &:first-child {
+      border-top: units(1px) solid color('indigo-warm-70v');
+    }
+
+    .usa-in-page-nav__link {
+
+      &.usa-current {
+        background: color('cyan-5v');
+        border-top: 5px solid color('cyan-20v');
+        border-left: none;
+        font-weight: 600;
+
+        &:after {
+          background: none;
+          width: 0;
+        }
+      }
+    }
+  }
+}
+
+.report-header {
+  @include u-padding-top(8);
+  @include u-padding-bottom(15);
+  background-color: #ffffff;
+  background-image: url("../images/impact-reports/report-1-bg-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0;
+  background-size: cover;
+
+  @media screen and (min-width: 1024px) {
+    background-image: url("../images/impact-reports/report-1-bg.png");
+    background-position-y: -120px;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 640px) {
+    background-image: url("../images/impact-reports/report-1-bg-tablet.png");
+    background-position-y: 0;
+    background-size: cover;
+  }
+
+}
+
+.the10xTeam {
+  background-image: url("../images/impact-reports/the-10x-team.webp");
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 93px;
+  width: 100%;
+
+  @media screen and (min-width: 640px) {
+    height: 213px;
+    width: 60%;
+  }
+}
+
+.projectDemo {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.recharts-wrapper {
+  display: none;
+
+  @media screen and (min-width: 640px) {
+    display: block;
+  }
+}
+
+.recharts-legend-item-text,
+.recharts-default-tooltip,
+.recharts-tooltip-item-value,
+.recharts-tooltip-item-name {
+  color: $x-charcoal !important;
+}
+
+.scroll-table {
+  overflow-x: scroll;
+}
+
+.pdf-icon:after {
+  @include u-margin-left(1);
+  background-image: url("../images/impact-reports/impact-report_pdf-icon.webp");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  position: relative;
+  width: 35px;
+}
+
+ul {
+  margin-bottom: 2rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.ReportTable,
+.ReportBudgetTable {
+  //background-color: rgba(217, 217, 240, .24);
+  padding: 40px 0;
+  padding-top: 30px;
+  position: relative;
+  width: 100%;
+
+  table {
+    margin: 0;
+    width: 100%;
+
+    th {
+      @include u-font("serif", 1);
+      border-bottom: 2px solid $x-tiger;
+      color: $x-grimace;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-top-width: 0;
+    }
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    .highlight {
+      background-color: #F6F6FC;
+    }
+  }
+
+  &__heading {
+    color: $x-tiger-dark;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  &__label {
+    display: block;
+    @include u-font("sans", "2xs");
+    line-height: 16px;
+    margin-bottom: 6px;
+  }
+}
+
+.avatar {
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  height: 8rem;
+  line-height: 8rem;
+  width: 14rem;
+  display: inline-block;
+  margin: 1rem;
+
+  &--delna {
+    background-image: url("../images/impact-reports/delna.webp");
+  }
+
+  &--jim {
+    background-image: url("../images/impact-reports/jim.webp");
+  }
+
+  &--frank {
+    background-image: url("../images/impact-reports/frank.webp");
+  }
+}
+
+.impact-breadcrumb {
+  .grid-container {
+    margin: 0 auto;
+    width: 100%;
+
+    nav {
+      padding: units(2);
+    }
+  }
+}

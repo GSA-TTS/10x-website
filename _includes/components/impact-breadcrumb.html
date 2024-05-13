@@ -1,0 +1,27 @@
+<div class="grid-row impact-breadcrumb">
+  <div class="grid-container">
+    <nav class="usa-breadcrumb padding-y-0" aria-label="Breadcrumbs,,">
+      <ol class="usa-breadcrumb__list">
+        <li class="usa-breadcrumb__list-item">
+          <a href="{{ '/' | url }}" class="usa-breadcrumb__link">
+            <span>
+              {{ home-link-text }}
+            </span>
+          </a>
+        </li>
+        <li class="usa-breadcrumb__list-item">
+          <a href="{{ impact-list-url | url }}" class="usa-breadcrumb__link">
+            <span>
+              {{ all-impact-reports }}
+            </span>
+          </a>
+        </li>
+        <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+          <span>
+            {{ title }}
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>

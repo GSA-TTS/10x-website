@@ -3,16 +3,16 @@ title: "What we do: phases, process, approach, model"
 description: GSA's TTS 10x program is a venture studio that takes federal workers' ideas on ways good-for-government technology can make better-for-the-public experiences.
 layout: layouts/about-page.html
 permalink: /about/what-we-do/index.html
-pageBrow: About
-pageTitle: What we do
-subtitle: Venture studio model
 mainNavPageTitle: About 10x
+hero_banner:
+  title: "What we do"
+  subtitle: "Venture studio model"
 theme: 8
 submit-idea-url: /submit-an-idea/
 submit-idea-button-text: Submit your idea!
 investments-url: /investments/
 return-to-top_text: Return to top
-order: 
+order: 1
 redirect_from: 
   - /process/
   - /the-10x-process

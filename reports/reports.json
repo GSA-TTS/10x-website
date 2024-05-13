@@ -1,0 +1,9 @@
+{
+  "layout": "layouts/report.html",
+  "permalink": "/impact/{{ page.fileSlug }}/index.html",
+  "theme": "report",
+  "tags": [],
+  "footer": "we-started-as-an-idea-too",
+  "date": "Last Modified"
+
+}

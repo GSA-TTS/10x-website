@@ -1,7 +1,9 @@
 ---
 title: Helping people with Limited English Proficiency (LEP)
-subtitle: Multilingual Glossary Tool furthers consistent translation of government content
 description: Multilingual Glossary tool is designed to promote consistent translation of government content in order to improve the experience of people with Limited English Proficiency.
+hero_banner:
+  title: Helping people with Limited English Proficiency (LEP)
+  subtitle: Multilingual Glossary Tool furthers consistent translation of government content
 footer: every-solution-starts-as-an-idea
 date: "2024-03-05"
 slug: "multilingual-glossary-tool"

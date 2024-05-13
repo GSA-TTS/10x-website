@@ -1,7 +1,9 @@
 ---
 title: U.S. Web Design System (USWDS)
-subtitle: Speed of development and consistency in government digital product design
 description: USWDS helps federal web managers gain efficiencies and scale through the use of patterns, components and templates for ongoing improved digital experiences.
+hero_banner:
+    title: U.S. Web Design System (USWDS)
+    subtitle: Speed of development and consistency in government digital product design
 footer: every-solution-starts-as-an-idea
 date: "2024-01-19"
 slug: "us-web-design-system"

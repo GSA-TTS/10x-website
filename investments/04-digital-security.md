@@ -1,6 +1,8 @@
 ---
 title: Digital trust and security
-subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.
+hero_banner:
+  title: Digital trust and security
+  subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.
 landing-subtitle: How can we help the government deliver safe and secure digital experiences to the public?
 description: 10x designs and develops technology to help federal digital teams protect privacy and build public trust.
 excerpt: |-

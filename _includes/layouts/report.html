@@ -1,61 +1,83 @@
 ---
 layout: layouts/base.html
 section: reports
+all-impact-reports: "Reports"
+impact-list-url: /impact/
+home-link-text: "Home"
+hero_banner:
+  category: "Impact Reports"
 ---
 
 {% assign reportSections = collections.reportSections | where: 'data.report_parent', report_key | sort: 'data.nav_order' %}
 
 {%- capture back_to_top -%}
-  <div class="display-flex flex-justify-end margin-top-2">
-    <a class="usa-button to-top" href="#welcome">TOP</a>
+  <div class="top-button-wrapper display-flex margin-top-2">
+    <a class="usa-button to-top" href="#top">
+      <span class="display-inline-block text-top">TOP </span>
+      <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="{{'/assets/images/sprite.svg#arrow_upward' | url}}"></use>
+      </svg>    
+    </a>
   </div>
 {%- endcapture %}
 
 {%- capture break -%}
+  {% if not page.url contains 'fy23-report' %}
   <div class="TxBreak TxBreak__accent-green TxBreak__extraWide"></div>
+  {%- endif -%}
 {%- endcapture %}
 
 
 {%- if permalink -%}
-<div class="usa-app__bg report-header">
-  <div class="grid-container">
-    <div class="grid-row">
-      <div class="grid-col-12 desktop:grid-col-8">
-        <h1 class="TxReport__title">{{ title }}</h1>
-        <div class="TxReport__intro">
-          {{- intro | markdownify -}}
-        </div>
-      </div>
+<div class="portfolio-blog-pages {% if page.url contains 'fy23-report' %} fy23-impact-report-page {% endif %}">
+  <div class="TxContent portfolio-blog-single-page blog-page">
+    <div class="banner-bg desktop:margin-bottom-2">
+      {% include "components/gradient-hero-banner.html" %}
     </div>
-  </div>
-</div>
-<div class="TxContent">
-  <div class="grid-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
-    <div class="grid-row grid-gap-4">
-      <div class="grid-col-12 desktop:grid-col-3">
-        <div id="nav-sticky" class="nav-sticky">
-          <h2 class="TxReport__nav-header">{{ navHeader }}</h2>
-          <div class="TxLinks">
-            <ul>
-            {% for section in reportSections %} 
-              <li class="TxLinks__item"><a href="#section-{{- section.data.nav_id -}}">{{ section.data.nav_label }}</a></li>
-              {%- endfor -%}
-            </ul>
+    {% include "components/impact-breadcrumb.html" %}
+    <div class="grid-container usa-in-page-nav-container Tx__{{ page.fileSlug }} TxReport Tx--{{ page.fileSlug }} TxReport--template-1">
+        <aside
+          id="nav-sticky"
+          class="usa-in-page-nav nav-sticky"
+          data-heading-elements="h2"
+          data-main-content-selector=".sub-main-content"
+          data-title-text="On this page"
+          data-title-heading-level="h2"
+          data-scroll-offset="0"
+          data-root-margin="0px 0px 0px 0px"
+          data-threshold="1"
+        >
+        </aside>   
+        <div class="sub-main-content TxReport__content">
+          {% for section in reportSections %} 
+            <section class="{{- section.data.class -}}" id="section-{{- section.data.nav_id -}}">
+              {{- break -}}
+              {{ section.templateContent }}
+              {{- back_to_top -}}
+            </section>
+          {%- endfor -%}
           </div>
-        </div>
-      </div>
-      <div class="grid-col-12 desktop:grid-col-9 TxReport__content">
-        {% for section in reportSections %} 
-          <section class="{{- section.data.class -}}" id="section-{{- section.data.nav_id -}}">
-            {{- break -}}
-            {{ section.templateContent }}
-            {{- back_to_top -}}
-          </section>
-        {%- endfor -%}
       </div>
     </div>
-  </div>
 </div>
-</div>
-
 {%- endif -%}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Function to update aria-current based on usa-current class
+    function updateAriaCurrent() {   
+      document.querySelectorAll('.usa-in-page-nav__link').forEach(link => {
+        link.removeAttribute('aria-current');
+      });
+
+      const currentLink = document.querySelector('.usa-in-page-nav__link.usa-current');
+
+      if (currentLink) {
+        currentLink.setAttribute('aria-current', 'true');
+      }
+    }
+
+    window.addEventListener('scroll', updateAriaCurrent);
+    updateAriaCurrent();
+  });
+</script>

@@ -60,8 +60,7 @@
     <div class="usa-navbar">
       <div class="usa-logo">
         <a href="{{ '/' | url }}">
-          <span class="usa-sr-only">10 x home</span>
-          <div class="usa-logo" id="basic-logo"><img alt="10x" width="72" height="34" src="{{ '/assets/images/logo.svg' | url }}"></div>
+          <div class="usa-logo" id="basic-logo"><img alt="10 x home" width="72" height="34" src="{{ '/assets/images/logo.svg' | url }}"></div>
         </a>
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
@@ -75,9 +74,16 @@
         {%- for entry in navPages %}
         {% assign isCurrent = false %}
         {% assign hasChildren = false %}
+        {% assign lowercase_entry_title = entry.title | downcase %}
+        
         {%- if entry.url == page.url or page.url contains entry.url -%}
         {% assign isCurrent = true %}
-        {%- endif -%}
+        {% elsif entry.title == 'Impact' and page.url contains '/impact' %}
+          {% assign isCurrent = true %}
+        {% elsif not page.url contains 'fy23-impact-report' and page.url contains 'impact' and lowercase_entry_title contains 'impact' %}
+          {% assign isCurrent = true %}
+        {% endif %}
+
         {%- if entry.children.length > 0 -%}
         {% assign hasChildren = true %}
         {%- endif -%}

@@ -1,7 +1,9 @@
 ---
 title: How can government use technology to better serve the public? 
-subtitle: 10x wants your ideas — submit now through November 30th.
 description: "10x is excited to announce they are accepting idea submissions through November 30, 2022."
+hero_banner:
+  title: How can government use technology to better serve the public? 
+  subtitle: 10x wants your ideas — submit now through November 30th.
 footer: 10x-in-the-wild
 date: "2022-10-04"
 slug: "2023-idea-submission"
