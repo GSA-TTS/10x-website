@@ -1,4 +1,5 @@
 ---
+title: Tools for federal digital teams
 hero_banner:
   title: Tools for federal digital teams
   subtitle: Design systems, guidance, and tools that center the public, instead of mirroring government silos.

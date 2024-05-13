@@ -1,4 +1,5 @@
 ---
+title: "Open, usable federal data"
 hero_banner:
   title: "Open, usable federal data"
   subtitle: "Government data that’s findable, usable and useful."

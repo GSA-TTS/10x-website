@@ -1,4 +1,5 @@
 ---
+title: Equitable and accessible tech
 hero_banner:
   title: Equitable and accessible tech
   subtitle: Open, useful, usable federal digital products that reflect the diversity of users.

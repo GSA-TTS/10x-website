@@ -1,4 +1,5 @@
 ---
+title: Digital trust and security
 hero_banner:
   title: Digital trust and security
   subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.

@@ -295,6 +295,7 @@ $c-report-header: #006680;
   &__content {
     h2 {
       color: $c-report-header;
+      font-weight: 500;
     }
 
     .callout {
