@@ -111,7 +111,7 @@ In FY21, we began tracking and analyzing data on why 10x projects end at particu
   <div class="usa-card usa-card--no-media ReasonForRejection grid-col-12 desktop:grid-col-4">
     <div class="usa-card__container">
       <div class="usa-card__body">
-        <div class="card_color--scheme-{{- card.color -}}">
+        <div class="card_color card_color--scheme-{{- card.color -}}">
           <div class="borderPercent grid-col-12 desktop:grid-col-4" style="width: {{- card.percent -}}%;"></div>
           <div class="border"></div>
           <div class="percent">{{- card.percent -}}%</div>
