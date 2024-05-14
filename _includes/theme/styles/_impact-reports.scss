@@ -890,7 +890,8 @@ $c-report-header: #006680;
 
     h2,
     h3,
-    h4 {
+    h4, 
+    h5 {
       margin-top: units(5);
       line-height: lh('heading', 6);
     }
@@ -909,15 +910,20 @@ $c-report-header: #006680;
     }
 
     h3,
-    h4 {
+    h4, 
+    h5 {
       margin-top: units(5);
       margin-bottom: units(2.5);
     }
 
-    h4 {
-      font-size: size('body', 8);
+    h4, h5 {
+      font-size: size('body', 10);
       font-weight: 700;
       color: color('gray-warm-90');
+    }
+
+    h5 {
+      font-size: size('body', 8);
     }
 
     strong,
