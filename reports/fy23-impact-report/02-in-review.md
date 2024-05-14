@@ -49,7 +49,7 @@ Here are two good examples of investments we funded that align with our investme
 We bet big on equity-centered tech to help people who need it most, and we chose this investment because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people who leave prison and jails, a disproportionate amount of whom are minority and low-income, successfully move back into society. 
 
 <div class="blue-hilighted-insights">
-    <h4 id="project-insights-1" tabindex="-1">Insights</h4>
+    <p class="text-bold margin-top-0">Insights</p>
     <ul>
         <li>About two in three people who are released from prison will be rearrested within three years of their release.</li>
         <li>The recidivism rate is much higher for people with low education levels and limited access to affordable housing and healthcare.</li>
@@ -86,7 +86,7 @@ Of course, we did find some resounding "Yes" investments as well. Here's a good 
 "Digital Access to Justice Platform" is a great example of how the 10x process embraces change. Our teams have the freedom to recommend pivots from original directions when new paths of delivering impact emerge over the course of a given phase.  Consider a hypothetical but realistic use case: a member of the public who needs to file a petition for a restraining order with the court can't complete that task, because the forms and processes needed to do so are designed and written for attorneys. The vast majority of petitioners do not have an attorney or other legal representation, and while they can file the petition themselves, the process itself imposes burdens that may delay or interfere with taking this legal action to protect themselves. Making a difference by simplified, guided form completion for people in these types of situations is exactly the type of impact 10x is proud to pursue.
 
 <div class="blue-hilighted-insights">
-    <h4 id="project-insights-2" tabindex="-1">Insights</h4>
+    <p class="text-bold margin-top-0">Insights</p>
     <ul>
         <li>The initial hypothesis – a dashboard or a notification system for fines and fees – is unlikely to solve the problem or increase satisfaction with government services, and it would introduce significant privacy and interagency data sharing challenges.</li>
         <li>Most form-related products within the civil legal system were designed with lawyers in mind as the intended user base. However, a growing portion of that user base is non-legal professionals, and the public who often lack any kind of representation. This is a big problem.</li>
@@ -116,16 +116,19 @@ The first use case within the court system is to deliver shared technology for f
 ### FY23 wins
 
 <div class="blue-hilighted-insights">
-    <p><span class="text-bold">Benefits Locator Tool</span><br/>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Resource Service" (BEARS), and it had just graduated from Phase 4 of our pipeline. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">Today it's a fully operational product</a> transitioned to a new home at USA<span>.</span>gov, which will iterate, improve, own, and sustain the product moving forward.</p>
+    <h4 id="benefits-locator-tool" tabindex="-1">Benefits Locator Tool</h4>
+    <p>Last time you heard about this investment, it was a 10x investment called the "Benefits Eligibility Awareness Resource Service" (BEARS), and it had just graduated from Phase 4 of our pipeline. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.usa.gov/benefit-finder">Today it's a fully operational product</a> transitioned to a new home at USA<span>.</span>gov, which will iterate, improve, own, and sustain the product moving forward.</p>
 </div>
 
 <div class="blue-hilighted-insights">
-    <p><a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://benefits.gov"><span class="text-bold">Benefits.gov Discovery</span></a><br/>In collaboration with the Department of Labor (DOL), Office of Management and Budget (OMB) and USA.gov, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.
+    <h4 id="benefits-locator-tool" tabindex="-1"><a class="usa-link usa-link--external text-bold" rel="noreferrer" target="_blank" href="https://benefits.gov">Benefits.gov Discovery</a></h4>
+    <p>In collaboration with the Department of Labor (DOL), Office of Management and Budget (OMB) and USA.gov, the 10x team led a discovery effort to develop a notional roadmap for a "Federal Front Door" where customers can locate actionable information on the benefits, services, and programs the federal government offers.
 </p>
 </div>
 
 <div class="blue-hilighted-insights">
-    <p><span class="text-bold">Automated Security Authorization Processing (ASAP)</span><br/>10x partnered with the Federal Risk and Authorization Management Program (FedRAMP<sup>&reg;</sup>) to <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.fedramp.gov/2022-05-19-first-oscal-system-security-plan">strengthen and automate their compliance checklist</a>. It increases FedRAMP's capacity to meet governmentwide demand for secure cloud services. </p>
+    <h4 id="benefits-locator-tool" tabindex="-1">Automated Security Authorization Processing (ASAP)</h4>
+    <p>10x partnered with the Federal Risk and Authorization Management Program (FedRAMP<sup>&reg;</sup>) to <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://www.fedramp.gov/2022-05-19-first-oscal-system-security-plan">strengthen and automate their compliance checklist</a>. It increases FedRAMP's capacity to meet governmentwide demand for secure cloud services. </p>
 </div> 
 
 ### Celebrating "No"
