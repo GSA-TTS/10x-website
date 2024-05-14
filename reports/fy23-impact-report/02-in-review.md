@@ -44,7 +44,7 @@ Here are two good examples of investments we funded that align with our investme
 
 <p class="text-italic">For example, we have observed that there is no centralized, government-led resource for formerly incarcerated individuals to learn about reentry services, social safety net programs, or record expungement - services that help keep people out of the prison system. 10x will explore current government offerings in this space and investigate creating a centralized resource to help support both individuals leaving prison and the network of local and national nonprofit organizations dedicated to supporting their reentry.</p>
 
-#### Why bet on this?
+##### Why bet on this?
 
 We bet big on equity-centered tech to help people who need it most, and we chose this investment because it fits perfectly within that portfolio. We saw in this idea an opportunity to help thousands of people who leave prison and jails, a disproportionate amount of whom are minority and low-income, successfully move back into society. 
 
@@ -57,7 +57,7 @@ We bet big on equity-centered tech to help people who need it most, and we chose
     </ul>
 </div>
 
-#### How it went
+##### How it went
 
 Early on, our Phase 1 team learned that there are resources that are already available and often designed to accommodate the nuanced structures and jurisdictions of state and municipal governments. We also learned that most people incarcerated in the country end up there through state and local justice systems, not federal. 
 
@@ -81,7 +81,7 @@ Of course, we did find some resounding "Yes" investments as well. Here's a good 
 
 <p class="text-italic">10x will explore ways to compile data on fees owed to agencies, such as a personal dashboard or notifications capability that offers visibility into fees owed to the government with links to repayment or forbearance options. This could reduce indebtedness, increase satisfaction with government services, and reduce time on call centers.</p>
 
-#### Why bet on this?
+##### Why bet on this?
 
 "Digital Access to Justice Platform" is a great example of how the 10x process embraces change. Our teams have the freedom to recommend pivots from original directions when new paths of delivering impact emerge over the course of a given phase.  Consider a hypothetical but realistic use case: a member of the public who needs to file a petition for a restraining order with the court can't complete that task, because the forms and processes needed to do so are designed and written for attorneys. The vast majority of petitioners do not have an attorney or other legal representation, and while they can file the petition themselves, the process itself imposes burdens that may delay or interfere with taking this legal action to protect themselves. Making a difference by simplified, guided form completion for people in these types of situations is exactly the type of impact 10x is proud to pursue.
 
@@ -94,7 +94,7 @@ Of course, we did find some resounding "Yes" investments as well. Here's a good 
     </ul>
 </div>
 
-#### How it's going
+##### How it's going
 
 The initial idea focused on resolving fines and fees that didn't feel like a winning bet for 10x. But the team did find an opportunity to help in a different way, which was to improve the digital experience people have with the justice system. 
 
