@@ -38,7 +38,7 @@ Here are two good examples of investments we funded that align with our investme
 
 #### Resources for Formerly Incarcerated Persons
 
-#### The idea
+##### The idea
 
 <p class="text-italic">More than 650,000 people are released from prison every year, but studies show that the recidivism rate is at nearly 66 percent. While many government agencies offer guidance for the formerly incarcerated, we believe this issue is so high profile in society today that it warrants further exploration by 10x.</p>
 
@@ -75,7 +75,7 @@ Of course, we did find some resounding "Yes" investments as well. Here's a good 
 
 <h4><a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://github.com/orgs/GSA-TTS/projects/38?pane=issue&itemId=58755590">Digital Access to Justice Platform</a> (formerly known as Transparency in Fines and Fees)</h4>
 
-#### The idea
+##### The idea
 
 <p class="text-italic">Many people owe fines and fees to the federal government, often amounts that are initially less than $50, such as co-payments to the Veterans Health Administration, late fees associated with loan repayments, etc. If left unpaid, these accrue over time and across agencies when people do not realize what they owe, costing the government and taxpayers valuable time and money.</p>
 
