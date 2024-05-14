@@ -28,7 +28,7 @@ Therefore, we've decided to double down on two new investment themes:
 
 We intend to keep these investment themes for the foreseeable future. Within these themes, we're hoping to invest, and see real progress with, the following target areas.
 
-### Boosting research practices across government
+#### Boosting research practices across government
 
 In FY23, we already succeeded in moving the needle in boosting government research practices. We were able to compensate research participants and conduct in-person user research with the public.
 
@@ -36,7 +36,7 @@ But as we discussed in "Dark Matter," getting research right is critical. <a cla
 
 We're beginning to see a path toward making diligent, ethical, and human-centered research ubiquitous across the federal government. In FY24, we're not just thinking about how to do it, but seeing how we can actualize it.
 
-<p class="text-bold">Forms! Forms! Forms!</p>
+#### Forms! Forms! Forms!
 
 Filling out forms and submitting government paperwork are two of the most common ways that the public  interacts with the federal government. Think small business loans, benefits applications, and annual tax forms. The government is under a lot of pressure to make filling out forms easier for the public. That means that there is a lot of potential for innovation and impact in this area that 10x is already working on. 
 
