@@ -23,6 +23,3 @@ Launched in 2017, Login benefited from renewed energy and momentum into federal 
 10x played an integral part in this effort by investing in the initial development and implementation of a product roadmap, including technical, business, and policy elements. This early-stage funding was critical to growing the product until it secured separate funding to build a robust identity service with a full product team. 10x continued to invest in enhancements to Login in subsequent years, including funding the pilot of Login<span>.</span>gov's IAL2 (Identity Assurance Level 2) capabilities.
 
 Login<span>.</span>gov makes it easy for millions of Americans to use one username and password across multiple government sites, all while keeping their personally identifiable information (PII) safe from fraud and misuse. New features and services are released regularly, like a 24/7 multilingual contact center support and in-person identity proofing options. Login continues iterating and improving its service delivery to both agencies and users, and 10x is proud its investment helped it take flight.
-
-
-
