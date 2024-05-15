@@ -6,7 +6,7 @@ hero_banner:
   subtitle: One username, one password, plus privacy and security
 footer: every-solution-starts-as-an-idea
 date: "2024-04-23"
-slug: "login-dot-gov"
+slug: "login"
 excerpt: "10x was an early investor in Login.gov, the government's centralized identity system."
 theme: '4'
 tags: Projects
