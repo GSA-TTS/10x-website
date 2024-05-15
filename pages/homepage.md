@@ -46,7 +46,7 @@ section_3_content:
     button_link: "/news/site-scanning/"
   - subtitle: "Digital Trust and Security"
     title: "Login.gov"
-    text: Login.gov was one of 10x's first early-stage investments in developing a shared service to support the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
+    text: One of 10x's first early-stage investments in developing a shared service to support the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
     button_link: "/news/login-dot-gov/"
   - subtitle: "Tools for Federal Teams"
     title: "PRA Guide"
