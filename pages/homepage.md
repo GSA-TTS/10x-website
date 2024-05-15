@@ -50,7 +50,7 @@ section_3_content:
     button_link: "/news/login-dot-gov/"
   - subtitle: "Tools for Federal Teams"
     title: "PRA Guide"
-    text: 10x developed a guide to the Paperwork Reduction Act to help agencies and teams understand how to plan for the public comment and clearance processes, and understand how and why it affects their work as technologists.
+    text: Helping agencies and teams understand the intent behind the law, how to plan for the public comment and clearance processes, as well as understand how and why it affects their work as technologists.
     button_link: "/news/pra-guide/"     
   - subtitle: "Investments in Equitable Tech"
     title: "Combating Bias in AI"
