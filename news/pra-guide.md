@@ -13,7 +13,7 @@ tags: Projects
 ---
 
 <p class="usa-intro">  
-    10x developed a step-by-step guide to help agencies understand, plan for, and navigate the complexity of the Paperwork Reduction Act
+    Understand, plan for, and navigate the complexity of the Paperwork Reduction Act
 </p>
 
 This matters to people working in government IT modernization because the Paperwork Reduction Act (PRA) governs how federal agencies collect information from the public, including surveys, questionnaires, forms, and other information collection methods. The overall goal of the PRA is to reduce the paperwork burden on private businesses and citizens. It does this by making sure the data the government collects is accurate and helpful, and is collected and used for its intended purpose. It also ensures privacy of data, and helps teams calculate how much time it will take the public to complete forms or other requests to collect information. 
