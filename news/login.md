@@ -1,5 +1,5 @@
 ---
-title: Login.gov - the federal government's centralized identity system
+title: Login.gov
 description: 10x was an early investor in Login.gov, the government’s centralized identity system.
 hero_banner:
   title:  Login.gov
