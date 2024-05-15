@@ -44,6 +44,14 @@ section_3_content:
     title: "Site Scanning"
     text: Automated, real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
     button_link: "/news/site-scanning/"
+  - subtitle: "Digital Trust and Security"
+    title: "Login.gov"
+    text: Login.gov was one of 10x's first early-stage investments in developing a shared service to support the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
+    button_link: "/news/login-dot-gov/"
+  - subtitle: "Tools for Federal Teams"
+    title: "PRA Guide"
+    text: 10x developed a guide to the Paperwork Reduction Act to help agencies and teams understand the intent behind the law, and how to plan for the public comment and clearance processes, as well as understand how and why it affects their work as technologists.
+    button_link: "/news/pra-guide/"     
   - subtitle: "Investments in Equitable Tech"
     title: "Combating Bias in AI"
     text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
