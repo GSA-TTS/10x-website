@@ -50,7 +50,7 @@ section_3_content:
     button_link: "/news/site-scanning/"
   - subtitle: "Tools for Federal Teams"
     title: "PRA Guide"
-    text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance processes, as well as understand how and why it affects their work as technologists.
+    text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance process, as well as understand how and why it affects their work as technologists.
     button_link: "/news/pra-guide/"     
   - subtitle: "Investments in Equitable Tech"
     title: "Combating Bias in AI"
