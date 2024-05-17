@@ -62,7 +62,7 @@ section_3_content:
     button_link: "/news/notify/"
   - subtitle: "Tools for Federal Teams"
     title: "U.S. Web Design System"
-    text: Supporting effective customer experience within the government's digital services landscape, including design patterns and components.
+    text: Supporting digital teams in building consistent, trustworthy, effective customer experiences within the government's digital services landscape.
     button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
