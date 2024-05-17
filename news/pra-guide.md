@@ -1,5 +1,5 @@
 ---
-title: Demystifying the Paperwork Reduction Act, Step by Step
+title: Paperwork Reduction Act
 description: 10x developed a step-by-step PRA Guide to help agencies understand, plan for, and navigate the complexity of the Paperwork Reduction Act.
 hero_banner:
   title:  PRA Guide
