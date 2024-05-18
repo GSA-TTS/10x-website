@@ -10,6 +10,8 @@ slug: "pra-guide"
 excerpt: "10x developed a step-by-step guide to help agencies understand, plan for, and navigate the complexity of the Paperwork Reduction Act."
 theme: '4'
 tags: Projects
+redirect_from: 
+  - /projects/guide-to-pra/
 ---
 
 <p class="usa-intro">  

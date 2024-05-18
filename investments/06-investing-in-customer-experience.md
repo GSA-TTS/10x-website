@@ -12,7 +12,6 @@ image-url: "/assets/images/customer-experience-icon.webp"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/finding-grant-funded-products/
-  - /projects/guide-to-pra/
   - /projects/inclusion-for-rulemaking/
   - /projects/shared-components-for-museums-and-libraries/
 ---
