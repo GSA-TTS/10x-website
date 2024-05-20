@@ -40,21 +40,29 @@ section_2_static_content:
 section_3_content:
   title: "Take a look at some of our best investments so far"
   cards:
+  - subtitle: "Digital Trust and Security"
+    title: "Login.gov"
+    text: Supporting the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
+    button_link: "/news/login/"  
   - subtitle: "Tools for Federal Teams"
     title: "Site Scanning"
-    text: Automated, real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
+    text: Automating real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
     button_link: "/news/site-scanning/"
+  - subtitle: "Tools for Federal Teams"
+    title: "PRA Guide"
+    text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance process, as well as understand how and why it affects their work as technologists.
+    button_link: "/news/pra-guide/"     
   - subtitle: "Investments in Equitable Tech"
     title: "Combating Bias in AI"
-    text: Emerging technologies can raise concerns around justice and equity, and 10x is looking at how to combat bias in AI as its use increases across government agencies.
+    text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
   - subtitle: "Improved Digital Experiences"
     title: "Notify.gov"
-    text: This text-based service helps all levels of government communicate with the public, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
+    text: Helping all levels of government communicate with the public via text message, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
     button_link: "/news/notify/"
   - subtitle: "Tools for Federal Teams"
     title: "U.S. Web Design System"
-    text: USWDS is a dynamic platform for continuous innovation within the government's digital services landscape, including design patterns and components.
+    text: Supporting digital teams in building consistent, trustworthy, effective customer experiences within the government's digital services landscape.
     button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
