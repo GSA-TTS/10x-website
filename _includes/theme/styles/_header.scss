@@ -50,6 +50,10 @@
 
     .usa-nav {
 
+        @include at-media(desktop) {
+            padding: 0; 
+        }
+
         &.is-visible {
             animation: none;
             background-color: color("violet-90"); 
