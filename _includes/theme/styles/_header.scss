@@ -2,7 +2,7 @@
 
 .usa-header {
     background-color: color("violet-90"); 
-    min-height: 70px;
+    min-height: units(8);
 
     + main {
         border-top: 0; 
