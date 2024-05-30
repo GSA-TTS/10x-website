@@ -161,6 +161,14 @@ h2,
     }
 }
 
+.usa-home {
+    .header-section-column {
+        a.usa-link {
+            color: color("gray-1");
+        }
+    }
+}
+
 .usa-hero {
     background: white; 
     background-image: none; 
