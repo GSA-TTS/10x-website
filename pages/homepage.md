@@ -20,7 +20,7 @@ header_columns:
   title: We're different by design
   lists:
     - title: "Big ideas"
-      text: "All of our <a href="https://github.com/orgs/GSA-TTS/projects/38">Projects</a> come from public servants who submit ideas to see if they can move the needle forward to solve a real problem."
+      text: "All of our [Projects](https://github.com/orgs/GSA-TTS/projects/38) come from public servants who submit ideas to see if they can move the needle forward to solve a real problem."
     - title: "Small investments"
       text: "We use an incremental funding approach to minimize the amount of funding we put behind unfeasible projects, so we can focus investments on the most promising ideas."
     - title: "Scalable innovation"
