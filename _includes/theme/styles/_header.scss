@@ -20,12 +20,14 @@
                 margin-bottom: units(2);
                 line-height: 1;
                 font-size: units(1);
+                min-height: 37px;
                 span {
                     text-indent: -9999px; 
                 }
                 img {
-                    @include at-media(tablet) {
+                    @include at-media(mobile) {
                         width: auto; 
+                        max-width: 72px; 
                     }
                 };
 
@@ -47,6 +49,10 @@
     }
 
     .usa-nav {
+
+        @include at-media(desktop) {
+            padding: 0; 
+        }
 
         &.is-visible {
             animation: none;
