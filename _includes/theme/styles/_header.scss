@@ -2,7 +2,6 @@
 
 .usa-header {
     background-color: color("violet-90"); 
-    min-height: 70px;
 
     + main {
         border-top: 0; 
@@ -21,6 +20,7 @@
                 margin-bottom: units(2);
                 line-height: 1;
                 font-size: units(1);
+                min-height: 37px;
                 span {
                     text-indent: -9999px; 
                 }
