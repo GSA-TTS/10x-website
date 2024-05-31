@@ -79,7 +79,7 @@ section: home
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <h2 class="margin-top-1 margin-bottom-5">{{ section_3_content.title }}</h2>
-        <ul class="usa-card-group grid-row grid-gap-2">
+        <ul class="usa-card-group grid-row grid-gap-4">
           {% for card in section_3_content.cards %}
           {% assign isExternal = card.button_link contains "http" %}
           <li class="usa-card grid-col-12 desktop:grid-col-6 tablet-lg:grid-col-6 widescreen:grid-col-4">

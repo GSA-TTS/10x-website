@@ -109,6 +109,11 @@ h2,
     font-weight: 500;
 }
 
+.usa-identifier__required-links-list {
+    column-count: 5; 
+    -moz-column-count: 5;
+}
+
 .usa-identifier__container, 
 .usa-identifier__identity-domain, 
 .usa-identifier__required-link, 
@@ -148,6 +153,10 @@ h2,
 
 .usa-card {
     display: inline-flex;
+    &__container {
+        margin-left: 0; 
+        margin-right: 0; 
+    }
 }
 
 .usa-breadcrumb__list-item {
@@ -172,7 +181,7 @@ h2,
 .usa-hero {
     background: white; 
     background-image: none; 
-    padding: units(3);
+    padding: units(3) units(5);
 
     h2, h3 {
         color: color("violet-90");
@@ -1419,10 +1428,4 @@ input[type="search"]::-webkit-search-cancel-button {
     background-repeat: no-repeat;
     background-image: url(../images/menu-close-X.webp);
     cursor: pointer;
-}
-
-.usa-footer {
-    .grid-container {
-        max-width: 64rem;
-    }
 }
