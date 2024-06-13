@@ -2,8 +2,8 @@
 title: Equity centered design for American Indians/Alaska Natives
 description: 10x explored an equity-centered design (ECD) framework for working with American Indian/Alaska Native communities.
 hero_banner:
-  title: Equity Centered Design with American Indians and Alaska Natives (AI/AN)
-  subtitle: 
+  title: Equity Centered Design
+  subtitle: Participatory design with American Indians and Alaska Natives (AI/AN)
 redirect_from: 
   - /projects/equity-centered-design-ai-an/
 footer: every-solution-starts-as-an-idea
@@ -26,4 +26,4 @@ While no one expected that building trust with Tribal communities would be easy,
 
 It became clear that given the project's aim for substantial and lasting collaboration with Tribal communities, this work required resources beyond what 10x's current funding structure can effectively provide. 
 
-Despite practical concerns and the recommendation to not proceed with further funding, 10x emphasizes the importance of adopting ECD methods when working with Tribes or marginalized communities. 10x is committed to supporting other efforts to solve this complex problem by making this project's findings, insights and recommendations available to other federal teams taking on this challenge, such as "Improving Government Digital Service Delivery to the U.S. Territories."
+Despite practical concerns and the recommendation to not proceed with further funding, 10x emphasizes the importance of adopting ECD methods when working with Tribes or marginalized communities. 10x is committed to supporting other efforts to solve this complex problem by making this project's findings, insights and recommendations available to other federal teams taking on this challenge, such as <a class="usa-link usa-link--external" rel="noreferrer" href="https://github.com/orgs/GSA-TTS/projects/38/views/1?pane=issue&itemId=58755623">"Improving Government Digital Service Delivery to the U.S. Territories."
