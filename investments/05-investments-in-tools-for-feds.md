@@ -40,7 +40,7 @@ It is really inefficient for each federal agency to have to figure out how to ho
 
 ### Low-code/no-code
 
-Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. <a class="usa-link" href="/news/low-code-no-code">10x looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
+Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. 10x <a class="usa-link" href="{{ '/news/low-code-no-code' | url }}">looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
 
 ### Paperwork Reduction Act compliance
 

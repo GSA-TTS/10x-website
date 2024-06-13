@@ -6,7 +6,7 @@ hero_banner:
 landing-subtitle: How can we ensure that modern government technology works for everyone, especially those most in need?
 description: 10x designs government digital products that remove barriers to access and reflect the diversity of people in the U.S. 
 excerpt: |-
-  Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them — many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
+  Historically, many people in the U.S. have not been able to use digital technology because it didn't work for them — many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
 template: "4"
 image-url: "/assets/images/equity-project-icon.webp"
 mgt-url: /news/multilingual-glossary-tool/
@@ -16,7 +16,7 @@ footer: we-started-as-an-idea-too
   Digital products and services need to be designed to reflect the diversity of the people using them &#8212; language, accessibility, and real lived experiences.
 </p>
 
-Historically, many people in the U.S. have not been able to use digital technology because it didn’t work for them &#8212; many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.  
+Historically, many people in the U.S. have not been able to use digital technology because it didn't work for them &#8212; many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.  
 
 10x has explored creating equitable digital experiences in a number of ways, including reducing bias in AI, co-designing digital products with American Indians and Alaska Natives, and finding effective ways to make government content available to people who aren't proficient in English. But while a few projects are noted below, the value of equity has played a key role in all 10x projects and is central to all 10x investments.
 
@@ -26,7 +26,7 @@ Historically, many people in the U.S. have not been able to use digital technolo
 
 ### Bringing mutual aid to underserved communities for post-disaster rebuilding
 
-Underserved communities are uniquely vulnerable to the impacts of climate change. We’re looking at ways to make it easier for public officials and volunteers to provide help to affected areas.
+Underserved communities are uniquely vulnerable to the impacts of climate change. We're looking at ways to make it easier for public officials and volunteers to provide help to affected areas.
 
 ### Combating bias in AI/ML
 
@@ -34,7 +34,7 @@ Underserved communities are uniquely vulnerable to the impacts of climate change
 
 ### Equity-centered design with American Indians and Alaska Natives
 
-In the spirit of designing "with" and not "for," 10x looked at <a class="usa-link" href="/news/equity-centered-design-ai-an">developing a framework for federal agencies to better engage and collaborate with Tribal governments</a> to create more meaningful and useful digital solutions.
+In the spirit of designing "with" and not "for," 10x looked at <a class="usa-link" href="{{ '/news/equity-centered-design-an-ai' | url }}">developing a framework for federal agencies to better engage and collaborate with Tribal governments</a> to create more meaningful and useful digital solutions.
 
 ### Hearing resident perspectives on federal housing
 
