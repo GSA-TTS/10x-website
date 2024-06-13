@@ -12,7 +12,6 @@ image-url: "/assets/images/public-service-icon.webp"
 footer: we-started-as-an-idea-too
 redirect_from: 
   - /projects/de-risking-government-technology-field-guides/
-  - /projects/low-code-no-code-service-delivery/
 ---
 <p class="usa-intro">  
   Government websites and apps have an obligation to the public to provide useful and usable information to help them find the information they need.
@@ -41,7 +40,7 @@ It is really inefficient for each federal agency to have to figure out how to ho
 
 ### Low-code/no-code
 
-Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. 10x looked at the LC/NC ecosystem and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
+Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. <a class="usa-link" href="/news/low-code-no-code">10x looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
 
 ### Paperwork Reduction Act compliance
 

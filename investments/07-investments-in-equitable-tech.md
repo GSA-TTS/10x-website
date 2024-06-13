@@ -11,8 +11,6 @@ template: "4"
 image-url: "/assets/images/equity-project-icon.webp"
 mgt-url: /news/multilingual-glossary-tool/
 footer: we-started-as-an-idea-too
-redirect_from: 
-  - /projects/equity-centered-design-for-ai-an/
 ---
 <p class="usa-intro">  
   Digital products and services need to be designed to reflect the diversity of the people using them &#8212; language, accessibility, and real lived experiences.
@@ -36,7 +34,7 @@ Underserved communities are uniquely vulnerable to the impacts of climate change
 
 ### Equity-centered design with American Indians and Alaska Natives
 
-In the spirit of designing "with" and not "for," 10x looked at developing a framework for federal agencies to better engage and collaborate with Tribal governments to create more meaningful and useful digital solutions.
+In the spirit of designing "with" and not "for," 10x looked at <a class="usa-link" href="/news/equity-centered-design-ai-an">developing a framework for federal agencies to better engage and collaborate with Tribal governments</a> to create more meaningful and useful digital solutions.
 
 ### Hearing resident perspectives on federal housing
 
