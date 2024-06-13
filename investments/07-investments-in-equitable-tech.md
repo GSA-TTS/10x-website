@@ -34,7 +34,7 @@ Underserved communities are uniquely vulnerable to the impacts of climate change
 
 ### Equity-centered design with American Indians and Alaska Natives
 
-In the spirit of designing "with" and not "for," 10x looked at <a class="usa-link" href="{{ '/news/equity-centered-design-an-ai' | url }}">developing a framework for federal agencies to better engage and collaborate with Tribal governments</a> to create more meaningful and useful digital solutions.
+In the spirit of designing "with" and not "for," 10x looked at <a class="usa-link" href="{{ '/news/equity-centered-design-ai-an' | url }}">developing a framework for federal agencies to better engage and collaborate with Tribal governments</a> to create more meaningful and useful digital solutions.
 
 ### Hearing resident perspectives on federal housing
 
