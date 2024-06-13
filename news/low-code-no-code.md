@@ -18,7 +18,7 @@ tags: Projects
     10x looked at how Low code/no code (LC/NC) solutions can help civic tech developers build new tools and apps
 </p>
 
-Low-code and no-code (LC/NC) development tools allow users to design and develop applications without needing to know how to code. They can also accelerate development if teams don't have a lot of time to code. 10x researched the fast-growing marketplace for these solutions, as they have gained traction in government in recent years. The team also explored whether there is a need to develop guidance about the use of such tools. 
+Low-code and no-code development tools allow users to design and develop applications without needing to know how to code. They can also accelerate development if teams don't have a lot of time to code. 10x researched the fast-growing marketplace for these solutions, as they have gained traction in government in recent years. The team also explored whether there is a need to develop guidance about the use of such tools. 
 
 Agencies are sold LC/NC tools based on the promise of the significant time and budget savings they can provide, and on the ability to empower civil servants to solve their own business needs. But without proper guidance and training, agencies could face compromised information security and struggle with application maintainability due to the endless use of customizations and configurations. A guide on the advantages and risks of using LC/NC tools, as well as how to minimize problems with usability, maintenance, security, obsolescence, and governance could provide a significant value to agencies looking to adopt these methods. 
 
