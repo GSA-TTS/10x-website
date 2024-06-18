@@ -7,7 +7,7 @@ hero_banner:
 redirect_from: 
   - /projects/low-code-no-code-service-delivery/
 footer: every-solution-starts-as-an-idea
-date: "2022-11-05"
+date: "2023-02-05"
 slug: "low-code-no-code"
 excerpt: "There is an upside to rapid tech deployment, but 10x cautions users to consider the compromises in security, maintainability, and more."
 theme: '4'
