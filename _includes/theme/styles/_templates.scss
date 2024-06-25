@@ -2,12 +2,6 @@
 
 $homepage-deep-blue: #160449;
 
-html {
-    scroll-behavior: smooth;
-    visibility: visible;
-    opacity: 1;
-}
-
 body {
     color: color("violet-90");
     font-size: size('body', 8);
@@ -1430,4 +1424,13 @@ input[type="search"]::-webkit-search-cancel-button {
     background-repeat: no-repeat;
     background-image: url(../images/menu-close-X.webp);
     cursor: pointer;
+}
+
+
+/* This rule contains a fix for the flash of unstyled fonts. It must remain at the end of this stylesheet */
+
+html {
+    scroll-behavior: smooth;
+    visibility: visible;
+    opacity: 1;
 }
