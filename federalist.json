@@ -37,6 +37,11 @@
       }
     },
     {
+      "/assets/assets/*.woff2": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
       "/icons/*": {
         "cache-control": "public, max-age=31536000, immutable"
       }
