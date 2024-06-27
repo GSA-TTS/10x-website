@@ -110,8 +110,22 @@ h2,
 }
 
 .usa-identifier__required-links-list {
-    column-count: 5; 
-    -moz-column-count: 5;
+    column-count: 1; 
+    -moz-column-count: 1;
+
+    @include at-media("tablet") {
+        column-count: 5; 
+        -moz-column-count: 5;
+    }
+}
+
+.usa-identifier__required-link, 
+.usa-identifier__required-link.usa-link {
+    padding: units(1) 0;
+
+    @include at-media("tablet") {
+        padding: 0;
+    }
 }
 
 .usa-identifier__container, 
