@@ -16,11 +16,13 @@ tags: Announcements
     We are excited to reveal the latest cohort of investments we'll be funding for Phase 1. 
 </p>
 
- We're making 16 new investments this round, and each of them begins with a great idea submitted by a federal employee. We believe these ideas, if successful, can transform the public's experience with the government. And that's a worthy investment. 
+We're making 16 new investments this round, and each of them begins with a great idea submitted by a federal employee. We believe these ideas, if successful, can transform the public's experience with the government. And that's a worthy investment. 
+
+Most of these new ideas align with our key themes for FY24: *Reimagining Public Engagement* and *Equity in Delivery*. And there's always room in 10x for "Moonshot" ideas — these are the biggest, boldest, most ambitious, and transformative ideas.
 
 As always, a huge thank you to all of the civil servants who submitted inspiring ideas for us to consider. Your ideas make 10x work.
 
-## 10x Ideas selected for Phase 1 funding
+## 10x ideas selected for Phase 1 funding
 
 ### U.S. Service Design Pattern Library
 
