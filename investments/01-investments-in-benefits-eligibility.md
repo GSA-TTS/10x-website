@@ -33,8 +33,7 @@ By investing in technology that makes it faster and easier for people to acquire
 
 ### USAGov's Benefits Finder
 
-Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link" href="{{ '/news/bears/' | url }}">Benefits Eligibility Awareness Resource Service</a> project or explore 
-<a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov/benefit-finder">Benefits Finder</a> at USA&period;gov.
+Information on government benefits and services is typically agency centered, rather than human centered. 10x invested in building a tool to help the public easily identify the benefits they might be eligible for. Formerly known as BEARS, you can read more about our investment in the <a class="usa-link" href="{{ '/news/bears/' | url }}">Benefits Eligibility Awareness Resource Service</a> project or explore <a class="usa-link usa-link--external" rel="noreferrer" href="https://www.usa.gov/benefit-finder">Benefits Finder</a> at USA&period;gov.
 
 ### Benefits&period;gov discovery
 
