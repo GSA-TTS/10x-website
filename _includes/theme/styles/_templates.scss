@@ -11,6 +11,7 @@ body {
     font-size: size('body', 8);
     line-height: lh('body', 5);
     -webkit-font-smoothing: antialiased;
+    min-width: units('mobile');
 }
 
 .usa-app {
@@ -865,7 +866,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                margin-left: 15rem;            
+                margin-left: 17rem;            
             }        
         }
 
@@ -891,13 +892,19 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                width: 15rem;          
+                width: 17rem;          
             }   
         }
 
         .usa-card__img {
             border-radius: 0;
             width: 100%;
+
+            img {
+                @include at-media("tablet") {
+                    object-fit: unset;
+                }
+            }
         }
     }
 

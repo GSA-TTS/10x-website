@@ -20,15 +20,14 @@
                 margin-bottom: units(2);
                 line-height: 1;
                 font-size: units(1);
-                min-height: 37px;
+            
                 span {
                     text-indent: -9999px; 
                 }
+
                 img {
-                    @include at-media(mobile) {
-                        width: auto; 
-                        max-width: 72px; 
-                    }
+                    width: 72px; 
+                    height: 36px;
                 };
 
                 .usa-sr-only {
