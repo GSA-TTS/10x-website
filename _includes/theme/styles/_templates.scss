@@ -172,12 +172,6 @@ h2,
         margin-left: 0; 
         margin-right: 0; 
     }
-
-    &__img img {
-        @include at-media("tablet") {
-            width: units('card-lg');
-        }
-    }
 }
 
 .usa-breadcrumb__list-item {
@@ -872,7 +866,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                margin-left: 15rem;            
+                margin-left: 17rem;            
             }        
         }
 
@@ -898,13 +892,19 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                width: 15rem;          
+                width: 17rem;          
             }   
         }
 
         .usa-card__img {
             border-radius: 0;
             width: 100%;
+
+            img {
+                @include at-media("tablet") {
+                    object-fit: unset;
+                }
+            }
         }
     }
 
