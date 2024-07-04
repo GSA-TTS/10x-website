@@ -175,7 +175,7 @@ h2,
 
     &__img img {
         @include at-media("tablet") {
-            max-width: units('card-lg');
+            width: units('card-lg');
         }
     }
 }
