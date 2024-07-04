@@ -11,6 +11,7 @@ body {
     font-size: size('body', 8);
     line-height: lh('body', 5);
     -webkit-font-smoothing: antialiased;
+    min-width: units('mobile');
 }
 
 .usa-app {
@@ -170,6 +171,12 @@ h2,
     &__container {
         margin-left: 0; 
         margin-right: 0; 
+    }
+
+    &__img img {
+        @include at-media("tablet") {
+            max-width: units('card-lg');
+        }
     }
 }
 
