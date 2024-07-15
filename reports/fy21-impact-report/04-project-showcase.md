@@ -44,7 +44,7 @@ The toolkit includes three functioning de-biasing tools that federal employees c
 - The second tool uses AI to detect ableist language in federal job postings, which is language that may be offensive to people with disabilities. The tool automatically suggests more appropriate, inclusive alternatives that hiring managers can use to create better, more equitable job descriptions.
 
 <div class="projectDemo">
-  <video controls>
+  <video aria-label="Video Demo: Ableist Language Detector for Job Descriptions" controls>
     <source src="{{ '/assets/images/impact-reports/ableist-ui-demo-800px-opt.mp4' | url }}" type="video/mp4" />
   </video>
 </div>
