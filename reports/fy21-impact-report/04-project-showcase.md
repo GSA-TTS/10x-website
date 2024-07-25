@@ -41,13 +41,7 @@ The toolkit includes three functioning de-biasing tools that federal employees c
 
 - The first tool creates carbon copies of datasets with placeholder (or ‘dummy’ data) that allows a federal employee to generate and test multiple, similar datasets through the AI model algorithm. Testing AI models with both real and placeholder data helps reveal sources of bias that might remain hidden if the model were trained only on the target dataset.
 
-- The second tool uses AI to detect ableist language in federal job postings, which is language that may be offensive to people with disabilities. The tool automatically suggests more appropriate, inclusive alternatives that hiring managers can use to create better, more equitable job descriptions.
-
-<div class="projectDemo">
-  <video controls>
-    <source src="{{ '/assets/images/impact-reports/ableist-ui-demo-800px-opt.mp4' | url }}" type="video/mp4" />
-  </video>
-</div>
+- The second tool uses AI to detect ableist language in federal job postings, which is language that may be offensive to people with disabilities. The tool automatically suggests more appropriate, inclusive alternatives that hiring managers can use to create better, more equitable job descriptions. Visit the [Ableist Language Detector for Job Descriptions Github Repo](https://github.com/XDgov/ableist-language-detector-web) to learn more.
 
 - The third tool offers a standard language format, or model card, that describes the AI/ML model’s characteristics. Similar to a nutrition label on a can of soup that tells you the ingredients, nutritional profile, and allergen warnings, the model card shows the characteristics — including errors that could lead to biased outputs if left unaddressed – within that AI model. Model cards provide transparency about the AI model’s limitations and can help people re-use these models equitably and transparently.
 
