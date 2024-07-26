@@ -20,7 +20,9 @@ const purgeCSSOptions = {
         "cite",
         "dfn",
         "pre",
-        ".usa-in-page-nav__nav"
+        {
+            nav: [/nav$/]
+        }
     ]
 };
 
