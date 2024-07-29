@@ -4,25 +4,27 @@ const purgeCSSOptions = {
         "./_site/**/*.{html,js,svg}",
     ],
     defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-    safelist: [
-        "abbr[title]",
-        "kbd",
-        "samp",
-        "sub",
-        "optgroup",
-        "[type=reset]",
-        "[type=reset]::-moz-focus-inner",
-        "[type=reset]:-moz-focusring",
-        "fieldset",
-        "[type=radio]",
-        "summary",
-        "[contentEditable=true]:focus",
-        "cite",
-        "dfn",
-        "pre",
-        {
-            nav: [/nav$/]
-        }
+    safelist: {
+        standard: [
+            /abbr/,
+            "kbd",
+            "samp",
+            "sub",
+            "optgroup",
+            "fieldset",
+            "summary",
+            "cite",
+            "dfn",
+            "pre",
+        ],
+        deep: [
+            /usa-in-page.+/
+        ]
+    },
+    dynamicAttributes: [
+        'contentEditable',
+        'title',
+        'type'
     ]
 };
 
