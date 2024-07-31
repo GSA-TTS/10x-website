@@ -11,6 +11,7 @@ body {
     font-size: size('body', 8);
     line-height: lh('body', 5);
     -webkit-font-smoothing: antialiased;
+    min-width: units('mobile');
 }
 
 .usa-app {
@@ -110,8 +111,22 @@ h2,
 }
 
 .usa-identifier__required-links-list {
-    column-count: 5; 
-    -moz-column-count: 5;
+    column-count: 1; 
+    -moz-column-count: 1;
+
+    @include at-media("tablet") {
+        column-count: 5; 
+        -moz-column-count: 5;
+    }
+}
+
+.usa-identifier__required-link, 
+.usa-identifier__required-link.usa-link {
+    padding: units(1) 0;
+
+    @include at-media("tablet") {
+        padding: 0;
+    }
 }
 
 .usa-identifier__container, 
@@ -851,7 +866,7 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
         .usa-card__body, 
         .usa-card__footer {
             @include at-media("tablet") {
-                margin-left: 15rem;            
+                margin-left: 17rem;            
             }        
         }
 
@@ -877,13 +892,19 @@ linear-gradient(0deg, #6F32DD, #6F32DD);
 
         .usa-card__media {
             @include at-media("tablet") {
-                width: 15rem;          
+                width: 17rem;          
             }   
         }
 
         .usa-card__img {
             border-radius: 0;
             width: 100%;
+
+            img {
+                @include at-media("tablet") {
+                    object-fit: unset;
+                }
+            }
         }
     }
 
