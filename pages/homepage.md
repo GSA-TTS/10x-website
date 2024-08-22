@@ -41,6 +41,7 @@ section_3_content:
   title: "Take a look at some of our best investments so far"
   cards:
   - subtitle: "Digital Trust and Security"
+    img: "/assets/images/logingov.svg"
     title: "Login.gov"
     text: Supporting the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
     button_link: "/news/login/"  
@@ -57,10 +58,12 @@ section_3_content:
     text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
   - subtitle: "Improved Digital Experiences"
+    img: "/assets/images/notify.svg"
     title: "Notify.gov"
     text: Helping all levels of government communicate with the public via text message, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
     button_link: "/news/notify/"
   - subtitle: "Tools for Federal Teams"
+    img: "/assets/images/uswds.svg"
     title: "U.S. Web Design System"
     text: Supporting digital teams in building consistent, trustworthy, effective customer experiences within the government's digital services landscape.
     button_link: "/news/us-web-design-system/"
