@@ -19,7 +19,7 @@ tags: Announcements
 
 10x is in the business of investing in new ideas. Typically each year we evaluate ideas submitted from public servants across the federal government, but this year we are doing things a little differently. **We will not be evaluating ideas this fall.** Instead, we will be investing in our existing pipeline of ideas crowdsourced by public servants, and we are also investing in new structures in order to go after the government's hardest problems. 
 
-As with any healthy product, program and/or organization, evolution is necessary for us to succeed, grow, and meet future challenges. We are excited to formally introduce our new framework, called 10x Concepts. While we will continue to investigate ideas using our traditional process, 10x Concepts is the next step in our maturation to better align with our <a class="usa-link" href="{{ /impact/fy23-report/#look-ahead-to-fy24-2guiding principle | url }}">guiding principle</a>, to "take on more 'moonshot' investments." Moonshots are what we call the big, risky, and promising ideas that can lead to transformative breakthroughs.
+As with any healthy product, program and/or organization, evolution is necessary for us to succeed, grow, and meet future challenges. We are excited to formally introduce our new framework, called 10x Concepts. While we will continue to investigate ideas using our traditional process, 10x Concepts is the next step in our maturation to better align with our <a class="usa-link" href="{{ /impact/fy23-report/\#look-ahead-to-fy24-2guiding principle | url }}">guiding principle</a>, to "take on more 'moonshot' investments." Moonshots are what we call the big, risky, and promising ideas that can lead to transformative breakthroughs.
 
 ## What's a Concept Area?
 
