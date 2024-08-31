@@ -199,11 +199,12 @@
             color: white;
             height: units(5);
             display: inline-block;
-            margin: units(1) 0 0;
+            margin: units(2) 0 0;
             cursor: pointer;
 
             @include at-media(desktop) {
                 width: 16rem; 
+                margin: units(1) 0 0;
             }
 
             &::before,
