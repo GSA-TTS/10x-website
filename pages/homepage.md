@@ -56,7 +56,7 @@ section_3_content:
     title: "Combating Bias in AI"
     text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
-  - subtitle: "Improved Digital Experiences"
+  - subtitle: "Benefits Eligibility and Delivery"
     title: "Notify.gov"
     text: Helping all levels of government communicate with the public via text message, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
     button_link: "/news/notify/"
