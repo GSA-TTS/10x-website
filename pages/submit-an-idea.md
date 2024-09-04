@@ -55,7 +55,7 @@ Does the potential solution make something easier, faster, more accurate? More i
 
 ## After you fill out the form and hit "Submit"
 
-The 10x team looks at idea submissions periodically. We'll let you know that we got your idea. We've got a lot in the pipeline at the moment, and won't be evaluating new submissions until early FY26. We'll let you know when that happens and whether your idea has been selected for a Phase 1 investigation.
+The 10x team looks at idea submissions periodically. We'll let you know that we got your idea. **We've got a lot in the pipeline at the moment, and won't be evaluating new submissions until early FY26.** We'll let you know when that happens and whether your idea has been selected for a Phase 1 investigation.
 
 ## Need some help?
 
