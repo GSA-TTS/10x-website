@@ -67,7 +67,7 @@ section_3_content:
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions. 
-  <h3>There's no formal submission period in FY25 but we accept idea submissions at any time!</h3>"
+  <h3>We've got a lot in the pipeline at the moment, and won't be evaluating new submissions until early FY26.</h3>"
   button_text: "Ready to share yours?"
   button_link: "/submit-an-idea"
 
