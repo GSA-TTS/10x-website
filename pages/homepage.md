@@ -66,7 +66,7 @@ section_3_content:
     button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
-  title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
+  title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions. We won't have a formal submission period in FY25 but we accept idea submissions at any time!"
   button_text: "Ready to share yours?"
   button_link: "/submit-an-idea"
 
