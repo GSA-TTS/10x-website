@@ -10,11 +10,11 @@ hero_banner:
   title: "10x is the federal government’s very own venture studio"
 
 news_card:
-  date: "May 13, 2024"
-  title: "10x's FY23 Impact Report is now available"
-  subtitle: "We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23"
+  date: "September 3, 2024"
+  title: "Announcing changes to 10x and unveiling 10x Concepts"
+  subtitle: "10x is evolving its focus to include Concept Areas, which allows us to focus on big problems requiring focused attention."
   button_text: "Read more"
-  button_link: "/impact/fy23-report/"
+  button_link: "/news/10x-changes/"
 
 header_columns:
   title: We're different by design
@@ -56,7 +56,7 @@ section_3_content:
     title: "Combating Bias in AI"
     text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
-  - subtitle: "Improved Digital Experiences"
+  - subtitle: "Benefits Eligibility and Delivery"
     title: "Notify.gov"
     text: Helping all levels of government communicate with the public via text message, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
     button_link: "/news/notify/"
