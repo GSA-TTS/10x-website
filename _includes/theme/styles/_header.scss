@@ -48,6 +48,7 @@
     }
 
     .usa-nav {
+        z-index: 401;
 
         @include at-media(desktop) {
             padding: 0; 
@@ -191,9 +192,15 @@
             }
         }
 
+        .cta-buttons {
+            @include at-media("desktop") {
+                margin-left: units(2);      
+            }            
+        }
+
         .project-button {
             background: transparent;
-            padding: units(0.5);
+            padding: units(0.5) units(1);
             border-color: white;
             box-shadow: inset 0 0 0 units(2px) white;
             color: white;
@@ -201,9 +208,9 @@
             display: inline-block;
             margin: units(2) 0 0;
             cursor: pointer;
+            display: block;
 
             @include at-media(desktop) {
-                width: 16rem; 
                 margin: units(1) 0 0;
             }
 

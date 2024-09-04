@@ -121,10 +121,10 @@
         {%- endfor %}
       </ul>
       <div class="usa-nav__secondary margin-top-0">
-        <section aria-label="Search component">
-          <div class="contentWrapper">
-            <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search margin-right-2"
-              id="search_form" method="get" role="search">
+        <div class="contentWrapper">
+          <section aria-label="Search component">
+            <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search" id="search_form"
+              method="get" role="search">
               <input name="utf8" type="hidden" value="✓" />
               <input name="affiliate" type="hidden" id="affiliate" value="10x" />
               <label class="usa-sr-only text-base-lightest" for="query">Search</label>
@@ -140,6 +140,8 @@
                 </svg>
               </button>
             </form>
+          </section>
+          <span class="cta-buttons">
             <a href="{{ 'https://github.com/orgs/GSA-TTS/projects/38' | url }}"
               class="usa-button usa-button--outline usa-button--inverse project-button" type="button">
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
@@ -147,8 +149,9 @@
               </svg>
               <span>Project Status</span>
             </a>
-          </div>
-        </section>
+          </span>
+        </div>
+
       </div>
     </div>
   </nav>
