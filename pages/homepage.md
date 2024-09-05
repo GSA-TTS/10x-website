@@ -46,14 +46,17 @@ section_3_content:
     text: Supporting the need for a centralized identity system – one username, one password – for better user experience, and stronger security.
     button_link: "/news/login/"  
   - subtitle: "Tools for Federal Teams"
+    img: "site-scanning.svg"
     title: "Site Scanning"
     text: Automating real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
     button_link: "/news/site-scanning/"
   - subtitle: "Tools for Federal Teams"
+    img: "PRA.svg"
     title: "PRA Guide"
     text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance process, as well as understand how and why it affects their work as technologists.
     button_link: "/news/pra-guide/"     
   - subtitle: "Investments in Equitable Tech"
+    img: "xd-logo.png"
     title: "Combating Bias in AI"
     text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
