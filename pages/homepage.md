@@ -12,7 +12,7 @@ hero_banner:
 news_card:
   date: "September 3, 2024"
   title: "Announcing changes to 10x and unveiling 10x Concepts"
-  subtitle: "10x is evolving its focus to include Concept Areas, which allows us to focus on big problems requiring focused attention."
+  subtitle: "10x is evolving to include Concept Areas, which allows us to focus on big problems requiring concentrated attention."
   button_text: "Read more"
   button_link: "/news/10x-changes/"
 
@@ -67,7 +67,7 @@ section_3_content:
 
 section_4_static_content:
   title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions. 
-  <h3>We've got a lot in the pipeline at the moment, and won't be evaluating new submissions until early FY26.</h3>"
+  <h3>We've got a lot in the pipeline and won't be evaluating new submissions until early FY26.</h3>"
   button_text: "Ready to share yours?"
   button_link: "/submit-an-idea"
 
