@@ -147,7 +147,7 @@
               <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
                 <use xlink:href="{{ '/assets/images/sprite.svg#github' | url }}"></use>
               </svg>
-              <span>Project Status</span>
+              <span>Project Status</span><span class="usa-sr-only"> on Github</span>
             </a>
           </span>
         </div>
@@ -156,89 +156,3 @@
     </div>
   </nav>
 </header>
-
-
-
-
-<!-- <header class="usa-header usa-header--basic">
-  <div class="usa-nav-container">
-    <div class="usa-navbar">
-      <div class="usa-logo">
-        <a href="{{ '/' | url }}">
-          <div class="usa-logo" id="basic-logo"><img alt="10 x home" width="72" height="36" src="{{ '/assets/images/10x-logo.webp' | url }}"></div>
-        </a>
-      </div>
-      <button type="button" class="usa-menu-btn">Menu</button>
-    </div>
-    <nav aria-label="Primary navigation" class="usa-nav">
-      <button class="usa-nav-close usa-nav__close margin-top-2 margin-right-0" id="usa-nav-close"
-        type="button">
-        <img alt="Close" width="24" height="24" src="{{ '/assets/images/close-x.svg' | url }}" fetchpriority="low">
-      </button>
-      <ul class="usa-accordion usa-nav__primary">
-        {%- for entry in navPages %}
-        {% assign isCurrent = false %}
-        {% assign hasChildren = false %}
-        {% assign lowercase_entry_title = entry.title | downcase %}
-        
-        {%- if entry.url == page.url or page.url contains entry.url -%}
-        {% assign isCurrent = true %}
-        {% elsif entry.title == 'Impact' and page.url contains '/impact' %}
-          {% assign isCurrent = true %}
-        {% elsif not page.url contains 'fy23-impact-report' and page.url contains 'impact' and lowercase_entry_title contains 'impact' %}
-          {% assign isCurrent = true %}
-        {% endif %}
-
-        {%- if entry.children.length > 0 -%}
-        {% assign hasChildren = true %}
-        {%- endif -%}
-        <li class="usa-nav__primary-item">
-          {%- if hasChildren -%}
-          <button id="usa-nav-item-{{ forloop.index0 }}" aria-expanded="false" class="usa-nav__link usa-accordion__button"
-            aria-controls="extended-nav-section-usa-nav-item-{{ forloop.index0 }}">
-            {%- else -%}
-            <a class="usa-nav__link {% if isCurrent %}usa-current{% endif %}" href="{{ entry.url | url }}" {% if isCurrent %}
-              data-current="current item" aria-current="page" {% endif %}>
-              {%- endif -%}
-              <span class="usa-nav__link-text">
-                {{ entry.title }}
-              </span>
-              {%- if hasChildren -%}
-          </button>
-          <ul id="extended-nav-section-usa-nav-item-{{ forloop.index0 }}" class="usa-accordion__content usa-nav__submenu"
-            hidden>
-            {%- for child in entry.children %}
-            <li class="usa-nav__submenu-item">
-              <a href="{{ child.url | url }}">
-                <span class="usa-nav__link-text">{{ child.title }}</span>
-              </a>
-            </li>
-            {% endfor -%}
-          </ul>
-          {%- else -%}
-          </a>
-          {%- endif -%}
-        </li>
-        {%- endfor %}
-      </ul>
-      <section aria-label="Search component">
-        <form accept-charset="UTF-8" action="https://search.usa.gov/search" class="usa-search" id="search_form" method="get"
-          role="search">
-          <input name="utf8" type="hidden" value="✓" />
-          <input name="affiliate" type="hidden" id="affiliate" value="10x" />
-          <label class="usa-sr-only text-base-lightest" for="query">Search</label>
-          <input name="query" type="search" id="query" autocomplete="off" class="usa-input" />
-          <button class="usa-button usa-button__search" type="submit" aria-label="search">
-            <svg aria-labelledby="svg-inline--fa-title-search" class="svg-inline--fa fa-search fa-w-16" data-icon="search"
-              data-prefix="fas" role="img" width="16" height="16" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-              <title id="svg-inline--fa-title-search">search</title>
-              <path
-                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
-                fill="currentColor"></path>
-            </svg>
-          </button>
-        </form>
-      </section>
-    </nav>
-  </div>
-</header> -->
