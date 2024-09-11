@@ -17,4 +17,4 @@ Federal employees can voluntarily send us information as part of an idea submiss
 We cannot accept ideas from the general public. If you are not a federal employee and you submit an idea for funding, we’ll only use your information to reply to your message. We will not keep the information you sent as part of your idea.
 
 ## Everything else
-For everything else, we follow the practices outlined in GSA’s [privacy and security notice](https://www.gsa.gov/website-information/privacy-and-security-notice).
+For everything else, we follow the privacy practices outlined in GSA’s [website policies](https://www.gsa.gov/website-information/website-policies#privacy).

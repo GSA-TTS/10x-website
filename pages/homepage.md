@@ -10,11 +10,11 @@ hero_banner:
   title: "10x is the federal government’s very own venture studio"
 
 news_card:
-  date: "May 13, 2024"
-  title: "10x's FY23 Impact Report is now available"
-  subtitle: "We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23"
+  date: "September 3, 2024"
+  title: "Announcing changes to 10x and unveiling 10x Concepts"
+  subtitle: "10x is evolving to include Concept Areas, which allows us to focus on big problems requiring concentrated attention."
   button_text: "Read more"
-  button_link: "/impact/fy23-report/"
+  button_link: "/news/10x-changes/"
 
 header_columns:
   title: We're different by design
@@ -48,7 +48,7 @@ section_3_content:
   - subtitle: "Tools for Federal Teams"
     img: "site-scanning.svg"
     title: "Site Scanning"
-    text: Automating real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like Section 508 Accessibility.
+    text: Automating real-time intelligence, Site Scanning is a shared service that helps federal web managers improve performance and ensure compliance with mandates like 21st Century IDEA.
     button_link: "/news/site-scanning/"
   - subtitle: "Tools for Federal Teams"
     img: "PRA.svg"
@@ -60,7 +60,7 @@ section_3_content:
     title: "Combating Bias in AI"
     text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
     button_link: "/news/combating-bias-ai/"
-  - subtitle: "Improved Digital Experiences"
+  - subtitle: "Benefits Eligibility and Delivery"
     img: "notify.svg"
     title: "Notify.gov"
     text: Helping all levels of government communicate with the public via text message, whether it’s fraud or severe weather alerts, or reminders to re-apply for benefits.
@@ -72,7 +72,8 @@ section_3_content:
     button_link: "/news/us-web-design-system/"
 
 section_4_static_content:
-  title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions."
+  title: "We've worked with hundreds of civil servants and dozens of federal agencies to turn <span class=\"purple\">good-for-government</span> ideas into <span class=\"purple\">good-for-people</span> solutions. 
+  <h3>We've got a lot in the pipeline and won't be evaluating new submissions until early FY26.</h3>"
   button_text: "Ready to share yours?"
   button_link: "/submit-an-idea"
 
