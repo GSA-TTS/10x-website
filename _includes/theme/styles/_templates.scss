@@ -497,10 +497,23 @@ h2,
 
         .usa-card {
             .usa-card__container {
+                .usa-card__body h3 {
+                    display: flex; 
+                    align-items: center;
+                    img {
+                        width: 40px; 
+                        height: auto; 
+                        margin-right: units(1);
+                    }
+                    span {
+                        padding: 4px 0;
+                    }
+                }
                 &:hover {
                     .usa-card__body {
                         h3 {
                             span {
+                                padding: 4px 0 2px; 
                                 border-bottom: 2px solid color("violet-90");
                             }
                         }
