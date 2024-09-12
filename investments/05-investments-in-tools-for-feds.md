@@ -31,7 +31,7 @@ Open source code is a great way to save money and time by reusing code that has 
 
 ### De-risking government technology
 
-Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://derisking-guide.18f.gov/">De-risking Guides</a>.
+Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://guides.18f.gov/derisking-government-tech/">De-risking Guides</a>.
 
 ### Federalist
 (now <span>cloud.gov</span> Pages)
