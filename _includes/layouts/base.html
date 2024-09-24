@@ -3,25 +3,28 @@
 
 {% include "components/head.html" %}
 
-<body id="top">
+<body id="top"
+	class="{% if page.url contains 'about' or page.url contains 'news' %}purpleFeedbackButton{% endif %} {% if page.url contains 'investments' or page.url contains 'news' or page.url contains 'impact'%}rightSideFeedbackButton{% endif %}">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5248S4F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5248S4F" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 	<a href="#main-content" class="usa-skipnav">Skip to main content</a>
 	<div class="usa-app {% if theme %}usa-app__theme-{{ theme }}{% endif %}">
 
-			{% include "components/header.html", page: page %}
+		{% include "components/header.html", page: page %}
 
-			<main id="main-content" role="main">
-				{{ layoutContent }}
-			</main>
+		<main id="main-content" role="main">
+			{{ layoutContent }}
+		</main>
 
-			{% include "components/footer.html" %}
+		{% include "components/footer.html" %}
 	</div>
-	
-  <!-- <script src="{{ '/assets/theme/uswds/js/uswds-init.min.js' | url }}"></script> -->
-  <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
+
+	<!-- <script src="{{ '/assets/theme/uswds/js/uswds-init.min.js' | url }}"></script> -->
+	<script async="" src="{{ assetPaths['uswds.js'] }} "></script>
 
 </body>
+
 </html>
