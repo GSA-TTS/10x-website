@@ -4,12 +4,13 @@ WIP - porting site from React to 11ty
 
 ---
 
-## Development 
+## Development
 
 ### Installation & getting started
+
 This site can be run locally using NodeJS. Using the command line, install the site and dependencies:
 
-``` npm i```
+```npm i```
 
 To serve the site locally:
 
@@ -46,14 +47,15 @@ In templates and layouts, make sure to use the liquid `| url` filter, which will
 ```
 
 ### Markdown and YAML
+
 In markdown, make sure to not link to a root-relative page, but rather use relative links:
 
 ```md
 View our [projects](../projects)
 ```
 
-
 For now, the places where we iterate over links provided in YAML lists are automatically prepended with the baseurl by the templates that use them. So this is ok:
+
 ```yaml
 - button_text: "click here"
   button_link: "/projects"
@@ -61,6 +63,7 @@ For now, the places where we iterate over links provided in YAML lists are autom
 reportUrl: "/assets/report.pdf"
 
 ```
+
 Note that you do not use the `../` when defining permalinks for pages in YAML either.
 
 ### Styles and assets
@@ -78,7 +81,7 @@ $theme-font-path: "theme/fonts"
 
 ### How to access Cloud Pages build for all branches in the 10x Website
 
-Below is the cloud.gov link to the build for the `main` branch:
+Below is the cloud.gov base url for branches:
 
 `https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/`
 
