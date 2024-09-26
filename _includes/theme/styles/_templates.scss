@@ -1475,7 +1475,9 @@ input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: 0;
+    border-top: units(1px) solid white;
+    border-left: units(1px) solid white;
+    border-right: units(1px) solid white;
     border-radius: 0.25rem;
     cursor: pointer;
     display: inline-block;
@@ -1497,7 +1499,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
     svg,
     span {
-        vertical-align: top;
+        vertical-align: middle;
     }
 
     span {
@@ -1508,6 +1510,8 @@ input[type="search"]::-webkit-search-cancel-button {
 
     svg {
         margin-right: units(2px);
+        width: units(2.5);
+        height: units(2.5);
     }
 }
 
@@ -1522,9 +1526,12 @@ input[type="search"]::-webkit-search-cancel-button {
     -moz-transform-origin: right bottom;
     transform-origin: right bottom;
     right: units(-1);
-    border: units(2px) solid white;
 }
 
 .purpleFeedbackButton #feedbackFormButton.usa-button {
     background: color("indigo-warm-60v");
+}
+
+.verticalIcon svg {
+    transform: rotate(90deg);
 }
