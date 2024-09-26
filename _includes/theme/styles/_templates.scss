@@ -1535,3 +1535,14 @@ input[type="search"]::-webkit-search-cancel-button {
 .verticalIcon svg {
     transform: rotate(90deg);
 }
+
+.cyanButton {
+    #feedbackFormButton.usa-button {
+        background-color: #52daf2;
+
+        span {
+            color: black;
+        }
+       
+    }
+}
