@@ -1,6 +1,6 @@
 ---
-title: "What we do: phases, process, approach, model"
-description: GSA's TTS 10x program is a venture studio that takes federal workers' ideas on ways good-for-government technology can make better-for-the-public experiences.
+title: "10x's Unique Approach: Phases, Process | 10x - Federal Venture Studio"
+description: Learn about 10x's phased approach to project development and funding, and how it ensures only the most promising projects are persued.
 layout: layouts/about-page.html
 permalink: /about/what-we-do/index.html
 mainNavPageTitle: About 10x

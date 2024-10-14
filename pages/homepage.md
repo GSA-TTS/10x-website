@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.html
-title: Better Government Technology | 10x Home
-description: 10x takes ideas from federal employees on ways technology can improve government digital experiences. Send in your idea!
+title: Solutions for Better Civic Tech | 10x - Federal Venture Studio
+description: Explore the federal government's innovation studio and learn how 10x crowdsources ideas from federal employees and turns them into good-for-people tech solutions.
 date: Last Modified
 permalink: /
 theme: 1
