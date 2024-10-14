@@ -1,10 +1,10 @@
 ---
-title: "Benefits eligibility and delivery"
+title: "Public Benefits Portfolio  | 10x - Federal Venture Studio"
 hero_banner:
   title: "Benefits eligibility and delivery"
   subtitle: "Reducing friction in navigating government benefits."
 landing-subtitle: Shouldn't it be easier for eligible people to find and receive public benefits?
-description: 10x projects help the public find out about benefits, eligibility, and how to apply.
+description: Learn how 10x projects help the public find out about benefits, eligibility, and how to apply.
 excerpt: |-
   From accessing affordable childcare to assistance buying healthy food, millions of Americans seek and receive public benefits each year. Oftentimes, a significant event in a person's life, like becoming a parent or losing a loved one, causes that person to seek out benefits from the government. The process of learning about, applying for, and receiving assistance from federal benefits programs is one of the few and most critical digital experiences many members of the public will ever have with the federal government. Government needs to get this right.
 template: "4"
