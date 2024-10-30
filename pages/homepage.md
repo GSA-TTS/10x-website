@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.html
-title: Solutions for Better Civic Tech | 10x - Federal Venture Studio
+title: Solutions for Better Civic Tech
 description: Explore the federal government's innovation studio and learn how 10x crowdsources ideas from federal employees and turns them into good-for-people tech solutions.
 date: Last Modified
 permalink: /
