@@ -1,5 +1,5 @@
 ---
-title: "10x Crowdsources New CX Ideas "
+title: "10x Crowdsources New Ideas "
 description: "Learn how 10x improves government digital service delivery by asking &quot;What problem are you trying to solve?&quot;"
 hero_banner:
     title: "10x program crowdsourcing new customer experience ideas"
