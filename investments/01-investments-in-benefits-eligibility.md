@@ -1,5 +1,5 @@
 ---
-title: "Public Benefits Portfolio  | 10x - Federal Venture Studio"
+title: "Public Benefits Portfolio"
 hero_banner:
   title: "Benefits eligibility and delivery"
   subtitle: "Reducing friction in navigating government benefits."

@@ -1,6 +1,6 @@
 ---
 title: U.S. Web Design System (USWDS)
-description: USWDS helps federal web managers gain efficiencies and scale through the use of patterns, components and templates for ongoing improved digital experiences.
+description: Learn how 10x developed USWDS, which helps federal web managers gain efficiencies and scale with patterns, components and templates for improved digital experiences.
 hero_banner:
     title: U.S. Web Design System (USWDS)
     subtitle: Speed of development and consistency in government digital product design

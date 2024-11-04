@@ -1,5 +1,5 @@
 ---
-title: "Government reinvention"
+title: "10x's Growth Mindset"
 description: "10x's approach applies learnings from venture capitalists to the development of technology projects for government. Find out how."
 hero_banner:
   title: "Government reinvention"

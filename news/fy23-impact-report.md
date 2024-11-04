@@ -1,5 +1,5 @@
 ---
-title: 10x's FY23 Impact Report is now available
+title: Announcing 10x's FY23 Impact Report 
 description: We are excited to share our FY23 Impact Report. Learn about projects, key wins, and what we learned in FY23.
 hero_banner:
     title: 10x's FY23 Impact Report is now available

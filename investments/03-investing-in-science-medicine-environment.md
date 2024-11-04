@@ -1,10 +1,10 @@
 ---
-title: Science, medicine, and the environment
+title: Science, Medicine and the Environment Portfolio
 hero_banner:
   title: Science, medicine, and the environment
   subtitle: Government scientific data yields powerful insights and produces tangible benefits for society.
 landing-subtitle: How can the government make its wealth of scientific and statistical data easier to consume and deploy through exceptional digital experiences?
-description: 10x invests in making research and data in science, medicine, and the environment easier to consume and understand.
+description: Learn how 10x invests in making research and data in science, medicine, and the environment easier to consume and understand. 
 excerpt: |-
   Federal agencies that promote and practice science, medicine, environmental, and other related fields sit atop research data and other insights. With enormous potential benefits across many user groups within the public, from academia to business and more, the problem is that the information can be hard to find and use. 
 template: "4"

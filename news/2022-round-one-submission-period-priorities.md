@@ -1,5 +1,5 @@
 ---
-title: 10x announces FY22 themes
+title: 10x's FY22 Investment Themes 
 description: "10x is excited to open the submission period for FY22 10x pitches."
 hero_banner:
   title: 10x announces FY22 themes

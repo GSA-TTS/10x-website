@@ -1,10 +1,10 @@
 ---
-title: Equitable and accessible tech
+title: Equitable Tech Portfolio 
 hero_banner:
   title: Equitable and accessible tech
   subtitle: Open, useful, usable federal digital products that reflect the diversity of users.
 landing-subtitle: How can we ensure that modern government technology works for everyone, especially those most in need?
-description: 10x designs government digital products that remove barriers to access and reflect the diversity of people in the U.S. 
+description: Learn how 10x designs government digital products that remove barriers to access and reflect the diversity of people in the U.S.  
 excerpt: |-
   Historically, many people in the U.S. have not been able to use digital technology because it didn't work for them — many federal websites were created with one type of user in mind, leaving many voices and lived experiences out of the building process. But given the rich diversity in this country, it is important that everyone is able to access the information they need.
 template: "4"
