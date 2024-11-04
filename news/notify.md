@@ -1,5 +1,5 @@
 ---
-title: Notify.gov Text Messaging Service
+title: 10x's Investment in the Notify.gov Text Messaging Service
 description: Read about the partnership between 10x and TTS Public Benefits Studio's Notify.gov — helping benefits administrators stay in touch with benefit recipients.
 hero_banner:
     title: Notify.gov text messaging service for alerts and reminders

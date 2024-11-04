@@ -1,5 +1,5 @@
 ---
-title: Login.gov
+title: 10x's Investment in Login.gov
 description: 10x was an early investor in Login.gov, the government’s centralized identity system. 10x helped shape the system that we rely on today.
 hero_banner:
   title:  Login.gov

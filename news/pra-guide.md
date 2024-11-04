@@ -1,5 +1,5 @@
 ---
-title: Paperwork Reduction Act (PRA)
+title: 10x's Investment in the Paperwork Reduction Act (PRA) Guide
 description: Discover how 10x developed a step-by-step guide to help agencies understand, plan for, and navigate the complexity of the Paperwork Reduction Act. 
 hero_banner:
   title:  PRA Guide

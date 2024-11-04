@@ -1,5 +1,5 @@
 ---
-title: Digital Trust and Security Portfolio 
+title: 10x's Digital Trust and Security Portfolio 
 hero_banner:
   title: Digital trust and security
   subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.
