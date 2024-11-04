@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.html
-title: Solutions for Better Civic Tech
+title: Home
 description: Explore the federal government's innovation studio and learn how 10x crowdsources ideas from federal employees and turns them into good-for-people tech solutions.
 date: Last Modified
 permalink: /

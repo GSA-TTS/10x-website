@@ -1,5 +1,5 @@
 ---
-title: "10x's Unique Approach: Phases, Process | 10x - Federal Venture Studio"
+title: "10x's Unique Approach: Phases, Process"
 description: Learn about 10x's phased approach to project development and funding, and how it ensures only the most promising projects are persued.
 layout: layouts/about-page.html
 permalink: /about/what-we-do/index.html

@@ -1,5 +1,5 @@
 ---
-title: "Contact Us  | 10x - Federal Venture Studio"
+title: "Contact Us"
 description: Want help brainstorming how to improve digital CX for the public? Have questions about 10x? We want to hear from you! 
 layout: layouts/about-page.html
 permalink: /about/contact-us/index.html

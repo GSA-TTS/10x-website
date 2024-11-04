@@ -1,5 +1,5 @@
 ---
-title: "About GSA's Innovation Program | 10x - Federal Venture Studio"
+title: "About GSA's Innovation Program"
 description: GSA's TTS 10x program invests in ideas from civil servants on ways good-for-government technology can make a better-for-the-public experience.
 layout: layouts/about-page.html
 permalink: /about/index.html
