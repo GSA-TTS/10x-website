@@ -62,5 +62,15 @@
 <button id="feedbackFormButton" class="usa-button">
   <span>Feedback</span>
 </button>
+<!-- Style for Feedback form buttons - needs to be here in order to override the styles from Touchpoint -->
+<style>
+  .fba-usa-modal-wrapper .fba-modal .fba-usa-modal__content .fba-usa-modal__close {
+    padding: 0.25rem 0.25rem 0.25rem 0.75rem !important
+  }
 
+  .fba-usa-modal-wrapper .fba-modal .fba-usa-modal__content .fba-usa-modal__close::before,
+  .fba-usa-modal-wrapper .fba-modal .fba-usa-modal__content .fba-usa-modal__close::after {
+    border: none
+  }
+</style>
 <script src="https://touchpoints.app.cloud.gov/touchpoints/51cde199.js" async></script>

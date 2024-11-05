@@ -1616,7 +1616,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
                 &::before,
                 &::after {
-                    border-radius: units(0.5);
+                    border: none;
                 }
             }
         }
