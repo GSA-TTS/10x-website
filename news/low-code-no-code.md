@@ -1,6 +1,6 @@
 ---
-title: Low code/no code 
-description: 10x explored the potential of rapid delivery via LC/NC tools in civic tech
+title: Low Code/No Code
+description: 10x explored the potential of rapid delivery via LC/NC tools in civic tech.
 hero_banner:
   title: Low code/no code (LC/NC)
   subtitle: Uncovering the pros and cons of rapid tech deployment

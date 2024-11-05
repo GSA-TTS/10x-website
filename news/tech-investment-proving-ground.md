@@ -1,6 +1,6 @@
 ---
-title: "10x phased investment approach is a solid proving ground for new technology"
-description: "Technology investments are inherently risky, but the 10x phased approach offers a proving ground for good ideas."
+title: "10x's Phased Investment Approach "
+description: "Technology investments are inherently risky, but the 10x phased approach offers a proving ground for good ideas. "
 hero_banner:
     title: "10x phased investment approach is a solid proving ground for new technology"
     subtitle: "10x helps reduce tech investment risk through its phased approach, helping good ideas become a reality."

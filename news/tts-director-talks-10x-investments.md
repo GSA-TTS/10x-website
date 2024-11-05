@@ -1,5 +1,5 @@
 ---
-title: "TTS Director Talks Citizen Service, Innovation"
+title: "TTS Director Talks Citizen Service"
 description: "MeriTalk Q&A with TTS Director Ann Lewis on Tech Innovation, U.S. Notify, USWDS and more."
 hero_banner:
     title: "TTS Director Talks Citizen Service, Innovation"

@@ -1,5 +1,5 @@
 ---
-title: "Announcing the Public Sector Innovation winners"
+title: "Public Sector Innovation Winner "
 description: "Read about how 10x, an innovative program in funding and developing technology solutions that serve the public, was recognized with a 2019 Public Sector Innovation award."
 hero_banner:
   title: "Announcing the Public Sector Innovation winners"

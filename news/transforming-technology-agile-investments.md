@@ -1,5 +1,5 @@
 ---
-title: "10x: Transforming technology through agile investments"
+title: "10x's Agile Investment Approach "
 description: "View webinar on how 10x approaches investments in key technology projects designed to change how the public experiences the government."
 hero_banner:
   title: "10x: Transforming technology through agile investments"

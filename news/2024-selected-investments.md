@@ -1,5 +1,5 @@
 ---
-title: Announcing 10x's exciting new investments
+title: Exciting New Investments for FY24 
 description: See all the Phase 1 investments 10x is funding in early 2024.
 hero_banner:
     title: Announcing 10x's exciting new investments

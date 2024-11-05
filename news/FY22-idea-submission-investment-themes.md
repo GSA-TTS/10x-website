@@ -1,5 +1,5 @@
 ---
-title: "Requesting ideas on reimagining public engagement and equity in delivery"
+title: "10x Requests Ideas on Reimaging Public Engagement"
 description: "Read ExecutiveGov's coverage of 10x's fall 2021 request for idea submissions for FY22 investments."
 hero_banner:
     title: "Requesting ideas on reimagining public engagement and equity in delivery"
