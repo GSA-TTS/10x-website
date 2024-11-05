@@ -1608,21 +1608,16 @@ input[type="search"]::-webkit-search-cancel-button {
     }
 }
 
-.fba-modal-dialog {
-    .usa-button {
-
-        &::before,
-        &::after {
-            border-radius: units(0.5);
-        }
-    }
-}
-
 .fba-usa-modal-wrapper {
     .fba-modal {
         .fba-usa-modal__content {
             .fba-usa-modal__close {
                 padding: units(0.5) units(0.5) units(0.5) units(1.5) !important;
+
+                &::before,
+                &::after {
+                    border-radius: units(0.5);
+                }
             }
         }
     }
