@@ -1,5 +1,6 @@
 ---
-title: 10x FY22 Impact Report | 10x - Federal Venture Studio
+title: 10x FY22 Impact Report
+description: Read 10x's FY22 Impact Report and discover how we create solutions that ensure the public has a better digital experience.
 hero_banner:
     title: 10x FY22 Impact Report
     subtitle: 10x FY22 Impact Report
