@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: Privacy Policy
+description: Learn about how we protect your privacy and what we do with your idea submissions.
 hero_banner:
   category: "Privacy"
   title: "Privacy Policy"

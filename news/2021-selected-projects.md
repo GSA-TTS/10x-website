@@ -1,5 +1,5 @@
 ---
-title: "10x announces new projects"
+title: "10x Announces FY21 New Projects"
 description: "10x is excited to reveal the latest cohort of projects that we have selected for Phase 1 funding."
 hero_banner:
   title: "10x announces new projects"

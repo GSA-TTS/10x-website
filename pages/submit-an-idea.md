@@ -1,6 +1,6 @@
 ---
-title: Send Us Your Idea! | 10x Idea Submission
-description: Send your idea on how technology improves government digital service delivery. Here's a step-by-step guide.
+title: Send Us Your Idea
+description: Send your idea on how technology can improve government digital service delivery. Here's a step-by-step guide. 
 hero_banner:
   category: "Ideas"
   title: "Send your idea to 10x"

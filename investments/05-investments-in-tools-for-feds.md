@@ -1,10 +1,10 @@
 ---
-title: Tools for federal digital teams
+title: 10x's Tools for Federal Teams Portfolio  
 hero_banner:
   title: Tools for federal digital teams
   subtitle: Design systems, guidance, and tools that center the public, instead of mirroring government silos.
 landing-subtitle: How do we provide a consistent and quality digital experience for the American public?
-description: 10x works to build a foundation of shared products to make it easier for federal teams to provide exceptional digital experiences.
+description: Learn how 10x works to build a foundation of shared products to make it easier for federal teams to provide exceptional digital experiences. 
 excerpt: |-
  Digital websites and applications have an obligation to the American people to provide useful and usable information to help them find the information they need. However, like most other digital ecosystems, those of the federal government emerged from agency silos. To ensure a consistent, usable, accessible federal digital experience, a new foundation needs to be built.
 template: "4"

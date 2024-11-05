@@ -1,5 +1,6 @@
 ---
 title: 10x FY23 Impact Report
+description: Read 10x's FY23 Impact Report and discover how we create solutions that ensure the public has a better digital experience.
 hero_banner:
     title: 10x FY23 Impact Report
     subtitle: "10x FY23 Impact Report"
