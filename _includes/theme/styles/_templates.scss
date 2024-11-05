@@ -1608,6 +1608,15 @@ input[type="search"]::-webkit-search-cancel-button {
     }
 }
 
+.fba-modal-dialog {
+    .usa-button {
+        &::before,
+        &::after {
+            border-radius: 0.25rem;
+        }
+      }
+}
+
 .fba-usa-modal-wrapper {
     .fba-modal {
         .fba-usa-modal__content {
