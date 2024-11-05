@@ -1,5 +1,5 @@
 ---
-title: Site Scanning for better digital experiences
+title: 10x's Investment in Site Scanning
 description: Site Scanning is a real-time intelligence tool that helps federal web managers improve the websites they oversee and deliver superior digital experiences.
 hero_banner:
   title: Site Scanning for better digital experiences

@@ -1,10 +1,10 @@
 ---
-title: Digital trust and security
+title: 10x's Digital Trust and Security Portfolio 
 hero_banner:
   title: Digital trust and security
   subtitle: Public trust is built through proper handling of sensitive data and robust cybersecurity practices.
 landing-subtitle: How can we help the government deliver safe and secure digital experiences to the public?
-description: 10x designs and develops technology to help federal digital teams protect privacy and build public trust.
+description: Learn how 10x designs and develops technology to help federal digital teams protect privacy and build public trust. 
 excerpt: |-
   These projects are in the business of online security, but trust building is what animates and inspires them. The premise of our privacy and security work is that the public won't use digital tools they don't trust, that untrustworthy tools can cause harm, and that taking security and privacy seriously is critical to building trustworthy tools. 
 template: "4"

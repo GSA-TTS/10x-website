@@ -1,5 +1,5 @@
 ---
-title: "USA.gov's Benefits Locator expands life events to include retirement,  serious illnesses, and disabilities"
+title: "USA.gov's Benefits Locator (formerly BEARS) Expands"
 description: "USA.gov announces new life events to its Benefits Locator tool to support people nearing retirement and those navigating a disability or illness."
 hero_banner:
     title: "USA.gov's Benefits Locator expands life events to include retirement,  serious illnesses, and disabilities"

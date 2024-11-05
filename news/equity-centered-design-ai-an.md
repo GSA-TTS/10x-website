@@ -1,5 +1,5 @@
 ---
-title: Equity centered design for American Indians/Alaska Natives
+title: Equity Centered Design for AI/AN 
 description: 10x explored an equity-centered design (ECD) framework for working with American Indian/Alaska Native communities.
 hero_banner:
   title: Equity Centered Design

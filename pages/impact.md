@@ -1,6 +1,6 @@
 ---
-title: 10x Impact Reports | 10x Technology Innovation Program
-description: Find out about the impact of 10x projects and products, and how investment dollars have supported the work of improving government digital services.
+title: 10x Impact Reports
+description: Find out about the impact of 10x projects and products, and how investment dollars have supported the work of improving government digital services. 
 hero_banner:
   category: "Impact Reports"
   title: "Our impact"

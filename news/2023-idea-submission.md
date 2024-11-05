@@ -1,5 +1,5 @@
 ---
-title: How can government use technology to better serve the public? 
+title: Inviting Ideas for FY23 Funding 
 description: "10x is excited to announce they are accepting idea submissions through November 30, 2022."
 hero_banner:
   title: How can government use technology to better serve the public? 

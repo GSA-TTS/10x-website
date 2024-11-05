@@ -1,6 +1,6 @@
 ---
-title: "Rapid implementation of policy as code"
-description: "18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy. Find out how."
+title: "Rapid Implementation of Policy as Code"
+description: "10x and 18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy. Find out how."
 hero_banner:
   title: "Rapid implementation of policy as code"
   subtitle: 18F's approach to writing policy as code for faster implementation of changes.

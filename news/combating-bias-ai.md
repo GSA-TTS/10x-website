@@ -1,5 +1,5 @@
 ---
-title: Combating bias in artificial intelligence
+title: Combating Bias in AI 
 description: The Combating Bias in AI project addresses potential inequities and harms associated with the federal government's adoption of AI and ML capabilities.
 hero_banner:
   title: Combating bias in artificial intelligence

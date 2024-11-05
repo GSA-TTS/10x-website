@@ -1,10 +1,10 @@
 ---
-title: "Open, usable federal data"
+title: "10x's Data Science Portfolio"
 hero_banner:
   title: "Open, usable federal data"
   subtitle: "Government data that’s findable, usable and useful."
 landing-subtitle: What would it take to make government data easily usable?
-description: 10x supports projects that make federal government data open, findable, usable, and safe to use.
+description: Learn how 10x supports projects that make federal government data open, findable, usable, and safe to use. 
 excerpt: |-
  10x believes that data can do a lot of good. The government has a lot of data that's open and freely accessible to everyone, but not always easy to find or use. In order for data to deliver, a lot has to go right and some things can't go wrong. 
 template: "4"

@@ -1,6 +1,6 @@
 ---
-title: 10x investment themes and priorities
-description: 10x invests in cross-cutting, high-impact focus areas including data, privacy, safety and security, customer experience, equity and accessibility.
+title: 10x Investment Themes and Priorities
+description: Find out about how 10x invests in high-impact focus areas including data, privacy, safety and security, customer experience, equity and accessibility. 
 layout: layouts/investments-list.html
 permalink: /investments{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html
 redirect_from: 
