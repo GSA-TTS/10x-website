@@ -24,6 +24,7 @@ list-url: /news/
 tags-list:
   - Announcements
   - In-the-news
+  - Perspectives
   - Projects
 back-to-news-updates_text: All News and Updates
 renderData:

@@ -8,7 +8,7 @@ footer: "10x-in-the-wild"
 date: "2024-11-14"
 slug: "trauma-informed-design"
 excerpt: "Trauma-informed design informs both 10x’s design work and our user research, to help create respectful and empathetic digital experiences."
-tags: Announcements
+tags: Perspectives
 
 ---
 It’s true that all users have needs that designers can learn about during research. But it’s also true that some people have particular needs that designers must take into account  —  or risk harming that user and failing to meet their needs. Federal designers can fall into these pitfalls without a thoughtful approach. One way to avoid this is to understand how individuals and groups with shared traits or experiences might benefit from an intentional research approach that differs from standard practices. One such group is trauma survivors.
