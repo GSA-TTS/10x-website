@@ -36,4 +36,4 @@ Best practices to avoid this type of trauma-absorption include allowing research
  
 Trauma informed design is a quickly evolving field. Academic research is informing part of the growth, as researchers look at the benefits of a trauma-informed approach (along with potential harms), and the impact of TID in specific settings. In addition, much of the evolution is being driven by practitioners, who see the value of the approach in helping ensure better outcomes for people everywhere. Stay tuned for how this informs our work in the future.
 
----
+
