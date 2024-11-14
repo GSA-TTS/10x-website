@@ -21,6 +21,7 @@ read-more-button_text: "Read more"
 tags-list:
   - Announcements
   - In-the-news
+  - Perspectives
   - Projects
 renderData:
   title: News and Updates
