@@ -18,17 +18,17 @@ tags: research-findings
    <span lang="ar" dir="rtl">كيف يمكنك العثور على محتوى باللغة الإنجليزية على موقع عربي؟
 </span></p>
 
-Unless you are an Arabic speaker, that heading is probably mystifying. For the more than 25 million people in the U.S. with Limited English Proficiency (LEP), a lot of information online can be just as confusing. Many federal government web teams are working hard to help by creating content in multiple languages. These translations will help people find information to help them pay their taxes, secure benefits, and respond in emergencies. But what if the people that need this translated content the most can’t even find the content in their language? 
+Unless you are an Arabic speaker, that heading is probably mystifying. For the more than 25 million people in the U.S. with Limited English Proficiency (LEP), a lot of information online can be just as confusing. Many federal government web teams are working hard to help by creating content in multiple languages. These translations will help people find information to help them pay their taxes, secure benefits, and respond in emergencies. But what if the people that need this translated content the most can't even find the content in their language? 
 
 This is what the 10x team sought to explore. 
 
-Our colleagues at the <a class="usa-link--external" rel="noreferrer" href="https://github.com/GSA-TTS/10x-projects/issues/26">U.S. Census teed up an interesting question:</a> how can we design a language selector that helps people who don’t speak or read English find content on government sites? Most design conventions for language selection are based on e-comm models. Do we need a different approach for information-rich sites and apps? 10x agreed this problem was important and set out to research how monolingual speakers find translated content on government sites  —  and how the design of a language selector can help them find it more easily. To do this, 10x conducted research with monolingual speakers of Spanish, Arabic, and Mandarin Chinese. 
+Our colleagues at the <a class="usa-link--external" rel="noreferrer" href="https://github.com/GSA-TTS/10x-projects/issues/26">U.S. Census teed up an interesting question:</a> how can we design a language selector that helps people who don't speak or read English find content on government sites? Most design conventions for language selection are based on e-comm models. Do we need a different approach for information-rich sites and apps? 10x agreed this problem was important and set out to research how monolingual speakers find translated content on government sites  —  and how the design of a language selector can help them find it more easily. To do this, 10x conducted research with monolingual speakers of Spanish, Arabic, and Mandarin Chinese. 
 
-10x’s research built on the good work done by the Multilingual Community of Practice and the <a class="usa-link--external" rel="noreferrer" href="https://designsystem.digital.gov">U.S. Web Design System</a>(USWDS) team. The goal of the research was to understand how best to help monolingual users find content in their preferred language on government sites. Monolingual users are an important audience for content in languages other than English, but by no means the only audience. 10x’s research only focused on people with little or no English language skill.
+10x's research built on the good work done by the Multilingual Community of Practice and the <a class="usa-link--external" rel="noreferrer" href="https://designsystem.digital.gov">U.S. Web Design System</a>(USWDS) team. The goal of the research was to understand how best to help monolingual users find content in their preferred language on government sites. Monolingual users are an important audience for content in languages other than English, but by no means the only audience. 10x's research only focused on people with little or no English language skill.
 
 Web teams have been working hard to help people with LEP navigate public health emergencies, immigration challenges, and an increase in the frequency of natural disasters. Even so, there is the need for better and more uniform translation of information around health, public safety, unemployment, and government benefits. Providing a clear and easy way for the public to find content on the site is foundational to this effort. Content in preferred languages is not helpful if people cannot find it.
 
-<aside>Language access is a civil rights issue, an equity issue, and an inclusivity issue. Language access requirements in federal programs and services originate from <a class="usa-link--external" rel="noreferrer" href="https://www.dol.gov/agencies/oasam/regulatory/statutes/title-vi-civil-rights-act-of-1964">Title VI of the Civil Rights Act of 1964</a>, and have been addressed in numerous subsequent acts and Executive Orders. <a class="usa-link--external" rel="noreferrer" href="https://www.justice.gov/crt/executive-order-13166">Executive Order 13166</a> was signed on August 11, 2000, to improve access to government services for people with Limited English Proficiency (LEP). In addition, the <a class="usa-link--external" rel="noreferrer" href="https://www.performance.gov/pma/cx/">President’s Management Agenda (PMA) Priority 2</a> focuses on delivering excellent, equitable, and secure federal services and customer experience (CX). Civil servants all over the federal government are working hard to meet the needs of all the people.</aside>
+<aside>Language access is a civil rights issue, an equity issue, and an inclusivity issue. Language access requirements in federal programs and services originate from <a class="usa-link--external" rel="noreferrer" href="https://www.dol.gov/agencies/oasam/regulatory/statutes/title-vi-civil-rights-act-of-1964">Title VI of the Civil Rights Act of 1964</a>, and have been addressed in numerous subsequent acts and Executive Orders. <a class="usa-link--external" rel="noreferrer" href="https://www.justice.gov/crt/executive-order-13166">Executive Order 13166</a> was signed on August 11, 2000, to improve access to government services for people with Limited English Proficiency (LEP). In addition, the <a class="usa-link--external" rel="noreferrer" href="https://www.performance.gov/pma/cx/">President's Management Agenda (PMA) Priority 2</a> focuses on delivering excellent, equitable, and secure federal services and customer experience (CX). Civil servants all over the federal government are working hard to meet the needs of all the people.</aside>
 
 Interviewing members of this population reinforced how much they need quality translated content  —  and how challenging they are to serve. This population is often vulnerable and building trust with each participant is critical to ensuring good feedback. See the Methodology and process section for information on how we identified and built trust with test participants.
 
@@ -43,7 +43,7 @@ Test participants **rely heavily on mobile devices**, and for many it is the onl
 
 Many of the participants have **very low technology literacy** and are not comfortable exploring websites and apps and do not own their own computers.
 
->“I don’t even know how to turn on a computer and when I need help filling out a form I ask my daughter to do it for me.”<br/>—  Spanish-language user testing participant
+>“I don't even know how to turn on a computer and when I need help filling out a form I ask my daughter to do it for me.”<br/>—  Spanish-language user testing participant
 
 In addition, many of the participants have older model phones and use prepaid plans. Many do not have Wi-Fi at home, including, for example, about 90% of the Spanish-language participants.
 
@@ -55,13 +55,13 @@ Mandarin participants reported that **in-person or phone services were preferred
 
 Test participants mentioned needing information on immigration and citizenship processes, benefits eligibility, and crisis response. They generally start their search on Google or another search engine (Baidu was specifically mentioned by Mandarin Chinese speakers). Mandarin speakers, for example, **start their search on a search engine** or by accessing websites via links provided by friends and family. Six of 16 participants searched in Chinese exclusively and 10 of 16 searched in a combination of English and Chinese. 
 
->“Because my English isn’t very good, so sometimes I’m afraid I’ll write the keywords incorrectly and it won’t find anything.” <br/>— Mandarin-speaking user testing participant
+>“Because my English isn't very good, so sometimes I'm afraid I'll write the keywords incorrectly and it won't find anything.” <br/>— Mandarin-speaking user testing participant
 
 Search results are generally in both Chinese and English, though some participants only click on Chinese-language links.
 
 Spanish speakers specifically noted that they rely on search results in Spanish.
 
->“I only select search results that provide information in Spanish, so I don’t have to dig for links or wonder what I should do once I arrive at a site.” <br/>— Spanish-speaking user testing participant
+>“I only select search results that provide information in Spanish, so I don't have to dig for links or wonder what I should do once I arrive at a site.” <br/>— Spanish-speaking user testing participant
 
 ### Automated translations
 
@@ -111,17 +111,17 @@ Icons alone were not effective language selector indicators.
 
 None of the Mandarin participants, for example, knew what the globe icon meant. 95% of the Spanish-language participants did not interpret the globe as a link to Spanish content. Some believed it meant “countries” or “network.” Symbols commonly used to represent language selection are understood differently across cultures.
 
->“It might be a link to the web or Google Translate, but I really don’t know what it is. My old mobile phone doesn’t always show graphics from a website.” <br/>— Spanish-language testing participant
+>“It might be a link to the web or Google Translate, but I really don't know what it is. My old mobile phone doesn't always show graphics from a website.” <br/>— Spanish-language testing participant
 
 One user pointed out another problem with relying solely on an icon:
 
->“There’s another problem: If it’s in text form, I can use a translator to translate it. But I don’t know how to translate this icon.” <br/>— A Mandarin-language testing participant 
+>“There's another problem: If it's in text form, I can use a translator to translate it. But I don't know how to translate this icon.” <br/>— A Mandarin-language testing participant 
 
 That said, test participants agreed that **an icon made the button more noticeable**, and often recommended it be paired with the word “Languages.”
 
 ### Animated language selector
 
-Most participants found that an animated language selector was significantly more noticeable than a static one, but many found it distracting. Some didn’t understand what behavior to expect from it. For example, some felt they had to “wait for their language to come around again,” and then click on it.
+Most participants found that an animated language selector was significantly more noticeable than a static one, but many found it distracting. Some didn't understand what behavior to expect from it. For example, some felt they had to “wait for their language to come around again,” and then click on it.
 
 >“That button really caught my attention. It was the first thing I noticed. I just wonder what happens when I miss clicking on the Spanish link?” <br/>— Spanish-language test participant
 
@@ -137,7 +137,7 @@ Participants generally reacted negatively to alerts letting them know that their
 
 ### Search
 
-Spanish-language user testing participants reported that they look to Search to help if they don’t see a language indicator.
+Spanish-language user testing participants reported that they look to Search to help if they don't see a language indicator.
 
 >“Whenever I need information from a specific website that does not have a link to Spanish content, I use the search box to look for it. If the site has it [Spanish-language content], it will appear in my results.” <br/>— Spanish-language user testing participant
 
@@ -147,11 +147,11 @@ Spanish-language user testing participants reported that they look to Search to 
 
 When monolingual users do try to use content in their preferred language, they often find that it is inaccurate or hard to understand. A couple of the Arabic-speaking test participants noted that they had been denied specific benefits due to outdated or inaccurate information.
 
->“When I arrived at the bus station, I found out that the Spanish version of the agency’s website was not as current as the English version. I had to wait until the next day to get on the bus at the correct time.” <br/>— Spanish-language participant
+>“When I arrived at the bus station, I found out that the Spanish version of the agency's website was not as current as the English version. I had to wait until the next day to get on the bus at the correct time.” <br/>— Spanish-language participant
 
 ### Dialects
 
-Many participants emphasized that translations  — even if technically correct  —  could be hard to understand due to dialect differences. For example, while there is a formal Arabic language, this is often not understood by people who haven’t been formally educated. The spoken (and written) versions spoken in the more than 20 countries where Arabic is the official language can differ a lot. 
+Many participants emphasized that translations  — even if technically correct  —  could be hard to understand due to dialect differences. For example, while there is a formal Arabic language, this is often not understood by people who haven't been formally educated. The spoken (and written) versions spoken in the more than 20 countries where Arabic is the official language can differ a lot. 
 
 Similarly, the Spanish of Spain and the Spanish of Mexico, or Colombia, or Venezuela, share a foundation but include meaningful differences. This can be a challenge to users. For Mandarin speakers, the difference between Simplified Chinese (from mainland China) and Traditional Chinese (from Taiwan and Hong Kong), means that a reader of one can only read about 60% of the other. 
 
@@ -161,7 +161,7 @@ Semi-structured interviews were conducted in 2023 and 2024. Test participants we
 
 Informed consent was secured from all participants, who were also compensated per General Services Administration (GSA) guidelines. Care was taken to ensure an ethical, trauma-informed approach with this vulnerable population. All responses have been pseudonymized.
 
-Most of the interviews were conducted in person at the partner organization’s site. A few were conducted remotely. Interviewees were asked to describe their search behavior and were shown a series of mock-ups. 
+Most of the interviews were conducted in person at the partner organization's site. A few were conducted remotely. Interviewees were asked to describe their search behavior and were shown a series of mock-ups. 
 
 ### Demographic information
 
@@ -223,7 +223,7 @@ Throughout the report we refer to “speakers” of specific languages. When the
 
 ### Disclaimer
 
-Mentions of and links to nongovernmental sites and sources are made for educational purposes only, and do not represent an endorsement of the organization by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities’ websites.
+Mentions of and links to nongovernmental sites and sources are made for educational purposes only, and do not represent an endorsement of the organization by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities' websites.
 
 ## About 10x
 
