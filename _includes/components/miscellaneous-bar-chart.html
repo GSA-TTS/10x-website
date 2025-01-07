@@ -1,0 +1,68 @@
+
+<h4 id="chartTitle">{{ chartTitle }}</h4>
+
+<figure class="bar-chart-from-list" role="figure" aria-labelledby="chartTitle">
+  <figcaption class="usa-sr-only">{{- chartDescription -}}</figcaption>
+
+  <ul class="bar-chart__legend">
+    {%- for item in chartLegend -%}
+      <li class="font-sans-xs">
+        <span class="bar-chart__legend__swatch bg--{{- item[0] }}"></span>
+        {{- item[1].label -}}
+      </li>
+    {%- endfor -%}
+  </ul>
+
+  <ul class="bar-chart--vertical">
+    <li class="y-axis" aria-hidden="true">
+    {%- capture chartTicksString -%}
+      0,2,4,6,8,10,12,{{ chartYMax }}
+    {%- endcapture -%}
+    {%- assign chartTicks = chartTicksString | split: ',' -%}
+      {%- for tick in chartTicks -%}
+        <span class="y-tick">{{- tick | round -}}</span>
+      {%- endfor -%}
+    </li>
+    {%- for fy in chartData -%}
+      <li class="fy" aria-describedby="{{- fy.name -}}_label">
+        <h5 class="fy__wrapper-label font-sans-sm" id="{{- fy.name -}}_label">
+          {{- fy.name -}}
+        </h5>
+        <ul class="fy__wrapper">
+          <li class="bar-container">
+            <span class="bar bg--arabic_language" 
+              data-value="{{ fy.arabic_language }}" aria-hidden="true"
+              style="height: {{ fy.arabic_language | divided_by: chartYMax | times: 100 -}}%"></span>
+            <span class="usa-sr-only">{{ fy.arabic_language }} {{ chartLegend.arabic_language.label }}</span>
+          </li>
+          <li class="bar-container">
+            <span class="bar bg--mandarin_language" 
+              data-value="{{ fy.mandarin_language }}" aria-hidden="true"
+              style="height: {{ fy.mandarin_language | divided_by: chartYMax | times: 100 -}}%"></span>
+            <span class="usa-sr-only">{{ fy.mandarin_language }} {{ chartLegend.mandarin_language.label }}</span>
+          </li>
+          <li class="bar-container">
+            <span class="bar bg--spanish_language" 
+              data-value="{{ fy.spanish_language }}" aria-hidden="true"
+              style="height: {{ fy.spanish_language | divided_by: chartYMax | times: 100 -}}%"></span>
+            <span class="usa-sr-only">{{ fy.spanish_language }} {{ chartLegend.spanish_language.label }}</span>
+          </li>
+        </ul>
+      </li>
+    {%- endfor -%}
+  </ul>
+</figure>
+
+
+<style>
+/* 
+  or inline, style="background: {{- item[1].color -}}"  for legend
+  and style="background: {{- chartLegend.arabic_language.color -}}" for chart itself
+*/ 
+
+{% for item in chartLegend %}
+.bg--{{- item[0] }} {
+  background: {{ item[1].color }}
+}
+{% endfor %}
+</style>

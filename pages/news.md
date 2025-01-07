@@ -23,7 +23,7 @@ tags-list:
   - In-the-news
   - Perspectives
   - Projects
-  - Research findings
+  - Research-findings
 renderData:
   title: News and Updates
   description: "All news and updates."

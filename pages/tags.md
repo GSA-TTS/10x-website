@@ -26,7 +26,7 @@ tags-list:
   - In-the-news
   - Perspectives
   - Projects
-  - Research findings
+  - Research-findings
 back-to-news-updates_text: All News and Updates
 renderData:
   title: "News Tagged"
