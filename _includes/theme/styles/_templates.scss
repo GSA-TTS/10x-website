@@ -855,7 +855,8 @@ h2,
             }
 
             h1,
-            h2 {
+            h2,
+            h3 {
                 color: white;
             }
 
@@ -1500,7 +1501,7 @@ iframe:focus,
 }
 
 // pull quote
-aside.pull-quote {
+.pull-quote {
     padding: units(1) units(3);
     margin: units(5) 0;
     border-left: 7px solid color("indigo-warm-60v");
@@ -1508,10 +1509,15 @@ aside.pull-quote {
     font-weight: 600;
     font-style: italic;
 
-    span.author {
+    blockquote {
+        margin: 0;
+    }
+
+    .author {
         display: block;
         font-style: normal;
         margin-top: units(1);
+        margin-bottom: 0;
     }
 }
 

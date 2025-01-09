@@ -84,7 +84,12 @@ Test participants **rely heavily on mobile devices**, and for many it is the onl
 
 Many of the participants have **very low technology literacy** and are not comfortable exploring websites and apps and do not own their own computers.
 
-<aside class="pull-quote">"I don't even know how to turn on a computer and when I need help filling out a form I ask my daughter to do it for me." <span class="author">- Spanish-language user testing participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "I don't even know how to turn on a computer and when I need help filling out a form I ask my daughter to do it for me."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 In addition, many of the participants have older model phones and use prepaid plans. Many do not have Wi-Fi at home, including, for example, about 90% of the Spanish-language participants.
 
@@ -96,19 +101,34 @@ Mandarin participants reported that **in-person or phone services were preferred
 
 Test participants mentioned needing information on immigration and citizenship processes, benefits eligibility, and crisis response. They generally start their search on Google or another search engine (Baidu was specifically mentioned by Mandarin Chinese speakers). Mandarin speakers, for example, **start their search on a search engine** or by accessing websites via links provided by friends and family. Six of 16 participants searched in Chinese exclusively and 10 of 16 searched in a combination of English and Chinese.
 
-<aside class="pull-quote">"Because my English isn't very good, so sometimes I'm afraid I'll write the keywords incorrectly and it won't find anything." <span class="author">— Mandarin-speaking user testing participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "Because my English isn't very good, so sometimes I'm afraid I'll write the keywords incorrectly and it won't find anything."
+  </blockquote>
+  <p class="author">- Mandarin-speaking user testing participant</p>
+</div>
 
 Search results are generally in both Chinese and English, though some participants only click on Chinese-language links.
 
 Spanish speakers specifically noted that they rely on search results in Spanish.
 
-<aside class="pull-quote">"I only select search results that provide information in Spanish, so I don't have to dig for links or wonder what I should do once I arrive at a site." <span class="author">— Spanish-speaking user testing participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "I only select search results that provide information in Spanish, so I don't have to dig for links or wonder what I should do once I arrive at a site."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ### Automated translations
 
 Test participants also **rely heavily on automated translations**, especially Google Translate, though how they use it depends on their technology skills and English proficiency. Despite automated translations being so heavily used, participants indicated that the translations are often **poor quality and difficult to understand**.
 
-<aside class="pull-quote">"[T]ranslate" for me can mean providing an instant translation rather than translated content. I find the former to be of less credibility for me to find content I can rely on in my native language." <span class="author">— Arabic-speaking test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "[T]ranslate" for me can mean providing an instant translation rather than translated content. I find the former to be of less credibility for me to find content I can rely on in my native language."
+  </blockquote>
+  <p class="author">- Arabic-speaking test participant</p>
+</div>
 
 All participants relied on automated translations to some degree. Participants reported:
 
@@ -126,7 +146,12 @@ Test participants **search for content by topic, not by organization**. So users
 
 Many participants indicated that they often search YouTube, Instagram, or TikTok for information in their preferred language. Spanish-language participants, for example, reported looking for guidance and how-to information on immigration and government benefits. In lieu of good indicators for content quality and accuracy, they **used other indicators for perceived authority**, such as titles (for example, lawyers) and production quality of the videos.
 
-<aside class="pull-quote">"I was seeking assistance with my immigration situation and searched YouTube for a lawyer. I found several who explained the steps, requirements, and how to contact them." <span class="author">— Spanish-language testing participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "I was seeking assistance with my immigration situation and searched YouTube for a lawyer. I found several who explained the steps, requirements, and how to contact them."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ## On-page behavior
 
@@ -136,7 +161,12 @@ All participants look for a language selector in the **upper right**. This was t
 
 Most participants recognized the word "**Languages**." For Mandarin participants, for example, 75% recognized "Languages," and understood it to mean that the content it links to is translated by humans. The term "Translate" was generally understood to mean automated translations, such as Google Translate.
 
-<aside class="pull-quote">"When I look at a button with that word [Translate], I think the website will do Google Translate." <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "When I look at a button with that word [Translate], I think the website will do Google Translate."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 Arabic-speaking test participants were the exception. They were not as familiar with the term "Languages," and preferred Arabi <span lang="ar" dir="rtl">عربي</span> or the alternative <span lang="ar" dir="rtl">العربية</span>.
 
@@ -146,17 +176,22 @@ Familiarity with technology played a role here, too. Some of the Mandarin Chines
 
 Even if they understood the label "Languages," participants did not always know what behavior to expect when they clicked on the button. They expected it to take them to translations, but were not sure if it would open another page. Participants, especially Mandarin speakers, felt that a **dropdown indicator** (arrow) would make the label clearer.
 
-<img alt="Button with the word languages and a dropdown indicator" src="{{ '/assets/images/ila-findings/languages-dropdown.webp' | url }}" width="430" height="93">
+<p><img alt="Button with the word languages and a dropdown indicator" src="{{ '/assets/images/ila-findings/languages-dropdown.webp' | url }}" width="430" height="93"></p>
 
 ### Iconography
 
 Icons alone were not effective language selector indicators.
 
-<img alt="Wireframe of a mobile phone displaying a benefits app and including an icon of a globe in the upper right." src="{{ '/assets/images/ila-findings/mobile-wireframe-translate-button.webp' | url }}" width="393" height="852">
+<p><img alt="Wireframe of a mobile phone displaying a benefits app and including an icon of a globe in the upper right." src="{{ '/assets/images/ila-findings/mobile-wireframe-translate-button.webp' | url }}" width="393" height="852"></p>
 
 None of the Mandarin participants, for example, knew what the globe icon meant. 95% of the Spanish-language participants did not interpret the globe as a link to Spanish content. Some believed it meant "countries" or "network." Symbols commonly used to represent language selection are understood differently across cultures.
 
-<aside class="pull-quote">"It might be a link to the web or Google Translate, but I really don't know what it is. My old mobile phone doesn't always show graphics from a website." <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "It might be a link to the web or Google Translate, but I really don't know what it is. My old mobile phone doesn't always show graphics from a website."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 <p><picture>
    <source media="(min-width: 40em)" srcset="{{ '/assets/images/ila-findings/video-preview-screenshot.webp' | url }}">
@@ -165,26 +200,40 @@ None of the Mandarin participants, for example, knew what the globe icon meant. 
 
 One user pointed out another problem with relying solely on an icon:
 
-<aside class="pull-quote">"There's another problem: If it's in text form, I can use a translator to translate it. But I don't know how to translate this icon." <span class="author">— A Mandarin-language testing participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "There's another problem: If it's in text form, I can use a translator to translate it. But I don't know how to translate this icon."
+  </blockquote>
+  <p class="author">- Mandarin-language testing participant</p>
+</div>
 
 That said, test participants agreed that **an icon made the button more noticeable**, and often recommended it be paired with the word "Languages."
 
-<img alt="Button with the word languages and a dropdown indicator, as well as an icon of a globe.
-" src="{{ '/assets/images/ila-findings/languages-dropdown-with-icon.webp' | url }}" width="486" height="93">
+<p><img alt="Button with the word languages and a dropdown indicator, as well as an icon of a globe." src="{{ '/assets/images/ila-findings/languages-dropdown-with-icon.webp' | url }}" width="486" height="93"></p>
 
 ### Animated language selector
 
 Most participants found that an animated language selector was significantly more noticeable than a static one, but many found it distracting. Some didn't understand what behavior to expect from it. For example, some felt they had to "wait for their language to come around again," and then click on it.
 
-<img alt="Wireframe of a website with an animated language selector in the upper right. The language selector displays a link to a different language every second." src="{{ '/assets/images/ila-findings/wireframe_animated.gif' | url }}" width="1080" height="608">
+<p><img alt="Wireframe of a website with an animated language selector in the upper right. The language selector displays a link to a different language every second." src="{{ '/assets/images/ila-findings/wireframe_animated.gif' | url }}" width="1080" height="608"></p>
 
-<aside class="pull-quote">"That button really caught my attention. It was the first thing I noticed. I just wonder what happens when I miss clicking on the Spanish link?" <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "That button really caught my attention. It was the first thing I noticed. I just wonder what happens when I miss clicking on the Spanish link?"
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ### In-page notifications
 
 Participants generally did not expect to see in-page language options and did not scroll the page looking for links. They expected to see their language options at the top of the page. When Mandarin participants saw an in-page language option, they believed that it only translated that specific section.
 
-<aside class="pull-quote">"You know, because I always use my mobile phone, I never think to scroll to the bottom and look for a link to Spanish content." <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "You know, because I always use my mobile phone, I never think to scroll to the bottom and look for a link to Spanish content."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ### Pop-up notifications
 
@@ -194,7 +243,12 @@ Participants generally reacted negatively to alerts letting them know that their
 
 Spanish-language user testing participants reported that they look to Search to help if they don't see a language indicator.
 
-<aside class="pull-quote">"Whenever I need information from a specific website that does not have a link to Spanish content, I use the search box to look for it. If the site has it [Spanish-language content], it will appear in my results." <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "Whenever I need information from a specific website that does not have a link to Spanish content, I use the search box to look for it. If the site has it [Spanish-language content], it will appear in my results."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ## Challenges
 
@@ -202,7 +256,12 @@ Spanish-language user testing participants reported that they look to Search to 
 
 When monolingual users do try to use content in their preferred language, they often find that it is inaccurate or hard to understand. A couple of the Arabic-speaking test participants noted that they had been denied specific benefits due to outdated or inaccurate information.
 
-<aside class="pull-quote">"When I arrived at the bus station, I found out that the Spanish version of the agency's website was not as current as the English version. I had to wait until the next day to get on the bus at the correct time." <span class="author">— Spanish-language test participant</span></aside>
+<div class="pull-quote">
+  <blockquote>
+    "When I arrived at the bus station, I found out that the Spanish version of the agency's website was not as current as the English version. I had to wait until the next day to get on the bus at the correct time."
+  </blockquote>
+  <p class="author">- Spanish-language user testing participant</p>
+</div>
 
 ### Dialects
 
