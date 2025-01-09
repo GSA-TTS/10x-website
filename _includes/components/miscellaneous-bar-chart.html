@@ -53,13 +53,6 @@
   </ul>
 </figure>
 
-
-<style>
-/* 
-  or inline, style="background: {{- item[1].color -}}"  for legend
-  and style="background: {{- chartLegend.arabic_language.color -}}" for chart itself
-*/ 
-
 {% for item in chartLegend %}
 .bg--{{- item[0] }} {
   background: {{ item[1].color }}
