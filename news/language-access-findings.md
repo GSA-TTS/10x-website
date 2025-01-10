@@ -159,6 +159,13 @@ Many participants indicated that they often search YouTube, Instagram, or TikTok
 
 All participants look for a language selector in the **upper right**. This was true for many Arabic participants, even though most Arabic-first sites put the language selector in the upper left. Participants did not distinguish between placement in the nav or utility sections. They just looked in the upper right.
 
+<p><video id="session8-video" data-able-player preload="auto" width="800" height="645" poster="{{ '/assets/ableplayer/media/session8-language-thumbnail-small.webp' | url }}">
+  <source type="video/mp4" src="{{ '/assets/ableplayer/media/session8-language-access-location.mp4' | url }}" />
+  <track kind="captions" src="{{ '/assets/ableplayer/media/session8_captions_en.vtt' | url }}" srclang="en" label="English" default/>
+  <track kind="captions" src="{{ '/assets/ableplayer/media/session8_captions_es.vtt' | url }}" srclang="es" label="Español"/>
+  <track kind="descriptions" src="{{ '/assets/ableplayer/media/session8_description_en.vtt' | url }}"/>
+</video></p>
+
 Most participants recognized the word "**Languages**." For Mandarin participants, for example, 75% recognized "Languages," and understood it to mean that the content it links to is translated by humans. The term "Translate" was generally understood to mean automated translations, such as Google Translate.
 
 <div class="pull-quote">
@@ -193,10 +200,12 @@ None of the Mandarin participants, for example, knew what the globe icon meant. 
   <p class="author">- Spanish-language user testing participant</p>
 </div>
 
-<p><picture>
-   <source media="(min-width: 40em)" srcset="{{ '/assets/images/ila-findings/video-preview-screenshot.webp' | url }}">
-   <img src="{{ '/assets/images/ila-findings/video-preview-screenshot-small.webp' | url }}" alt="Preview image of research video" width="800" height="645">
-</picture></p>
+<p><video id="participant14-video" data-able-player preload="auto" width="800" height="645" poster="{{ '/assets/ableplayer/media/participant14-thumbnail-small.webp' | url }}">
+  <source type="video/mp4" src="{{ '/assets/ableplayer/media/participant14-globe-icon.mp4' | url }}" />
+  <track kind="captions" src="{{ '/assets/ableplayer/media/participant14_captions_en.vtt' | url }}" srclang="en" label="English" default/>
+  <track kind="captions" src="{{ '/assets/ableplayer/media/participant14_captions_zh.vtt' | url }}" srclang="zh" label="中文, 汉语, 漢語"/>
+  <track kind="descriptions" src="{{ '/assets/ableplayer/media/participant14_description_en.vtt' | url }}"/>
+</video></p>
 
 One user pointed out another problem with relying solely on an icon:
 

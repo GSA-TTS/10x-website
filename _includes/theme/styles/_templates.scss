@@ -1269,7 +1269,7 @@ h2,
     h2,
     h3,
     h4 {
-        line-height: lh('heading', 6);
+        line-height: lh('heading', 3);
     }
 
     h3,
@@ -1301,7 +1301,7 @@ h2,
         font-size: size('body', 6);
         line-height: lh('body', 6);
         max-width: 100%;
-        margin-top: units(1.5);
+        margin-top: units(2);
 
         &.usa-intro {
             margin-top: units(-0.5);
@@ -1872,5 +1872,13 @@ input[type="search"]::-webkit-search-cancel-button {
     .bar-chart__legend__swatch {
         width: 1rem;
         border-radius: 50%;
+    }
+}
+
+.able {
+    h3 {
+        &.able-offscreen {
+            color: white;
+        }
     }
 }
