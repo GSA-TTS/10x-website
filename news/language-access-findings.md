@@ -185,13 +185,17 @@ Familiarity with technology played a role here, too. Some of the Mandarin Chines
 
 Even if they understood the label "Languages," participants did not always know what behavior to expect when they clicked on the button. They expected it to take them to translations, but were not sure if it would open another page. Participants, especially Mandarin speakers, felt that a **dropdown indicator** (arrow) would make the label clearer.
 
-<p><img alt="Button with the word languages and a dropdown indicator" src="{{ '/assets/images/ila-findings/languages-dropdown.webp' | url }}" width="430" height="93"></p>
+<p>
+  <img alt="Button with the word languages and a dropdown indicator" src="{{ '/assets/images/ila-findings/languages-dropdown.webp' | url }}" width="430" height="93">
+</p>
 
 ### Iconography
 
 Icons alone were not effective language selector indicators.
 
-<p><img alt="Wireframe of a mobile phone displaying a benefits app and including an icon of a globe in the upper right." src="{{ '/assets/images/ila-findings/mobile-wireframe-translate-button.webp' | url }}" width="393" height="852"></p>
+<p>
+  <img alt="Wireframe of a mobile phone displaying a benefits app and including an icon of a globe in the upper right." src="{{ '/assets/images/ila-findings/mobile-wireframe-translate-button.webp' | url }}" width="393" height="852">
+</p>
 
 None of the Mandarin participants, for example, knew what the globe icon meant. 95% of the Spanish-language participants did not interpret the globe as a link to Spanish content. Some believed it meant "countries" or "network." Symbols commonly used to represent language selection are understood differently across cultures.
 
@@ -222,13 +226,17 @@ One user pointed out another problem with relying solely on an icon:
 
 That said, test participants agreed that **an icon made the button more noticeable**, and often recommended it be paired with the word "Languages."
 
-<p><img alt="Button with the word languages and a dropdown indicator, as well as an icon of a globe." src="{{ '/assets/images/ila-findings/languages-dropdown-with-icon.webp' | url }}" width="486" height="93"></p>
+<p>
+  <img alt="Button with the word languages and a dropdown indicator, as well as an icon of a globe." src="{{ '/assets/images/ila-findings/languages-dropdown-with-icon.webp' | url }}" width="486" height="93">
+</p>
 
 ### Animated language selector
 
 Most participants found that an animated language selector was significantly more noticeable than a static one, but many found it distracting. Some didn't understand what behavior to expect from it. For example, some felt they had to "wait for their language to come around again," and then click on it.
 
-<p><img alt="Wireframe of a website with an animated language selector in the upper right. The language selector displays a link to a different language every second." src="{{ '/assets/images/ila-findings/wireframe_animated.gif' | url }}" width="1080" height="608"></p>
+<p>
+  <img alt="Wireframe of a website with an animated language selector in the upper right. The language selector displays a link to a different language every second." src="{{ '/assets/images/ila-findings/wireframe_animated.gif' | url }}" width="1080" height="608">
+</p>
 
 <div class="pull-quote">
   <blockquote>
