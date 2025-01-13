@@ -49,7 +49,7 @@ chartLegend:
     color: "#52daf2"
     label: "Mandarin" 
   spanish_language:
-    color: "#ff00ff"
+    color: "#1b151b"
     label: "Spanish" 
 
 chartYMax: 14
