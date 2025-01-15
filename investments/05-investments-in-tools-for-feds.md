@@ -62,6 +62,8 @@ Well-designed and accessible websites are the foundation of good digital communi
 
 Many government websites suffer from slow load times, unresponsive designs, and poor visual stability, especially under poor connectivity or on lower-end devices. 10x is developing reusable design and development strategies and a performance tool tailored to federal teams to make government websites faster and more reliable.
 
+---
+
 #### Find out more:
 
 <p>
