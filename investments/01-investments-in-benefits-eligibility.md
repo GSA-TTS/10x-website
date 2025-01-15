@@ -49,7 +49,9 @@ Notifications, especially text messages, are uniquely effective ways to communic
 
 ### Secure storage for eligibility documents
 
-Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure. 
+Social safety net programs require people to prove their eligibility for benefits with extensive documentation. Tracking and gathering these documents can be confusing and burdensome for benefits applicants, especially during times of financial or other hardship. 10x is looking into ways to make this process easier and more secure.
+
+---
 
 #### Find out more:
 
@@ -92,8 +94,6 @@ Social safety net programs require people to prove their eligibility for benefit
   <br>
   10x and USAGov are collaborating on building a new tool to help make it easier for people to find federal benefits.
 </p>
-
----
 
 <p class="disclaimer">Disclaimer: Links to nongovernment sources are made for educational or source citation purposes only, and do not represent an endorsement of the organizations by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities' websites.
 </p>
