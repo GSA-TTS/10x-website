@@ -58,6 +58,10 @@ Federal websites are a key way the American people interact with the government,
 
 Well-designed and accessible websites are the foundation of good digital communication. 10x designed and built the U.S. Web Design System (USWDS), which provides reusable components, templates, patterns, and tokens, along with guidance to ensure websites are usable and accessible across the federal space. Explore <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/">USWDS</a>.
 
+### Web performance optimization for federal websites
+
+Many government websites suffer from slow load times, unresponsive designs, and poor visual stability, especially under poor connectivity or on lower-end devices. 10x is developing reusable design and development strategies and a performance tool tailored to federal teams to make government websites faster and more reliable.
+
 #### Find out more:
 
 <p>
