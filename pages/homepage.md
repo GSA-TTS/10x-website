@@ -56,7 +56,7 @@ section_3_content:
     text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance process, as well as understand how and why it affects their work as technologists.
     button_link: "/news/pra-guide/"     
   - subtitle: "Tools for Federal Teams"
-    img: "xd-logo.png"
+    img: "deriskingicon.svg"
     title: "De-Risking Guide"
     text: Helping federal and state audiences deliver successful custom technology by providing actionable guidance on the realities of development, avoiding budget overruns and negative impacts on the public.
     button_link: "/news/de-risking-guide/"
