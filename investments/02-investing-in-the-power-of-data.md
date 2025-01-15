@@ -43,12 +43,14 @@ Across the federal space are hundreds of Freedom of Information Act (FOIA) libra
 
 Small-scale farmers do not have easy access to federal data that might be of use to them, such as data on crop production. 10x looked at what data small-scale farmers need access to and if there was a good way for them to access it.
 
-### Digital Access to Justice Platform
+### Optimizing the National Address Database (NAD) submission tool
 
-State and local government fees and fines disproportionately impact and marginalize low-income communities and people of color. 10x looked into whether an integrated dashboard would make it easier for people to find and resolve outstanding fines. <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://federalist-16f2aca2-467c-449f-b725-5f1a0bd22dcd.sites.pages.cloud.gov/site/gsa-tts/atj-platform/">Check out the A2J Prototype</a>.
+Accurate and up-to-date address data is crucial for delivering digital services, but current systems for managing this data are inefficient and fragmented. 10x developed a tool that streamlines the process for local and state governments to submit address information to the NAD, improving public service delivery across the country.
 
 ### U.S. Data Federation
 The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier. See <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://federation.data.gov/">U.S. Data Federation</a>.
+
+---
 
 #### Find out more:
 
@@ -71,5 +73,3 @@ The wide array of data sources and structures makes sharing the data across the 
   <br>
   A video showcasing the goals and capabilities of the U.S. Data Federation.
 </p>
-
----
