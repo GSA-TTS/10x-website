@@ -14,7 +14,9 @@ redirect_from:
   - /projects/finding-grant-funded-products/
   - /projects/inclusion-for-rulemaking/
   - /projects/shared-components-for-museums-and-libraries/
+  - /investments/03-investing-in-science-medicine-environment/
   - /investments/07-investments-in-equitable-tech/
+  
 ---
 <p class="usa-intro">  
   Delivering impact for the customer &#8212; the public &#8212; requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
