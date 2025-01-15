@@ -80,7 +80,7 @@ Accessing public benefits is often most challenging for those who need it the mo
 
 10x looked at how we can deliver a centralized resource to help people recently released from prison get the support they need to avoid reoffending by reentering society successfully.
 
-### Shareable, Scalable Public Feedback Tools
+### Shareable, scalable public feedback tools
 
 The public wants to report complaints and feedback to government agencies, but difficult intake methods and slow, inconsistent responses create a frustrating experience. 10x is developing a shared report portal as a service to streamline the submission process and help agencies respond to public concerns.
 
