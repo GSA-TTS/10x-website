@@ -14,6 +14,7 @@ redirect_from:
   - /projects/finding-grant-funded-products/
   - /projects/inclusion-for-rulemaking/
   - /projects/shared-components-for-museums-and-libraries/
+  - /investments/07-investments-in-equitable-tech/
 ---
 <p class="usa-intro">  
   Delivering impact for the customer &#8212; the public &#8212; requires balancing user needs and regulatory and reporting needs, in the context of the entire ecosystem.
@@ -64,6 +65,10 @@ The government responds to a wide array of disasters each year and administers m
 
 10x is piloting a tool that will help public servants manage standardized translated terms and provide consistent translations to users with limited English proficiency (LEP). Using standardized terms on matters of health, benefits and public safety improves digital experiences for the public, and reduces duplicative translation efforts for government translators. Learn more on the [Multilingual Glossary Tool project page]({{ mgt-url | url }}).
 
+### Mutual aid for post-disaster rebuilding
+
+Communities struggle to rebuild after a disaster because local building departments are overwhelmed and there is a lack of awareness about available resources. 10x is developing a <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://federalist-fc42b3e8-1d7d-4650-b068-c0c57c55dcfd.sites.pages.cloud.gov/site/gsa-tts/10x-mutual-aid/">web portal</a> to educate communities about mutual aid opportunities and connect them with experts who can guide them through the process, helping them rebuild faster, better, and at a lower cost.
+
 ### Reimagining access to government services
 
 Accessing public benefits is often most challenging for those who need it the most &#8212; people without a permanent address and who lack reliable internet access. 10x looked into ways that the government agencies can reach and serve this key, high-need group of customers.
@@ -74,5 +79,9 @@ Accessing public benefits is often most challenging for those who need it the mo
 ### Resources for formerly incarcerated people
 
 10x looked at how we can deliver a centralized resource to help people recently released from prison get the support they need to avoid reoffending by reentering society successfully.
+
+### Shareable, Scalable Public Feedback Tools
+
+The public wants to report complaints and feedback to government agencies, but difficult intake methods and slow, inconsistent responses create a frustrating experience. 10x is developing a shared report portal as a service to streamline the submission process and help agencies respond to public concerns.
 
 ---
