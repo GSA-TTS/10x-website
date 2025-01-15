@@ -57,7 +57,7 @@ section_3_content:
     button_link: "/news/pra-guide/"     
   - subtitle: "Tools for Federal Teams"
     img: "deriskingicon.svg"
-    title: "De-Risking Guide"
+    title: "De-risking Guide"
     text: Helping federal and state audiences deliver successful custom technology by providing actionable guidance on the realities of development, avoiding budget overruns and negative impacts on the public.
     button_link: "/news/de-risking-guide/"
   - subtitle: "Benefits Eligibility and Delivery"
