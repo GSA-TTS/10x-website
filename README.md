@@ -1,9 +1,5 @@
 # 10x Website
 
-WIP - porting site from React to 11ty
-
----
-
 ## Development
 
 ### Installation & getting started
