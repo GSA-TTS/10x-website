@@ -55,11 +55,11 @@ section_3_content:
     title: "PRA Guide"
     text: Helping agencies and teams understand the intent behind the Paperwork Reduction Act, how to plan for public comment and the clearance process, as well as understand how and why it affects their work as technologists.
     button_link: "/news/pra-guide/"     
-  - subtitle: "Investments in Equitable Tech"
+  - subtitle: "Tools for Federal Teams"
     img: "xd-logo.png"
-    title: "Combating Bias in AI"
-    text: Emerging technologies often raise concerns around justice and equity; 10x is looking at how to combat bias in AI as its use increases across government agencies.
-    button_link: "/news/combating-bias-ai/"
+    title: "De-Risking Guide"
+    text: Helping federal and state audiences deliver successful custom technology by providing actionable guidance on the realities of development, avoiding budget overruns and negative impacts on the public.
+    button_link: "/news/de-risking-guide/"
   - subtitle: "Benefits Eligibility and Delivery"
     img: "notify.svg"
     title: "Notify.gov"
