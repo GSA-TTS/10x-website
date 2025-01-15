@@ -37,12 +37,12 @@ Resilient technology requires elegantly designed security. 10x is exploring the 
 
 Privacy officers at federal agencies ensure that personal data is managed carefully and in accordance with agency policies. 10x investigated and built a solution to better equip the privacy officers so they can do a better job of protecting personally identifiable information (PII). See the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://all-sorns.app.cloud.gov/">SORN Dashboard</a>.
 
+### Digital Privacy Protection
+
+10x is investigating approaches for providing tools and educating site managers about how to  limit their participation in ad networks, which sometimes collect personal information.
+
 ### Privacy-Preserving Record Linkage (PPRL)
 
 10x is looking at how data can be shared across the government without any personally identifiable information (PII). Privacy-preserving record linkage (PPRL) is a family of techniques used to link datasets without requiring access to PII. 
-
-### Privacy-protected engagement with online government services
-
-10x is investigating approaches for providing tools and educating site managers about how to  limit their participation in ad networks, which sometimes collect personal information.
 
 ---
