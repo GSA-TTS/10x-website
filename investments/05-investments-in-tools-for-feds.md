@@ -106,7 +106,5 @@ Many government websites suffer from slow load times, unresponsive designs, and 
   Video of what the Code.gov team has learned in the three years during which they've grown from 45 code projects to more than 6,000.
 </p>
 
----
-
 <p class="disclaimer">Disclaimer: Links to nongovernment sources are made for educational or source citation purposes only, and do not represent an endorsement of the organizations by the General Services Administration. The General Services Administration does not assume any responsibility for the content, operation, or policies of other entities' websites.
 </p>
