@@ -38,6 +38,10 @@ Tech failures are frequently in the news, but they aren't inevitable. 10x develo
 
 It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built Federalist (now <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages</a>) to allow agencies to quickly launch attractive, secure, and accessible public websites. 
 
+### Forms platform
+
+Federal agencies face high costs and inefficiencies when transitioning to digital forms. 10x has developed an <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://federalist-9ab3a388-1535-4bd5-a4bf-04c7933172d6.sites.pages.cloud.gov/preview/gsa-tts/forms/demo/">affordable shared service</a> that simplifies digital form creation, ensuring compliance and a consistent user experience, while reducing costs for federal teams.
+
 ### Low-code/no-code
 
 Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. 10x <a class="usa-link" href="{{ '/news/low-code-no-code' | url }}">looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
