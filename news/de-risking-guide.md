@@ -1,5 +1,5 @@
 ---
-title: Tech De-Risking Guide
+title: Tech De-risking Guide
 description: 10x helps federal and state audiences deliver successful custom technology by providing actionable guidance on the realities of development. 
 hero_banner:
   title: Taking the risk out of government tech projects
