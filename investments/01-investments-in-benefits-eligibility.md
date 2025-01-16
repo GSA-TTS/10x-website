@@ -1,5 +1,5 @@
 ---
-title: "10x's Public Benefits Portfolio"
+title: "10x's Benefits eligibility and delivery portfolio"
 hero_banner:
   title: "Benefits eligibility and delivery"
   subtitle: "Reducing friction in navigating government benefits."

@@ -52,7 +52,7 @@ The Paperwork Reduction Act (1995) governs how federal agencies collect informat
 
 ### Site Scanning
 
-Federal websites are a key way the American people interact with the government, and ensuring those websites are optimized is important to ensuring this experience is successful. 10x designed and built a scanning service to provide real-time intelligence on website performance.
+Federal websites are a key way the American people interact with the government, and ensuring those websites are optimized is important to ensuring this experience is successful. 10x <a class="usa-link" href="{{ '/news/site-scanning/' | url }}">designed and built a scanning service</a> to provide <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://digital.gov/guides/site-scanning/">real-time intelligence on website performance</a>.
 
 ### U.S. Web Design System
 
