@@ -35,7 +35,7 @@ Open source code is a great way to save money and time by reusing code that has 
 
 ### De-risking government technology
 
-Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Explore the <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://guides.18f.gov/derisking-government-tech/">De-risking Guides</a>.
+Tech failures are frequently in the news, but they aren't inevitable. 10x developed De-Risking Guides (one for federal audiences and one for state), to provide actionable guidance on the realities of development and how to deliver successful custom tech. Learn about our work <a class="usa-link" href="{{ '/news/de-risking-guide/' | url }}">De-risking government tech projects</a>.
 
 ### Forms platform
 
@@ -43,7 +43,7 @@ Federal agencies face high costs and inefficiencies when transitioning to digita
 
 ### Low-code/no-code
 
-Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. 10x <a class="usa-link" href="{{ '/news/low-code-no-code' | url }}">looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
+Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attractive to many agencies. 10x <a class="usa-link" href="{{ '/news/low-code-no-code/' | url }}">looked at the LC/NC ecosystem</a> and what type of guidance might be needed for agencies to make good decisions about whether LC/NC is right for them.
 
 ### Paperwork Reduction Act compliance
 
