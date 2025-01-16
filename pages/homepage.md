@@ -59,7 +59,7 @@ section_3_content:
     img: "deriskingicon.svg"
     title: "De-risking Guide"
     text: Helping federal and state audiences deliver successful custom technology by providing actionable guidance on the realities of development, avoiding budget overruns and negative impacts on the public.
-    button_link: "/news/de-risking-guide/"
+    button_link: "/news/derisking-guide/"
   - subtitle: "Benefits Eligibility and Delivery"
     img: "notify.svg"
     title: "Notify.gov"
