@@ -102,12 +102,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public": "/" });
   eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "/_includes/theme/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "assets/fonts" });
-  //eleventyConfig.addPassthroughCopy({ "_includes/theme/fonts": "theme/fonts" });
-  //eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/dist/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "_includes/theme/images": "assets/images" });
   eleventyConfig.addPassthroughCopy({ "reports/pdfs": "impact" });
   eleventyConfig.addPassthroughCopy({ "node_modules/@uswds/uswds/img": "assets/uswds/img" });
-  // eleventyConfig.addPassthroughCopy({ "_includes/theme/uswds-2.10.1-dist/js": "assets/theme/uswds/js" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/jquery/dist/jquery.min.js": "assets/js/jquery.min.js" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/js-cookie/dist/js.cookie.min.js": "assets/js/js.cookie.min.js" });
+  eleventyConfig.addPassthroughCopy({ "_includes/theme/ableplayer": "assets/ableplayer" });
 
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   eleventyConfig.addPassthroughCopy({
