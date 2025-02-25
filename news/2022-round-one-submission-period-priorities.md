@@ -6,8 +6,6 @@ hero_banner:
   subtitle: We invite your idea submissions through November 16
 slug: 2022-round-one-submission-period-priorities
 date: "2021-10-12"
-theme: "6"
-footer: "10x-in-the-wild"
 excerpt: "We are excited to announce the funding themes for our first round of idea submissions in FY22: reimagining public engagement, digital response to climate challenges, and equity in delivery."
 tags: Announcements
 news-link-url: /news/2021-selected-projects/

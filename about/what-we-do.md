@@ -7,7 +7,6 @@ mainNavPageTitle: About 10x
 hero_banner:
   title: "What we do"
   subtitle: "Venture studio model"
-theme: 8
 submit-idea-url: /submit-an-idea/
 submit-idea-button-text: Submit your idea!
 investments-url: /investments/

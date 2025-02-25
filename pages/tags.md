@@ -27,7 +27,4 @@ tags-list:
   - Perspectives
   - Projects
 back-to-news-updates_text: All News and Updates
-renderData:
-  title: "News Tagged"
-  description: "All projects tagged with “{{ tag }}”"
 ---

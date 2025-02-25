@@ -4,7 +4,6 @@ description: "USA.gov announces new life events to its Benefits Locator tool to 
 hero_banner:
     title: "USA.gov's Benefits Locator expands life events to include retirement,  serious illnesses, and disabilities"
     subtitle: An idea on making it easier to locate government benefits based on life events was an early 10x investment, BEARS.
-footer: 10x-in-the-wild
 date: "2023-08-08"
 slug: "benefits-locator-adds-life-events"
 excerpt: "An investment idea that got its start in 10x, USA.gov's Benefits Locator tool has launched two new life events to help the public locate information on federal benefits when planning for retirement, or navigating a disability or serious illness."

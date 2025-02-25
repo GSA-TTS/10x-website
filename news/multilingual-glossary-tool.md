@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-03-05"
 slug: "multilingual-glossary-tool"
 excerpt: "Multilingual Glossary Tool is designed to encourage consistent translation of government content in order to improve communication with the LEP population."
-theme: '4'
 tags: Projects
 redirect_from: 
   - /projects/multilingual-glossary-tool/

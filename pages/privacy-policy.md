@@ -8,7 +8,6 @@ hero_banner:
 layout: layouts/submit-an-idea-page.html
 return-to-top_text: Return to top
 permalink: /privacy-policy/
-theme: 6
 ---
 
 ## Information you send us as a pitch
