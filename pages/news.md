@@ -11,7 +11,6 @@ eleventyNavigation:
   parent: root
   key: News
   order: 2
-theme: 8
 pagination:
   data: collections.news
   size: 7

@@ -10,7 +10,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-02-05"
 slug: "combating-bias-ai"
 excerpt: "The \"Combating bias in AI/ML implementations\" project aims to address the potential inequities and harms associated with the adoption of artificial intelligence (AI) and machine learning (ML) capabilities within government agencies and practices."
-theme: '4'
 tags: Projects
 ---
 

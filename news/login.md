@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-04-23"
 slug: "login"
 excerpt: "10x was an early investor in Login.gov, the government's centralized identity system."
-theme: '4'
 tags: Projects
 ---
 

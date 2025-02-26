@@ -7,7 +7,6 @@ mainNavPageTitle: About 10x
 hero_banner:
   title: "Contact us"
   subtitle: "10x wants to hear from you!"
-theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
 return-to-top_text: Return to top

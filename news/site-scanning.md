@@ -10,7 +10,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-01-31"
 slug: "site-scanning"
 excerpt: "Real-time intelligence to help agencies improve website performance and compliance with government mandates by providing web managers with a customizable, automated scanning service."
-theme: '4'
 tags: Projects
 ---
 

@@ -4,7 +4,6 @@ description: "10x and 18F has been researching a prototyping technique for writi
 hero_banner:
   title: "Rapid implementation of policy as code"
   subtitle: 18F's approach to writing policy as code for faster implementation of changes.
-footer: "10x-in-the-wild"
 date: "2020-05-11"
 slug: "policy-as-code"
 excerpt: "18F has been researching a prototyping technique for writing and publishing policy rules as computer code to improve speed and accuracy. Learn about 18F's approach to writing policy as code for faster implementation of changes."

@@ -15,9 +15,6 @@ eleventyNavigation:
   parent: root
   key: Submit an Idea
   order: 4
-theme: 6
-renderData:
-  title: Send Us Your Idea! | 10x Idea Submission
 redirect_from: 
   - /our-challenge-to-you/
   - /send-us-an-idea/
@@ -29,7 +26,7 @@ redirect_from:
 
 A great idea should answer three questions...
 
-###  What's the problem? 
+### What's the problem?
 
 Clearly state the problem or opportunity, and keep it simple &#8212; under 1,000 characters! We're looking to solve real problems with big impact.
 

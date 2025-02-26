@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-09-03"
 slug: "10x-changes"
 excerpt: "10x is evolving to include Concept Areas, which allows us to focus on big problems requiring concentrated attention."
-theme: '4'
 tags: Announcements
 ---
 
