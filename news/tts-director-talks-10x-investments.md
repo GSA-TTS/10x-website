@@ -4,7 +4,6 @@ description: "MeriTalk Q&A with TTS Director Ann Lewis on Tech Innovation, U.S. 
 hero_banner:
     title: "TTS Director Talks Citizen Service, Innovation"
     subtitle: MeriTalk Q&A
-footer: 10x-in-the-wild
 date: "2023-05-05"
 slug: "tts-director-talks-10x-investments"
 excerpt: "MeriTalk sat down for a Q&A with TTS Director Ann Lewis to talk about the role of technology and innovation in the federal government, featuring USWDS and the Public Benefits Studio’s U.S. Notify."

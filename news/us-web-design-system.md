@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-01-19"
 slug: "us-web-design-system"
 excerpt: "USWDS is used on hundreds of government websites and has been recognized in legislation and in official memos for its role in delivering exceptional digital experiences to the public. And it started with an early investment from 10x."
-theme: '4'
 tags: Projects
 ---
 

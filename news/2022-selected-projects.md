@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2022-05-11"
 slug: "2022-selected-projects"
 excerpt: "Out of nearly 200 ideas, we selected the 25 ideas we feel have the most potential to deliver impact for the American public. 10x is excited to announce this newest batch of projects selected for Phase 1."
-theme: '3'
 tags: Announcements
 investments-url: /investments/
 redirect_from: 

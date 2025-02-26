@@ -7,7 +7,6 @@ hero_banner:
   subtitle: "A yearly review of 10x investments in improving government digital services"
 layout: layouts/impact-list-page.html
 mainNavPageTitle: Impact Reports
-theme: 8
 className: impact-landing2
 return-to-top_text: Return to top
 order: 3

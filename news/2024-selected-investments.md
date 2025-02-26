@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-02-15"
 slug: "2024-selected-investments"
 excerpt: "We're making 16 new investments this round, and each of them begins with a great idea submitted by a federal employee that, if successful, can transform the public's experience with the government."
-theme: '4'
 tags: Announcements
 ---
 

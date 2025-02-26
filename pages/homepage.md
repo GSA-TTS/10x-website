@@ -2,9 +2,7 @@
 layout: layouts/home.html
 title: Home
 description: Explore the federal government's innovation studio and learn how 10x crowdsources ideas from federal employees and turns them into good-for-people tech solutions.
-date: Last Modified
 permalink: /
-theme: 1
 
 hero_banner:
   title: "10x is the federal government’s very own venture studio"

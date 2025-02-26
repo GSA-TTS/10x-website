@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2023-05-08"
 slug: "2023-selected-projects"
 excerpt: "Out of more than 100 ideas, we selected the 15 ideas we believe have the most potential to improve the American public's digital experience with the U.S. government."
-theme: '4'
 tags: Announcements
 redirect_from: 
   - /posts/2023-selected-projects/

@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2023-04-01"
 slug: "bears"
 excerpt: "Finding and learning about benefits information should be easy and intuitive. People should not have to navigate a complex matrix of siloed government websites to get the help they need."
-theme: '4'
 tags: Projects
 redirect_from: 
   - /projects/benefits-eligibility-resource/

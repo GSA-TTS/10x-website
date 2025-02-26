@@ -4,7 +4,6 @@ description: "Learn how 10x takes an intentional, empathetic approach to design 
 hero_banner:
   title: "Trauma-informed design"
   subtitle: "A 10x take on the importance of being trauma aware in both research and design in the digital space."
-footer: "10x-in-the-wild"
 date: "2024-11-14"
 slug: "trauma-informed-design"
 excerpt: "Trauma-informed design informs both 10x’s design work and our user research, to help create respectful and empathetic digital experiences."

@@ -10,7 +10,6 @@ footer: every-solution-starts-as-an-idea
 date: "2023-05-05"
 slug: "equity-centered-design-for-ai-an"
 excerpt: "10x explored a framework for equity centered design with AI/AN communities; the sustained commitment required doesn't align with the 10x multi-phased approach and funding model."
-theme: '4'
 tags: Projects
 ---
 

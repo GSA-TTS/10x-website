@@ -9,7 +9,6 @@ eleventyNavigation:
   parent: root
   key: Investments
   order: 0
-theme: 8
 
 hero_banner:
   category: "Investment Portfolios"

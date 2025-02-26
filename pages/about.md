@@ -16,7 +16,6 @@ eleventyNavigation:
   parent: root
   key: About
   order: 1
-theme: 8
 submit-idea-url: https://feedback.gsa.gov/jfe/form/SV_1Im8dTPnjnV3HpP
 submit-idea-button-text: Submit your idea!
 what-we-do-url: /about/what-we-do/

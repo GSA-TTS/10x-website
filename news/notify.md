@@ -8,7 +8,6 @@ footer: every-solution-starts-as-an-idea
 date: "2024-02-09"
 slug: "notify-dot-gov"
 excerpt: "10x built and handed off \"Government Notification Services,\" a text message-based notifications technology to TTS's Public Benefits Studio."
-theme: '4'
 tags: Projects
 ---
 
