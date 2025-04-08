@@ -85,7 +85,7 @@ It has been observed that the public wants to report complaints, comments, and t
 
 It has been observed that several federal agencies have considered using web-based chatbots to augment their customer support operations because they offer a human-like interface to the government at a relatively low cost. But in practice, .gov chatbots too often get delivered without essential features including multilingual support, maintainability, response quality, and flexibility, resulting in poor user experience. 
 
-Large language model (LLM) based chatbots can improve this. In support of the goals of the <a class="usa-link usa-link--external" rel="noreferrer" href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/">Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence</a>, 10x will explore creating a reusable LLM chatbot template, allowing agencies to rapidly turn a collection of unstructured documents into a world-class chatbot.
+Large language model (LLM) based chatbots can improve this. In support of the goals of the <a class="usa-link usa-link--external" rel="noopener noreferrer" href="https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/">Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence</a>, 10x will explore creating a reusable LLM chatbot template, allowing agencies to rapidly turn a collection of unstructured documents into a world-class chatbot.
 
 **An idea submitted by a civil servant at:** *General Services Administration, Presidential Innovation Fellow*
 
@@ -143,7 +143,7 @@ The steps vary depending on the algorithms, application type, and datasets used.
 
 It has been observed that data misuse is on the rise in the age of AI. While some privacy protections are enforced, such as informing the public of data collection options, there is a lack of standardization across the web on delivery and accessibility. This will get worse as data becomes more valuable and the level of usage becomes more complex.
 
-10x will investigate existing capabilities, such as a Digital ID, that could build upon new and existing Federal technology, like <a class="usa-link usa-link--external" rel="noreferrer" href="https://login.gov">Login.gov</a> and recent international implementations of similar technology.
+10x will investigate existing capabilities, such as a Digital ID, that could build upon new and existing Federal technology, like <a class="usa-link usa-link--external" rel="noopener noreferrer" href="https://login.gov">Login.gov</a> and recent international implementations of similar technology.
 
 **An idea submitted by civil servants at:** *The Executive Office of the President, Office of Management and Budget &amp; General Services Administration, Federal Acquisition Service*
 
