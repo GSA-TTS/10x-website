@@ -21,4 +21,3 @@ redirect_from:
 No policy or rule stays the same forever. In response to a crisis, policy changes often come much faster, and stakes can be higher. A new rule might change the amount of benefit someone receives as part of a safety net program, or make someone eligible who was previously ineligible.
 </aside>
 
-Read <a class="usa-link usa-link--external" rel="noreferrer" href="https://18f.gsa.gov/2020/05/12/rapid-implementation-of-policy-as-code/">Rapid implementation of policy as code on 18F's website</a>.

@@ -16,7 +16,7 @@ We’re 100% convinced that FY22 is going to be busy, exciting, and challenging.
 
 Two things will be important for us in FY22:
 
-- First, the [American Rescue Plan (ARP)](https://www.whitehouse.gov/american-rescue-plan/) will be significant for 10x in FY22.
+- First, the [American Rescue Plan (ARP)](https://bidenwhitehouse.archives.gov/american-rescue-plan/) will be significant for 10x in FY22.
 - Second, we’re expecting to clone our own model and help other agencies replicate something similar to 10x within their organizations.
 
 Our organization — the Technology Transformation Services — received [ARP funding](https://www.gsa.gov/technology/government-it-initiatives/tts-american-rescue-plan/tts-american-rescue-plan-projects-and-impact) specifically to recover, rebuild, and reimagine digital public service delivery in the face of the COVID-19 pandemic. 10x will use some of these funds to reimagine digital public service delivery, which happens to be something we’re particularly good at.

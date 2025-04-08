@@ -46,7 +46,7 @@ One area where we really excelled last year was finding areas of significant ove
 
 - [CASES Act](https://www.congress.gov/bill/116th-congress/house-bill/1079),
 - [21st Century IDEA](https://www.congress.gov/bill/115th-congress/house-bill/5759/text),
-- and the [Executive Order on racial justice](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government/).
+- and the [Executive Order on racial justice](https://bidenwhitehouse.archives.gov/briefing-room/presidential-actions/2021/01/20/executive-order-advancing-racial-equity-and-support-for-underserved-communities-through-the-federal-government/).
 
 Another success was advancing projects that build products that the public can use. In the past, many projects delivered back-end software for agencies or guidance for federal employees.
 

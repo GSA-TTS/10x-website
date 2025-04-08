@@ -112,7 +112,7 @@ We have observed a few problems with the governmental grants process. First, man
 ### Software Development Vendor Management Guide
 
 We have observed that custom software development projects in government are
-failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the <a class="usa-link usa-link--external" rel="noreferrer" href="https://derisking-guide.18f.gov/">18F de-Risking Field Guides</a> - 10x will invest in an additional resource that covers vendor maintenance writ large.
+failure-prone, which can result in a massive hit to the federal budget, as well as frustration on behalf of the civil servants who use new systems to serve the public. We believe that improving software procurements could deliver massive impact not only in cost savings for the government but in human outcomes as well. Based on the positive attention received by another 10x investment  —  the 18F De-Risking Field Guides - 10x will invest in an additional resource that covers vendor maintenance writ large.
 
 ----{.TxBreak}
 

@@ -76,13 +76,13 @@ Many government websites suffer from slow load times, unresponsive designs, and 
 </p>
 
 <p>
-  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/together/">
-    USWDS's Inclusive Design Patterns
+  <a class="usa-link usa-link--external" rel="noreferrer" target="_blank" href="https://designsystem.digital.gov/patterns/">
+    USWDS's Design Patterns
   </a>
   <br>
   2023
   <br>
-  USWDS continues to grow, and has recently included design patterns meant to ensure an equitable and inclusive experience.
+  USWDS continues to grow, and has recently added design patterns.
 </p>
 
 <p>

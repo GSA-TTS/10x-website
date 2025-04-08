@@ -20,7 +20,7 @@ tags: Projects
 
 Government tech projects can be really challenging. Complex business rules, antiquated legacy systems, and multiple integrations with other systems make it difficult for them to succeed. However, it is so important that we get them right because the public is counting on them for benefits, services, and guidance.
 
-10x developed the <a class="usa-link--external" rel="noreferrer" href="https://guides.18f.gov/derisking-government-tech/">De-risking Guide</a> to help digital teams successfully implement tech projects that are high quality and that adhere to best practices. The De-risking Guide provides teams with guidance on selecting software solutions and effectively collaborating with vendors. Originally launched in 2020, the guide has recently been updated.
+10x developed the De-risking Guide to help digital teams successfully implement tech projects that are high quality and that adhere to best practices. The De-risking Guide provides teams with guidance on selecting software solutions and effectively collaborating with vendors. Originally launched in 2020, the guide has recently been updated.
 
 After three phases, 10x shipped two de-risking field guides (one targeted to state audiences and the other to feds) for agencies to use when navigating the process of acquiring custom software from the private sector. The guides cover the basics of how modern software is built, which proved to be an unfamiliar process to many in government. In order for the field guides to have the desired impact, they needed to be useful, providing actionable guidance and integrating agile development theories with the constraints of government bureaucracy. 
 
