@@ -27,11 +27,11 @@ However, like most other digital ecosystems, those of the federal government eme
 
 ### <span>cloud.gov</span> Pages
 
-It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="cloud.gov Pages (opens in a new tab)" href="https://cloud.gov/pages">cloud.gov Pages</a> (formerly Federalist) to allow agencies to quickly launch attractive, secure, and accessible public websites. 
+It is really inefficient for each federal agency to have to figure out how to host secure websites. 10x built <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://cloud.gov/pages">cloud.gov Pages <span class="sr-only">(opens in new tab)</span></a> (formerly Federalist) to allow agencies to quickly launch attractive, secure, and accessible public websites. 
 
 ### <span>Code.gov</span>
 
-Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Code.gov (opens in a new tab)" href="https://code.gov/">Code.gov</a> to help agency partners and developers find and use open source code.
+Open source code is a great way to save money and time by reusing code that has already been developed and tested. 10x created <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://code.gov/">Code.gov <span class="sr-only">(opens in new tab)</span></a> to help agency partners and developers find and use open source code.
 
 ### De-risking government technology
 
@@ -39,7 +39,7 @@ Tech failures are frequently in the news, but they aren't inevitable. 10x develo
 
 ### Forms platform
 
-Federal agencies face high costs and inefficiencies when transitioning to digital forms. 10x has developed an <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Affordable Forms shared service (opens in a new tab)" href="https://federalist-9ab3a388-1535-4bd5-a4bf-04c7933172d6.sites.pages.cloud.gov/preview/gsa-tts/forms/demo/">affordable shared service</a> that simplifies digital form creation, ensuring compliance and a consistent user experience, while reducing costs for federal teams.
+Federal agencies face high costs and inefficiencies when transitioning to digital forms. 10x has developed an <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://federalist-9ab3a388-1535-4bd5-a4bf-04c7933172d6.sites.pages.cloud.gov/preview/gsa-tts/forms/demo/">affordable shared service <span class="sr-only">(opens in new tab)</span></a> that simplifies digital form creation, ensuring compliance and a consistent user experience, while reducing costs for federal teams.
 
 ### Low-code/no-code
 
@@ -47,15 +47,15 @@ Inexpensive and marketed as easy-to-use, low-code/no-code (LC/NC) tools are attr
 
 ### Paperwork Reduction Act compliance
 
-The Paperwork Reduction Act (1995) governs how federal agencies collect information from the American people. 10x developed a website on PRA with guidance on how to navigate the process of getting clearance to interact with the American public. Learn more about the <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Paperwork Reduction Act guidance (opens in a new tab)" href="https://pra.digital.gov/">Paperwork Reduction Act guidance</a>.
+The Paperwork Reduction Act (1995) governs how federal agencies collect information from the American people. 10x developed a website on PRA with guidance on how to navigate the process of getting clearance to interact with the American public. Learn more about the <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://pra.digital.gov/">Paperwork Reduction Act guidance <span class="sr-only">(opens in new tab)</span></a>.
 
 ### Site Scanning
 
-Federal websites are a key way the American people interact with the government, and ensuring those websites are optimized is important to ensuring this experience is successful. 10x <a class="usa-link" href="{{ '/news/site-scanning/' | url }}">designed and built a scanning service</a> to provide <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Site scanning: real-time intelligence on website performance (opens in a new tab)" href="https://digital.gov/guides/site-scanning/">real-time intelligence on website performance</a>.
+Federal websites are a key way the American people interact with the government, and ensuring those websites are optimized is important to ensuring this experience is successful. 10x <a class="usa-link" href="{{ '/news/site-scanning/' | url }}">designed and built a scanning service</a> to provide <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://digital.gov/guides/site-scanning/">real-time intelligence on website performance <span class="sr-only">(opens in new tab)</span></a>.
 
 ### U.S. Web Design System
 
-Well-designed and accessible websites are the foundation of good digital communication. 10x designed and built the U.S. Web Design System (USWDS), which provides reusable components, templates, patterns, and tokens, along with guidance to ensure websites are usable and accessible across the federal space. Explore <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="U.S. Web Design System (opens in a new tab)" href="https://designsystem.digital.gov/">USWDS</a>.
+Well-designed and accessible websites are the foundation of good digital communication. 10x designed and built the U.S. Web Design System (USWDS), which provides reusable components, templates, patterns, and tokens, along with guidance to ensure websites are usable and accessible across the federal space. Explore <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://designsystem.digital.gov/">USWDS <span class="sr-only">(opens in new tab)</span></a>.
 
 ### Web performance optimization for federal websites
 
@@ -66,8 +66,8 @@ Many government websites suffer from slow load times, unresponsive designs, and 
 #### Find out more:
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="YouTube: Real-world accessibility - What it's like to be blind and use the web in 2023  (opens in a new tab)" href="https://www.youtube.com/watch?v=SG6Bbv-uKeg">
-    Real-world accessibility: What's it like to be blind and use the web in 2023
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=SG6Bbv-uKeg">
+    Real-world accessibility: What's it like to be blind and use the web in 2023 <span class="sr-only">(opens in new tab)</span>
   </a>
   <br>
   June 2, 2023
@@ -76,8 +76,8 @@ Many government websites suffer from slow load times, unresponsive designs, and 
 </p>
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="USWDS Design Patterns (opens in a new tab)" href="https://designsystem.digital.gov/patterns/">
-    USWDS's Design Patterns
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://designsystem.digital.gov/patterns/">
+    USWDS's Design Patterns <span class="sr-only">(opens in new tab)</span>
   </a>
   <br>
   2023
@@ -86,8 +86,8 @@ Many government websites suffer from slow load times, unresponsive designs, and 
 </p>
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Paperwork Reduction Guide (opens in a new tab)" href="https://digital.gov/2019/06/18/introducing-a-guide-paperwork-reduction-act/">
-    Introducing a guide to the Paperwork Reduction Act
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://digital.gov/2019/06/18/introducing-a-guide-paperwork-reduction-act/">
+    Introducing a guide to the Paperwork Reduction Act <span class="sr-only">(opens in new tab)</span>
   </a>
   <br>
   June 18, 2019
@@ -96,8 +96,8 @@ Many government websites suffer from slow load times, unresponsive designs, and 
 </p>
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Happy 3rd birthday, Code.gov! What we've learned three years in (opens in a new tab)" href="https://digital.gov/event/2019/11/07/happy-3rd-birthday-codegov-what-weve-learned-three-years-in/">
-    Happy 3rd birthday, Code.gov! What we've learned three years in
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://digital.gov/event/2019/11/07/happy-3rd-birthday-codegov-what-weve-learned-three-years-in/">
+    Happy 3rd birthday, Code.gov! What we've learned three years in <span class="sr-only">(opens in new tab)</span>
   </a>
   <br>
   November 7, 2019
