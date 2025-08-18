@@ -45,18 +45,18 @@ Small-scale farmers do not have easy access to federal data that might be of use
 
 ### Optimizing the National Address Database (NAD) submission tool
 
-Accurate and up-to-date address data is crucial for delivering digital services, but current systems for managing this data are inefficient and fragmented. 10x developed a tool that streamlines the process for local and state governments to <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="Submit address information to the NAD (opens in a new tab)" href="https://github.com/GSA-TTS/10x-nad-st">submit address information to the NAD</a>, improving public service delivery across the country.
+Accurate and up-to-date address data is crucial for delivering digital services, but current systems for managing this data are inefficient and fragmented. 10x developed a tool that streamlines the process for local and state governments to <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://github.com/GSA-TTS/10x-nad-st">submit address information to the NAD <span class="usa-sr-only">(opens in new tab)</span></a>, improving public service delivery across the country.
 
 ### U.S. Data Federation
-The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier. See <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="U.S. Data Federation (opens in a new tab)" href="https://federation.data.gov/">U.S. Data Federation</a>.
+The wide array of data sources and structures makes sharing the data across the federal government very difficult, impacting the ability of public officials to do complete analyses. 10x created tools and processes to make sharing data easier. See <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://federation.data.gov/">U.S. Data Federation <span class="usa-sr-only">(opens in new tab)</span></a>.
 
 ---
 
 #### Find out more:
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="U.S. Data Federation graduates the 10x program, launches new repository (opens in a new tab)" href="https://digital.gov/2020/07/02/us-data-federation-graduates-10x-program/">
-    The U.S. Data Federation graduates the 10x program, launches new repository
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://digital.gov/2020/07/02/us-data-federation-graduates-10x-program/">
+    The U.S. Data Federation graduates the 10x program, launches new repository <span class="usa-sr-only">(opens in new tab)</span>
   </a>
   <br>
   July 2, 2020
@@ -65,8 +65,8 @@ The wide array of data sources and structures makes sharing the data across the 
 </p>
 
 <p>
-  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" aria-label="An introduction to the U.S. Data Federation (opens in a new tab)" href="https://digital.gov/event/2019/04/17/an-introduction-us-data-federation/">
-    An introduction to the U.S. Data Federation
+  <a class="usa-link usa-link--external" rel="noopener noreferrer" target="_blank" href="https://digital.gov/event/2019/04/17/an-introduction-us-data-federation/">
+    An introduction to the U.S. Data Federation <span class="usa-sr-only">(opens in new tab)</span>
   </a>
   <br>
   April 17, 2019
