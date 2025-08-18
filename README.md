@@ -28,11 +28,15 @@ To build for production:
 
 ```npm run build```
 
-## Federalist/Cloud Pages notes
+## cloud.gov Pages
 
-Because these sites build in a directory, not the root level of a domain, we have to do a few extra thing to make sure the links and assets work.
+We use [cloud.gov Pages](https://pages.cloud.gov) (aka cgPages) to build on every commit to GitHub. If you do not have access to the 10x site in cgPages, ask an admin of the 10x organization in cgPages to invite you. While you can work on a cgPages site without this provided you have the correct org/team/repo permissions, the visibility into the build process is extremely helpful.
 
-### HTML / liquid / layouts / components
+### cgPages notes
+
+Because these sites build in a subdirectory, not the root level of a domain, we have to do a few extra thing to make sure the links and assets work on previews.
+
+#### HTML / liquid / layouts / components
 
 In templates and layouts, make sure to use the liquid `| url` filter, which will automatically prefix the `baseurl` environment variable during production builds:
 
@@ -42,15 +46,17 @@ In templates and layouts, make sure to use the liquid `| url` filter, which will
 </a>
 ```
 
-### Markdown and YAML
+#### Markdown and YAML
 
-In markdown, make sure to not link to a root-relative page, but rather use relative links:
+There are some key differences between Markdown and YAML particularly when linking to a page or resource.
+
+In markdown, make sure to use relative links. Do not link to the page directly off the root (`/page`). An example of relative linking style:
 
 ```md
 View our [projects](../projects)
 ```
 
-For now, the places where we iterate over links provided in YAML lists are automatically prepended with the baseurl by the templates that use them. So this is ok:
+The places where we iterate over links provided in YAML lists (e.g., frontmatter) are automatically prepended with the baseurl by the templates that use them. Do not use relative links (`../`) when defining YAML permalinks. Instead, link off the root:
 
 ```yaml
 - button_text: "click here"
@@ -60,9 +66,7 @@ reportUrl: "/assets/report.pdf"
 
 ```
 
-Note that you do not use the `../` when defining permalinks for pages in YAML either.
-
-### Styles and assets
+#### Styles and assets
 
 In CSS/Sass, use relative asset paths in path variables and `url()` for images and fonts:
 
@@ -75,12 +79,14 @@ $theme-font-path: "theme/fonts"
 }
 ```
 
-### How to access Cloud Pages build for all branches in the 10x Website
+### Accessing builds for all branches in the 10x Website
 
-Below is the cloud.gov base url for branches:
+Below is the cgPages base url for our branches:
 
 `https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/`
 
-To view the build for any `10x Website` branch that has been committed to Github,  copy the link above and append it with your branch name. Example:
+To view the build for any `10x Website` branch that has been committed to Github, either use the `Preview` link from the cgPages build console directly, or copy the link above and append it with your branch name. 
+
+Example:
 
 `https://federalist-37831b52-7633-429a-9a79-14298034dd54.sites.pages.cloud.gov/preview/gsa-tts/10x-website/post-launch-bug-fixes/`
