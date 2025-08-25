@@ -7,11 +7,11 @@ nav_label: "FY21 Project Showcase"
 nav_id: "fy21-project-showcase"
 
 class: light-gray
-
+investments-url: /investments/
 ---
 ## FY21 Project Showcase
 
-<p class="text-italic">We had a lot of projects that really inspired us in FY21 – projects we feel can – and do – deliver true impact for the public. For this year’s Impact Report, we’re focusing on one of the most exciting projects that blossomed during FY21: <span class="text-italic">Combating Bias in Artificial Intelligence and Machine Learning Implementations (AI/ML)</span>. To check out some of our other work, please head over to the [projects section of our site](../../projects/). It’s got the scoop on what we learned and the impact we’ve created through our individual projects.</p>
+<p class="text-italic">We had a lot of projects that really inspired us in FY21 – projects we feel can – and do – deliver true impact for the public. For this year’s Impact Report, we’re focusing on one of the most exciting projects that blossomed during FY21: Combating Bias in Artificial Intelligence and Machine Learning Implementations (AI/ML). To check out some of our other work, please head over to the <a class="usa-link" rel="noreferrer" href="{{ investments-url | url }}">investments section</a> of our site. It’s got the scoop on what we learned and the impact we’ve created through our individual projects.</p>
 
 <div class="grid-row">
   <div class="grid-col-12 calloutProject">
